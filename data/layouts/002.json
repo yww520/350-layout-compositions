@@ -1,73 +1,80 @@
 {
   "id": "002",
   "name": "黄金比例构图",
-  "name_en": "黄金比例构图 COMPOSITION",
+  "name_en": "GOLDEN RATIO COMPOSITION",
   "category": "构图逻辑 / 经典法则与空间留白",
   "category_slug": "01-composition-logic",
   "subcategory": "经典法则与空间留白",
-  "tagline": "黄金比例构图设计法则与空间建构",
-  "description": "经典视觉架构第 002 号：黄金比例构图。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
-  "theme": "warm-ivory",
-  "columns_ratio": "530px 380px",
+  "tagline": "COMPOSITION PRINCIPLES",
+  "description": "黄金比例 (1:1.618) 是自然界与艺术中广泛存在的和谐法则。将画面按黄金比例划分，可使构图更具美感与力量感。",
+  "theme": "forest-green",
+  "columns_ratio": "345px 600px",
   "visual_height": "660px",
-  "ai_prompt": "Professional editorial illustration demonstrating 黄金比例构图 (350 Layouts series #002), A majestic minimalist landscape with a solitary traveler or natural landmark. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching warm-ivory tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
   "features": [
     {
       "icon": "target",
-      "title": "黄金核心锚点",
-      "title_en": "Focal Anchor",
-      "desc": "确立画面第一视觉据点，使主体在黄金比例构图框架中获得最强烈的视觉重力与识别度。"
+      "title": "比例和谐",
+      "title_en": "RATIO",
+      "desc": "黄金分割使整体与局部关系自然、舒适。"
     },
     {
-      "icon": "compass",
-      "title": "视线引导流线",
-      "title_en": "Leading Flow",
-      "desc": "依据黄金比例构图的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
+      "icon": "target",
+      "title": "焦点自然",
+      "title_en": "HARMONY",
+      "desc": "黄金分割点是视觉落脚处，增强画面吸引力。"
     },
     {
-      "icon": "layers",
-      "title": "负空间与呼吸感",
-      "title_en": "Negative Space",
-      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
+      "icon": "target",
+      "title": "结构均衡",
+      "title_en": "BALANCE",
+      "desc": "主次分明，空间分配更均衡稳定。"
+    },
+    {
+      "icon": "target",
+      "title": "层次呼吸",
+      "title_en": "BREATHING",
+      "desc": "遵从 1:1.618 分割，消除局促感，保留自然呼吸。"
     }
   ],
   "tips": [
     {
-      "label": "构图基准",
-      "content": "在应用黄金比例构图时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
+      "label": "确定画面比例",
+      "content": "将画布按照 1:1.618 进行框架预划分。"
     },
     {
-      "label": "图文呼应",
-      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
+      "label": "找到黄金分割点",
+      "content": "在分割线上找到黄金交点放置核心主体。"
+    },
+    {
+      "label": "优化辅助元素与留白",
+      "content": "平衡主次体块，强化视觉节奏。"
     }
   ],
   "keywords": [
     {
-      "name": "平衡",
-      "name_en": "Balance",
-      "icon": "check"
-    },
-    {
-      "name": "留白",
-      "name_en": "Negative Space",
-      "icon": "check"
-    },
-    {
       "name": "比例",
       "name_en": "Ratio",
-      "icon": "check"
+      "icon": "target"
     },
     {
-      "name": "黄金分割",
-      "name_en": "Golden Ratio",
-      "icon": "check"
+      "name": "和谐",
+      "name_en": "Harmony",
+      "icon": "target"
+    },
+    {
+      "name": "平衡",
+      "name_en": "Balance",
+      "icon": "target"
+    },
+    {
+      "name": "焦点",
+      "name_en": "Focus",
+      "icon": "target"
+    },
+    {
+      "name": "节奏",
+      "name_en": "Rhythm",
+      "icon": "target"
     }
-  ],
-  "checklist": [
-    "黄金比例构图核心主体位置明确无歧义",
-    "引导线与视觉流向顺畅自然",
-    "留白空间充足，无视觉拥挤感",
-    "明暗与色彩反差符合层级逻辑",
-    "信息传达准确，整体秩序严密"
   ]
 }
