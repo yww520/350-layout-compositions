@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-350 Layout Card Renderer
-Compiles structured layout metadata into high-fidelity 1086x1448 Swiss design posters.
+350 Layout Card Renderer (Upgraded)
+Compiles structured layout metadata and optional AI artwork into high-fidelity 1086x1448 Swiss posters.
 """
 
 import argparse
@@ -14,6 +14,7 @@ from pathlib import Path
 # Paths
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
+ASSETS_DIR = BASE_DIR / "assets"
 TEMPLATES_DIR = BASE_DIR / "templates"
 LAYOUTS_DIR = DATA_DIR / "layouts"
 MASTER_TEMPLATE = TEMPLATES_DIR / "card-master.html"
@@ -94,8 +95,48 @@ def get_default_svg(layout_id, name, theme):
           </text>
         </svg>
         """
+    elif layout_id == "134":
+        # Multi-Column Layout Swiss Editorial Grid Vector
+        return """
+        <svg viewBox="0 0 530 660" xmlns="http://www.w3.org/2000/svg">
+          <rect width="530" height="660" fill="#09241C" rx="6"/>
+          <!-- Column 1 -->
+          <rect x="40" y="60" width="130" height="400" rx="4" fill="none" stroke="#D4E751" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.6"/>
+          <rect x="48" y="70" width="114" height="60" rx="4" fill="#D4E751" opacity="0.25"/>
+          <line x1="48" y1="150" x2="162" y2="150" stroke="#FFFFFF" stroke-width="3"/>
+          <line x1="48" y1="165" x2="140" y2="165" stroke="#A3B8AD" stroke-width="2"/>
+          <line x1="48" y1="178" x2="155" y2="178" stroke="#A3B8AD" stroke-width="2"/>
+          <line x1="48" y1="191" x2="130" y2="191" stroke="#A3B8AD" stroke-width="2"/>
+
+          <!-- Column 2 (Spanning) -->
+          <rect x="195" y="60" width="130" height="400" rx="4" fill="none" stroke="#D4E751" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.6"/>
+          <rect x="203" y="70" width="270" height="140" rx="4" fill="#D4E751" opacity="0.35"/>
+          <text x="338" y="145" fill="#FFFFFF" font-size="16" font-weight="900" font-family="Montserrat" text-anchor="middle">SPANNED HERO</text>
+          
+          <!-- Column 3 -->
+          <rect x="350" y="60" width="130" height="400" rx="4" fill="none" stroke="#D4E751" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.6"/>
+          <line x1="358" y1="230" x2="472" y2="230" stroke="#FFFFFF" stroke-width="3"/>
+          <line x1="358" y1="245" x2="450" y2="245" stroke="#A3B8AD" stroke-width="2"/>
+          <line x1="358" y1="258" x2="465" y2="258" stroke="#A3B8AD" stroke-width="2"/>
+
+          <!-- Gutter dimension brackets -->
+          <line x1="170" y1="480" x2="195" y2="480" stroke="#D4E751" stroke-width="1.5"/>
+          <text x="182" y="475" fill="#D4E751" font-size="10" font-weight="bold" font-family="Montserrat" text-anchor="middle">GUTTER</text>
+
+          <!-- Reading path curve -->
+          <path d="M 105 100 Q 260 90 338 140 T 105 280 T 260 320 T 415 320" fill="none" stroke="#D4E751" stroke-width="2.5" stroke-dasharray="6,4"/>
+          <polygon points="423,320 412,314 412,326" fill="#D4E751"/>
+          
+          <text x="265" y="550" fill="#D4E751" font-size="15" font-weight="bold" font-family="PingFang SC" text-anchor="middle">
+            多栏网格骨架 (Multi-Column Grid Architecture)
+          </text>
+          <text x="265" y="575" fill="#A3B8AD" font-size="12" font-family="Montserrat" text-anchor="middle">
+            EQUAL COLUMNS · 25px GUTTER · HIERARCHICAL SPANNING
+          </text>
+        </svg>
+        """
     else:
-        # Generic Golden Ratio / Grid Geometric Wireframe
+        # Parametric Grid Wireframe
         accent_color = "#FFD700" if theme in ["obsidian-black", "forest-green"] else "#E03E2D"
         return f"""
         <svg viewBox="0 0 530 650" xmlns="http://www.w3.org/2000/svg">
@@ -105,8 +146,8 @@ def get_default_svg(layout_id, name, theme):
           <line x1="321" y1="40" x2="321" y2="610" stroke="{accent_color}" stroke-width="1.5" stroke-dasharray="6,6"/>
           <circle cx="321" cy="392" r="16" fill="{accent_color}" />
           <circle cx="321" cy="392" r="32" stroke="{accent_color}" stroke-width="1" fill="none" stroke-dasharray="4,4"/>
-          <text x="265" y="325" fill="{accent_color}" font-size="16" font-weight="bold" font-family="PingFang SC" text-anchor="middle">{name}</text>
-          <text x="265" y="350" fill="currentColor" font-size="12" font-family="Inter" text-anchor="middle" opacity="0.7">GOLDEN COMPOSITION GEOMETRY</text>
+          <text x="265" y="325" fill="{accent_color}" font-size="18" font-weight="bold" font-family="PingFang SC" text-anchor="middle">{name}</text>
+          <text x="265" y="350" fill="currentColor" font-size="12" font-family="Montserrat" text-anchor="middle" opacity="0.7">COMPOSITION SCHEMATIC</text>
         </svg>
         """
 
@@ -124,76 +165,91 @@ def load_card_data(layout_id):
         with open(catalog_file, "r", encoding="utf-8") as f:
             catalog = json.load(f)
             for item in catalog:
-                if item["id"] == layout_id:
-                    # Construct graceful fallback data
-                    return {
-                        "id": item["id"],
-                        "name": item["name"],
-                        "name_en": f"{item['name']} Composition".upper(),
-                        "category": f"{item['category']} / {item['subcategory']}",
-                        "tagline": "COMPOSITION PRINCIPLES",
-                        "description": f"经典视觉架构：{item['name']}。建立画面的秩序与张力，平衡主体与留白关系。",
-                        "theme": "obsidian-black" if int(item["id"]) % 2 == 1 else "cobalt-blue",
-                        "columns_ratio": "530px 380px",
-                        "visual_height": "660px",
-                        "features": [
-                            {"icon": "target", "title": "视觉聚敛", "title_en": "Focus", "desc": "引导视线自然落在画面关键聚焦点。"},
-                            {"icon": "scale", "title": "虚实平衡", "title_en": "Balance", "desc": "以黄金数理掌控呼吸留白与密实体块。"},
-                            {"icon": "arrow", "title": "动态导向", "title_en": "Guidance", "desc": "构建流线与张力，提升整体视觉节奏。"}
-                        ],
-                        "tips": [
-                            {"label": "构图要义", "content": "避免元素过度拥挤在中心死角，预留充足呼吸空间。"},
-                            {"label": "实战应用", "content": "依据主体视觉重量调整线条张力与透视深度。"}
-                        ],
-                        "keywords": [
-                            {"name": "焦点", "name_en": "Focus", "icon": "target"},
-                            {"name": "平衡", "name_en": "Balance", "icon": "scale"},
-                            {"name": "节奏", "name_en": "Rhythm", "icon": "wave"},
-                            {"name": "引导", "name_en": "Guide", "icon": "eye"}
-                        ]
-                    }
-    raise ValueError(f"Layout ID '{layout_id}' not found in database or catalog.")
+                if item["id"].zfill(3) == layout_id.zfill(3):
+                    from compile_prompt import compile_layout_data
+                    return compile_layout_data(item)
+    return None
 
 
-def render_card(layout_id, output_dir, theme_override=None, output_format="both"):
-    """Compiles and renders a single card."""
+def render_card(layout_id, output_dir=None, theme=None, output_format="both", image_path=None):
+    layout_id = str(layout_id).zfill(3)
     data = load_card_data(layout_id)
+    if not data:
+        print(f"Error: Could not load layout {layout_id}")
+        return None, None
+
+    if not output_dir:
+        output_dir = BASE_DIR / "dist"
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    theme = theme_override or data.get("theme", "warm-ivory")
+    theme = theme or data.get("theme", "warm-ivory")
     columns_ratio = data.get("columns_ratio", "530px 380px")
-    visual_height = data.get("visual_height", "660px")
 
-    # Read template
     with open(MASTER_TEMPLATE, "r", encoding="utf-8") as f:
         template = f.read()
 
-    # Build SVG
-    svg_content = get_default_svg(layout_id, data["name"], theme)
+    # Check for custom image
+    resolved_img = None
+    if image_path and os.path.exists(image_path):
+        resolved_img = Path(image_path).resolve()
+    else:
+        for candidate in [
+            ASSETS_DIR / f"{layout_id}_landscape.png",
+            ASSETS_DIR / f"{layout_id}_artwork.png",
+            BASE_DIR / f"{layout_id}_full.png"
+        ]:
+            if candidate.exists():
+                resolved_img = candidate.resolve()
+                break
 
-    # Build Features HTML (Flat rows without heavy card borders)
+    if resolved_img:
+        svg_content = f"""
+        <div style="position: relative; width: 100%; height: 100%; border-radius: 6px; overflow: hidden; border: 1px solid rgba(212, 231, 81, 0.25);">
+          <img src="file://{resolved_img}" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
+          <svg viewBox="0 0 530 660" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;">
+            <line x1="0" y1="120" x2="270" y2="120" stroke="#D4E751" stroke-width="2" stroke-dasharray="5,4" />
+            <circle cx="270" cy="120" r="14" fill="rgba(212,231,81,0.3)" />
+            <circle cx="270" cy="120" r="6" fill="none" stroke="#D4E751" stroke-width="2" />
+            <circle cx="270" cy="120" r="2.5" fill="#D4E751" />
+
+            <line x1="0" y1="365" x2="230" y2="365" stroke="#D4E751" stroke-width="2" stroke-dasharray="5,4" />
+            <circle cx="230" cy="365" r="14" fill="rgba(212,231,81,0.3)" />
+            <circle cx="230" cy="365" r="6" fill="none" stroke="#D4E751" stroke-width="2" />
+            <circle cx="230" cy="365" r="2.5" fill="#D4E751" />
+
+            <line x1="0" y1="580" x2="245" y2="580" stroke="#D4E751" stroke-width="2" stroke-dasharray="5,4" />
+            <circle cx="245" cy="580" r="14" fill="rgba(212,231,81,0.3)" />
+            <circle cx="245" cy="580" r="6" fill="none" stroke="#D4E751" stroke-width="2" />
+            <circle cx="245" cy="580" r="2.5" fill="#D4E751" />
+          </svg>
+        </div>
+        """
+    else:
+        svg_content = get_default_svg(layout_id, data["name"], theme)
+
+    # Build Features HTML
     features_html = '<div class="feature-list">'
     for feat in data.get("features", []):
         features_html += f"""
-        <div class="feature-row">
-          <div class="feature-icon-circle">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="8"></circle>
-              <line x1="12" y1="2" x2="12" y2="6"></line>
-              <line x1="12" y1="18" x2="12" y2="22"></line>
-              <line x1="2" y1="12" x2="6" y2="12"></line>
-              <line x1="18" y1="12" x2="22" y2="12"></line>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="12" y1="8" x2="12" y2="12"/>
+              <line x1="12" y1="16" x2="12.01" y2="16"/>
             </svg>
           </div>
-          <div class="feature-text-block">
-            <div class="feature-title">{feat['title']}</div>
-            <div class="feature-desc">{feat['desc']}</div>
-            <div class="feature-tag-en">{feat.get('title_en', 'CORE').upper()}</div>
+          <div class="feature-text">
+            <div class="feature-title-row">
+              <span class="feature-title">{feat['title']}</span>
+              <span class="feature-tag">{feat.get('title_en', '').upper()}</span>
+            </div>
+            <p class="feature-desc">{feat['desc']}</p>
           </div>
         </div>
         """
-    features_html += "</div>"
+    features_html += '</div>'
 
     # Build Tips HTML
     tips_html = """
@@ -204,7 +260,7 @@ def render_card(layout_id, output_dir, theme_override=None, output_format="both"
           <path d="M9 18h6"></path>
           <path d="M10 22h4"></path>
         </svg>
-        <span>应用建议</span>
+        <span>实战应用建议 (TIPS)</span>
       </div>
       <ul class="tips-list">
     """
@@ -215,29 +271,17 @@ def render_card(layout_id, output_dir, theme_override=None, output_format="both"
     # Assemble Main Content HTML
     columns_ratio = "600px 345px" if not columns_ratio.startswith("3") else "345px 600px"
     if columns_ratio.startswith("345px"):
-        # Left features, right visual
         main_content_html = f"""
-        <div class="feature-column">
-          {features_html}
-          {tips_html}
-        </div>
-        <div class="visual-box">
-          {svg_content}
-        </div>
+        <div class="feature-column">{features_html}{tips_html}</div>
+        <div class="visual-box">{svg_content}</div>
         """
     else:
-        # Left visual, right features
         main_content_html = f"""
-        <div class="visual-box">
-          {svg_content}
-        </div>
-        <div class="feature-column">
-          {features_html}
-          {tips_html}
-        </div>
+        <div class="visual-box">{svg_content}</div>
+        <div class="feature-column">{features_html}{tips_html}</div>
         """
 
-    # Build Keywords HTML with dividers
+    # Build Keywords HTML
     keywords_html = ""
     for kw in data.get("keywords", []):
         keywords_html += f"""
@@ -252,7 +296,6 @@ def render_card(layout_id, output_dir, theme_override=None, output_format="both"
         </div>
         """
 
-    # Replace in master template
     compiled_html = template
     replacements = {
       "{{THEME}}": theme,
@@ -261,7 +304,7 @@ def render_card(layout_id, output_dir, theme_override=None, output_format="both"
       "{{SUBTITLE_EN}}": data["name_en"],
       "{{CATEGORY}}": data["category"].split(" / ")[0] if " / " in data["category"] else data["category"],
       "{{CATEGORY_EN}}": "COMPOSITION PRINCIPLES",
-      "{{TAGLINE}}": data.get("tagline", "用简单的规则，创作更有力量的画面。"),
+      "{{TAGLINE}}": data.get("tagline", "用严谨的设计原则，构建画面的力量。"),
       "{{DESCRIPTION}}": data["description"],
       "{{COLUMNS_RATIO}}": columns_ratio,
       "{{MAIN_CONTENT_HTML}}": main_content_html,
@@ -281,7 +324,8 @@ def render_card(layout_id, output_dir, theme_override=None, output_format="both"
     if output_format in ["png", "both"]:
         chrome_bin = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
         if os.path.exists(chrome_bin):
-            tmp_user_dir = "/Users/clawbot/.chrome_headless_tmp"
+            import tempfile, shutil
+            tmp_user_dir = tempfile.mkdtemp(prefix="chrome_render_")
             cmd = [
                 chrome_bin,
                 "--headless",
@@ -292,15 +336,12 @@ def render_card(layout_id, output_dir, theme_override=None, output_format="both"
                 f"file://{html_file.resolve()}"
             ]
             try:
-                subprocess.run(cmd, timeout=8, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+                subprocess.run(cmd, timeout=15, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
                 print(f"✓ Rendered PNG: {png_file} (1086x1448)")
-            except subprocess.TimeoutExpired:
-                if png_file.exists() and png_file.stat().st_size > 0:
-                    print(f"✓ Rendered PNG: {png_file} (1086x1448)")
-                else:
-                    print(f"! Warning: Screenshot timed out for {png_file}")
             except Exception as e:
                 print(f"! Warning: Failed to render PNG with Chrome: {e}")
+            finally:
+                shutil.rmtree(tmp_user_dir, ignore_errors=True)
         else:
             print("! Chrome not found, skipping PNG export.")
 
@@ -313,6 +354,7 @@ if __name__ == "__main__":
     parser.add_argument("--theme", type=str, default=None, choices=["warm-ivory", "forest-green", "obsidian-black", "cobalt-blue"], help="Color theme override")
     parser.add_argument("--output", type=str, default=str(BASE_DIR / "dist"), help="Output directory")
     parser.add_argument("--format", type=str, default="both", choices=["html", "png", "both"], help="Output format")
+    parser.add_argument("--image", type=str, default=None, help="Custom illustration/photo path to embed")
     args = parser.parse_args()
 
-    render_card(args.id.zfill(3), args.output, args.theme, args.format)
+    render_card(args.id.zfill(3), args.output, args.theme, args.format, args.image)

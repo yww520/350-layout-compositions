@@ -57,14 +57,13 @@ python3 scripts/render-card.py --id {id} --output ./output/
 4. **扁平化信息层级（Flat Information Hierarchy）**：右侧解构要素严禁嵌套带外边框与阴影的浮动卡片，必须采用纯净的扁平行排版，配备纯色圆形徽章与全大写英文 Tag。
 
 #### 交付路径 B：编译生图提示词 (AI Image Prompt Directive)
-读取 `references/blueprints/image-prompt-blueprint.md`，将构图几何与焦点坐标注入提示词：
-```text
-COMPOSITION SPECIFICATION:
-- Layout Framework: {name} ({name_en})
-- Geometric Partition: {grid_rules}
-- Focal Anchor: Place {subject} at {coordinates}
-- Dynamic Leading Path: Guide line from {start} to {end}
-- Negative Space: Preserve {ratio}% empty space on {zone}
+运行内置编译器生成专属生图 Prompt 与构图几何约束：
+```bash
+python3 scripts/compile-prompt.py --id {id}
+```
+或批量更新升级全量数据：
+```bash
+python3 scripts/compile-prompt.py --all
 ```
 
 #### 交付路径 C：编译前端网格代码 (Web / UI Grid)
@@ -74,18 +73,19 @@ COMPOSITION SPECIFICATION:
 
 ## 常用指令示例 (Quick Commands)
 
-- **生成指定图鉴卡片**：
-  ```text
-  Use $layout-350 render 001
-  Use $layout-350 render 004 --theme cobalt-blue
+- **编译生图提示词**：
+  ```bash
+  python3 scripts/compile-prompt.py --id 084
+  python3 scripts/compile-prompt.py --id 134
+  ```
+- **生成指定图鉴卡片（矢量网格或挂载插画）**：
+  ```bash
+  python3 scripts/render-card.py --id 134 --theme forest-green
+  python3 scripts/render-card.py --id 084 --image assets/084_landscape.png
   ```
 - **根据文章智能推荐构图**：
   ```text
   Use $layout-350 recommend layout for this article: [文章内容]
-  ```
-- **生成带构图控制的生图 Prompt**：
-  ```text
-  Use $layout-350 compile prompt for 003 黄金螺旋, 主题: AI 时代的技术奇点
   ```
 - **生成网页响应式布局**：
   ```text

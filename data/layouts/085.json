@@ -5,61 +5,69 @@
   "category": "构图逻辑 / 视点、景深与空间感",
   "category_slug": "01-composition-logic",
   "subcategory": "视点、景深与空间感",
-  "tagline": "COMPOSITION PRINCIPLES",
-  "description": "经典视觉架构：平面化构图。建立画面的秩序与张力，平衡主体与留白关系。",
-  "theme": "warm-ivory",
+  "tagline": "平面化构图设计法则与空间建构",
+  "description": "经典视觉架构第 085 号：平面化构图。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
+  "theme": "forest-green",
   "columns_ratio": "530px 380px",
   "visual_height": "660px",
+  "ai_prompt": "Professional editorial illustration demonstrating 平面化构图 (350 Layouts series #085), A multi-layered scenery with rich foreground, detailed architectural midground, and expansive horizon background. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching forest-green tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
   "features": [
     {
       "icon": "target",
-      "title": "视觉聚敛",
-      "title_en": "Focus",
-      "desc": "引导视线自然落在画面关键聚焦点。"
+      "title": "平面核心锚点",
+      "title_en": "Focal Anchor",
+      "desc": "确立画面第一视觉据点，使主体在平面化构图框架中获得最强烈的视觉重力与识别度。"
     },
     {
-      "icon": "scale",
-      "title": "虚实平衡",
-      "title_en": "Balance",
-      "desc": "以数理比例掌控呼吸留白与密实体块。"
+      "icon": "compass",
+      "title": "视线引导流线",
+      "title_en": "Leading Flow",
+      "desc": "依据平面化构图的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
     },
     {
-      "icon": "arrow",
-      "title": "动态导向",
-      "title_en": "Guidance",
-      "desc": "构建流线与张力，提升整体视觉节奏。"
+      "icon": "layers",
+      "title": "负空间与呼吸感",
+      "title_en": "Negative Space",
+      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
     }
   ],
   "tips": [
     {
-      "label": "构图要义",
-      "content": "避免元素过度拥挤在中心死角，预留充足呼吸空间。"
+      "label": "构图基准",
+      "content": "在应用平面化构图时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
     },
     {
-      "label": "实战应用",
-      "content": "依据主体视觉重量调整线条张力与透视深度。"
+      "label": "图文呼应",
+      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
     }
   ],
   "keywords": [
     {
-      "name": "焦点",
-      "name_en": "Focus",
-      "icon": "target"
+      "name": "景深",
+      "name_en": "Depth of Field",
+      "icon": "check"
     },
     {
-      "name": "平衡",
-      "name_en": "Balance",
-      "icon": "scale"
+      "name": "层级",
+      "name_en": "Layers",
+      "icon": "check"
     },
     {
-      "name": "节奏",
-      "name_en": "Rhythm",
-      "icon": "wave"
+      "name": "透视",
+      "name_en": "Perspective",
+      "icon": "check"
     },
     {
-      "name": "引导",
-      "name_en": "Guide",
-      "icon": "eye"
+      "name": "空间感",
+      "name_en": "Spatial Sense",
+      "icon": "check"
     }
+  ],
+  "checklist": [
+    "平面化构图核心主体位置明确无歧义",
+    "引导线与视觉流向顺畅自然",
+    "留白空间充足，无视觉拥挤感",
+    "明暗与色彩反差符合层级逻辑",
+    "信息传达准确，整体秩序严密"
   ]
 }
