@@ -50,6 +50,12 @@ python3 scripts/render-card.py --id {id} --output ./output/
 ```
 或将渲染出的 HTML 文件在浏览器中打开供用户预览。
 
+##### 排版密度与字重严苛规范（全量构图统一强制遵循）：
+1. **纯黑粗壮大标题（Bold Display Type）**：主标题强制采用 `font-weight: 900`（Noto Sans SC / 思源特黑），禁止任何水平压缩（禁止 `scaleX < 1`），并注入 `-webkit-text-stroke: 2px` 确保原版厚重、刚劲、平直的字重质感。
+2. **宽幅无衬线副标（Wide Geometric Sans）**：英文副标题强制使用 `Montserrat` 或同等宽几何体（字重 800、全大写、字距 `0.08em`），严禁使用瘦高窄长的 Bebas Neue。
+3. **高饱和网格填充率（High Density Grid）**：内边距控制在 `48px 56px 42px 56px`，左侧/中间核心插画画布高度不低于 `780px`，消除上下多余大片空旷悬白。
+4. **扁平化信息层级（Flat Information Hierarchy）**：右侧解构要素严禁嵌套带外边框与阴影的浮动卡片，必须采用纯净的扁平行排版，配备纯色圆形徽章与全大写英文 Tag。
+
 #### 交付路径 B：编译生图提示词 (AI Image Prompt Directive)
 读取 `references/blueprints/image-prompt-blueprint.md`，将构图几何与焦点坐标注入提示词：
 ```text

@@ -172,23 +172,24 @@ def render_card(layout_id, output_dir, theme_override=None, output_format="both"
     # Build SVG
     svg_content = get_default_svg(layout_id, data["name"], theme)
 
-    # Build Features HTML
+    # Build Features HTML (Flat rows without heavy card borders)
     features_html = '<div class="feature-list">'
     for feat in data.get("features", []):
         features_html += f"""
-        <div class="feature-item">
-          <div class="feature-icon-box">
+        <div class="feature-row">
+          <div class="feature-icon-circle">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="10"></circle>
-              <circle cx="12" cy="12" r="4"></circle>
+              <circle cx="12" cy="12" r="8"></circle>
+              <line x1="12" y1="2" x2="12" y2="6"></line>
+              <line x1="12" y1="18" x2="12" y2="22"></line>
+              <line x1="2" y1="12" x2="6" y2="12"></line>
+              <line x1="18" y1="12" x2="22" y2="12"></line>
             </svg>
           </div>
-          <div class="feature-text">
-            <div class="feature-title-row">
-              <span class="feature-title">{feat['title']}</span>
-              <span class="feature-en-tag">{feat.get('title_en', 'Core')}</span>
-            </div>
-            <p class="feature-desc">{feat['desc']}</p>
+          <div class="feature-text-block">
+            <div class="feature-title">{feat['title']}</div>
+            <div class="feature-desc">{feat['desc']}</div>
+            <div class="feature-tag-en">{feat.get('title_en', 'CORE').upper()}</div>
           </div>
         </div>
         """
@@ -196,37 +197,38 @@ def render_card(layout_id, output_dir, theme_override=None, output_format="both"
 
     # Build Tips HTML
     tips_html = """
-    <div class="tips-box">
+    <div class="tips-card">
       <div class="tips-header">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
           <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path>
           <path d="M9 18h6"></path>
           <path d="M10 22h4"></path>
         </svg>
-        <span>实战应用建议 (TIPS)</span>
+        <span>应用建议</span>
       </div>
-      <ul class="tips-content">
+      <ul class="tips-list">
     """
     for tip in data.get("tips", []):
         tips_html += f"<li><strong>{tip['label']}：</strong>{tip['content']}</li>"
-    tips_html += "</ul></div>"
+    tips_html += '<div class="tips-bottom-bar"></div></ul></div>'
 
     # Assemble Main Content HTML
-    if columns_ratio.startswith("360px"):
+    columns_ratio = "600px 345px" if not columns_ratio.startswith("3") else "345px 600px"
+    if columns_ratio.startswith("345px"):
         # Left features, right visual
         main_content_html = f"""
         <div class="feature-column">
           {features_html}
           {tips_html}
         </div>
-        <div class="visual-canvas-card">
+        <div class="visual-box">
           {svg_content}
         </div>
         """
     else:
         # Left visual, right features
         main_content_html = f"""
-        <div class="visual-canvas-card">
+        <div class="visual-box">
           {svg_content}
         </div>
         <div class="feature-column">
@@ -235,13 +237,18 @@ def render_card(layout_id, output_dir, theme_override=None, output_format="both"
         </div>
         """
 
-    # Build Keywords HTML
+    # Build Keywords HTML with dividers
     keywords_html = ""
     for kw in data.get("keywords", []):
         keywords_html += f"""
-        <div class="kw-pill">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="8"/></svg>
-          <span>{kw['name']} {kw.get('name_en', '')}</span>
+        <div class="kw-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="8"/>
+          </svg>
+          <div class="kw-text">
+            <span class="kw-cn">{kw['name']}</span>
+            <span class="kw-en">{kw.get('name_en', '').upper()}</span>
+          </div>
         </div>
         """
 
@@ -252,11 +259,11 @@ def render_card(layout_id, output_dir, theme_override=None, output_format="both"
       "{{CARD_ID}}": data["id"],
       "{{TITLE}}": data["name"],
       "{{SUBTITLE_EN}}": data["name_en"],
-      "{{CATEGORY}}": data["category"],
-      "{{TAGLINE}}": data.get("tagline", "COMPOSITION PRINCIPLES"),
+      "{{CATEGORY}}": data["category"].split(" / ")[0] if " / " in data["category"] else data["category"],
+      "{{CATEGORY_EN}}": "COMPOSITION PRINCIPLES",
+      "{{TAGLINE}}": data.get("tagline", "用简单的规则，创作更有力量的画面。"),
       "{{DESCRIPTION}}": data["description"],
       "{{COLUMNS_RATIO}}": columns_ratio,
-      "{{VISUAL_HEIGHT}}": visual_height,
       "{{MAIN_CONTENT_HTML}}": main_content_html,
       "{{KEYWORDS_HTML}}": keywords_html
     }
