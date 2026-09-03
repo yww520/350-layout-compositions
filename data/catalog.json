@@ -1,0 +1,3502 @@
+[
+  {
+    "id": "001",
+    "name": "三分法构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "经典法则与空间留白",
+    "subcategory_slug": "classic-rules",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/001-三分法构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/001-三分法构图.png"
+  },
+  {
+    "id": "002",
+    "name": "黄金比例构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "经典法则与空间留白",
+    "subcategory_slug": "classic-rules",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/002-黄金比例构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/002-黄金比例构图.png"
+  },
+  {
+    "id": "003",
+    "name": "黄金螺旋构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "经典法则与空间留白",
+    "subcategory_slug": "classic-rules",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/003-黄金螺旋构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/003-黄金螺旋构图.png"
+  },
+  {
+    "id": "004",
+    "name": "黄金三角构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "经典法则与空间留白",
+    "subcategory_slug": "classic-rules",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/004-黄金三角构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/004-黄金三角构图.png"
+  },
+  {
+    "id": "005",
+    "name": "对角线法构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "经典法则与空间留白",
+    "subcategory_slug": "classic-rules",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/005-对角线法构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/005-对角线法构图.png"
+  },
+  {
+    "id": "006",
+    "name": "矩形折入法构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "经典法则与空间留白",
+    "subcategory_slug": "classic-rules",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/006-矩形折入法构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/006-矩形折入法构图.png"
+  },
+  {
+    "id": "007",
+    "name": "奇数法则构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "经典法则与空间留白",
+    "subcategory_slug": "classic-rules",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/007-奇数法则构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/007-奇数法则构图.png"
+  },
+  {
+    "id": "008",
+    "name": "空间法则构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "经典法则与空间留白",
+    "subcategory_slug": "classic-rules",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/008-空间法则构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/008-空间法则构图.png"
+  },
+  {
+    "id": "009",
+    "name": "视线空间构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "经典法则与空间留白",
+    "subcategory_slug": "classic-rules",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/009-视线空间构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/009-视线空间构图.png"
+  },
+  {
+    "id": "010",
+    "name": "运动空间构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "经典法则与空间留白",
+    "subcategory_slug": "classic-rules",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/010-运动空间构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/010-运动空间构图.png"
+  },
+  {
+    "id": "011",
+    "name": "头部空间构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "经典法则与空间留白",
+    "subcategory_slug": "classic-rules",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/011-头部空间构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/011-头部空间构图.png"
+  },
+  {
+    "id": "012",
+    "name": "填满画面构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "经典法则与空间留白",
+    "subcategory_slug": "classic-rules",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/012-填满画面构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/012-填满画面构图.png"
+  },
+  {
+    "id": "013",
+    "name": "负空间构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "经典法则与空间留白",
+    "subcategory_slug": "classic-rules",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/013-负空间构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/013-负空间构图.png"
+  },
+  {
+    "id": "014",
+    "name": "框中框构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "经典法则与空间留白",
+    "subcategory_slug": "classic-rules",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/014-框中框构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/014-框中框构图.png"
+  },
+  {
+    "id": "015",
+    "name": "引导线构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "经典法则与空间留白",
+    "subcategory_slug": "classic-rules",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/015-引导线构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/015-引导线构图.png"
+  },
+  {
+    "id": "016",
+    "name": "居中构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "重心、线条与轴线",
+    "subcategory_slug": "balance-lines-axes",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/016-居中构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/016-居中构图.png"
+  },
+  {
+    "id": "017",
+    "name": "偏心构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "重心、线条与轴线",
+    "subcategory_slug": "balance-lines-axes",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/017-偏心构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/017-偏心构图.png"
+  },
+  {
+    "id": "018",
+    "name": "对称构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "重心、线条与轴线",
+    "subcategory_slug": "balance-lines-axes",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/018-对称构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/018-对称构图.png"
+  },
+  {
+    "id": "019",
+    "name": "非对称构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "重心、线条与轴线",
+    "subcategory_slug": "balance-lines-axes",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/019-非对称构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/019-非对称构图.png"
+  },
+  {
+    "id": "020",
+    "name": "镜像构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "重心、线条与轴线",
+    "subcategory_slug": "balance-lines-axes",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/020-镜像构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/020-镜像构图.png"
+  },
+  {
+    "id": "021",
+    "name": "水平构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "重心、线条与轴线",
+    "subcategory_slug": "balance-lines-axes",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/021-水平构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/021-水平构图.png"
+  },
+  {
+    "id": "022",
+    "name": "垂直构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "重心、线条与轴线",
+    "subcategory_slug": "balance-lines-axes",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/022-垂直构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/022-垂直构图.png"
+  },
+  {
+    "id": "023",
+    "name": "对角线构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "重心、线条与轴线",
+    "subcategory_slug": "balance-lines-axes",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/023-对角线构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/023-对角线构图.png"
+  },
+  {
+    "id": "024",
+    "name": "平行线构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "重心、线条与轴线",
+    "subcategory_slug": "balance-lines-axes",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/024-平行线构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/024-平行线构图.png"
+  },
+  {
+    "id": "025",
+    "name": "汇聚线构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "重心、线条与轴线",
+    "subcategory_slug": "balance-lines-axes",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/025-汇聚线构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/025-汇聚线构图.png"
+  },
+  {
+    "id": "026",
+    "name": "交叉线构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "重心、线条与轴线",
+    "subcategory_slug": "balance-lines-axes",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/026-交叉线构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/026-交叉线构图.png"
+  },
+  {
+    "id": "027",
+    "name": "中轴构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "重心、线条与轴线",
+    "subcategory_slug": "balance-lines-axes",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/027-中轴构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/027-中轴构图.png"
+  },
+  {
+    "id": "028",
+    "name": "偏轴构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "重心、线条与轴线",
+    "subcategory_slug": "balance-lines-axes",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/028-偏轴构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/028-偏轴构图.png"
+  },
+  {
+    "id": "029",
+    "name": "双轴构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "重心、线条与轴线",
+    "subcategory_slug": "balance-lines-axes",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/029-双轴构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/029-双轴构图.png"
+  },
+  {
+    "id": "030",
+    "name": "十字构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "重心、线条与轴线",
+    "subcategory_slug": "balance-lines-axes",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/030-十字构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/030-十字构图.png"
+  },
+  {
+    "id": "031",
+    "name": "X 形构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "字母形与曲线",
+    "subcategory_slug": "letter-curves",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/031-X 形构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/031-X 形构图.png"
+  },
+  {
+    "id": "032",
+    "name": "T 形构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "字母形与曲线",
+    "subcategory_slug": "letter-curves",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/032-T 形构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/032-T 形构图.png"
+  },
+  {
+    "id": "033",
+    "name": "L 形构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "字母形与曲线",
+    "subcategory_slug": "letter-curves",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/033-L 形构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/033-L 形构图.png"
+  },
+  {
+    "id": "034",
+    "name": "V 形构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "字母形与曲线",
+    "subcategory_slug": "letter-curves",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/034-V 形构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/034-V 形构图.png"
+  },
+  {
+    "id": "035",
+    "name": "Z 形构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "字母形与曲线",
+    "subcategory_slug": "letter-curves",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/035-Z 形构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/035-Z 形构图.png"
+  },
+  {
+    "id": "036",
+    "name": "C 形构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "字母形与曲线",
+    "subcategory_slug": "letter-curves",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/036-C 形构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/036-C 形构图.png"
+  },
+  {
+    "id": "037",
+    "name": "S 形构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "字母形与曲线",
+    "subcategory_slug": "letter-curves",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/037-S 形构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/037-S 形构图.png"
+  },
+  {
+    "id": "038",
+    "name": "曲线构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "字母形与曲线",
+    "subcategory_slug": "letter-curves",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/038-曲线构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/038-曲线构图.png"
+  },
+  {
+    "id": "039",
+    "name": "波浪形构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "字母形与曲线",
+    "subcategory_slug": "letter-curves",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/039-波浪形构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/039-波浪形构图.png"
+  },
+  {
+    "id": "040",
+    "name": "锯齿形构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "字母形与曲线",
+    "subcategory_slug": "letter-curves",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/040-锯齿形构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/040-锯齿形构图.png"
+  },
+  {
+    "id": "041",
+    "name": "三角构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "几何形与放射结构",
+    "subcategory_slug": "geometry-radial",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/041-三角构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/041-三角构图.png"
+  },
+  {
+    "id": "042",
+    "name": "金字塔构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "几何形与放射结构",
+    "subcategory_slug": "geometry-radial",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/042-金字塔构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/042-金字塔构图.png"
+  },
+  {
+    "id": "043",
+    "name": "倒三角构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "几何形与放射结构",
+    "subcategory_slug": "geometry-radial",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/043-倒三角构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/043-倒三角构图.png"
+  },
+  {
+    "id": "044",
+    "name": "菱形构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "几何形与放射结构",
+    "subcategory_slug": "geometry-radial",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/044-菱形构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/044-菱形构图.png"
+  },
+  {
+    "id": "045",
+    "name": "方形构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "几何形与放射结构",
+    "subcategory_slug": "geometry-radial",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/045-方形构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/045-方形构图.png"
+  },
+  {
+    "id": "046",
+    "name": "矩形构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "几何形与放射结构",
+    "subcategory_slug": "geometry-radial",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/046-矩形构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/046-矩形构图.png"
+  },
+  {
+    "id": "047",
+    "name": "圆形构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "几何形与放射结构",
+    "subcategory_slug": "geometry-radial",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/047-圆形构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/047-圆形构图.png"
+  },
+  {
+    "id": "048",
+    "name": "椭圆构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "几何形与放射结构",
+    "subcategory_slug": "geometry-radial",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/048-椭圆构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/048-椭圆构图.png"
+  },
+  {
+    "id": "049",
+    "name": "弧形构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "几何形与放射结构",
+    "subcategory_slug": "geometry-radial",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/049-弧形构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/049-弧形构图.png"
+  },
+  {
+    "id": "050",
+    "name": "环形构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "几何形与放射结构",
+    "subcategory_slug": "geometry-radial",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/050-环形构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/050-环形构图.png"
+  },
+  {
+    "id": "051",
+    "name": "螺旋构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "几何形与放射结构",
+    "subcategory_slug": "geometry-radial",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/051-螺旋构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/051-螺旋构图.png"
+  },
+  {
+    "id": "052",
+    "name": "放射式构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "几何形与放射结构",
+    "subcategory_slug": "geometry-radial",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/052-放射式构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/052-放射式构图.png"
+  },
+  {
+    "id": "053",
+    "name": "向心式构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "几何形与放射结构",
+    "subcategory_slug": "geometry-radial",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/053-向心式构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/053-向心式构图.png"
+  },
+  {
+    "id": "054",
+    "name": "离心式构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "几何形与放射结构",
+    "subcategory_slug": "geometry-radial",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/054-离心式构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/054-离心式构图.png"
+  },
+  {
+    "id": "055",
+    "name": "同心式构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "几何形与放射结构",
+    "subcategory_slug": "geometry-radial",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/055-同心式构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/055-同心式构图.png"
+  },
+  {
+    "id": "056",
+    "name": "四象限构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "几何形与放射结构",
+    "subcategory_slug": "geometry-radial",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/056-四象限构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/056-四象限构图.png"
+  },
+  {
+    "id": "057",
+    "name": "棋盘构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "阵列、层叠与组群",
+    "subcategory_slug": "pattern-grouping",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/057-棋盘构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/057-棋盘构图.png"
+  },
+  {
+    "id": "058",
+    "name": "阶梯构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "阵列、层叠与组群",
+    "subcategory_slug": "pattern-grouping",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/058-阶梯构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/058-阶梯构图.png"
+  },
+  {
+    "id": "059",
+    "name": "层叠构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "阵列、层叠与组群",
+    "subcategory_slug": "pattern-grouping",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/059-层叠构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/059-层叠构图.png"
+  },
+  {
+    "id": "060",
+    "name": "级联构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "阵列、层叠与组群",
+    "subcategory_slug": "pattern-grouping",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/060-级联构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/060-级联构图.png"
+  },
+  {
+    "id": "061",
+    "name": "聚类构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "阵列、层叠与组群",
+    "subcategory_slug": "pattern-grouping",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/061-聚类构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/061-聚类构图.png"
+  },
+  {
+    "id": "062",
+    "name": "分散构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "阵列、层叠与组群",
+    "subcategory_slug": "pattern-grouping",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/062-分散构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/062-分散构图.png"
+  },
+  {
+    "id": "063",
+    "name": "分支构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "阵列、层叠与组群",
+    "subcategory_slug": "pattern-grouping",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/063-分支构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/063-分支构图.png"
+  },
+  {
+    "id": "064",
+    "name": "网络构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "阵列、层叠与组群",
+    "subcategory_slug": "pattern-grouping",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/064-网络构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/064-网络构图.png"
+  },
+  {
+    "id": "065",
+    "name": "前中后景构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "空间层次与投影",
+    "subcategory_slug": "depth-projection",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/065-前中后景构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/065-前中后景构图.png"
+  },
+  {
+    "id": "066",
+    "name": "前景框架构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "空间层次与投影",
+    "subcategory_slug": "depth-projection",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/066-前景框架构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/066-前景框架构图.png"
+  },
+  {
+    "id": "067",
+    "name": "重叠空间构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "空间层次与投影",
+    "subcategory_slug": "depth-projection",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/067-重叠空间构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/067-重叠空间构图.png"
+  },
+  {
+    "id": "068",
+    "name": "尺度递减构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "空间层次与投影",
+    "subcategory_slug": "depth-projection",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/068-尺度递减构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/068-尺度递减构图.png"
+  },
+  {
+    "id": "069",
+    "name": "线性透视",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "空间层次与投影",
+    "subcategory_slug": "depth-projection",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/069-线性透视.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/069-线性透视.png"
+  },
+  {
+    "id": "070",
+    "name": "一点透视",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "空间层次与投影",
+    "subcategory_slug": "depth-projection",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/070-一点透视.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/070-一点透视.png"
+  },
+  {
+    "id": "071",
+    "name": "两点透视",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "空间层次与投影",
+    "subcategory_slug": "depth-projection",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/071-两点透视.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/071-两点透视.png"
+  },
+  {
+    "id": "072",
+    "name": "三点透视",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "空间层次与投影",
+    "subcategory_slug": "depth-projection",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/072-三点透视.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/072-三点透视.png"
+  },
+  {
+    "id": "073",
+    "name": "平行透视构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "空间层次与投影",
+    "subcategory_slug": "depth-projection",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/073-平行透视构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/073-平行透视构图.png"
+  },
+  {
+    "id": "074",
+    "name": "斜投影构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "空间层次与投影",
+    "subcategory_slug": "depth-projection",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/074-斜投影构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/074-斜投影构图.png"
+  },
+  {
+    "id": "075",
+    "name": "等距构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "空间层次与投影",
+    "subcategory_slug": "depth-projection",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/075-等距构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/075-等距构图.png"
+  },
+  {
+    "id": "076",
+    "name": "轴测构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "空间层次与投影",
+    "subcategory_slug": "depth-projection",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/076-轴测构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/076-轴测构图.png"
+  },
+  {
+    "id": "077",
+    "name": "鸟瞰构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "视点、景深与空间感",
+    "subcategory_slug": "viewpoint-focus",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/077-鸟瞰构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/077-鸟瞰构图.png"
+  },
+  {
+    "id": "078",
+    "name": "虫视构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "视点、景深与空间感",
+    "subcategory_slug": "viewpoint-focus",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/078-虫视构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/078-虫视构图.png"
+  },
+  {
+    "id": "079",
+    "name": "顶视构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "视点、景深与空间感",
+    "subcategory_slug": "viewpoint-focus",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/079-顶视构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/079-顶视构图.png"
+  },
+  {
+    "id": "080",
+    "name": "平视构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "视点、景深与空间感",
+    "subcategory_slug": "viewpoint-focus",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/080-平视构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/080-平视构图.png"
+  },
+  {
+    "id": "081",
+    "name": "强制透视构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "视点、景深与空间感",
+    "subcategory_slug": "viewpoint-focus",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/081-强制透视构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/081-强制透视构图.png"
+  },
+  {
+    "id": "082",
+    "name": "空气透视构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "视点、景深与空间感",
+    "subcategory_slug": "viewpoint-focus",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/082-空气透视构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/082-空气透视构图.png"
+  },
+  {
+    "id": "083",
+    "name": "浅景深构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "视点、景深与空间感",
+    "subcategory_slug": "viewpoint-focus",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/083-浅景深构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/083-浅景深构图.png"
+  },
+  {
+    "id": "084",
+    "name": "深焦构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "视点、景深与空间感",
+    "subcategory_slug": "viewpoint-focus",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/084-深焦构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/084-深焦构图.png"
+  },
+  {
+    "id": "085",
+    "name": "平面化构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "视点、景深与空间感",
+    "subcategory_slug": "viewpoint-focus",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/085-平面化构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/085-平面化构图.png"
+  },
+  {
+    "id": "086",
+    "name": "深空间构图",
+    "category": "构图逻辑",
+    "category_slug": "01-composition-logic",
+    "subcategory": "视点、景深与空间感",
+    "subcategory_slug": "viewpoint-focus",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/01-composition-logic/086-深空间构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/01-composition-logic/086-深空间构图.png"
+  },
+  {
+    "id": "087",
+    "name": "放射平衡原则",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "平衡、动势与焦点",
+    "subcategory_slug": "balance-focus",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/087-放射平衡原则.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/087-放射平衡原则.png"
+  },
+  {
+    "id": "088",
+    "name": "晶体式平衡原则",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "平衡、动势与焦点",
+    "subcategory_slug": "balance-focus",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/088-晶体式平衡原则.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/088-晶体式平衡原则.png"
+  },
+  {
+    "id": "089",
+    "name": "静态构图",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "平衡、动势与焦点",
+    "subcategory_slug": "balance-focus",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/089-静态构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/089-静态构图.png"
+  },
+  {
+    "id": "090",
+    "name": "动态构图",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "平衡、动势与焦点",
+    "subcategory_slug": "balance-focus",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/090-动态构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/090-动态构图.png"
+  },
+  {
+    "id": "091",
+    "name": "开放式构图",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "平衡、动势与焦点",
+    "subcategory_slug": "balance-focus",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/091-开放式构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/091-开放式构图.png"
+  },
+  {
+    "id": "092",
+    "name": "封闭式构图",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "平衡、动势与焦点",
+    "subcategory_slug": "balance-focus",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/092-封闭式构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/092-封闭式构图.png"
+  },
+  {
+    "id": "093",
+    "name": "单一焦点构图",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "平衡、动势与焦点",
+    "subcategory_slug": "balance-focus",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/093-单一焦点构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/093-单一焦点构图.png"
+  },
+  {
+    "id": "094",
+    "name": "多重焦点构图",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "平衡、动势与焦点",
+    "subcategory_slug": "balance-focus",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/094-多重焦点构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/094-多重焦点构图.png"
+  },
+  {
+    "id": "095",
+    "name": "视觉层级原则",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "层级、比例与对比",
+    "subcategory_slug": "hierarchy-contrast",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/095-视觉层级原则.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/095-视觉层级原则.png"
+  },
+  {
+    "id": "096",
+    "name": "主次关系原则",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "层级、比例与对比",
+    "subcategory_slug": "hierarchy-contrast",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/096-主次关系原则.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/096-主次关系原则.png"
+  },
+  {
+    "id": "097",
+    "name": "平衡原则",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "层级、比例与对比",
+    "subcategory_slug": "hierarchy-contrast",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/097-平衡原则.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/097-平衡原则.png"
+  },
+  {
+    "id": "098",
+    "name": "比例原则",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "层级、比例与对比",
+    "subcategory_slug": "hierarchy-contrast",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/098-比例原则.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/098-比例原则.png"
+  },
+  {
+    "id": "099",
+    "name": "尺度对比原则",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "层级、比例与对比",
+    "subcategory_slug": "hierarchy-contrast",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/099-尺度对比原则.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/099-尺度对比原则.png"
+  },
+  {
+    "id": "100",
+    "name": "明暗对比原则",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "层级、比例与对比",
+    "subcategory_slug": "hierarchy-contrast",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/100-明暗对比原则.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/100-明暗对比原则.png"
+  },
+  {
+    "id": "101",
+    "name": "色彩对比原则",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "层级、比例与对比",
+    "subcategory_slug": "hierarchy-contrast",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/101-色彩对比原则.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/101-色彩对比原则.png"
+  },
+  {
+    "id": "102",
+    "name": "形状对比原则",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "层级、比例与对比",
+    "subcategory_slug": "hierarchy-contrast",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/102-形状对比原则.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/102-形状对比原则.png"
+  },
+  {
+    "id": "103",
+    "name": "质感对比原则",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "层级、比例与对比",
+    "subcategory_slug": "hierarchy-contrast",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/103-质感对比原则.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/103-质感对比原则.png"
+  },
+  {
+    "id": "104",
+    "name": "动静对比原则",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "层级、比例与对比",
+    "subcategory_slug": "hierarchy-contrast",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/104-动静对比原则.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/104-动静对比原则.png"
+  },
+  {
+    "id": "105",
+    "name": "并置原则",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "层级、比例与对比",
+    "subcategory_slug": "hierarchy-contrast",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/105-并置原则.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/105-并置原则.png"
+  },
+  {
+    "id": "106",
+    "name": "隔离原则",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "层级、比例与对比",
+    "subcategory_slug": "hierarchy-contrast",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/106-隔离原则.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/106-隔离原则.png"
+  },
+  {
+    "id": "107",
+    "name": "重复原则",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "重复、图案与节奏",
+    "subcategory_slug": "repetition-rhythm",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/107-重复原则.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/107-重复原则.png"
+  },
+  {
+    "id": "108",
+    "name": "图案组织",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "重复、图案与节奏",
+    "subcategory_slug": "repetition-rhythm",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/108-图案组织.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/108-图案组织.png"
+  },
+  {
+    "id": "109",
+    "name": "节奏组织",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "重复、图案与节奏",
+    "subcategory_slug": "repetition-rhythm",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/109-节奏组织.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/109-节奏组织.png"
+  },
+  {
+    "id": "110",
+    "name": "渐变组织",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "重复、图案与节奏",
+    "subcategory_slug": "repetition-rhythm",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/110-渐变组织.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/110-渐变组织.png"
+  },
+  {
+    "id": "111",
+    "name": "交替节奏组织",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "重复、图案与节奏",
+    "subcategory_slug": "repetition-rhythm",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/111-交替节奏组织.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/111-交替节奏组织.png"
+  },
+  {
+    "id": "112",
+    "name": "渐进节奏组织",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "重复、图案与节奏",
+    "subcategory_slug": "repetition-rhythm",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/112-渐进节奏组织.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/112-渐进节奏组织.png"
+  },
+  {
+    "id": "113",
+    "name": "流动节奏组织",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "重复、图案与节奏",
+    "subcategory_slug": "repetition-rhythm",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/113-流动节奏组织.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/113-流动节奏组织.png"
+  },
+  {
+    "id": "114",
+    "name": "随机节奏组织",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "重复、图案与节奏",
+    "subcategory_slug": "repetition-rhythm",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/114-随机节奏组织.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/114-随机节奏组织.png"
+  },
+  {
+    "id": "115",
+    "name": "相似性原则",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "格式塔与组群",
+    "subcategory_slug": "gestalt-grouping",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/115-相似性原则.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/115-相似性原则.png"
+  },
+  {
+    "id": "116",
+    "name": "邻近性原则",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "格式塔与组群",
+    "subcategory_slug": "gestalt-grouping",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/116-邻近性原则.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/116-邻近性原则.png"
+  },
+  {
+    "id": "117",
+    "name": "连续性原则",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "格式塔与组群",
+    "subcategory_slug": "gestalt-grouping",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/117-连续性原则.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/117-连续性原则.png"
+  },
+  {
+    "id": "118",
+    "name": "闭合性原则",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "格式塔与组群",
+    "subcategory_slug": "gestalt-grouping",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/118-闭合性原则.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/118-闭合性原则.png"
+  },
+  {
+    "id": "119",
+    "name": "图底关系原则",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "格式塔与组群",
+    "subcategory_slug": "gestalt-grouping",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/119-图底关系原则.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/119-图底关系原则.png"
+  },
+  {
+    "id": "120",
+    "name": "共同区域原则",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "格式塔与组群",
+    "subcategory_slug": "gestalt-grouping",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/120-共同区域原则.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/120-共同区域原则.png"
+  },
+  {
+    "id": "121",
+    "name": "共同命运原则",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "格式塔与组群",
+    "subcategory_slug": "gestalt-grouping",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/121-共同命运原则.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/121-共同命运原则.png"
+  },
+  {
+    "id": "122",
+    "name": "简化构图原则",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "格式塔与组群",
+    "subcategory_slug": "gestalt-grouping",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/122-简化构图原则.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/122-简化构图原则.png"
+  },
+  {
+    "id": "123",
+    "name": "裁切构图",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "格式塔与组群",
+    "subcategory_slug": "gestalt-grouping",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/123-裁切构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/123-裁切构图.png"
+  },
+  {
+    "id": "124",
+    "name": "满幅构图",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "格式塔与组群",
+    "subcategory_slug": "gestalt-grouping",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/124-满幅构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/124-满幅构图.png"
+  },
+  {
+    "id": "125",
+    "name": "疏密对比原则",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "格式塔与组群",
+    "subcategory_slug": "gestalt-grouping",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/125-疏密对比原则.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/125-疏密对比原则.png"
+  },
+  {
+    "id": "126",
+    "name": "群组构图",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "格式塔与组群",
+    "subcategory_slug": "gestalt-grouping",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/126-群组构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/126-群组构图.png"
+  },
+  {
+    "id": "127",
+    "name": "F 型扫描模式",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "页面阅读模式",
+    "subcategory_slug": "reading-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/127-F 型扫描模式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/127-F 型扫描模式.png"
+  },
+  {
+    "id": "128",
+    "name": "Z 型扫描模式",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "页面阅读模式",
+    "subcategory_slug": "reading-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/128-Z 型扫描模式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/128-Z 型扫描模式.png"
+  },
+  {
+    "id": "129",
+    "name": "古腾堡图式",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "页面阅读模式",
+    "subcategory_slug": "reading-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/129-古腾堡图式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/129-古腾堡图式.png"
+  },
+  {
+    "id": "130",
+    "name": "层蛋糕扫描模式",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "页面阅读模式",
+    "subcategory_slug": "reading-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/130-层蛋糕扫描模式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/130-层蛋糕扫描模式.png"
+  },
+  {
+    "id": "131",
+    "name": "斑点扫描模式",
+    "category": "视觉原则与阅读模式",
+    "category_slug": "02-visual-principles",
+    "subcategory": "页面阅读模式",
+    "subcategory_slug": "reading-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/02-visual-principles/131-斑点扫描模式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/02-visual-principles/131-斑点扫描模式.png"
+  },
+  {
+    "id": "132",
+    "name": "单栏版式",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "分栏、跨页与出血",
+    "subcategory_slug": "columns-spreads",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/132-单栏版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/132-单栏版式.png"
+  },
+  {
+    "id": "133",
+    "name": "双栏版式",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "分栏、跨页与出血",
+    "subcategory_slug": "columns-spreads",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/133-双栏版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/133-双栏版式.png"
+  },
+  {
+    "id": "134",
+    "name": "多栏版式",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "分栏、跨页与出血",
+    "subcategory_slug": "columns-spreads",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/134-多栏版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/134-多栏版式.png"
+  },
+  {
+    "id": "135",
+    "name": "对称跨页",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "分栏、跨页与出血",
+    "subcategory_slug": "columns-spreads",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/135-对称跨页.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/135-对称跨页.png"
+  },
+  {
+    "id": "136",
+    "name": "非对称跨页",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "分栏、跨页与出血",
+    "subcategory_slug": "columns-spreads",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/136-非对称跨页.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/136-非对称跨页.png"
+  },
+  {
+    "id": "137",
+    "name": "通版跨页",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "分栏、跨页与出血",
+    "subcategory_slug": "columns-spreads",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/137-通版跨页.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/137-通版跨页.png"
+  },
+  {
+    "id": "138",
+    "name": "满出血版式",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "分栏、跨页与出血",
+    "subcategory_slug": "columns-spreads",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/138-满出血版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/138-满出血版式.png"
+  },
+  {
+    "id": "139",
+    "name": "无出血版式",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "分栏、跨页与出血",
+    "subcategory_slug": "columns-spreads",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/139-无出血版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/139-无出血版式.png"
+  },
+  {
+    "id": "140",
+    "name": "图片主导版式",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "图文主导与表现型版式",
+    "subcategory_slug": "expressive-layouts",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/140-图片主导版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/140-图片主导版式.png"
+  },
+  {
+    "id": "141",
+    "name": "文字主导版式",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "图文主导与表现型版式",
+    "subcategory_slug": "expressive-layouts",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/141-文字主导版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/141-文字主导版式.png"
+  },
+  {
+    "id": "142",
+    "name": "大标题版式",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "图文主导与表现型版式",
+    "subcategory_slug": "expressive-layouts",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/142-大标题版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/142-大标题版式.png"
+  },
+  {
+    "id": "143",
+    "name": "图片窗口版式",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "图文主导与表现型版式",
+    "subcategory_slug": "expressive-layouts",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/143-图片窗口版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/143-图片窗口版式.png"
+  },
+  {
+    "id": "144",
+    "name": "框架版式",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "图文主导与表现型版式",
+    "subcategory_slug": "expressive-layouts",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/144-框架版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/144-框架版式.png"
+  },
+  {
+    "id": "145",
+    "name": "多面板版式",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "图文主导与表现型版式",
+    "subcategory_slug": "expressive-layouts",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/145-多面板版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/145-多面板版式.png"
+  },
+  {
+    "id": "146",
+    "name": "蒙德里安版式",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "图文主导与表现型版式",
+    "subcategory_slug": "expressive-layouts",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/146-蒙德里安版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/146-蒙德里安版式.png"
+  },
+  {
+    "id": "147",
+    "name": "马戏团版式",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "图文主导与表现型版式",
+    "subcategory_slug": "expressive-layouts",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/147-马戏团版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/147-马戏团版式.png"
+  },
+  {
+    "id": "148",
+    "name": "剪影版式",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "图文主导与表现型版式",
+    "subcategory_slug": "expressive-layouts",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/148-剪影版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/148-剪影版式.png"
+  },
+  {
+    "id": "149",
+    "name": "字母造型版式",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "图文主导与表现型版式",
+    "subcategory_slug": "expressive-layouts",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/149-字母造型版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/149-字母造型版式.png"
+  },
+  {
+    "id": "150",
+    "name": "图文谜语版式",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "图文主导与表现型版式",
+    "subcategory_slug": "expressive-layouts",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/150-图文谜语版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/150-图文谜语版式.png"
+  },
+  {
+    "id": "151",
+    "name": "拼贴版式",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "图文主导与表现型版式",
+    "subcategory_slug": "expressive-layouts",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/151-拼贴版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/151-拼贴版式.png"
+  },
+  {
+    "id": "152",
+    "name": "蒙太奇版式",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "图文主导与表现型版式",
+    "subcategory_slug": "expressive-layouts",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/152-蒙太奇版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/152-蒙太奇版式.png"
+  },
+  {
+    "id": "153",
+    "name": "模块化页面",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "模块、侧栏与图文关系",
+    "subcategory_slug": "modules-annotations",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/153-模块化页面.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/153-模块化页面.png"
+  },
+  {
+    "id": "154",
+    "name": "区块式版式",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "模块、侧栏与图文关系",
+    "subcategory_slug": "modules-annotations",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/154-区块式版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/154-区块式版式.png"
+  },
+  {
+    "id": "155",
+    "name": "插页式版式",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "模块、侧栏与图文关系",
+    "subcategory_slug": "modules-annotations",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/155-插页式版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/155-插页式版式.png"
+  },
+  {
+    "id": "156",
+    "name": "侧栏版式",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "模块、侧栏与图文关系",
+    "subcategory_slug": "modules-annotations",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/156-侧栏版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/156-侧栏版式.png"
+  },
+  {
+    "id": "157",
+    "name": "边注版式",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "模块、侧栏与图文关系",
+    "subcategory_slug": "modules-annotations",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/157-边注版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/157-边注版式.png"
+  },
+  {
+    "id": "158",
+    "name": "环绕图版式",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "模块、侧栏与图文关系",
+    "subcategory_slug": "modules-annotations",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/158-环绕图版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/158-环绕图版式.png"
+  },
+  {
+    "id": "159",
+    "name": "浮动块版式",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "模块、侧栏与图文关系",
+    "subcategory_slug": "modules-annotations",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/159-浮动块版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/159-浮动块版式.png"
+  },
+  {
+    "id": "160",
+    "name": "封面版式",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "出版功能页面",
+    "subcategory_slug": "editorial-pages",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/160-封面版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/160-封面版式.png"
+  },
+  {
+    "id": "161",
+    "name": "章节扉页",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "出版功能页面",
+    "subcategory_slug": "editorial-pages",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/161-章节扉页.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/161-章节扉页.png"
+  },
+  {
+    "id": "162",
+    "name": "栏目开启页",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "出版功能页面",
+    "subcategory_slug": "editorial-pages",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/162-栏目开启页.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/162-栏目开启页.png"
+  },
+  {
+    "id": "163",
+    "name": "特写跨页",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "出版功能页面",
+    "subcategory_slug": "editorial-pages",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/163-特写跨页.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/163-特写跨页.png"
+  },
+  {
+    "id": "164",
+    "name": "目录版式",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "出版功能页面",
+    "subcategory_slug": "editorial-pages",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/164-目录版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/164-目录版式.png"
+  },
+  {
+    "id": "165",
+    "name": "索引版式",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "出版功能页面",
+    "subcategory_slug": "editorial-pages",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/165-索引版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/165-索引版式.png"
+  },
+  {
+    "id": "166",
+    "name": "图录版式",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "出版功能页面",
+    "subcategory_slug": "editorial-pages",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/166-图录版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/166-图录版式.png"
+  },
+  {
+    "id": "167",
+    "name": "引语主导版式",
+    "category": "平面、出版与广告",
+    "category_slug": "03-editorial-advertising",
+    "subcategory": "出版功能页面",
+    "subcategory_slug": "editorial-pages",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/03-editorial-advertising/167-引语主导版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/03-editorial-advertising/167-引语主导版式.png"
+  },
+  {
+    "id": "168",
+    "name": "轴线系统",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "字体组织系统",
+    "subcategory_slug": "type-systems",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/168-轴线系统.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/168-轴线系统.png"
+  },
+  {
+    "id": "169",
+    "name": "放射系统",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "字体组织系统",
+    "subcategory_slug": "type-systems",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/169-放射系统.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/169-放射系统.png"
+  },
+  {
+    "id": "170",
+    "name": "扩张系统",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "字体组织系统",
+    "subcategory_slug": "type-systems",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/170-扩张系统.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/170-扩张系统.png"
+  },
+  {
+    "id": "171",
+    "name": "随机系统",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "字体组织系统",
+    "subcategory_slug": "type-systems",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/171-随机系统.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/171-随机系统.png"
+  },
+  {
+    "id": "172",
+    "name": "网格系统",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "字体组织系统",
+    "subcategory_slug": "type-systems",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/172-网格系统.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/172-网格系统.png"
+  },
+  {
+    "id": "173",
+    "name": "模块系统",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "字体组织系统",
+    "subcategory_slug": "type-systems",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/173-模块系统.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/173-模块系统.png"
+  },
+  {
+    "id": "174",
+    "name": "过渡系统",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "字体组织系统",
+    "subcategory_slug": "type-systems",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/174-过渡系统.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/174-过渡系统.png"
+  },
+  {
+    "id": "175",
+    "name": "双边系统",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "字体组织系统",
+    "subcategory_slug": "type-systems",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/175-双边系统.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/175-双边系统.png"
+  },
+  {
+    "id": "176",
+    "name": "左对齐右参差",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "对齐、缩进与文字造型",
+    "subcategory_slug": "typesetting",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/176-左对齐右参差.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/176-左对齐右参差.png"
+  },
+  {
+    "id": "177",
+    "name": "右对齐左参差",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "对齐、缩进与文字造型",
+    "subcategory_slug": "typesetting",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/177-右对齐左参差.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/177-右对齐左参差.png"
+  },
+  {
+    "id": "178",
+    "name": "居中排版",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "对齐、缩进与文字造型",
+    "subcategory_slug": "typesetting",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/178-居中排版.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/178-居中排版.png"
+  },
+  {
+    "id": "179",
+    "name": "两端对齐",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "对齐、缩进与文字造型",
+    "subcategory_slug": "typesetting",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/179-两端对齐.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/179-两端对齐.png"
+  },
+  {
+    "id": "180",
+    "name": "强制两端对齐",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "对齐、缩进与文字造型",
+    "subcategory_slug": "typesetting",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/180-强制两端对齐.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/180-强制两端对齐.png"
+  },
+  {
+    "id": "181",
+    "name": "非对称字体排版",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "对齐、缩进与文字造型",
+    "subcategory_slug": "typesetting",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/181-非对称字体排版.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/181-非对称字体排版.png"
+  },
+  {
+    "id": "182",
+    "name": "轮廓绕排",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "对齐、缩进与文字造型",
+    "subcategory_slug": "typesetting",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/182-轮廓绕排.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/182-轮廓绕排.png"
+  },
+  {
+    "id": "183",
+    "name": "矩形绕排",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "对齐、缩进与文字造型",
+    "subcategory_slug": "typesetting",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/183-矩形绕排.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/183-矩形绕排.png"
+  },
+  {
+    "id": "184",
+    "name": "跨栏标题",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "对齐、缩进与文字造型",
+    "subcategory_slug": "typesetting",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/184-跨栏标题.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/184-跨栏标题.png"
+  },
+  {
+    "id": "185",
+    "name": "悬挂缩进",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "对齐、缩进与文字造型",
+    "subcategory_slug": "typesetting",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/185-悬挂缩进.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/185-悬挂缩进.png"
+  },
+  {
+    "id": "186",
+    "name": "首行缩进",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "对齐、缩进与文字造型",
+    "subcategory_slug": "typesetting",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/186-首行缩进.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/186-首行缩进.png"
+  },
+  {
+    "id": "187",
+    "name": "凸排标点",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "对齐、缩进与文字造型",
+    "subcategory_slug": "typesetting",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/187-凸排标点.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/187-凸排标点.png"
+  },
+  {
+    "id": "188",
+    "name": "基线对齐",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "对齐、缩进与文字造型",
+    "subcategory_slug": "typesetting",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/188-基线对齐.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/188-基线对齐.png"
+  },
+  {
+    "id": "189",
+    "name": "形状文字",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "对齐、缩进与文字造型",
+    "subcategory_slug": "typesetting",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/189-形状文字.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/189-形状文字.png"
+  },
+  {
+    "id": "190",
+    "name": "图形诗排版",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "对齐、缩进与文字造型",
+    "subcategory_slug": "typesetting",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/190-图形诗排版.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/190-图形诗排版.png"
+  },
+  {
+    "id": "191",
+    "name": "路径文字",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "对齐、缩进与文字造型",
+    "subcategory_slug": "typesetting",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/191-路径文字.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/191-路径文字.png"
+  },
+  {
+    "id": "192",
+    "name": "垂直文字排版",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "对齐、缩进与文字造型",
+    "subcategory_slug": "typesetting",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/192-垂直文字排版.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/192-垂直文字排版.png"
+  },
+  {
+    "id": "193",
+    "name": "水平文字排版",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "对齐、缩进与文字造型",
+    "subcategory_slug": "typesetting",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/193-水平文字排版.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/193-水平文字排版.png"
+  },
+  {
+    "id": "194",
+    "name": "手稿网格",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "网格系统",
+    "subcategory_slug": "grid-systems",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/194-手稿网格.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/194-手稿网格.png"
+  },
+  {
+    "id": "195",
+    "name": "分栏网格",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "网格系统",
+    "subcategory_slug": "grid-systems",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/195-分栏网格.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/195-分栏网格.png"
+  },
+  {
+    "id": "196",
+    "name": "模块化网格",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "网格系统",
+    "subcategory_slug": "grid-systems",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/196-模块化网格.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/196-模块化网格.png"
+  },
+  {
+    "id": "197",
+    "name": "层级网格",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "网格系统",
+    "subcategory_slug": "grid-systems",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/197-层级网格.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/197-层级网格.png"
+  },
+  {
+    "id": "198",
+    "name": "基线网格",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "网格系统",
+    "subcategory_slug": "grid-systems",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/198-基线网格.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/198-基线网格.png"
+  },
+  {
+    "id": "199",
+    "name": "复合网格",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "网格系统",
+    "subcategory_slug": "grid-systems",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/199-复合网格.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/199-复合网格.png"
+  },
+  {
+    "id": "200",
+    "name": "非对称网格",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "网格系统",
+    "subcategory_slug": "grid-systems",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/200-非对称网格.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/200-非对称网格.png"
+  },
+  {
+    "id": "201",
+    "name": "方格网格",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "网格系统",
+    "subcategory_slug": "grid-systems",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/201-方格网格.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/201-方格网格.png"
+  },
+  {
+    "id": "202",
+    "name": "等距网格",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "网格系统",
+    "subcategory_slug": "grid-systems",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/202-等距网格.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/202-等距网格.png"
+  },
+  {
+    "id": "203",
+    "name": "放射网格",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "网格系统",
+    "subcategory_slug": "grid-systems",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/203-放射网格.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/203-放射网格.png"
+  },
+  {
+    "id": "204",
+    "name": "极坐标网格",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "网格系统",
+    "subcategory_slug": "grid-systems",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/204-极坐标网格.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/204-极坐标网格.png"
+  },
+  {
+    "id": "205",
+    "name": "嵌套网格",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "网格系统",
+    "subcategory_slug": "grid-systems",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/205-嵌套网格.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/205-嵌套网格.png"
+  },
+  {
+    "id": "206",
+    "name": "子网格",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "网格系统",
+    "subcategory_slug": "grid-systems",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/206-子网格.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/206-子网格.png"
+  },
+  {
+    "id": "207",
+    "name": "固定网格",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "网格系统",
+    "subcategory_slug": "grid-systems",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/207-固定网格.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/207-固定网格.png"
+  },
+  {
+    "id": "208",
+    "name": "流体网格",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "网格系统",
+    "subcategory_slug": "grid-systems",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/208-流体网格.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/208-流体网格.png"
+  },
+  {
+    "id": "209",
+    "name": "响应式网格",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "网格系统",
+    "subcategory_slug": "grid-systems",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/209-响应式网格.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/209-响应式网格.png"
+  },
+  {
+    "id": "210",
+    "name": "破格网格",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "网格系统",
+    "subcategory_slug": "grid-systems",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/210-破格网格.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/210-破格网格.png"
+  },
+  {
+    "id": "211",
+    "name": "解构网格",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "网格系统",
+    "subcategory_slug": "grid-systems",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/211-解构网格.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/211-解构网格.png"
+  },
+  {
+    "id": "212",
+    "name": "横排左起",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "东亚文字与混排",
+    "subcategory_slug": "cjk-writing",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/212-横排左起.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/212-横排左起.png"
+  },
+  {
+    "id": "213",
+    "name": "横排右起",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "东亚文字与混排",
+    "subcategory_slug": "cjk-writing",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/213-横排右起.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/213-横排右起.png"
+  },
+  {
+    "id": "214",
+    "name": "直排右起",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "东亚文字与混排",
+    "subcategory_slug": "cjk-writing",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/214-直排右起.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/214-直排右起.png"
+  },
+  {
+    "id": "215",
+    "name": "直排左起",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "东亚文字与混排",
+    "subcategory_slug": "cjk-writing",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/215-直排左起.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/215-直排左起.png"
+  },
+  {
+    "id": "216",
+    "name": "横直混排",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "东亚文字与混排",
+    "subcategory_slug": "cjk-writing",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/216-横直混排.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/216-横直混排.png"
+  },
+  {
+    "id": "217",
+    "name": "纵中横排",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "东亚文字与混排",
+    "subcategory_slug": "cjk-writing",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/217-纵中横排.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/217-纵中横排.png"
+  },
+  {
+    "id": "218",
+    "name": "直排中西文转向",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "东亚文字与混排",
+    "subcategory_slug": "cjk-writing",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/218-直排中西文转向.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/218-直排中西文转向.png"
+  },
+  {
+    "id": "219",
+    "name": "直排中西文直立",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "东亚文字与混排",
+    "subcategory_slug": "cjk-writing",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/219-直排中西文直立.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/219-直排中西文直立.png"
+  },
+  {
+    "id": "220",
+    "name": "双向文字排版",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "东亚文字与混排",
+    "subcategory_slug": "cjk-writing",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/220-双向文字排版.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/220-双向文字排版.png"
+  },
+  {
+    "id": "221",
+    "name": "旁注（Ruby）排版",
+    "category": "字体、网格与东亚文字",
+    "category_slug": "04-type-grid-cjk",
+    "subcategory": "东亚文字与混排",
+    "subcategory_slug": "cjk-writing",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/04-type-grid-cjk/221-旁注（Ruby）排版.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/04-type-grid-cjk/221-旁注（Ruby）排版.png"
+  },
+  {
+    "id": "222",
+    "name": "普通流布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "CSS 流、定位与响应",
+    "subcategory_slug": "css-layout",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/222-普通流布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/222-普通流布局.png"
+  },
+  {
+    "id": "223",
+    "name": "块级布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "CSS 流、定位与响应",
+    "subcategory_slug": "css-layout",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/223-块级布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/223-块级布局.png"
+  },
+  {
+    "id": "224",
+    "name": "行内布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "CSS 流、定位与响应",
+    "subcategory_slug": "css-layout",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/224-行内布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/224-行内布局.png"
+  },
+  {
+    "id": "225",
+    "name": "流根布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "CSS 流、定位与响应",
+    "subcategory_slug": "css-layout",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/225-流根布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/225-流根布局.png"
+  },
+  {
+    "id": "226",
+    "name": "弹性盒布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "CSS 流、定位与响应",
+    "subcategory_slug": "css-layout",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/226-弹性盒布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/226-弹性盒布局.png"
+  },
+  {
+    "id": "227",
+    "name": "网格布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "CSS 流、定位与响应",
+    "subcategory_slug": "css-layout",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/227-网格布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/227-网格布局.png"
+  },
+  {
+    "id": "228",
+    "name": "子网格布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "CSS 流、定位与响应",
+    "subcategory_slug": "css-layout",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/228-子网格布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/228-子网格布局.png"
+  },
+  {
+    "id": "229",
+    "name": "多栏布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "CSS 流、定位与响应",
+    "subcategory_slug": "css-layout",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/229-多栏布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/229-多栏布局.png"
+  },
+  {
+    "id": "230",
+    "name": "表格布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "CSS 流、定位与响应",
+    "subcategory_slug": "css-layout",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/230-表格布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/230-表格布局.png"
+  },
+  {
+    "id": "231",
+    "name": "浮动布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "CSS 流、定位与响应",
+    "subcategory_slug": "css-layout",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/231-浮动布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/231-浮动布局.png"
+  },
+  {
+    "id": "232",
+    "name": "相对定位布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "CSS 流、定位与响应",
+    "subcategory_slug": "css-layout",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/232-相对定位布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/232-相对定位布局.png"
+  },
+  {
+    "id": "233",
+    "name": "绝对定位布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "CSS 流、定位与响应",
+    "subcategory_slug": "css-layout",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/233-绝对定位布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/233-绝对定位布局.png"
+  },
+  {
+    "id": "234",
+    "name": "固定定位布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "CSS 流、定位与响应",
+    "subcategory_slug": "css-layout",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/234-固定定位布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/234-固定定位布局.png"
+  },
+  {
+    "id": "235",
+    "name": "粘性定位布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "CSS 流、定位与响应",
+    "subcategory_slug": "css-layout",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/235-粘性定位布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/235-粘性定位布局.png"
+  },
+  {
+    "id": "236",
+    "name": "瀑布流布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "CSS 流、定位与响应",
+    "subcategory_slug": "css-layout",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/236-瀑布流布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/236-瀑布流布局.png"
+  },
+  {
+    "id": "237",
+    "name": "覆盖布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "CSS 流、定位与响应",
+    "subcategory_slug": "css-layout",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/237-覆盖布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/237-覆盖布局.png"
+  },
+  {
+    "id": "238",
+    "name": "固定宽度布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "CSS 流、定位与响应",
+    "subcategory_slug": "css-layout",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/238-固定宽度布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/238-固定宽度布局.png"
+  },
+  {
+    "id": "239",
+    "name": "流体布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "CSS 流、定位与响应",
+    "subcategory_slug": "css-layout",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/239-流体布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/239-流体布局.png"
+  },
+  {
+    "id": "240",
+    "name": "响应式布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "CSS 流、定位与响应",
+    "subcategory_slug": "css-layout",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/240-响应式布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/240-响应式布局.png"
+  },
+  {
+    "id": "241",
+    "name": "自适应布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "CSS 流、定位与响应",
+    "subcategory_slug": "css-layout",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/241-自适应布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/241-自适应布局.png"
+  },
+  {
+    "id": "242",
+    "name": "容器查询布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "CSS 流、定位与响应",
+    "subcategory_slug": "css-layout",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/242-容器查询布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/242-容器查询布局.png"
+  },
+  {
+    "id": "243",
+    "name": "堆栈",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "布局原语",
+    "subcategory_slug": "layout-primitives",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/243-堆栈.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/243-堆栈.png"
+  },
+  {
+    "id": "244",
+    "name": "盒子",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "布局原语",
+    "subcategory_slug": "layout-primitives",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/244-盒子.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/244-盒子.png"
+  },
+  {
+    "id": "245",
+    "name": "居中器",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "布局原语",
+    "subcategory_slug": "layout-primitives",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/245-居中器.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/245-居中器.png"
+  },
+  {
+    "id": "246",
+    "name": "簇群",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "布局原语",
+    "subcategory_slug": "layout-primitives",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/246-簇群.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/246-簇群.png"
+  },
+  {
+    "id": "247",
+    "name": "侧栏原语",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "布局原语",
+    "subcategory_slug": "layout-primitives",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/247-侧栏原语.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/247-侧栏原语.png"
+  },
+  {
+    "id": "248",
+    "name": "切换器",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "布局原语",
+    "subcategory_slug": "layout-primitives",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/248-切换器.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/248-切换器.png"
+  },
+  {
+    "id": "249",
+    "name": "封面原语",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "布局原语",
+    "subcategory_slug": "layout-primitives",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/249-封面原语.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/249-封面原语.png"
+  },
+  {
+    "id": "250",
+    "name": "自适应网格原语",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "布局原语",
+    "subcategory_slug": "layout-primitives",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/250-自适应网格原语.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/250-自适应网格原语.png"
+  },
+  {
+    "id": "251",
+    "name": "比例框",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "布局原语",
+    "subcategory_slug": "layout-primitives",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/251-比例框.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/251-比例框.png"
+  },
+  {
+    "id": "252",
+    "name": "横向卷轴",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "布局原语",
+    "subcategory_slug": "layout-primitives",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/252-横向卷轴.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/252-横向卷轴.png"
+  },
+  {
+    "id": "253",
+    "name": "悬浮层",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "布局原语",
+    "subcategory_slug": "layout-primitives",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/253-悬浮层.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/253-悬浮层.png"
+  },
+  {
+    "id": "254",
+    "name": "图标文字组合",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "布局原语",
+    "subcategory_slug": "layout-primitives",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/254-图标文字组合.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/254-图标文字组合.png"
+  },
+  {
+    "id": "255",
+    "name": "单列页面",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "页面框架与导航",
+    "subcategory_slug": "page-navigation",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/255-单列页面.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/255-单列页面.png"
+  },
+  {
+    "id": "256",
+    "name": "双列页面",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "页面框架与导航",
+    "subcategory_slug": "page-navigation",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/256-双列页面.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/256-双列页面.png"
+  },
+  {
+    "id": "257",
+    "name": "三列页面",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "页面框架与导航",
+    "subcategory_slug": "page-navigation",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/257-三列页面.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/257-三列页面.png"
+  },
+  {
+    "id": "258",
+    "name": "侧边栏页面",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "页面框架与导航",
+    "subcategory_slug": "page-navigation",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/258-侧边栏页面.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/258-侧边栏页面.png"
+  },
+  {
+    "id": "259",
+    "name": "分屏布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "页面框架与导航",
+    "subcategory_slug": "page-navigation",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/259-分屏布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/259-分屏布局.png"
+  },
+  {
+    "id": "260",
+    "name": "圣杯布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "页面框架与导航",
+    "subcategory_slug": "page-navigation",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/260-圣杯布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/260-圣杯布局.png"
+  },
+  {
+    "id": "261",
+    "name": "页眉—主体—页脚",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "页面框架与导航",
+    "subcategory_slug": "page-navigation",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/261-页眉—主体—页脚.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/261-页眉—主体—页脚.png"
+  },
+  {
+    "id": "262",
+    "name": "顶部导航布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "页面框架与导航",
+    "subcategory_slug": "page-navigation",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/262-顶部导航布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/262-顶部导航布局.png"
+  },
+  {
+    "id": "263",
+    "name": "导航抽屉布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "页面框架与导航",
+    "subcategory_slug": "page-navigation",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/263-导航抽屉布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/263-导航抽屉布局.png"
+  },
+  {
+    "id": "264",
+    "name": "底部导航布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "页面框架与导航",
+    "subcategory_slug": "page-navigation",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/264-底部导航布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/264-底部导航布局.png"
+  },
+  {
+    "id": "265",
+    "name": "标签页布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "页面框架与导航",
+    "subcategory_slug": "page-navigation",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/265-标签页布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/265-标签页布局.png"
+  },
+  {
+    "id": "266",
+    "name": "手风琴布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "页面框架与导航",
+    "subcategory_slug": "page-navigation",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/266-手风琴布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/266-手风琴布局.png"
+  },
+  {
+    "id": "267",
+    "name": "列表—详情布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "页面框架与导航",
+    "subcategory_slug": "page-navigation",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/267-列表—详情布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/267-列表—详情布局.png"
+  },
+  {
+    "id": "268",
+    "name": "辅助窗格布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "页面框架与导航",
+    "subcategory_slug": "page-navigation",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/268-辅助窗格布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/268-辅助窗格布局.png"
+  },
+  {
+    "id": "269",
+    "name": "信息流布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "内容与产品模式",
+    "subcategory_slug": "product-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/269-信息流布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/269-信息流布局.png"
+  },
+  {
+    "id": "270",
+    "name": "卡片网格布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "内容与产品模式",
+    "subcategory_slug": "product-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/270-卡片网格布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/270-卡片网格布局.png"
+  },
+  {
+    "id": "271",
+    "name": "瀑布流页面",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "内容与产品模式",
+    "subcategory_slug": "product-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/271-瀑布流页面.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/271-瀑布流页面.png"
+  },
+  {
+    "id": "272",
+    "name": "便当盒布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "内容与产品模式",
+    "subcategory_slug": "product-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/272-便当盒布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/272-便当盒布局.png"
+  },
+  {
+    "id": "273",
+    "name": "仪表盘布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "内容与产品模式",
+    "subcategory_slug": "product-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/273-仪表盘布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/273-仪表盘布局.png"
+  },
+  {
+    "id": "274",
+    "name": "数据表格布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "内容与产品模式",
+    "subcategory_slug": "product-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/274-数据表格布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/274-数据表格布局.png"
+  },
+  {
+    "id": "275",
+    "name": "画廊布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "内容与产品模式",
+    "subcategory_slug": "product-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/275-画廊布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/275-画廊布局.png"
+  },
+  {
+    "id": "276",
+    "name": "轮播布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "内容与产品模式",
+    "subcategory_slug": "product-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/276-轮播布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/276-轮播布局.png"
+  },
+  {
+    "id": "277",
+    "name": "时间线布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "内容与产品模式",
+    "subcategory_slug": "product-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/277-时间线布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/277-时间线布局.png"
+  },
+  {
+    "id": "278",
+    "name": "看板布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "内容与产品模式",
+    "subcategory_slug": "product-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/278-看板布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/278-看板布局.png"
+  },
+  {
+    "id": "279",
+    "name": "日历布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "内容与产品模式",
+    "subcategory_slug": "product-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/279-日历布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/279-日历布局.png"
+  },
+  {
+    "id": "280",
+    "name": "树形浏览布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "内容与产品模式",
+    "subcategory_slug": "product-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/280-树形浏览布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/280-树形浏览布局.png"
+  },
+  {
+    "id": "281",
+    "name": "对话布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "内容与产品模式",
+    "subcategory_slug": "product-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/281-对话布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/281-对话布局.png"
+  },
+  {
+    "id": "282",
+    "name": "地图主导布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "内容与产品模式",
+    "subcategory_slug": "product-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/282-地图主导布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/282-地图主导布局.png"
+  },
+  {
+    "id": "283",
+    "name": "画布工作区布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "内容与产品模式",
+    "subcategory_slug": "product-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/283-画布工作区布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/283-画布工作区布局.png"
+  },
+  {
+    "id": "284",
+    "name": "表单布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "内容与产品模式",
+    "subcategory_slug": "product-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/284-表单布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/284-表单布局.png"
+  },
+  {
+    "id": "285",
+    "name": "分步表单",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "内容与产品模式",
+    "subcategory_slug": "product-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/285-分步表单.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/285-分步表单.png"
+  },
+  {
+    "id": "286",
+    "name": "搜索结果布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "内容与产品模式",
+    "subcategory_slug": "product-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/286-搜索结果布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/286-搜索结果布局.png"
+  },
+  {
+    "id": "287",
+    "name": "设置页面布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "内容与产品模式",
+    "subcategory_slug": "product-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/287-设置页面布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/287-设置页面布局.png"
+  },
+  {
+    "id": "288",
+    "name": "媒体对象布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "内容与产品模式",
+    "subcategory_slug": "product-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/288-媒体对象布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/288-媒体对象布局.png"
+  },
+  {
+    "id": "289",
+    "name": "Hero 主视觉布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "内容与产品模式",
+    "subcategory_slug": "product-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/289-Hero 主视觉布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/289-Hero 主视觉布局.png"
+  },
+  {
+    "id": "290",
+    "name": "分层导航布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "内容与产品模式",
+    "subcategory_slug": "product-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/290-分层导航布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/290-分层导航布局.png"
+  },
+  {
+    "id": "291",
+    "name": "大体流动模式",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "响应式重排模式",
+    "subcategory_slug": "responsive-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/291-大体流动模式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/291-大体流动模式.png"
+  },
+  {
+    "id": "292",
+    "name": "列下落模式",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "响应式重排模式",
+    "subcategory_slug": "responsive-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/292-列下落模式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/292-列下落模式.png"
+  },
+  {
+    "id": "293",
+    "name": "布局切换模式",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "响应式重排模式",
+    "subcategory_slug": "responsive-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/293-布局切换模式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/293-布局切换模式.png"
+  },
+  {
+    "id": "294",
+    "name": "微调模式",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "响应式重排模式",
+    "subcategory_slug": "responsive-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/294-微调模式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/294-微调模式.png"
+  },
+  {
+    "id": "295",
+    "name": "画布外模式",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "响应式重排模式",
+    "subcategory_slug": "responsive-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/295-画布外模式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/295-画布外模式.png"
+  },
+  {
+    "id": "296",
+    "name": "堆叠重排",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "响应式重排模式",
+    "subcategory_slug": "responsive-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/296-堆叠重排.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/296-堆叠重排.png"
+  },
+  {
+    "id": "297",
+    "name": "顺序重排",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "响应式重排模式",
+    "subcategory_slug": "responsive-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/297-顺序重排.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/297-顺序重排.png"
+  },
+  {
+    "id": "298",
+    "name": "折叠双窗格",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "响应式重排模式",
+    "subcategory_slug": "responsive-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/298-折叠双窗格.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/298-折叠双窗格.png"
+  },
+  {
+    "id": "299",
+    "name": "自适应网格",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "响应式重排模式",
+    "subcategory_slug": "responsive-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/299-自适应网格.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/299-自适应网格.png"
+  },
+  {
+    "id": "300",
+    "name": "组件级响应布局",
+    "category": "网页与 UI",
+    "category_slug": "05-web-ui",
+    "subcategory": "响应式重排模式",
+    "subcategory_slug": "responsive-patterns",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/05-web-ui/300-组件级响应布局.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/05-web-ui/300-组件级响应布局.png"
+  },
+  {
+    "id": "301",
+    "name": "单人构图",
+    "category": "影视画面构图",
+    "category_slug": "06-film-frame",
+    "subcategory": "人物数量与群像",
+    "subcategory_slug": "subject-count",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/06-film-frame/301-单人构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/06-film-frame/301-单人构图.png"
+  },
+  {
+    "id": "302",
+    "name": "双人构图",
+    "category": "影视画面构图",
+    "category_slug": "06-film-frame",
+    "subcategory": "人物数量与群像",
+    "subcategory_slug": "subject-count",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/06-film-frame/302-双人构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/06-film-frame/302-双人构图.png"
+  },
+  {
+    "id": "303",
+    "name": "三人构图",
+    "category": "影视画面构图",
+    "category_slug": "06-film-frame",
+    "subcategory": "人物数量与群像",
+    "subcategory_slug": "subject-count",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/06-film-frame/303-三人构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/06-film-frame/303-三人构图.png"
+  },
+  {
+    "id": "304",
+    "name": "群像构图",
+    "category": "影视画面构图",
+    "category_slug": "06-film-frame",
+    "subcategory": "人物数量与群像",
+    "subcategory_slug": "subject-count",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/06-film-frame/304-群像构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/06-film-frame/304-群像构图.png"
+  },
+  {
+    "id": "305",
+    "name": "过肩构图",
+    "category": "影视画面构图",
+    "category_slug": "06-film-frame",
+    "subcategory": "视角与镜头覆盖",
+    "subcategory_slug": "viewpoint-coverage",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/06-film-frame/305-过肩构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/06-film-frame/305-过肩构图.png"
+  },
+  {
+    "id": "306",
+    "name": "主观视角构图",
+    "category": "影视画面构图",
+    "category_slug": "06-film-frame",
+    "subcategory": "视角与镜头覆盖",
+    "subcategory_slug": "viewpoint-coverage",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/06-film-frame/306-主观视角构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/06-film-frame/306-主观视角构图.png"
+  },
+  {
+    "id": "307",
+    "name": "客观视角构图",
+    "category": "影视画面构图",
+    "category_slug": "06-film-frame",
+    "subcategory": "视角与镜头覆盖",
+    "subcategory_slug": "viewpoint-coverage",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/06-film-frame/307-客观视角构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/06-film-frame/307-客观视角构图.png"
+  },
+  {
+    "id": "308",
+    "name": "净单人镜头",
+    "category": "影视画面构图",
+    "category_slug": "06-film-frame",
+    "subcategory": "视角与镜头覆盖",
+    "subcategory_slug": "viewpoint-coverage",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/06-film-frame/308-净单人镜头.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/06-film-frame/308-净单人镜头.png"
+  },
+  {
+    "id": "309",
+    "name": "脏单人镜头",
+    "category": "影视画面构图",
+    "category_slug": "06-film-frame",
+    "subcategory": "视角与镜头覆盖",
+    "subcategory_slug": "viewpoint-coverage",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/06-film-frame/309-脏单人镜头.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/06-film-frame/309-脏单人镜头.png"
+  },
+  {
+    "id": "310",
+    "name": "深度调度",
+    "category": "影视画面构图",
+    "category_slug": "06-film-frame",
+    "subcategory": "场面调度与景深",
+    "subcategory_slug": "blocking-depth",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/06-film-frame/310-深度调度.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/06-film-frame/310-深度调度.png"
+  },
+  {
+    "id": "311",
+    "name": "平面调度",
+    "category": "影视画面构图",
+    "category_slug": "06-film-frame",
+    "subcategory": "场面调度与景深",
+    "subcategory_slug": "blocking-depth",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/06-film-frame/311-平面调度.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/06-film-frame/311-平面调度.png"
+  },
+  {
+    "id": "312",
+    "name": "三角调度",
+    "category": "影视画面构图",
+    "category_slug": "06-film-frame",
+    "subcategory": "场面调度与景深",
+    "subcategory_slug": "blocking-depth",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/06-film-frame/312-三角调度.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/06-film-frame/312-三角调度.png"
+  },
+  {
+    "id": "313",
+    "name": "横向调度",
+    "category": "影视画面构图",
+    "category_slug": "06-film-frame",
+    "subcategory": "场面调度与景深",
+    "subcategory_slug": "blocking-depth",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/06-film-frame/313-横向调度.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/06-film-frame/313-横向调度.png"
+  },
+  {
+    "id": "314",
+    "name": "多层前景调度",
+    "category": "影视画面构图",
+    "category_slug": "06-film-frame",
+    "subcategory": "场面调度与景深",
+    "subcategory_slug": "blocking-depth",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/06-film-frame/314-多层前景调度.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/06-film-frame/314-多层前景调度.png"
+  },
+  {
+    "id": "315",
+    "name": "高远法",
+    "category": "中国传统构图",
+    "category_slug": "07-chinese-composition",
+    "subcategory": "三远、透视与游观",
+    "subcategory_slug": "perspective-roaming",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/07-chinese-composition/315-高远法.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/07-chinese-composition/315-高远法.png"
+  },
+  {
+    "id": "316",
+    "name": "深远法",
+    "category": "中国传统构图",
+    "category_slug": "07-chinese-composition",
+    "subcategory": "三远、透视与游观",
+    "subcategory_slug": "perspective-roaming",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/07-chinese-composition/316-深远法.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/07-chinese-composition/316-深远法.png"
+  },
+  {
+    "id": "317",
+    "name": "平远法",
+    "category": "中国传统构图",
+    "category_slug": "07-chinese-composition",
+    "subcategory": "三远、透视与游观",
+    "subcategory_slug": "perspective-roaming",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/07-chinese-composition/317-平远法.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/07-chinese-composition/317-平远法.png"
+  },
+  {
+    "id": "318",
+    "name": "三远综合构图",
+    "category": "中国传统构图",
+    "category_slug": "07-chinese-composition",
+    "subcategory": "三远、透视与游观",
+    "subcategory_slug": "perspective-roaming",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/07-chinese-composition/318-三远综合构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/07-chinese-composition/318-三远综合构图.png"
+  },
+  {
+    "id": "319",
+    "name": "散点透视",
+    "category": "中国传统构图",
+    "category_slug": "07-chinese-composition",
+    "subcategory": "三远、透视与游观",
+    "subcategory_slug": "perspective-roaming",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/07-chinese-composition/319-散点透视.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/07-chinese-composition/319-散点透视.png"
+  },
+  {
+    "id": "320",
+    "name": "游观式构图",
+    "category": "中国传统构图",
+    "category_slug": "07-chinese-composition",
+    "subcategory": "三远、透视与游观",
+    "subcategory_slug": "perspective-roaming",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/07-chinese-composition/320-游观式构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/07-chinese-composition/320-游观式构图.png"
+  },
+  {
+    "id": "321",
+    "name": "全景式构图",
+    "category": "中国传统构图",
+    "category_slug": "07-chinese-composition",
+    "subcategory": "取景与景式",
+    "subcategory_slug": "scene-framing",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/07-chinese-composition/321-全景式构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/07-chinese-composition/321-全景式构图.png"
+  },
+  {
+    "id": "322",
+    "name": "一河两岸式",
+    "category": "中国传统构图",
+    "category_slug": "07-chinese-composition",
+    "subcategory": "取景与景式",
+    "subcategory_slug": "scene-framing",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/07-chinese-composition/322-一河两岸式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/07-chinese-composition/322-一河两岸式.png"
+  },
+  {
+    "id": "323",
+    "name": "边角式构图",
+    "category": "中国传统构图",
+    "category_slug": "07-chinese-composition",
+    "subcategory": "取景与景式",
+    "subcategory_slug": "scene-framing",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/07-chinese-composition/323-边角式构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/07-chinese-composition/323-边角式构图.png"
+  },
+  {
+    "id": "324",
+    "name": "截景式构图",
+    "category": "中国传统构图",
+    "category_slug": "07-chinese-composition",
+    "subcategory": "取景与景式",
+    "subcategory_slug": "scene-framing",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/07-chinese-composition/324-截景式构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/07-chinese-composition/324-截景式构图.png"
+  },
+  {
+    "id": "325",
+    "name": "折枝式构图",
+    "category": "中国传统构图",
+    "category_slug": "07-chinese-composition",
+    "subcategory": "取景与景式",
+    "subcategory_slug": "scene-framing",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/07-chinese-composition/325-折枝式构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/07-chinese-composition/325-折枝式构图.png"
+  },
+  {
+    "id": "326",
+    "name": "留白构图",
+    "category": "中国传统构图",
+    "category_slug": "07-chinese-composition",
+    "subcategory": "留白、虚实与章法",
+    "subcategory_slug": "blank-rhythm",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/07-chinese-composition/326-留白构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/07-chinese-composition/326-留白构图.png"
+  },
+  {
+    "id": "327",
+    "name": "计白当黑构图",
+    "category": "中国传统构图",
+    "category_slug": "07-chinese-composition",
+    "subcategory": "留白、虚实与章法",
+    "subcategory_slug": "blank-rhythm",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/07-chinese-composition/327-计白当黑构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/07-chinese-composition/327-计白当黑构图.png"
+  },
+  {
+    "id": "328",
+    "name": "虚实相生构图",
+    "category": "中国传统构图",
+    "category_slug": "07-chinese-composition",
+    "subcategory": "留白、虚实与章法",
+    "subcategory_slug": "blank-rhythm",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/07-chinese-composition/328-虚实相生构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/07-chinese-composition/328-虚实相生构图.png"
+  },
+  {
+    "id": "329",
+    "name": "疏密相间构图",
+    "category": "中国传统构图",
+    "category_slug": "07-chinese-composition",
+    "subcategory": "留白、虚实与章法",
+    "subcategory_slug": "blank-rhythm",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/07-chinese-composition/329-疏密相间构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/07-chinese-composition/329-疏密相间构图.png"
+  },
+  {
+    "id": "330",
+    "name": "主宾关系构图",
+    "category": "中国传统构图",
+    "category_slug": "07-chinese-composition",
+    "subcategory": "留白、虚实与章法",
+    "subcategory_slug": "blank-rhythm",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/07-chinese-composition/330-主宾关系构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/07-chinese-composition/330-主宾关系构图.png"
+  },
+  {
+    "id": "331",
+    "name": "开合构图",
+    "category": "中国传统构图",
+    "category_slug": "07-chinese-composition",
+    "subcategory": "留白、虚实与章法",
+    "subcategory_slug": "blank-rhythm",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/07-chinese-composition/331-开合构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/07-chinese-composition/331-开合构图.png"
+  },
+  {
+    "id": "332",
+    "name": "起承转合构图",
+    "category": "中国传统构图",
+    "category_slug": "07-chinese-composition",
+    "subcategory": "留白、虚实与章法",
+    "subcategory_slug": "blank-rhythm",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/07-chinese-composition/332-起承转合构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/07-chinese-composition/332-起承转合构图.png"
+  },
+  {
+    "id": "333",
+    "name": "藏露关系构图",
+    "category": "中国传统构图",
+    "category_slug": "07-chinese-composition",
+    "subcategory": "留白、虚实与章法",
+    "subcategory_slug": "blank-rhythm",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/07-chinese-composition/333-藏露关系构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/07-chinese-composition/333-藏露关系构图.png"
+  },
+  {
+    "id": "334",
+    "name": "欹正关系构图",
+    "category": "中国传统构图",
+    "category_slug": "07-chinese-composition",
+    "subcategory": "留白、虚实与章法",
+    "subcategory_slug": "blank-rhythm",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/07-chinese-composition/334-欹正关系构图.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/07-chinese-composition/334-欹正关系构图.png"
+  },
+  {
+    "id": "335",
+    "name": "标题幻灯片幻灯片版式",
+    "category": "演示文稿页面",
+    "category_slug": "08-presentation",
+    "subcategory": "基础幻灯片",
+    "subcategory_slug": "core-slides",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/08-presentation/335-标题幻灯片幻灯片版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/08-presentation/335-标题幻灯片幻灯片版式.png"
+  },
+  {
+    "id": "336",
+    "name": "标题和内容幻灯片版式",
+    "category": "演示文稿页面",
+    "category_slug": "08-presentation",
+    "subcategory": "基础幻灯片",
+    "subcategory_slug": "core-slides",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/08-presentation/336-标题和内容幻灯片版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/08-presentation/336-标题和内容幻灯片版式.png"
+  },
+  {
+    "id": "337",
+    "name": "节标题幻灯片版式",
+    "category": "演示文稿页面",
+    "category_slug": "08-presentation",
+    "subcategory": "基础幻灯片",
+    "subcategory_slug": "core-slides",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/08-presentation/337-节标题幻灯片版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/08-presentation/337-节标题幻灯片版式.png"
+  },
+  {
+    "id": "338",
+    "name": "两项内容幻灯片版式",
+    "category": "演示文稿页面",
+    "category_slug": "08-presentation",
+    "subcategory": "基础幻灯片",
+    "subcategory_slug": "core-slides",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/08-presentation/338-两项内容幻灯片版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/08-presentation/338-两项内容幻灯片版式.png"
+  },
+  {
+    "id": "339",
+    "name": "比较幻灯片版式",
+    "category": "演示文稿页面",
+    "category_slug": "08-presentation",
+    "subcategory": "基础幻灯片",
+    "subcategory_slug": "core-slides",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/08-presentation/339-比较幻灯片版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/08-presentation/339-比较幻灯片版式.png"
+  },
+  {
+    "id": "340",
+    "name": "仅标题幻灯片版式",
+    "category": "演示文稿页面",
+    "category_slug": "08-presentation",
+    "subcategory": "基础幻灯片",
+    "subcategory_slug": "core-slides",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/08-presentation/340-仅标题幻灯片版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/08-presentation/340-仅标题幻灯片版式.png"
+  },
+  {
+    "id": "341",
+    "name": "空白幻灯片版式",
+    "category": "演示文稿页面",
+    "category_slug": "08-presentation",
+    "subcategory": "基础幻灯片",
+    "subcategory_slug": "core-slides",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/08-presentation/341-空白幻灯片版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/08-presentation/341-空白幻灯片版式.png"
+  },
+  {
+    "id": "342",
+    "name": "内容与标题说明幻灯片版式",
+    "category": "演示文稿页面",
+    "category_slug": "08-presentation",
+    "subcategory": "基础幻灯片",
+    "subcategory_slug": "core-slides",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/08-presentation/342-内容与标题说明幻灯片版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/08-presentation/342-内容与标题说明幻灯片版式.png"
+  },
+  {
+    "id": "343",
+    "name": "图片与标题说明幻灯片版式",
+    "category": "演示文稿页面",
+    "category_slug": "08-presentation",
+    "subcategory": "基础幻灯片",
+    "subcategory_slug": "core-slides",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/08-presentation/343-图片与标题说明幻灯片版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/08-presentation/343-图片与标题说明幻灯片版式.png"
+  },
+  {
+    "id": "344",
+    "name": "大数字页幻灯片版式",
+    "category": "演示文稿页面",
+    "category_slug": "08-presentation",
+    "subcategory": "叙事与数据页面",
+    "subcategory_slug": "story-data-slides",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/08-presentation/344-大数字页幻灯片版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/08-presentation/344-大数字页幻灯片版式.png"
+  },
+  {
+    "id": "345",
+    "name": "引语页幻灯片版式",
+    "category": "演示文稿页面",
+    "category_slug": "08-presentation",
+    "subcategory": "叙事与数据页面",
+    "subcategory_slug": "story-data-slides",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/08-presentation/345-引语页幻灯片版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/08-presentation/345-引语页幻灯片版式.png"
+  },
+  {
+    "id": "346",
+    "name": "时间线页幻灯片版式",
+    "category": "演示文稿页面",
+    "category_slug": "08-presentation",
+    "subcategory": "叙事与数据页面",
+    "subcategory_slug": "story-data-slides",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/08-presentation/346-时间线页幻灯片版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/08-presentation/346-时间线页幻灯片版式.png"
+  },
+  {
+    "id": "347",
+    "name": "流程页幻灯片版式",
+    "category": "演示文稿页面",
+    "category_slug": "08-presentation",
+    "subcategory": "叙事与数据页面",
+    "subcategory_slug": "story-data-slides",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/08-presentation/347-流程页幻灯片版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/08-presentation/347-流程页幻灯片版式.png"
+  },
+  {
+    "id": "348",
+    "name": "矩阵页幻灯片版式",
+    "category": "演示文稿页面",
+    "category_slug": "08-presentation",
+    "subcategory": "叙事与数据页面",
+    "subcategory_slug": "story-data-slides",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/08-presentation/348-矩阵页幻灯片版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/08-presentation/348-矩阵页幻灯片版式.png"
+  },
+  {
+    "id": "349",
+    "name": "数据图表页幻灯片版式",
+    "category": "演示文稿页面",
+    "category_slug": "08-presentation",
+    "subcategory": "叙事与数据页面",
+    "subcategory_slug": "story-data-slides",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/08-presentation/349-数据图表页幻灯片版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/08-presentation/349-数据图表页幻灯片版式.png"
+  },
+  {
+    "id": "350",
+    "name": "全图页幻灯片版式",
+    "category": "演示文稿页面",
+    "category_slug": "08-presentation",
+    "subcategory": "叙事与数据页面",
+    "subcategory_slug": "story-data-slides",
+    "thumbnail": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/thumbnails/08-presentation/350-全图页幻灯片版式.jpg",
+    "image": "https://raw.githubusercontent.com/nevertoday/350-layout-compositions/main/v2/images/08-presentation/350-全图页幻灯片版式.png"
+  }
+]

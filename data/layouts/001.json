@@ -1,0 +1,51 @@
+{
+  "id": "001",
+  "name": "三分法构图",
+  "name_en": "RULE OF THIRDS COMPOSITION",
+  "category": "构图逻辑 / 经典法则与空间留白",
+  "category_slug": "01-composition-logic",
+  "subcategory": "经典法则与空间留白",
+  "subcategory_slug": "classic-rules",
+  "tagline": "消除画面沉闷，给主体更大展示空间。",
+  "description": "将画面横竖各画两条线将其平均分成九个网格。使主体落在四个交叉点或分割线上，画面自然生动，更具呼吸感与视觉张力。",
+  "theme": "warm-ivory",
+  "palette": {
+    "bg": "#F8F5EE",
+    "card": "#FAF8F2",
+    "accent": "#E03E2D",
+    "text": "#1A1A1A"
+  },
+  "columns_ratio": "530px 380px",
+  "visual_height": "690px",
+  "features": [
+    {
+      "icon": "target",
+      "title": "主体落在交点",
+      "title_en": "Focus",
+      "desc": "四个交点是人类视觉天然停留的重心位置，将焦点置于交点处能瞬间吸附注意力。"
+    },
+    {
+      "icon": "scale",
+      "title": "平衡留白",
+      "title_en": "Balance",
+      "desc": "主体移出绝对物理居中，留出 2/3 的自然呼吸区域，画面舒展、避免呆板紧绷。"
+    },
+    {
+      "icon": "arrow",
+      "title": "视觉引导",
+      "title_en": "Guidance",
+      "desc": "借助三分分割线牵引视线动线，让观看者的眼球从主体自然巡航至辅助叙事元素。"
+    }
+  ],
+  "tips": [
+    { "label": "风景 / 地平线", "content": "置于上三分线凸显地面细节，置于下三分线凸显广阔天空。" },
+    { "label": "人像 / 摄影", "content": "将人物主眼或鼻梁精准贴合在上交点，神态更具感染力。" },
+    { "label": "文字编排", "content": "将标题放置在主体相反侧的留白三分区，实现视觉杠杆平衡。" }
+  ],
+  "keywords": [
+    { "name": "焦点", "name_en": "Focus", "icon": "target" },
+    { "name": "平衡", "name_en": "Balance", "icon": "scale" },
+    { "name": "节奏", "name_en": "Rhythm", "icon": "wave" },
+    { "name": "引导", "name_en": "Guide", "icon": "eye" }
+  ]
+}

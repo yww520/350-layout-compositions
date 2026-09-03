@@ -1,0 +1,6 @@
+dist/
+.DS_Store
+__pycache__/
+*.pyc
+.chrome_headless_tmp/
+*.log

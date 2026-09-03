@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>{{CARD_ID}} {{TITLE}} - 350 Layout Compositions</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700;800&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* THEME SYSTEM (CSS Variables) */
+    :root {
+      --bg-canvas: #F8F5EE;
+      --bg-card: #FAF8F2;
+      --accent: #E03E2D;
+      --text-main: #1A1A1A;
+      --text-sub: #555047;
+      --text-muted: #8A857A;
+      --border-outer: #E6E0D4;
+      --border-card: #E5DFD3;
+      --pill-bg: #EDE8DE;
+      --pill-text: #4A463F;
+      --box-bg: #FFFFFF;
+    }
+
+    body[data-theme="forest-green"] {
+      --bg-canvas: #0A261E;
+      --bg-card: #071C16;
+      --accent: #D4AF37;
+      --text-main: #FFFFFF;
+      --text-sub: #B8D6CE;
+      --text-muted: #6B9489;
+      --border-outer: rgba(212, 175, 55, 0.25);
+      --border-card: rgba(212, 175, 55, 0.35);
+      --pill-bg: rgba(255, 255, 255, 0.1);
+      --pill-text: #E6F2EE;
+      --box-bg: rgba(255, 255, 255, 0.06);
+    }
+
+    body[data-theme="obsidian-black"] {
+      --bg-canvas: #0C0C0C;
+      --bg-card: #141414;
+      --accent: #FFD700;
+      --text-main: #FFFFFF;
+      --text-sub: #D1D1D1;
+      --text-muted: #808080;
+      --border-outer: rgba(255, 215, 0, 0.2);
+      --border-card: rgba(255, 215, 0, 0.35);
+      --pill-bg: rgba(255, 255, 255, 0.12);
+      --pill-text: #F0F0F0;
+      --box-bg: rgba(255, 255, 255, 0.05);
+    }
+
+    body[data-theme="cobalt-blue"] {
+      --bg-canvas: #0B2B68;
+      --bg-card: #082154;
+      --accent: #FFD000;
+      --text-main: #FFFFFF;
+      --text-sub: #C2D6FC;
+      --text-muted: #8EB3F5;
+      --border-outer: rgba(255, 255, 255, 0.18);
+      --border-card: rgba(255, 208, 0, 0.35);
+      --pill-bg: rgba(255, 255, 255, 0.12);
+      --pill-text: #D6E4FF;
+      --box-bg: rgba(255, 255, 255, 0.06);
+    }
+
+    body {
+      width: 1086px;
+      height: 1448px;
+      background-color: var(--bg-canvas);
+      color: var(--text-main);
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Microsoft YaHei", sans-serif;
+      padding: 58px 68px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow: hidden;
+      position: relative;
+    }
+
+    /* Outer decorative border */
+    body::before {
+      content: "";
+      position: absolute;
+      top: 24px;
+      left: 24px;
+      right: 24px;
+      bottom: 24px;
+      border: 1px solid var(--border-outer);
+      pointer-events: none;
+      border-radius: 4px;
+    }
+
+    /* ================= HEADER ================= */
+    .header {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .meta-top-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .category-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 5px 14px;
+      background: var(--pill-bg);
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--pill-text);
+      letter-spacing: 0.05em;
+    }
+
+    .category-badge::before {
+      content: "";
+      display: inline-block;
+      width: 7px;
+      height: 7px;
+      background-color: var(--accent);
+      border-radius: 50%;
+    }
+
+    .header-tagline {
+      font-size: 15px;
+      color: var(--text-muted);
+      letter-spacing: 0.04em;
+    }
+
+    .main-title {
+      font-size: 82px;
+      font-weight: 900;
+      line-height: 1.0;
+      color: var(--text-main);
+      display: inline-block;
+      transform: scaleX(0.86) scaleY(1.05);
+      transform-origin: left center;
+      letter-spacing: -0.01em;
+      margin-left: 2px;
+    }
+
+    .subtitle-en {
+      font-family: "Bebas Neue", "DIN Condensed", sans-serif;
+      font-size: 32px;
+      font-weight: 400;
+      color: var(--accent);
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      margin-top: 4px;
+    }
+
+    .description-text {
+      font-size: 19px;
+      line-height: 1.55;
+      color: var(--text-sub);
+      max-width: 950px;
+      margin-top: 4px;
+    }
+
+    /* ================= MAIN CONTAINER ================= */
+    .content-container {
+      display: grid;
+      grid-template-columns: {{COLUMNS_RATIO}};
+      gap: 40px;
+      align-items: stretch;
+      margin-top: 12px;
+    }
+
+    .visual-canvas-card {
+      background: var(--bg-card);
+      border: 1.5px solid var(--border-card);
+      border-radius: 16px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+      height: {{VISUAL_HEIGHT}};
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .visual-canvas-card svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    .feature-column {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .feature-list {
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+    }
+
+    .feature-item {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      background: var(--box-bg);
+      border: 1px solid var(--border-outer);
+      border-radius: 12px;
+      padding: 14px 16px;
+    }
+
+    .feature-icon-box {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: var(--accent);
+      color: var(--bg-canvas);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .feature-icon-box svg {
+      width: 22px;
+      height: 22px;
+      stroke-width: 2.3;
+    }
+
+    .feature-text {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .feature-title-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .feature-title {
+      font-size: 19px;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .feature-en-tag {
+      font-family: "Inter", sans-serif;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      padding: 2px 6px;
+      background: var(--pill-bg);
+      border-radius: 4px;
+    }
+
+    .feature-desc {
+      font-size: 14px;
+      line-height: 1.45;
+      color: var(--text-sub);
+    }
+
+    /* TIPS BOX */
+    .tips-box {
+      background: var(--box-bg);
+      border: 1px solid var(--border-outer);
+      border-left: 4px solid var(--accent);
+      border-radius: 10px;
+      padding: 16px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .tips-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--accent);
+    }
+
+    .tips-header svg {
+      width: 18px;
+      height: 18px;
+    }
+
+    .tips-content {
+      font-size: 13.5px;
+      line-height: 1.5;
+      color: var(--text-sub);
+      list-style: none;
+    }
+
+    .tips-content li {
+      position: relative;
+      padding-left: 14px;
+      margin-bottom: 4px;
+    }
+
+    .tips-content li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: bold;
+    }
+
+    /* ================= FOOTER / KEYWORDS ================= */
+    .footer-section {
+      border-top: 1.5px solid var(--border-outer);
+      padding-top: 22px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .keywords-group {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .keywords-label {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 14.5px;
+      font-weight: 700;
+      color: var(--accent);
+      letter-spacing: 0.05em;
+    }
+
+    .keywords-pills {
+      display: flex;
+      gap: 10px;
+    }
+
+    .kw-pill {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 14px;
+      background: var(--box-bg);
+      border: 1px solid var(--border-outer);
+      border-radius: 6px;
+      font-size: 13.5px;
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    .kw-pill svg {
+      width: 14px;
+      height: 14px;
+      color: var(--accent);
+    }
+
+    .card-id-tag {
+      font-family: "Inter", sans-serif;
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--text-muted);
+      letter-spacing: 0.05em;
+    }
+  </style>
+</head>
+<body data-theme="{{THEME}}">
+
+  <!-- TOP HEADER -->
+  <header class="header">
+    <div class="meta-top-row">
+      <div class="category-badge">{{CATEGORY}}</div>
+      <div class="header-tagline">{{TAGLINE}}</div>
+    </div>
+    <h1 class="main-title">{{TITLE}}</h1>
+    <div class="subtitle-en">{{SUBTITLE_EN}}</div>
+    <p class="description-text">{{DESCRIPTION}}</p>
+  </header>
+
+  <!-- CENTER MAIN CONTENT -->
+  <main class="content-container">
+    {{MAIN_CONTENT_HTML}}
+  </main>
+
+  <!-- BOTTOM FOOTER -->
+  <footer class="footer-section">
+    <div class="keywords-group">
+      <div class="keywords-label">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="m21 2-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0 3 3L22 7l-3-3m-3.5 3.5L19 4"></path>
+        </svg>
+        <span>关键词 KEYWORDS</span>
+      </div>
+      <div class="keywords-pills">
+        {{KEYWORDS_HTML}}
+      </div>
+    </div>
+    <div class="card-id-tag">{{CARD_ID}} / 350 LAYOUTS</div>
+  </footer>
+
+</body>
+</html>

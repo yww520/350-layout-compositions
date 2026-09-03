@@ -1,0 +1,57 @@
+{
+  "id": "004",
+  "name": "黄金三角构图",
+  "name_en": "GOLDEN TRIANGLE COMPOSITION",
+  "category": "构图逻辑 / 经典法则与空间留白",
+  "category_slug": "01-composition-logic",
+  "subcategory": "经典法则与空间留白",
+  "subcategory_slug": "classic-rules",
+  "tagline": "COMPOSITION PRINCIPLES",
+  "description": "由对角线与两顶点引出的垂直线交汇而成。形成动态三角形视觉框架，天然引导视线聚拢，赋予画面强烈的动态张力与行进动势。",
+  "theme": "cobalt-blue",
+  "palette": {
+    "bg": "#0B2B68",
+    "card": "#082154",
+    "accent": "#FFD000",
+    "text": "#FFFFFF"
+  },
+  "columns_ratio": "360px 550px",
+  "visual_height": "620px",
+  "features": [
+    {
+      "icon": "arrow-up-right",
+      "title": "方向引导",
+      "title_en": "Direction",
+      "desc": "主对角线天然构成视线引力通道，牵引眼球从低位直达核心高位。"
+    },
+    {
+      "icon": "target",
+      "title": "视觉焦点",
+      "title_en": "Focus",
+      "desc": "垂线交叉点（黄金交点）汇聚双向动量，是锚定主角的天然据点。"
+    },
+    {
+      "icon": "zap",
+      "title": "张力感",
+      "title_en": "Tension",
+      "desc": "斜线打破水平沉闷，斜倾坡度与直角交错激发速度与冲劲。"
+    },
+    {
+      "icon": "box",
+      "title": "透视导向",
+      "title_en": "Perspective",
+      "desc": "三角形构架支撑纵深透视空间，前后景错落分明，秩序稳定。"
+    }
+  ],
+  "tips": [
+    { "label": "运动/速度题材", "content": "主体沿着主斜线冲刺（如飞鸟、跑车），顺风而行。" },
+    { "label": "风光与航海", "content": "地平/海面平压底部，帆船或山峰沿斜角穿透空间。" },
+    { "label": "科技商业海报", "content": "将核心文案置于左下大三角，高亮光效汇聚右上顶点。" }
+  ],
+  "keywords": [
+    { "name": "方向", "name_en": "Direction", "icon": "arrow-up-right" },
+    { "name": "焦点", "name_en": "Focus", "icon": "target" },
+    { "name": "张力", "name_en": "Tension", "icon": "zap" },
+    { "name": "稳定", "name_en": "Stability", "icon": "shield" }
+  ]
+}

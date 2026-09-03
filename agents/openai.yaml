@@ -1,0 +1,4 @@
+interface:
+  display_name: "350 Layout Architect"
+  short_description: "350 professional composition and layout system for AI agents"
+  default_prompt: "Use $layout-350 to design or render composition layout for: "
