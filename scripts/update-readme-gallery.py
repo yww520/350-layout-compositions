@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Updates README.md with the full 350 master gallery pointing directly to ./dist/*.png
+Updates README.md with the full 350 master gallery directly visible on the homepage (no details collapse).
 """
 
 import json
@@ -9,7 +9,6 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 README_PATH = BASE_DIR / "README.md"
 CATALOG_PATH = BASE_DIR / "data" / "catalog.json"
-DIST_DIR = BASE_DIR / "dist"
 
 
 def main():
@@ -41,16 +40,16 @@ def main():
 ---
 """
 
-    # Build Full 350 Gallery Section
-    gallery_md = """## 📚 350 种构图与排版全量视觉画廊 (Full 350 Gallery)
+    # Build Full 350 Gallery Section (Expanded directly, no <details> hiding)
+    gallery_md = """## 📚 350 种构图与排版全量视觉画廊 (Full 350 Master Gallery)
 
-> 全量 350 张印刷级海报（1086 × 1448 PNG）已全部在本地生成并同步至仓库 `dist/` 目录。点击任意缩略图即可直接在 GitHub 中查看超清无损大图与排版参数。
+> 全量 350 套高清图鉴海报（1086 × 1448 PNG）已全部在此平铺展示。点击任意一张卡片图片，即可直接放大查看超清印刷级细节与排版参数。
 
 """
 
     for cat_name, subcats in grouped.items():
         total_in_cat = sum(len(items) for items in subcats.values())
-        gallery_md += f"\n<details open>\n<summary><h3>📌 {cat_name} ({total_in_cat} 种)</h3></summary>\n\n"
+        gallery_md += f"\n### 📌 {cat_name} ({total_in_cat} 种)\n\n"
 
         for subcat_name, items in subcats.items():
             gallery_md += f"#### {subcat_name} ({len(items)} 种 · 编号 {items[0]['id']}–{items[-1]['id']})\n\n"
@@ -64,7 +63,7 @@ def main():
                     lid = it["id"].zfill(3)
                     nm = it["name"]
                     png_rel = f"./dist/{lid}_{nm}.png"
-                    img_cells.append(f'<a href="{png_rel}"><img src="{png_rel}" width="200" alt="{lid} {nm}"></a>')
+                    img_cells.append(f'<a href="{png_rel}"><img src="{png_rel}" width="210" alt="{lid} {nm}"></a>')
                 while len(img_cells) < 4:
                     img_cells.append("&nbsp;")
 
@@ -82,14 +81,14 @@ def main():
 
                 gallery_md += "| " + " | ".join(title_cells) + " |\n\n"
 
-        gallery_md += "</details>\n\n"
-
     # Read existing README header and instructions
     with open(README_PATH, "r", encoding="utf-8") as f:
         content = f.read()
 
-    # Split before "## 核心效果展示" or "## 350 种构图与排版全量视觉画廊"
-    split_marker = "## 核心效果展示"
+    split_marker = "## 🌟 核心金标效果展示"
+    if split_marker not in content:
+        split_marker = "## 核心效果展示"
+
     if split_marker in content:
         top_part = content.split(split_marker)[0]
     else:
@@ -99,7 +98,7 @@ def main():
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(new_readme)
 
-    print(f"✓ Successfully generated rich gallery in {README_PATH}")
+    print(f"✓ Successfully generated uncollapsed 350 gallery in {README_PATH}")
 
 
 if __name__ == "__main__":
