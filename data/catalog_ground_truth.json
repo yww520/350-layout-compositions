@@ -1,0 +1,3152 @@
+[
+  {
+    "id": "001",
+    "name": "三分法构图",
+    "name_en": "RULE OF THIRDS COMPOSITION",
+    "category": "构图逻辑 / 经典法则与空间留白",
+    "original_image_file": "001_三分法构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: RULEOFTHIRDSCOMPOSITION"
+  },
+  {
+    "id": "002",
+    "name": "黄金比例构图",
+    "name_en": "GOLDEN RATIO COMPOSITION",
+    "category": "构图逻辑 / 经典法则与空间留白",
+    "original_image_file": "002_黄金比例构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: GOLDENRATIOCOMPOSITION"
+  },
+  {
+    "id": "003",
+    "name": "黄金螺旋构图",
+    "name_en": "GOLDEN SPIRAL",
+    "category": "构图逻辑 / 经典法则与空间留白",
+    "original_image_file": "003_黄金螺旋构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN core: 黄金螺旋 + EN exact: GOLDENSPIRAL"
+  },
+  {
+    "id": "004",
+    "name": "黄金三角构图",
+    "name_en": "GOLDEN TRIANGLE COMPOSITION",
+    "category": "构图逻辑 / 经典法则与空间留白",
+    "original_image_file": "004_黄金三角构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: GOLDENTRIANGLECOMPOSITION"
+  },
+  {
+    "id": "005",
+    "name": "对角线法构图",
+    "name_en": "DIAGONAL METHOD",
+    "category": "构图逻辑 / 经典法则与空间留白",
+    "original_image_file": "005_对角线法构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN core: 对角线 + EN exact: DIAGONALMETHOD"
+  },
+  {
+    "id": "006",
+    "name": "矩形折入法构图",
+    "name_en": "RECTANGLE INSET METHOD",
+    "category": "构图逻辑 / 经典法则与空间留白",
+    "original_image_file": "006_矩形折入法构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN core: 矩形折入 + EN exact: RECTANGLEINSETMETHOD"
+  },
+  {
+    "id": "007",
+    "name": "奇数法则构图",
+    "name_en": "RULE OF ODDS",
+    "category": "构图逻辑 / 经典法则与空间留白",
+    "original_image_file": "007_奇数法则构图.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "008",
+    "name": "空间法则构图",
+    "name_en": "RULE OF SPACE",
+    "category": "构图逻辑 / 经典法则与空间留白",
+    "original_image_file": "008_空间法则构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN partial: 空间则 + EN roots: RULE SPACE"
+  },
+  {
+    "id": "009",
+    "name": "视线空间构图",
+    "name_en": "EYE ROOM",
+    "category": "构图逻辑 / 经典法则与空间留白",
+    "original_image_file": "009_视线空间构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN core: 视线空间 + EN exact: EYEROOM"
+  },
+  {
+    "id": "010",
+    "name": "运动空间构图",
+    "name_en": "LEAD ROOM",
+    "category": "构图逻辑 / 经典法则与空间留白",
+    "original_image_file": "010_运动空间构图.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "011",
+    "name": "头部空间构图",
+    "name_en": "HEADROOM",
+    "category": "构图逻辑 / 经典法则与空间留白",
+    "original_image_file": "011_头部空间构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 头部空间构图"
+  },
+  {
+    "id": "012",
+    "name": "填满画面构图",
+    "name_en": "FILL THE FRAME",
+    "category": "构图逻辑 / 经典法则与空间留白",
+    "original_image_file": "012_填满画面构图.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "013",
+    "name": "负空间构图",
+    "name_en": "NEGATIVE SPACE",
+    "category": "构图逻辑 / 经典法则与空间留白",
+    "original_image_file": "013_负空间构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: NEGATIVESPACE"
+  },
+  {
+    "id": "014",
+    "name": "框中框构图",
+    "name_en": "FRAME WITHIN A FRAME",
+    "category": "构图逻辑 / 经典法则与空间留白",
+    "original_image_file": "014_框中框构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: FRAMEWITHINAFRAME"
+  },
+  {
+    "id": "015",
+    "name": "引导线构图",
+    "name_en": "LEADING LINES",
+    "category": "构图逻辑 / 经典法则与空间留白",
+    "original_image_file": "015_引导线构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: LEADINGLINES"
+  },
+  {
+    "id": "016",
+    "name": "居中构图",
+    "name_en": "CENTERED COMPOSITION",
+    "category": "构图逻辑 / 重心、线条与轴线",
+    "original_image_file": "220_双向文字排版.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN core: 居中 + EN key: CENTERED"
+  },
+  {
+    "id": "017",
+    "name": "偏心构图",
+    "name_en": "OFF-CENTER COMPOSITION",
+    "category": "构图逻辑 / 重心、线条与轴线",
+    "original_image_file": "017_偏心构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: OFFCENTERCOMPOSITION"
+  },
+  {
+    "id": "018",
+    "name": "对称构图",
+    "name_en": "SYMMETRICAL COMPOSITION",
+    "category": "构图逻辑 / 重心、线条与轴线",
+    "original_image_file": "018_对称构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 对称构图 + EN exact: SYMMETRICALCOMPOSITION"
+  },
+  {
+    "id": "019",
+    "name": "非对称构图",
+    "name_en": "ASYMMETRICAL COMPOSITION",
+    "category": "构图逻辑 / 重心、线条与轴线",
+    "original_image_file": "019_非对称构图.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "020",
+    "name": "镜像构图",
+    "name_en": "REFLECTION COMPOSITION",
+    "category": "构图逻辑 / 重心、线条与轴线",
+    "original_image_file": "020_镜像构图.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "021",
+    "name": "水平构图",
+    "name_en": "HORIZONTAL COMPOSITION",
+    "category": "构图逻辑 / 重心、线条与轴线",
+    "original_image_file": "051_螺旋构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 水平构图 + EN exact: HORIZONTALCOMPOSITION"
+  },
+  {
+    "id": "022",
+    "name": "垂直构图",
+    "name_en": "VERTICAL COMPOSITION",
+    "category": "构图逻辑 / 重心、线条与轴线",
+    "original_image_file": "052_放射式构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN core: 垂直 + EN roots: VERTICAL COMPOSITION"
+  },
+  {
+    "id": "023",
+    "name": "对角线构图",
+    "name_en": "DIAGONAL COMPOSITION",
+    "category": "构图逻辑 / 重心、线条与轴线",
+    "original_image_file": "053_向心式构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 对角线构图 + EN exact: DIAGONALCOMPOSITION"
+  },
+  {
+    "id": "024",
+    "name": "平行线构图",
+    "name_en": "PARALLEL LINES COMPOSITION",
+    "category": "构图逻辑 / 重心、线条与轴线",
+    "original_image_file": "054_离心式构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 平行线构图 + EN roots: PARALLEL COMPOSITION"
+  },
+  {
+    "id": "025",
+    "name": "汇聚线构图",
+    "name_en": "CONVERGING LINES",
+    "category": "构图逻辑 / 重心、线条与轴线",
+    "original_image_file": "055_同心式构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 汇聚线构图 + EN key: CONVERGING"
+  },
+  {
+    "id": "026",
+    "name": "交叉线构图",
+    "name_en": "CROSSING LINES",
+    "category": "构图逻辑 / 重心、线条与轴线",
+    "original_image_file": "056_四象限构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 交叉线构图"
+  },
+  {
+    "id": "027",
+    "name": "中轴构图",
+    "name_en": "CENTRAL AXIS COMPOSITION",
+    "category": "构图逻辑 / 重心、线条与轴线",
+    "original_image_file": "057_棋盘构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: CENTRALAXISCOMPOSITION"
+  },
+  {
+    "id": "028",
+    "name": "偏轴构图",
+    "name_en": "OFF-AXIS COMPOSITION",
+    "category": "构图逻辑 / 重心、线条与轴线",
+    "original_image_file": "058_阶梯构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: OFFAXISCOMPOSITION"
+  },
+  {
+    "id": "029",
+    "name": "双轴构图",
+    "name_en": "DUAL-AXIS COMPOSITION",
+    "category": "构图逻辑 / 重心、线条与轴线",
+    "original_image_file": "059_层叠构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: DUALAXISCOMPOSITION"
+  },
+  {
+    "id": "030",
+    "name": "十字构图",
+    "name_en": "CROSS COMPOSITION",
+    "category": "构图逻辑 / 重心、线条与轴线",
+    "original_image_file": "030_十字构图.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "031",
+    "name": "X 形构图",
+    "name_en": "X-SHAPED COMPOSITION",
+    "category": "构图逻辑 / 字母形与曲线",
+    "original_image_file": "061_聚类构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: XSHAPEDCOMPOSITION"
+  },
+  {
+    "id": "032",
+    "name": "T 形构图",
+    "name_en": "T-SHAPED COMPOSITION",
+    "category": "构图逻辑 / 字母形与曲线",
+    "original_image_file": "062_分散构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: TSHAPEDCOMPOSITION"
+  },
+  {
+    "id": "033",
+    "name": "L 形构图",
+    "name_en": "L-SHAPED COMPOSITION",
+    "category": "构图逻辑 / 字母形与曲线",
+    "original_image_file": "033_L 形构图.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "034",
+    "name": "V 形构图",
+    "name_en": "V-SHAPED COMPOSITION",
+    "category": "构图逻辑 / 字母形与曲线",
+    "original_image_file": "064_网络构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: VSHAPEDCOMPOSITION"
+  },
+  {
+    "id": "035",
+    "name": "Z 形构图",
+    "name_en": "Z-SHAPED COMPOSITION",
+    "category": "构图逻辑 / 字母形与曲线",
+    "original_image_file": "065_前中后景构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: ZSHAPEDCOMPOSITION"
+  },
+  {
+    "id": "036",
+    "name": "C 形构图",
+    "name_en": "C-SHAPED COMPOSITION",
+    "category": "构图逻辑 / 字母形与曲线",
+    "original_image_file": "036_C 形构图.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "037",
+    "name": "S 形构图",
+    "name_en": "S-CURVE COMPOSITION",
+    "category": "构图逻辑 / 字母形与曲线",
+    "original_image_file": "037_S 形构图.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "038",
+    "name": "曲线构图",
+    "name_en": "CURVILINEAR COMPOSITION",
+    "category": "构图逻辑 / 字母形与曲线",
+    "original_image_file": "038_曲线构图.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "039",
+    "name": "波浪形构图",
+    "name_en": "WAVE COMPOSITION",
+    "category": "构图逻辑 / 字母形与曲线",
+    "original_image_file": "069_线性透视.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: WAVECOMPOSITION"
+  },
+  {
+    "id": "040",
+    "name": "锯齿形构图",
+    "name_en": "ZIGZAG COMPOSITION",
+    "category": "构图逻辑 / 字母形与曲线",
+    "original_image_file": "070_一点透视.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN core: 锯齿形 + EN exact: ZIGZAGCOMPOSITION"
+  },
+  {
+    "id": "041",
+    "name": "三角构图",
+    "name_en": "TRIANGULAR COMPOSITION",
+    "category": "构图逻辑 / 几何形与放射结构",
+    "original_image_file": "071_两点透视.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: TRIANGULARCOMPOSITION"
+  },
+  {
+    "id": "042",
+    "name": "金字塔构图",
+    "name_en": "PYRAMID COMPOSITION",
+    "category": "构图逻辑 / 几何形与放射结构",
+    "original_image_file": "072_三点透视.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 金字塔构图 + EN exact: PYRAMIDCOMPOSITION"
+  },
+  {
+    "id": "043",
+    "name": "倒三角构图",
+    "name_en": "INVERTED TRIANGLE COMPOSITION",
+    "category": "构图逻辑 / 几何形与放射结构",
+    "original_image_file": "073_平行透视构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: INVERTEDTRIANGLECOMPOSITION"
+  },
+  {
+    "id": "044",
+    "name": "菱形构图",
+    "name_en": "RHOMBUS COMPOSITION",
+    "category": "构图逻辑 / 几何形与放射结构",
+    "original_image_file": "044_菱形构图.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "045",
+    "name": "方形构图",
+    "name_en": "SQUARE COMPOSITION",
+    "category": "构图逻辑 / 几何形与放射结构",
+    "original_image_file": "075_等距构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: SQUARECOMPOSITION"
+  },
+  {
+    "id": "046",
+    "name": "矩形构图",
+    "name_en": "RECTANGULAR COMPOSITION",
+    "category": "构图逻辑 / 几何形与放射结构",
+    "original_image_file": "076_轴测构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: RECTANGULARCOMPOSITION"
+  },
+  {
+    "id": "047",
+    "name": "圆形构图",
+    "name_en": "CIRCULAR COMPOSITION",
+    "category": "构图逻辑 / 几何形与放射结构",
+    "original_image_file": "047_圆形构图.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "048",
+    "name": "椭圆构图",
+    "name_en": "ELLIPTICAL COMPOSITION",
+    "category": "构图逻辑 / 几何形与放射结构",
+    "original_image_file": "078_虫视构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 椭圆构图 + EN key: COMPOSITION"
+  },
+  {
+    "id": "049",
+    "name": "弧形构图",
+    "name_en": "ARC COMPOSITION",
+    "category": "构图逻辑 / 几何形与放射结构",
+    "original_image_file": "079_顶视构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: ARCCOMPOSITION"
+  },
+  {
+    "id": "050",
+    "name": "环形构图",
+    "name_en": "ANNULAR COMPOSITION",
+    "category": "构图逻辑 / 几何形与放射结构",
+    "original_image_file": "080_平视构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 环形构图 + EN key: COMPOSITION"
+  },
+  {
+    "id": "051",
+    "name": "螺旋构图",
+    "name_en": "SPIRAL COMPOSITION",
+    "category": "构图逻辑 / 几何形与放射结构",
+    "original_image_file": "081_强制透视构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: SPIRALCOMPOSITION"
+  },
+  {
+    "id": "052",
+    "name": "放射式构图",
+    "name_en": "RADIATING COMPOSITION",
+    "category": "构图逻辑 / 几何形与放射结构",
+    "original_image_file": "082_空气透视构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN core: 放射式 + EN key: RADIATING"
+  },
+  {
+    "id": "053",
+    "name": "向心式构图",
+    "name_en": "CENTRIPETAL COMPOSITION",
+    "category": "构图逻辑 / 几何形与放射结构",
+    "original_image_file": "083_浅景深构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 向心式构图"
+  },
+  {
+    "id": "054",
+    "name": "离心式构图",
+    "name_en": "CENTRIFUGAL COMPOSITION",
+    "category": "构图逻辑 / 几何形与放射结构",
+    "original_image_file": "084_深焦构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 离心式构图 + EN exact: CENTRIFUGALCOMPOSITION"
+  },
+  {
+    "id": "055",
+    "name": "同心式构图",
+    "name_en": "CONCENTRIC COMPOSITION",
+    "category": "构图逻辑 / 几何形与放射结构",
+    "original_image_file": "085_平面化构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 同心式构图 + EN exact: CONCENTRICCOMPOSITION"
+  },
+  {
+    "id": "056",
+    "name": "四象限构图",
+    "name_en": "FOUR-QUADRANT COMPOSITION",
+    "category": "构图逻辑 / 几何形与放射结构",
+    "original_image_file": "086_深空间构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: FOURQUADRANTCOMPOSITION"
+  },
+  {
+    "id": "057",
+    "name": "棋盘构图",
+    "name_en": "CHECKERBOARD COMPOSITION",
+    "category": "构图逻辑 / 阵列、层叠与组群",
+    "original_image_file": "057_棋盘构图.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "058",
+    "name": "阶梯构图",
+    "name_en": "STAIRCASE COMPOSITION",
+    "category": "构图逻辑 / 阵列、层叠与组群",
+    "original_image_file": "088_晶体式平衡原则.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN roots: STAIRCASE COMPOSITION"
+  },
+  {
+    "id": "059",
+    "name": "层叠构图",
+    "name_en": "STACKING COMPOSITION",
+    "category": "构图逻辑 / 阵列、层叠与组群",
+    "original_image_file": "059_层叠构图.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "060",
+    "name": "级联构图",
+    "name_en": "CASCADING COMPOSITION",
+    "category": "构图逻辑 / 阵列、层叠与组群",
+    "original_image_file": "090_动态构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: CASCADINGCOMPOSITION"
+  },
+  {
+    "id": "061",
+    "name": "聚类构图",
+    "name_en": "CLUSTERED COMPOSITION",
+    "category": "构图逻辑 / 阵列、层叠与组群",
+    "original_image_file": "061_聚类构图.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "062",
+    "name": "分散构图",
+    "name_en": "DISPERSED COMPOSITION",
+    "category": "构图逻辑 / 阵列、层叠与组群",
+    "original_image_file": "062_分散构图.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "063",
+    "name": "分支构图",
+    "name_en": "BRANCHING COMPOSITION",
+    "category": "构图逻辑 / 阵列、层叠与组群",
+    "original_image_file": "315_高远法.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN roots: BRANCHING COMPOSITION"
+  },
+  {
+    "id": "064",
+    "name": "网络构图",
+    "name_en": "NETWORK COMPOSITION",
+    "category": "构图逻辑 / 阵列、层叠与组群",
+    "original_image_file": "064_网络构图.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "065",
+    "name": "前中后景构图",
+    "name_en": "FOREGROUND-MID-BACKGROUND",
+    "category": "构图逻辑 / 空间层次与投影",
+    "original_image_file": "065_前中后景构图.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "066",
+    "name": "前景框架构图",
+    "name_en": "FOREGROUND FRAMING",
+    "category": "构图逻辑 / 空间层次与投影",
+    "original_image_file": "097_平衡原则.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 前景框架构图"
+  },
+  {
+    "id": "067",
+    "name": "重叠空间构图",
+    "name_en": "OVERLAPPING SPACE",
+    "category": "构图逻辑 / 空间层次与投影",
+    "original_image_file": "096_主次关系原则.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: OVERLAPPINGSPACE"
+  },
+  {
+    "id": "068",
+    "name": "尺度递减构图",
+    "name_en": "DIMINISHING SCALE",
+    "category": "构图逻辑 / 空间层次与投影",
+    "original_image_file": "068_尺度递减构图.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "069",
+    "name": "线性透视",
+    "name_en": "LINEAR PERSPECTIVE",
+    "category": "构图逻辑 / 空间层次与投影",
+    "original_image_file": "069_线性透视.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "070",
+    "name": "一点透视",
+    "name_en": "ONE-POINT PERSPECTIVE",
+    "category": "构图逻辑 / 空间层次与投影",
+    "original_image_file": "095_视觉层级原则.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: ONEPOINTPERSPECTIVE"
+  },
+  {
+    "id": "071",
+    "name": "两点透视",
+    "name_en": "TWO-POINT PERSPECTIVE",
+    "category": "构图逻辑 / 空间层次与投影",
+    "original_image_file": "101_色彩对比原则.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: TWOPOINTPERSPECTIVE"
+  },
+  {
+    "id": "072",
+    "name": "三点透视",
+    "name_en": "THREE-POINT PERSPECTIVE",
+    "category": "构图逻辑 / 空间层次与投影",
+    "original_image_file": "072_三点透视.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "073",
+    "name": "平行透视构图",
+    "name_en": "PARALLEL PERSPECTIVE",
+    "category": "构图逻辑 / 空间层次与投影",
+    "original_image_file": "103_质感对比原则.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 平行透视构图 + EN exact: PARALLELPERSPECTIVE"
+  },
+  {
+    "id": "074",
+    "name": "斜投影构图",
+    "name_en": "OBLIQUE PROJECTION",
+    "category": "构图逻辑 / 空间层次与投影",
+    "original_image_file": "074_斜投影构图.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "075",
+    "name": "等距构图",
+    "name_en": "ISOMETRIC COMPOSITION",
+    "category": "构图逻辑 / 空间层次与投影",
+    "original_image_file": "105_并置原则.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 等距构图"
+  },
+  {
+    "id": "076",
+    "name": "轴测构图",
+    "name_en": "AXONOMETRIC COMPOSITION",
+    "category": "构图逻辑 / 空间层次与投影",
+    "original_image_file": "106_隔离原则.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 轴测构图 + EN exact: AXONOMETRICCOMPOSITION"
+  },
+  {
+    "id": "077",
+    "name": "鸟瞰构图",
+    "name_en": "BIRD'S-EYE VIEW",
+    "category": "构图逻辑 / 视点、景深与空间感",
+    "original_image_file": "107_重复原则.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: BIRDSEYEVIEW"
+  },
+  {
+    "id": "078",
+    "name": "虫视构图",
+    "name_en": "WORM'S-EYE VIEW",
+    "category": "构图逻辑 / 视点、景深与空间感",
+    "original_image_file": "108_图案组织.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: WORMSEYEVIEW"
+  },
+  {
+    "id": "079",
+    "name": "顶视构图",
+    "name_en": "TOP-DOWN VIEW",
+    "category": "构图逻辑 / 视点、景深与空间感",
+    "original_image_file": "079_顶视构图.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "080",
+    "name": "平视构图",
+    "name_en": "EYE-LEVEL COMPOSITION",
+    "category": "构图逻辑 / 视点、景深与空间感",
+    "original_image_file": "110_渐变组织.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: EYELEVELCOMPOSITION"
+  },
+  {
+    "id": "081",
+    "name": "强制透视构图",
+    "name_en": "FORCED PERSPECTIVE",
+    "category": "构图逻辑 / 视点、景深与空间感",
+    "original_image_file": "131_斑点扫描模式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: FORCEDPERSPECTIVE"
+  },
+  {
+    "id": "082",
+    "name": "空气透视构图",
+    "name_en": "ATMOSPHERIC PERSPECTIVE",
+    "category": "构图逻辑 / 视点、景深与空间感",
+    "original_image_file": "132_单栏版式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: ATMOSPHERICPERSPECTIVE"
+  },
+  {
+    "id": "083",
+    "name": "浅景深构图",
+    "name_en": "SHALLOW DEPTH OF FIELD",
+    "category": "构图逻辑 / 视点、景深与空间感",
+    "original_image_file": "083_浅景深构图.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "084",
+    "name": "深焦构图",
+    "name_en": "DEEP FOCUS COMPOSITION",
+    "category": "构图逻辑 / 视点、景深与空间感",
+    "original_image_file": "134_多栏版式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 深焦构图 + EN roots: DEEP FOCUS"
+  },
+  {
+    "id": "085",
+    "name": "平面化构图",
+    "name_en": "PLANAR COMPOSITION",
+    "category": "构图逻辑 / 视点、景深与空间感",
+    "original_image_file": "085_平面化构图.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "086",
+    "name": "深空间构图",
+    "name_en": "DEEP SPACE COMPOSITION",
+    "category": "构图逻辑 / 视点、景深与空间感",
+    "original_image_file": "136_非对称跨页.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: DEEPSPACECOMPOSITION"
+  },
+  {
+    "id": "087",
+    "name": "放射平衡原则",
+    "name_en": "RADIAL BALANCE",
+    "category": "视觉原则与阅读模式 / 平衡、动势与焦点",
+    "original_image_file": "087_放射平衡原则.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "088",
+    "name": "晶体式平衡原则",
+    "name_en": "CRYSTALLOGRAPHIC BALANCE",
+    "category": "视觉原则与阅读模式 / 平衡、动势与焦点",
+    "original_image_file": "022_垂直构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN roots: CRYSTALLOGRAPHIC BALANCE"
+  },
+  {
+    "id": "089",
+    "name": "静态构图",
+    "name_en": "STATIC COMPOSITION",
+    "category": "视觉原则与阅读模式 / 平衡、动势与焦点",
+    "original_image_file": "023_对角线构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: STATICCOMPOSITION"
+  },
+  {
+    "id": "090",
+    "name": "动态构图",
+    "name_en": "DYNAMIC COMPOSITION",
+    "category": "视觉原则与阅读模式 / 平衡、动势与焦点",
+    "original_image_file": "090_动态构图.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "091",
+    "name": "开放式构图",
+    "name_en": "OPEN COMPOSITION",
+    "category": "视觉原则与阅读模式 / 平衡、动势与焦点",
+    "original_image_file": "025_汇聚线构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: OPENCOMPOSITION"
+  },
+  {
+    "id": "092",
+    "name": "封闭式构图",
+    "name_en": "CLOSED COMPOSITION",
+    "category": "视觉原则与阅读模式 / 平衡、动势与焦点",
+    "original_image_file": "026_交叉线构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN core: 封闭式"
+  },
+  {
+    "id": "093",
+    "name": "单一焦点构图",
+    "name_en": "SINGLE FOCAL POINT",
+    "category": "视觉原则与阅读模式 / 平衡、动势与焦点",
+    "original_image_file": "093_单一焦点构图.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "094",
+    "name": "多重焦点构图",
+    "name_en": "MULTIPLE FOCAL POINTS",
+    "category": "视觉原则与阅读模式 / 平衡、动势与焦点",
+    "original_image_file": "028_偏轴构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN partial: 多重焦点 + EN roots: MULTIPLE FOCAL"
+  },
+  {
+    "id": "095",
+    "name": "视觉层级原则",
+    "name_en": "VISUAL HIERARCHY",
+    "category": "视觉原则与阅读模式 / 层级、比例与对比",
+    "original_image_file": "095_视觉层级原则.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "096",
+    "name": "主次关系原则",
+    "name_en": "DOMINANCE & SUBORDINATION",
+    "category": "视觉原则与阅读模式 / 层级、比例与对比",
+    "original_image_file": "096_主次关系原则.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "097",
+    "name": "平衡原则",
+    "name_en": "BALANCE PRINCIPLE",
+    "category": "视觉原则与阅读模式 / 层级、比例与对比",
+    "original_image_file": "097_平衡原则.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "098",
+    "name": "比例原则",
+    "name_en": "PROPORTION PRINCIPLE",
+    "category": "视觉原则与阅读模式 / 层级、比例与对比",
+    "original_image_file": "098_比例原则.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "099",
+    "name": "尺度对比原则",
+    "name_en": "SCALE CONTRAST",
+    "category": "视觉原则与阅读模式 / 层级、比例与对比",
+    "original_image_file": "033_L 形构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: SCALECONTRAST"
+  },
+  {
+    "id": "100",
+    "name": "明暗对比原则",
+    "name_en": "LIGHT & DARK CONTRAST",
+    "category": "视觉原则与阅读模式 / 层级、比例与对比",
+    "original_image_file": "100_明暗对比原则.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "101",
+    "name": "色彩对比原则",
+    "name_en": "COLOR CONTRAST",
+    "category": "视觉原则与阅读模式 / 层级、比例与对比",
+    "original_image_file": "035_Z 形构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN core: 色彩对比 + EN exact: COLORCONTRAST"
+  },
+  {
+    "id": "102",
+    "name": "形状对比原则",
+    "name_en": "SHAPE CONTRAST",
+    "category": "视觉原则与阅读模式 / 层级、比例与对比",
+    "original_image_file": "102_形状对比原则.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "103",
+    "name": "质感对比原则",
+    "name_en": "TEXTURE CONTRAST",
+    "category": "视觉原则与阅读模式 / 层级、比例与对比",
+    "original_image_file": "037_S 形构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: TEXTURECONTRAST"
+  },
+  {
+    "id": "104",
+    "name": "动静对比原则",
+    "name_en": "MOTION-STASIS CONTRAST",
+    "category": "视觉原则与阅读模式 / 层级、比例与对比",
+    "original_image_file": "104_动静对比原则.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "105",
+    "name": "并置原则",
+    "name_en": "JUXTAPOSITION PRINCIPLE",
+    "category": "视觉原则与阅读模式 / 层级、比例与对比",
+    "original_image_file": "105_并置原则.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "106",
+    "name": "隔离原则",
+    "name_en": "ISOLATION PRINCIPLE",
+    "category": "视觉原则与阅读模式 / 层级、比例与对比",
+    "original_image_file": "106_隔离原则.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "107",
+    "name": "重复原则",
+    "name_en": "REPETITION PRINCIPLE",
+    "category": "视觉原则与阅读模式 / 重复、图案与节奏",
+    "original_image_file": "041_三角构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN core: 重复 + EN exact: REPETITIONPRINCIPLE"
+  },
+  {
+    "id": "108",
+    "name": "图案组织",
+    "name_en": "PATTERN ORGANIZATION",
+    "category": "视觉原则与阅读模式 / 重复、图案与节奏",
+    "original_image_file": "042_金字塔构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 图案组织 + EN exact: PATTERNORGANIZATION"
+  },
+  {
+    "id": "109",
+    "name": "节奏组织",
+    "name_en": "RHYTHM ORGANIZATION",
+    "category": "视觉原则与阅读模式 / 重复、图案与节奏",
+    "original_image_file": "043_倒三角构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN partial: 节奏组织 + EN roots: RHYTHM ORGANIZATION"
+  },
+  {
+    "id": "110",
+    "name": "渐变组织",
+    "name_en": "GRADATION RHYTHM",
+    "category": "视觉原则与阅读模式 / 重复、图案与节奏",
+    "original_image_file": "110_渐变组织.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "111",
+    "name": "交替节奏组织",
+    "name_en": "ALTERNATING RHYTHM",
+    "category": "视觉原则与阅读模式 / 重复、图案与节奏",
+    "original_image_file": "045_方形构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: ALTERNATINGRHYTHM"
+  },
+  {
+    "id": "112",
+    "name": "渐进节奏组织",
+    "name_en": "PROGRESSIVE RHYTHM",
+    "category": "视觉原则与阅读模式 / 重复、图案与节奏",
+    "original_image_file": "046_矩形构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: PROGRESSIVERHYTHM"
+  },
+  {
+    "id": "113",
+    "name": "流动节奏组织",
+    "name_en": "FLOWING RHYTHM",
+    "category": "视觉原则与阅读模式 / 重复、图案与节奏",
+    "original_image_file": "113_流动节奏组织.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "114",
+    "name": "随机节奏组织",
+    "name_en": "RANDOM RHYTHM",
+    "category": "视觉原则与阅读模式 / 重复、图案与节奏",
+    "original_image_file": "048_椭圆构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 随机节奏组织 + EN exact: RANDOMRHYTHM"
+  },
+  {
+    "id": "115",
+    "name": "相似性原则",
+    "name_en": "SIMILARITY PRINCIPLE",
+    "category": "视觉原则与阅读模式 / 格式塔与组群",
+    "original_image_file": "049_弧形构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 相似性原则 + EN exact: SIMILARITYPRINCIPLE"
+  },
+  {
+    "id": "116",
+    "name": "邻近性原则",
+    "name_en": "PROXIMITY PRINCIPLE",
+    "category": "视觉原则与阅读模式 / 格式塔与组群",
+    "original_image_file": "050_环形构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 邻近性原则 + EN exact: PROXIMITYPRINCIPLE"
+  },
+  {
+    "id": "117",
+    "name": "连续性原则",
+    "name_en": "CONTINUITY PRINCIPLE",
+    "category": "视觉原则与阅读模式 / 格式塔与组群",
+    "original_image_file": "117_连续性原则.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "118",
+    "name": "闭合性原则",
+    "name_en": "CLOSURE PRINCIPLE",
+    "category": "视觉原则与阅读模式 / 格式塔与组群",
+    "original_image_file": "118_闭合性原则.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "119",
+    "name": "图底关系原则",
+    "name_en": "FIGURE-GROUND RELATION",
+    "category": "视觉原则与阅读模式 / 格式塔与组群",
+    "original_image_file": "119_图底关系原则.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "120",
+    "name": "共同区域原则",
+    "name_en": "COMMON REGION PRINCIPLE",
+    "category": "视觉原则与阅读模式 / 格式塔与组群",
+    "original_image_file": "120_共同区域原则.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "121",
+    "name": "共同命运原则",
+    "name_en": "COMMON FATE PRINCIPLE",
+    "category": "视觉原则与阅读模式 / 格式塔与组群",
+    "original_image_file": "121_共同命运原则.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "122",
+    "name": "简化构图原则",
+    "name_en": "SIMPLICITY PRINCIPLE",
+    "category": "视觉原则与阅读模式 / 格式塔与组群",
+    "original_image_file": "122_简化构图原则.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "123",
+    "name": "裁切构图",
+    "name_en": "CROPPING COMPOSITION",
+    "category": "视觉原则与阅读模式 / 格式塔与组群",
+    "original_image_file": "314_多层前景调度.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN roots: CROPPING COMPOSITION"
+  },
+  {
+    "id": "124",
+    "name": "满幅构图",
+    "name_en": "FULL-BLEED COMPOSITION",
+    "category": "视觉原则与阅读模式 / 格式塔与组群",
+    "original_image_file": "124_满幅构图.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "125",
+    "name": "疏密对比原则",
+    "name_en": "DENSITY CONTRAST",
+    "category": "视觉原则与阅读模式 / 格式塔与组群",
+    "original_image_file": "125_疏密对比原则.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "126",
+    "name": "群组构图",
+    "name_en": "GROUPING COMPOSITION",
+    "category": "视觉原则与阅读模式 / 格式塔与组群",
+    "original_image_file": "126_群组构图.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "127",
+    "name": "F 型扫描模式",
+    "name_en": "F-SHAPED READING PATTERN",
+    "category": "视觉原则与阅读模式 / 页面阅读模式",
+    "original_image_file": "127_F 型扫描模式.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "128",
+    "name": "Z 型扫描模式",
+    "name_en": "Z-SHAPED READING PATTERN",
+    "category": "视觉原则与阅读模式 / 页面阅读模式",
+    "original_image_file": "128_Z 型扫描模式.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "129",
+    "name": "古腾堡图式",
+    "name_en": "GUTENBERG DIAGRAM",
+    "category": "视觉原则与阅读模式 / 页面阅读模式",
+    "original_image_file": "288_媒体对象布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 古腾堡图式 + EN exact: GUTENBERGDIAGRAM"
+  },
+  {
+    "id": "130",
+    "name": "层蛋糕扫描模式",
+    "name_en": "LAYER-CAKE PATTERN",
+    "category": "视觉原则与阅读模式 / 页面阅读模式",
+    "original_image_file": "289_Hero 主视觉布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 层蛋糕扫描模式 + EN key: LAYERCAKE"
+  },
+  {
+    "id": "131",
+    "name": "斑点扫描模式",
+    "name_en": "SPOTTING SCAN PATTERN",
+    "category": "视觉原则与阅读模式 / 页面阅读模式",
+    "original_image_file": "286_搜索结果布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN roots: SCAN PATTERN"
+  },
+  {
+    "id": "132",
+    "name": "单栏版式",
+    "name_en": "SINGLE-COLUMN LAYOUT",
+    "category": "平面、出版与广告 / 分栏、跨页与出血",
+    "original_image_file": "151_拼贴版式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN core: 单栏 + EN exact: SINGLECOLUMNLAYOUT"
+  },
+  {
+    "id": "133",
+    "name": "双栏版式",
+    "name_en": "TWO-COLUMN LAYOUT",
+    "category": "平面、出版与广告 / 分栏、跨页与出血",
+    "original_image_file": "154_区块式版式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN roots: TWOCOLUMN LAYOUT"
+  },
+  {
+    "id": "134",
+    "name": "多栏版式",
+    "name_en": "MULTI-COLUMN LAYOUT",
+    "category": "平面、出版与广告 / 分栏、跨页与出血",
+    "original_image_file": "160_封面版式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 多栏版式 + EN exact: MULTICOLUMNLAYOUT"
+  },
+  {
+    "id": "135",
+    "name": "对称跨页",
+    "name_en": "SYMMETRICAL SPREAD",
+    "category": "平面、出版与广告 / 分栏、跨页与出血",
+    "original_image_file": "152_蒙太奇版式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 对称跨页 + EN exact: SYMMETRICALSPREAD"
+  },
+  {
+    "id": "136",
+    "name": "非对称跨页",
+    "name_en": "ASYMMETRICAL SPREAD",
+    "category": "平面、出版与广告 / 分栏、跨页与出血",
+    "original_image_file": "136_非对称跨页.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "137",
+    "name": "通版跨页",
+    "name_en": "PANORAMIC SPREAD",
+    "category": "平面、出版与广告 / 分栏、跨页与出血",
+    "original_image_file": "137_通版跨页.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "138",
+    "name": "满出血版式",
+    "name_en": "FULL-BLEED LAYOUT",
+    "category": "平面、出版与广告 / 分栏、跨页与出血",
+    "original_image_file": "340_仅标题幻灯片版式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN roots: FULLBLEED LAYOUT"
+  },
+  {
+    "id": "139",
+    "name": "无出血版式",
+    "name_en": "MARGIN-BOUND LAYOUT",
+    "category": "平面、出版与广告 / 分栏、跨页与出血",
+    "original_image_file": "139_无出血版式.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "140",
+    "name": "图片主导版式",
+    "name_en": "IMAGE-DOMINANT LAYOUT",
+    "category": "平面、出版与广告 / 图文主导与表现型版式",
+    "original_image_file": "155_插页式版式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 图片主导版式 + EN roots: IMAGEDOMINANT LAYOUT"
+  },
+  {
+    "id": "141",
+    "name": "文字主导版式",
+    "name_en": "TEXT-DOMINANT LAYOUT",
+    "category": "平面、出版与广告 / 图文主导与表现型版式",
+    "original_image_file": "141_文字主导版式.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "142",
+    "name": "大标题版式",
+    "name_en": "HEADLINE-DOMINANT LAYOUT",
+    "category": "平面、出版与广告 / 图文主导与表现型版式",
+    "original_image_file": "142_大标题版式.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "143",
+    "name": "图片窗口版式",
+    "name_en": "IMAGE WINDOW LAYOUT",
+    "category": "平面、出版与广告 / 图文主导与表现型版式",
+    "original_image_file": "182_轮廓绕排.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: IMAGEWINDOWLAYOUT"
+  },
+  {
+    "id": "144",
+    "name": "框架版式",
+    "name_en": "FRAMEWORK LAYOUT",
+    "category": "平面、出版与广告 / 图文主导与表现型版式",
+    "original_image_file": "144_框架版式.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "145",
+    "name": "多面板版式",
+    "name_en": "MULTI-PANEL LAYOUT",
+    "category": "平面、出版与广告 / 图文主导与表现型版式",
+    "original_image_file": "145_多面板版式.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "146",
+    "name": "蒙德里安版式",
+    "name_en": "MONDRIAN LAYOUT",
+    "category": "平面、出版与广告 / 图文主导与表现型版式",
+    "original_image_file": "185_悬挂缩进.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: MONDRIANLAYOUT"
+  },
+  {
+    "id": "147",
+    "name": "马戏团版式",
+    "name_en": "CIRCUS LAYOUT",
+    "category": "平面、出版与广告 / 图文主导与表现型版式",
+    "original_image_file": "147_马戏团版式.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "148",
+    "name": "剪影版式",
+    "name_en": "SILHOUETTE LAYOUT",
+    "category": "平面、出版与广告 / 图文主导与表现型版式",
+    "original_image_file": "187_凸排标点.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: SILHOUETTELAYOUT"
+  },
+  {
+    "id": "149",
+    "name": "字母造型版式",
+    "name_en": "TYPOGRAPHIC FORM LAYOUT",
+    "category": "平面、出版与广告 / 图文主导与表现型版式",
+    "original_image_file": "188_基线对齐.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN partial: 字母造型 + EN roots: FORM LAYOUT"
+  },
+  {
+    "id": "150",
+    "name": "图文谜语版式",
+    "name_en": "VISUAL REBUS LAYOUT",
+    "category": "平面、出版与广告 / 图文主导与表现型版式",
+    "original_image_file": "129_古腾堡图式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN roots: VISUAL LAYOUT"
+  },
+  {
+    "id": "151",
+    "name": "拼贴版式",
+    "name_en": "COLLAGE LAYOUT",
+    "category": "平面、出版与广告 / 图文主导与表现型版式",
+    "original_image_file": "190_图形诗排版.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: COLLAGELAYOUT"
+  },
+  {
+    "id": "152",
+    "name": "蒙太奇版式",
+    "name_en": "MONTAGE LAYOUT",
+    "category": "平面、出版与广告 / 图文主导与表现型版式",
+    "original_image_file": "191_路径文字.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: MONTAGELAYOUT"
+  },
+  {
+    "id": "153",
+    "name": "模块化页面",
+    "name_en": "MODULAR PAGE",
+    "category": "平面、出版与广告 / 模块、侧栏与图文关系",
+    "original_image_file": "192_垂直文字排版.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: MODULARPAGE"
+  },
+  {
+    "id": "154",
+    "name": "区块式版式",
+    "name_en": "BLOCK LAYOUT",
+    "category": "平面、出版与广告 / 模块、侧栏与图文关系",
+    "original_image_file": "193_水平文字排版.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: BLOCKLAYOUT"
+  },
+  {
+    "id": "155",
+    "name": "插页式版式",
+    "name_en": "INSET LAYOUT",
+    "category": "平面、出版与广告 / 模块、侧栏与图文关系",
+    "original_image_file": "155_插页式版式.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "156",
+    "name": "侧栏版式",
+    "name_en": "SIDEBAR LAYOUT",
+    "category": "平面、出版与广告 / 模块、侧栏与图文关系",
+    "original_image_file": "156_侧栏版式.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "157",
+    "name": "边注版式",
+    "name_en": "MARGINALIA LAYOUT",
+    "category": "平面、出版与广告 / 模块、侧栏与图文关系",
+    "original_image_file": "196_模块化网格.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN core: 边注 + EN roots: MARGINALIA LAYOUT"
+  },
+  {
+    "id": "158",
+    "name": "环绕图版式",
+    "name_en": "WRAP-AROUND LAYOUT",
+    "category": "平面、出版与广告 / 模块、侧栏与图文关系",
+    "original_image_file": "158_环绕图版式.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "159",
+    "name": "浮动块版式",
+    "name_en": "FLOATING BLOCK LAYOUT",
+    "category": "平面、出版与广告 / 模块、侧栏与图文关系",
+    "original_image_file": "198_基线网格.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 浮动块版式 + EN exact: FLOATINGBLOCKLAYOUT"
+  },
+  {
+    "id": "160",
+    "name": "封面版式",
+    "name_en": "COVER LAYOUT",
+    "category": "平面、出版与广告 / 出版功能页面",
+    "original_image_file": "160_封面版式.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "161",
+    "name": "章节扉页",
+    "name_en": "CHAPTER OPENING PAGE",
+    "category": "平面、出版与广告 / 出版功能页面",
+    "original_image_file": "200_非对称网格.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: CHAPTEROPENINGPAGE"
+  },
+  {
+    "id": "162",
+    "name": "栏目开启页",
+    "name_en": "SECTION OPENING PAGE",
+    "category": "平面、出版与广告 / 出版功能页面",
+    "original_image_file": "162_栏目开启页.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "163",
+    "name": "特写跨页",
+    "name_en": "FEATURE SPREAD",
+    "category": "平面、出版与广告 / 出版功能页面",
+    "original_image_file": "163_特写跨页.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "164",
+    "name": "目录版式",
+    "name_en": "TABLE OF CONTENTS",
+    "category": "平面、出版与广告 / 出版功能页面",
+    "original_image_file": "243_堆栈.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN core: 目录 + EN key: CONTENTS"
+  },
+  {
+    "id": "165",
+    "name": "索引版式",
+    "name_en": "INDEX LAYOUT",
+    "category": "平面、出版与广告 / 出版功能页面",
+    "original_image_file": "244_盒子.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 索引版式 + EN exact: INDEXLAYOUT"
+  },
+  {
+    "id": "166",
+    "name": "图录版式",
+    "name_en": "CATALOG LAYOUT",
+    "category": "平面、出版与广告 / 出版功能页面",
+    "original_image_file": "245_居中器.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN core: 图录 + EN exact: CATALOGLAYOUT"
+  },
+  {
+    "id": "167",
+    "name": "引语主导版式",
+    "name_en": "PULL-QUOTE DOMINANT",
+    "category": "平面、出版与广告 / 出版功能页面",
+    "original_image_file": "167_引语主导版式.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "168",
+    "name": "轴线系统",
+    "name_en": "AXIAL TYPE SYSTEM",
+    "category": "字体、网格与东亚文字 / 字体组织系统",
+    "original_image_file": "168_轴线系统.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "169",
+    "name": "放射系统",
+    "name_en": "RADIAL TYPE SYSTEM",
+    "category": "字体、网格与东亚文字 / 字体组织系统",
+    "original_image_file": "138_满出血版式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 放射系统 + EN roots: RADIAL SYSTEM"
+  },
+  {
+    "id": "170",
+    "name": "扩张系统",
+    "name_en": "DILATATIONAL TYPE SYSTEM",
+    "category": "字体、网格与东亚文字 / 字体组织系统",
+    "original_image_file": "170_扩张系统.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "171",
+    "name": "随机系统",
+    "name_en": "RANDOM TYPE SYSTEM",
+    "category": "字体、网格与东亚文字 / 字体组织系统",
+    "original_image_file": "140_图片主导版式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN roots: RANDOM SYSTEM"
+  },
+  {
+    "id": "172",
+    "name": "网格系统",
+    "name_en": "GRID TYPE SYSTEM",
+    "category": "字体、网格与东亚文字 / 字体组织系统",
+    "original_image_file": "141_文字主导版式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 网格系统 + EN roots: GRID SYSTEM"
+  },
+  {
+    "id": "173",
+    "name": "模块系统",
+    "name_en": "MODULAR TYPE SYSTEM",
+    "category": "字体、网格与东亚文字 / 字体组织系统",
+    "original_image_file": "142_大标题版式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 模块系统 + EN roots: MODULAR SYSTEM"
+  },
+  {
+    "id": "174",
+    "name": "过渡系统",
+    "name_en": "TRANSITIONAL TYPE SYSTEM",
+    "category": "字体、网格与东亚文字 / 字体组织系统",
+    "original_image_file": "143_图片窗口版式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 过渡系统 + EN roots: TRANSITIONAL SYSTEM"
+  },
+  {
+    "id": "175",
+    "name": "双边系统",
+    "name_en": "BILATERAL TYPE SYSTEM",
+    "category": "字体、网格与东亚文字 / 字体组织系统",
+    "original_image_file": "144_框架版式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN roots: BILATERAL SYSTEM"
+  },
+  {
+    "id": "176",
+    "name": "左对齐右参差",
+    "name_en": "FLUSH LEFT RAGGED RIGHT",
+    "category": "字体、网格与东亚文字 / 对齐、缩进与文字造型",
+    "original_image_file": "145_多面板版式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 左对齐右参差 + EN exact: FLUSHLEFTRAGGEDRIGHT"
+  },
+  {
+    "id": "177",
+    "name": "右对齐左参差",
+    "name_en": "FLUSH RIGHT RAGGED LEFT",
+    "category": "字体、网格与东亚文字 / 对齐、缩进与文字造型",
+    "original_image_file": "146_蒙德里安版式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: FLUSHRIGHTRAGGEDLEFT"
+  },
+  {
+    "id": "178",
+    "name": "居中排版",
+    "name_en": "CENTERED TYPOGRAPHY",
+    "category": "字体、网格与东亚文字 / 对齐、缩进与文字造型",
+    "original_image_file": "147_马戏团版式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: CENTEREDTYPOGRAPHY"
+  },
+  {
+    "id": "179",
+    "name": "两端对齐",
+    "name_en": "JUSTIFIED TYPOGRAPHY",
+    "category": "字体、网格与东亚文字 / 对齐、缩进与文字造型",
+    "original_image_file": "179_两端对齐.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "180",
+    "name": "强制两端对齐",
+    "name_en": "FORCE JUSTIFIED TYPOGRAPHY",
+    "category": "字体、网格与东亚文字 / 对齐、缩进与文字造型",
+    "original_image_file": "149_字母造型版式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN roots: FORCE JUSTIFIED"
+  },
+  {
+    "id": "181",
+    "name": "非对称字体排版",
+    "name_en": "ASYMMETRICAL TYPOGRAPHY",
+    "category": "字体、网格与东亚文字 / 对齐、缩进与文字造型",
+    "original_image_file": "150_图文谜语版式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN roots: ASYMMETRICAL TYPOGRAPHY"
+  },
+  {
+    "id": "182",
+    "name": "轮廓绕排",
+    "name_en": "CONTOUR TEXT WRAP",
+    "category": "字体、网格与东亚文字 / 对齐、缩进与文字造型",
+    "original_image_file": "121_共同命运原则.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN roots: CONTOUR WRAP"
+  },
+  {
+    "id": "183",
+    "name": "矩形绕排",
+    "name_en": "RECTANGULAR TEXT WRAP",
+    "category": "字体、网格与东亚文字 / 对齐、缩进与文字造型",
+    "original_image_file": "122_简化构图原则.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN roots: RECTANGULAR WRAP"
+  },
+  {
+    "id": "184",
+    "name": "跨栏标题",
+    "name_en": "CROSS-COLUMN HEADLINE",
+    "category": "字体、网格与东亚文字 / 对齐、缩进与文字造型",
+    "original_image_file": "184_跨栏标题.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "185",
+    "name": "悬挂缩进",
+    "name_en": "HANGING INDENT",
+    "category": "字体、网格与东亚文字 / 对齐、缩进与文字造型",
+    "original_image_file": "124_满幅构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: HANGINGINDENT"
+  },
+  {
+    "id": "186",
+    "name": "首行缩进",
+    "name_en": "FIRST-LINE INDENT",
+    "category": "字体、网格与东亚文字 / 对齐、缩进与文字造型",
+    "original_image_file": "125_疏密对比原则.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: FIRSTLINEINDENT"
+  },
+  {
+    "id": "187",
+    "name": "凸排标点",
+    "name_en": "HANGING PUNCTUATION",
+    "category": "字体、网格与东亚文字 / 对齐、缩进与文字造型",
+    "original_image_file": "126_群组构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 凸排标点 + EN exact: HANGINGPUNCTUATION"
+  },
+  {
+    "id": "188",
+    "name": "基线对齐",
+    "name_en": "BASELINE ALIGNMENT",
+    "category": "字体、网格与东亚文字 / 对齐、缩进与文字造型",
+    "original_image_file": "127_F 型扫描模式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: BASELINEALIGNMENT"
+  },
+  {
+    "id": "189",
+    "name": "形状文字",
+    "name_en": "SHAPED TEXT",
+    "category": "字体、网格与东亚文字 / 对齐、缩进与文字造型",
+    "original_image_file": "128_Z 型扫描模式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN partial: 形状文字 + EN exact: SHAPEDTEXT"
+  },
+  {
+    "id": "190",
+    "name": "图形诗排版",
+    "name_en": "CALLIGRAM TYPOGRAPHY",
+    "category": "字体、网格与东亚文字 / 对齐、缩进与文字造型",
+    "original_image_file": "190_图形诗排版.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "191",
+    "name": "路径文字",
+    "name_en": "TYPE ON A PATH",
+    "category": "字体、网格与东亚文字 / 对齐、缩进与文字造型",
+    "original_image_file": "130_层蛋糕扫描模式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 路径文字 + EN roots: TYPE PATH"
+  },
+  {
+    "id": "192",
+    "name": "垂直文字排版",
+    "name_en": "VERTICAL TYPOGRAPHY",
+    "category": "字体、网格与东亚文字 / 对齐、缩进与文字造型",
+    "original_image_file": "192_垂直文字排版.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "193",
+    "name": "水平文字排版",
+    "name_en": "HORIZONTAL TYPOGRAPHY",
+    "category": "字体、网格与东亚文字 / 对齐、缩进与文字造型",
+    "original_image_file": "168_轴线系统.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: HORIZONTALTYPOGRAPHY"
+  },
+  {
+    "id": "194",
+    "name": "手稿网格",
+    "name_en": "MANUSCRIPT GRID",
+    "category": "字体、网格与东亚文字 / 网格系统",
+    "original_image_file": "113_流动节奏组织.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 手稿网格 + EN exact: MANUSCRIPTGRID"
+  },
+  {
+    "id": "195",
+    "name": "分栏网格",
+    "name_en": "COLUMN GRID",
+    "category": "字体、网格与东亚文字 / 网格系统",
+    "original_image_file": "166_图录版式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 分栏网格 + EN exact: COLUMNGRID"
+  },
+  {
+    "id": "196",
+    "name": "模块化网格",
+    "name_en": "MODULAR GRID",
+    "category": "字体、网格与东亚文字 / 网格系统",
+    "original_image_file": "162_栏目开启页.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 模块化网格 + EN exact: MODULARGRID"
+  },
+  {
+    "id": "197",
+    "name": "层级网格",
+    "name_en": "HIERARCHICAL GRID",
+    "category": "字体、网格与东亚文字 / 网格系统",
+    "original_image_file": "116_邻近性原则.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 层级网格 + EN exact: HIERARCHICALGRID"
+  },
+  {
+    "id": "198",
+    "name": "基线网格",
+    "name_en": "BASELINE GRID",
+    "category": "字体、网格与东亚文字 / 网格系统",
+    "original_image_file": "117_连续性原则.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 基线网格 + EN exact: BASELINEGRID"
+  },
+  {
+    "id": "199",
+    "name": "复合网格",
+    "name_en": "COMPOUND GRID",
+    "category": "字体、网格与东亚文字 / 网格系统",
+    "original_image_file": "118_闭合性原则.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: COMPOUNDGRID"
+  },
+  {
+    "id": "200",
+    "name": "非对称网格",
+    "name_en": "ASYMMETRICAL GRID",
+    "category": "字体、网格与东亚文字 / 网格系统",
+    "original_image_file": "163_特写跨页.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 非对称网格 + EN exact: ASYMMETRICALGRID"
+  },
+  {
+    "id": "201",
+    "name": "方格网格",
+    "name_en": "SQUARE GRID",
+    "category": "字体、网格与东亚文字 / 网格系统",
+    "original_image_file": "120_共同区域原则.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: SQUAREGRID"
+  },
+  {
+    "id": "202",
+    "name": "等距网格",
+    "name_en": "ISOMETRIC GRID",
+    "category": "字体、网格与东亚文字 / 网格系统",
+    "original_image_file": "202_等距网格.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "203",
+    "name": "放射网格",
+    "name_en": "RADIAL GRID",
+    "category": "字体、网格与东亚文字 / 网格系统",
+    "original_image_file": "172_网格系统.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: RADIALGRID"
+  },
+  {
+    "id": "204",
+    "name": "极坐标网格",
+    "name_en": "POLAR COORDINATE GRID",
+    "category": "字体、网格与东亚文字 / 网格系统",
+    "original_image_file": "173_模块系统.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 极坐标网格 + EN roots: POLAR GRID"
+  },
+  {
+    "id": "205",
+    "name": "嵌套网格",
+    "name_en": "NESTED GRID",
+    "category": "字体、网格与东亚文字 / 网格系统",
+    "original_image_file": "174_过渡系统.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 嵌套网格"
+  },
+  {
+    "id": "206",
+    "name": "子网格",
+    "name_en": "SUBGRID",
+    "category": "字体、网格与东亚文字 / 网格系统",
+    "original_image_file": "175_双边系统.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 子网格 + EN exact: SUBGRID"
+  },
+  {
+    "id": "207",
+    "name": "固定网格",
+    "name_en": "FIXED GRID",
+    "category": "字体、网格与东亚文字 / 网格系统",
+    "original_image_file": "176_左对齐右参差.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: FIXEDGRID"
+  },
+  {
+    "id": "208",
+    "name": "流体网格",
+    "name_en": "FLUID GRID",
+    "category": "字体、网格与东亚文字 / 网格系统",
+    "original_image_file": "177_右对齐左参差.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 流体网格 + EN exact: FLUIDGRID"
+  },
+  {
+    "id": "209",
+    "name": "响应式网格",
+    "name_en": "RESPONSIVE GRID",
+    "category": "字体、网格与东亚文字 / 网格系统",
+    "original_image_file": "178_居中排版.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: RESPONSIVEGRID"
+  },
+  {
+    "id": "210",
+    "name": "破格网格",
+    "name_en": "GRID-BREAKING LAYOUT",
+    "category": "字体、网格与东亚文字 / 网格系统",
+    "original_image_file": "210_破格网格.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "211",
+    "name": "解构网格",
+    "name_en": "DECONSTRUCTED GRID",
+    "category": "字体、网格与东亚文字 / 网格系统",
+    "original_image_file": "180_强制两端对齐.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 解构网格 + EN exact: DECONSTRUCTEDGRID"
+  },
+  {
+    "id": "212",
+    "name": "横排左起",
+    "name_en": "HORIZONTAL LTR",
+    "category": "字体、网格与东亚文字 / 东亚文字与混排",
+    "original_image_file": "212_横排左起.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "213",
+    "name": "横排右起",
+    "name_en": "HORIZONTAL RTL",
+    "category": "字体、网格与东亚文字 / 东亚文字与混排",
+    "original_image_file": "213_横排右起.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "214",
+    "name": "直排右起",
+    "name_en": "VERTICAL RTL",
+    "category": "字体、网格与东亚文字 / 东亚文字与混排",
+    "original_image_file": "214_直排右起.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "215",
+    "name": "直排左起",
+    "name_en": "VERTICAL LTR",
+    "category": "字体、网格与东亚文字 / 东亚文字与混排",
+    "original_image_file": "215_直排左起.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "216",
+    "name": "横直混排",
+    "name_en": "MIXED VERTICAL-HORIZONTAL",
+    "category": "字体、网格与东亚文字 / 东亚文字与混排",
+    "original_image_file": "216_横直混排.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "217",
+    "name": "纵中横排",
+    "name_en": "TATE-CHU-YOKO",
+    "category": "字体、网格与东亚文字 / 东亚文字与混排",
+    "original_image_file": "217_纵中横排.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "218",
+    "name": "直排中西文转向",
+    "name_en": "VERTICAL ROTATED LATIN",
+    "category": "字体、网格与东亚文字 / 东亚文字与混排",
+    "original_image_file": "218_直排中西文转向.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "219",
+    "name": "直排中西文直立",
+    "name_en": "VERTICAL UPRIGHT LATIN",
+    "category": "字体、网格与东亚文字 / 东亚文字与混排",
+    "original_image_file": "219_直排中西文直立.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "220",
+    "name": "双向文字排版",
+    "name_en": "BIDIRECTIONAL TYPOGRAPHY",
+    "category": "字体、网格与东亚文字 / 东亚文字与混排",
+    "original_image_file": "323_边角式构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 双向文字排版 + EN exact: BIDIRECTIONALTYPOGRAPHY"
+  },
+  {
+    "id": "221",
+    "name": "旁注（Ruby）排版",
+    "name_en": "RUBY ANNOTATION LAYOUT",
+    "category": "字体、网格与东亚文字 / 东亚文字与混排",
+    "original_image_file": "324_截景式构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: RUBYANNOTATIONLAYOUT"
+  },
+  {
+    "id": "222",
+    "name": "普通流布局",
+    "name_en": "NORMAL FLOW LAYOUT",
+    "category": "网页与 UI / CSS 流、定位与响应",
+    "original_image_file": "247_侧栏原语.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: NORMALFLOWLAYOUT"
+  },
+  {
+    "id": "223",
+    "name": "块级布局",
+    "name_en": "BLOCK-LEVEL LAYOUT",
+    "category": "网页与 UI / CSS 流、定位与响应",
+    "original_image_file": "223_块级布局.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "224",
+    "name": "行内布局",
+    "name_en": "INLINE LAYOUT",
+    "category": "网页与 UI / CSS 流、定位与响应",
+    "original_image_file": "249_封面原语.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: INLINELAYOUT"
+  },
+  {
+    "id": "225",
+    "name": "流根布局",
+    "name_en": "BLOCK FORMATTING CONTEXT",
+    "category": "网页与 UI / CSS 流、定位与响应",
+    "original_image_file": "225_流根布局.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "226",
+    "name": "弹性盒布局",
+    "name_en": "FLEXBOX LAYOUT",
+    "category": "网页与 UI / CSS 流、定位与响应",
+    "original_image_file": "201_方格网格.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 弹性盒布局 + EN exact: FLEXBOXLAYOUT"
+  },
+  {
+    "id": "227",
+    "name": "网格布局",
+    "name_en": "CSS GRID LAYOUT",
+    "category": "网页与 UI / CSS 流、定位与响应",
+    "original_image_file": "203_放射网格.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 网格布局"
+  },
+  {
+    "id": "228",
+    "name": "子网格布局",
+    "name_en": "CSS SUBGRID LAYOUT",
+    "category": "网页与 UI / CSS 流、定位与响应",
+    "original_image_file": "228_子网格布局.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "229",
+    "name": "多栏布局",
+    "name_en": "CSS MULTI-COLUMN",
+    "category": "网页与 UI / CSS 流、定位与响应",
+    "original_image_file": "229_多栏布局.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "230",
+    "name": "表格布局",
+    "name_en": "CSS TABLE LAYOUT",
+    "category": "网页与 UI / CSS 流、定位与响应",
+    "original_image_file": "205_嵌套网格.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN roots: TABLE LAYOUT"
+  },
+  {
+    "id": "231",
+    "name": "浮动布局",
+    "name_en": "FLOAT LAYOUT",
+    "category": "网页与 UI / CSS 流、定位与响应",
+    "original_image_file": "206_子网格.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: FLOATLAYOUT"
+  },
+  {
+    "id": "232",
+    "name": "相对定位布局",
+    "name_en": "RELATIVE POSITIONING",
+    "category": "网页与 UI / CSS 流、定位与响应",
+    "original_image_file": "207_固定网格.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN partial: 相对定位 + EN exact: RELATIVEPOSITIONING"
+  },
+  {
+    "id": "233",
+    "name": "绝对定位布局",
+    "name_en": "ABSOLUTE POSITIONING",
+    "category": "网页与 UI / CSS 流、定位与响应",
+    "original_image_file": "208_流体网格.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: ABSOLUTEPOSITIONING"
+  },
+  {
+    "id": "234",
+    "name": "固定定位布局",
+    "name_en": "FIXED POSITIONING",
+    "category": "网页与 UI / CSS 流、定位与响应",
+    "original_image_file": "209_响应式网格.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: FIXEDPOSITIONING"
+  },
+  {
+    "id": "235",
+    "name": "粘性定位布局",
+    "name_en": "STICKY POSITIONING",
+    "category": "网页与 UI / CSS 流、定位与响应",
+    "original_image_file": "210_破格网格.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 粘性定位布局 + EN exact: STICKYPOSITIONING"
+  },
+  {
+    "id": "236",
+    "name": "瀑布流布局",
+    "name_en": "MASONRY LAYOUT",
+    "category": "网页与 UI / CSS 流、定位与响应",
+    "original_image_file": "211_解构网格.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: MASONRYLAYOUT"
+  },
+  {
+    "id": "237",
+    "name": "覆盖布局",
+    "name_en": "OVERLAY LAYOUT",
+    "category": "网页与 UI / CSS 流、定位与响应",
+    "original_image_file": "212_横排左起.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: OVERLAYLAYOUT"
+  },
+  {
+    "id": "238",
+    "name": "固定宽度布局",
+    "name_en": "FIXED-WIDTH LAYOUT",
+    "category": "网页与 UI / CSS 流、定位与响应",
+    "original_image_file": "213_横排右起.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 固定宽度布局 + EN exact: FIXEDWIDTHLAYOUT"
+  },
+  {
+    "id": "239",
+    "name": "流体布局",
+    "name_en": "FLUID LAYOUT",
+    "category": "网页与 UI / CSS 流、定位与响应",
+    "original_image_file": "214_直排右起.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: FLUIDLAYOUT"
+  },
+  {
+    "id": "240",
+    "name": "响应式布局",
+    "name_en": "RESPONSIVE LAYOUT",
+    "category": "网页与 UI / CSS 流、定位与响应",
+    "original_image_file": "215_直排左起.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: RESPONSIVELAYOUT"
+  },
+  {
+    "id": "241",
+    "name": "自适应布局",
+    "name_en": "ADAPTIVE LAYOUT",
+    "category": "网页与 UI / CSS 流、定位与响应",
+    "original_image_file": "216_横直混排.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 自适应布局 + EN exact: ADAPTIVELAYOUT"
+  },
+  {
+    "id": "242",
+    "name": "容器查询布局",
+    "name_en": "CONTAINER QUERIES LAYOUT",
+    "category": "网页与 UI / CSS 流、定位与响应",
+    "original_image_file": "217_纵中横排.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN roots: CONTAINER LAYOUT"
+  },
+  {
+    "id": "243",
+    "name": "堆栈",
+    "name_en": "STACK PRIMITIVE",
+    "category": "网页与 UI / 布局原语",
+    "original_image_file": "243_堆栈.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "244",
+    "name": "盒子",
+    "name_en": "BOX PRIMITIVE",
+    "category": "网页与 UI / 布局原语",
+    "original_image_file": "219_直排中西文直立.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 盒子"
+  },
+  {
+    "id": "245",
+    "name": "居中器",
+    "name_en": "CENTER PRIMITIVE",
+    "category": "网页与 UI / 布局原语",
+    "original_image_file": "245_居中器.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "246",
+    "name": "簇群",
+    "name_en": "CLUSTER PRIMITIVE",
+    "category": "网页与 UI / 布局原语",
+    "original_image_file": "246_簇群.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "247",
+    "name": "侧栏原语",
+    "name_en": "SIDEBAR PRIMITIVE",
+    "category": "网页与 UI / 布局原语",
+    "original_image_file": "247_侧栏原语.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "248",
+    "name": "切换器",
+    "name_en": "SWITCHER PRIMITIVE",
+    "category": "网页与 UI / 布局原语",
+    "original_image_file": "248_切换器.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "249",
+    "name": "封面原语",
+    "name_en": "COVER PRIMITIVE",
+    "category": "网页与 UI / 布局原语",
+    "original_image_file": "224_行内布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: COVERPRIMITIVE"
+  },
+  {
+    "id": "250",
+    "name": "自适应网格原语",
+    "name_en": "GRID PRIMITIVE",
+    "category": "网页与 UI / 布局原语",
+    "original_image_file": "225_流根布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: GRIDPRIMITIVE"
+  },
+  {
+    "id": "251",
+    "name": "比例框",
+    "name_en": "FRAME RATIO PRIMITIVE",
+    "category": "网页与 UI / 布局原语",
+    "original_image_file": "251_比例框.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "252",
+    "name": "横向卷轴",
+    "name_en": "REEL HORIZONTAL SCROLL",
+    "category": "网页与 UI / 布局原语",
+    "original_image_file": "227_网格布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 横向卷轴 + EN roots: HORIZONTAL SCROLL"
+  },
+  {
+    "id": "253",
+    "name": "悬浮层",
+    "name_en": "FLOATING LAYER",
+    "category": "网页与 UI / 布局原语",
+    "original_image_file": "228_子网格布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: FLOATINGLAYER"
+  },
+  {
+    "id": "254",
+    "name": "图标文字组合",
+    "name_en": "ICON-TEXT COMBO",
+    "category": "网页与 UI / 布局原语",
+    "original_image_file": "254_图标文字组合.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "255",
+    "name": "单列页面",
+    "name_en": "SINGLE-COLUMN PAGE",
+    "category": "网页与 UI / 页面框架与导航",
+    "original_image_file": "230_表格布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: SINGLECOLUMNPAGE"
+  },
+  {
+    "id": "256",
+    "name": "双列页面",
+    "name_en": "TWO-COLUMN PAGE",
+    "category": "网页与 UI / 页面框架与导航",
+    "original_image_file": "256_双列页面.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "257",
+    "name": "三列页面",
+    "name_en": "THREE-COLUMN PAGE",
+    "category": "网页与 UI / 页面框架与导航",
+    "original_image_file": "257_三列页面.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "258",
+    "name": "侧边栏页面",
+    "name_en": "SIDEBAR PAGE",
+    "category": "网页与 UI / 页面框架与导航",
+    "original_image_file": "258_侧边栏页面.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "259",
+    "name": "分屏布局",
+    "name_en": "SPLIT-SCREEN LAYOUT",
+    "category": "网页与 UI / 页面框架与导航",
+    "original_image_file": "234_固定定位布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: SPLITSCREENLAYOUT"
+  },
+  {
+    "id": "260",
+    "name": "圣杯布局",
+    "name_en": "HOLY GRAIL LAYOUT",
+    "category": "网页与 UI / 页面框架与导航",
+    "original_image_file": "235_粘性定位布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: HOLYGRAILLAYOUT"
+  },
+  {
+    "id": "261",
+    "name": "页眉—主体—页脚",
+    "name_en": "HEADER-MAIN-FOOTER",
+    "category": "网页与 UI / 页面框架与导航",
+    "original_image_file": "261_页眉—主体—页脚.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "262",
+    "name": "顶部导航布局",
+    "name_en": "TOP-NAV LAYOUT",
+    "category": "网页与 UI / 页面框架与导航",
+    "original_image_file": "237_覆盖布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN core: 顶部导航"
+  },
+  {
+    "id": "263",
+    "name": "导航抽屉布局",
+    "name_en": "NAVIGATION DRAWER",
+    "category": "网页与 UI / 页面框架与导航",
+    "original_image_file": "263_导航抽屉布局.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "264",
+    "name": "底部导航布局",
+    "name_en": "BOTTOM-NAV LAYOUT",
+    "category": "网页与 UI / 页面框架与导航",
+    "original_image_file": "239_流体布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN roots: BOTTOMNAV LAYOUT"
+  },
+  {
+    "id": "265",
+    "name": "标签页布局",
+    "name_en": "TABS LAYOUT",
+    "category": "网页与 UI / 页面框架与导航",
+    "original_image_file": "265_标签页布局.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "266",
+    "name": "手风琴布局",
+    "name_en": "ACCORDION LAYOUT",
+    "category": "网页与 UI / 页面框架与导航",
+    "original_image_file": "251_比例框.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: ACCORDIONLAYOUT"
+  },
+  {
+    "id": "267",
+    "name": "列表—详情布局",
+    "name_en": "LIST-DETAIL LAYOUT",
+    "category": "网页与 UI / 页面框架与导航",
+    "original_image_file": "267_列表—详情布局.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "268",
+    "name": "辅助窗格布局",
+    "name_en": "AUXILIARY PANE LAYOUT",
+    "category": "网页与 UI / 页面框架与导航",
+    "original_image_file": "253_悬浮层.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN partial: 辅助窗格 + EN exact: AUXILIARYPANELAYOUT"
+  },
+  {
+    "id": "269",
+    "name": "信息流布局",
+    "name_en": "FEED LAYOUT",
+    "category": "网页与 UI / 内容与产品模式",
+    "original_image_file": "254_图标文字组合.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: FEEDLAYOUT"
+  },
+  {
+    "id": "270",
+    "name": "卡片网格布局",
+    "name_en": "CARD GRID LAYOUT",
+    "category": "网页与 UI / 内容与产品模式",
+    "original_image_file": "270_卡片网格布局.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "271",
+    "name": "瀑布流页面",
+    "name_en": "MASONRY PAGE",
+    "category": "网页与 UI / 内容与产品模式",
+    "original_image_file": "256_双列页面.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN roots: MASONRY PAGE"
+  },
+  {
+    "id": "272",
+    "name": "便当盒布局",
+    "name_en": "BENTO BOX LAYOUT",
+    "category": "网页与 UI / 内容与产品模式",
+    "original_image_file": "257_三列页面.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: BENTOBOXLAYOUT"
+  },
+  {
+    "id": "273",
+    "name": "仪表盘布局",
+    "name_en": "DASHBOARD LAYOUT",
+    "category": "网页与 UI / 内容与产品模式",
+    "original_image_file": "258_侧边栏页面.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 仪表盘布局 + EN exact: DASHBOARDLAYOUT"
+  },
+  {
+    "id": "274",
+    "name": "数据表格布局",
+    "name_en": "DATA TABLE LAYOUT",
+    "category": "网页与 UI / 内容与产品模式",
+    "original_image_file": "259_分屏布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: DATATABLELAYOUT"
+  },
+  {
+    "id": "275",
+    "name": "画廊布局",
+    "name_en": "GALLERY LAYOUT",
+    "category": "网页与 UI / 内容与产品模式",
+    "original_image_file": "260_圣杯布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: GALLERYLAYOUT"
+  },
+  {
+    "id": "276",
+    "name": "轮播布局",
+    "name_en": "CAROUSEL LAYOUT",
+    "category": "网页与 UI / 内容与产品模式",
+    "original_image_file": "291_大体流动模式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: CAROUSELLAYOUT"
+  },
+  {
+    "id": "277",
+    "name": "时间线布局",
+    "name_en": "TIMELINE LAYOUT",
+    "category": "网页与 UI / 内容与产品模式",
+    "original_image_file": "292_列下落模式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 时间线布局 + EN exact: TIMELINELAYOUT"
+  },
+  {
+    "id": "278",
+    "name": "看板布局",
+    "name_en": "KANBAN BOARD LAYOUT",
+    "category": "网页与 UI / 内容与产品模式",
+    "original_image_file": "293_布局切换模式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN roots: KANBAN LAYOUT"
+  },
+  {
+    "id": "279",
+    "name": "日历布局",
+    "name_en": "CALENDAR LAYOUT",
+    "category": "网页与 UI / 内容与产品模式",
+    "original_image_file": "294_微调模式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: CALENDARLAYOUT"
+  },
+  {
+    "id": "280",
+    "name": "树形浏览布局",
+    "name_en": "TREE-VIEW LAYOUT",
+    "category": "网页与 UI / 内容与产品模式",
+    "original_image_file": "295_画布外模式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 树形浏览布局"
+  },
+  {
+    "id": "281",
+    "name": "对话布局",
+    "name_en": "CONVERSATIONAL UI",
+    "category": "网页与 UI / 内容与产品模式",
+    "original_image_file": "281_对话布局.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "282",
+    "name": "地图主导布局",
+    "name_en": "MAP-DOMINANT LAYOUT",
+    "category": "网页与 UI / 内容与产品模式",
+    "original_image_file": "297_顺序重排.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 地图主导布局"
+  },
+  {
+    "id": "283",
+    "name": "画布工作区布局",
+    "name_en": "CANVAS WORKSPACE",
+    "category": "网页与 UI / 内容与产品模式",
+    "original_image_file": "283_画布工作区布局.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "284",
+    "name": "表单布局",
+    "name_en": "FORM LAYOUT",
+    "category": "网页与 UI / 内容与产品模式",
+    "original_image_file": "299_自适应网格.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: FORMLAYOUT"
+  },
+  {
+    "id": "285",
+    "name": "分步表单",
+    "name_en": "STEP-FORM WIZARD",
+    "category": "网页与 UI / 内容与产品模式",
+    "original_image_file": "285_分步表单.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "286",
+    "name": "搜索结果布局",
+    "name_en": "SEARCH RESULTS LAYOUT",
+    "category": "网页与 UI / 内容与产品模式",
+    "original_image_file": "261_页眉—主体—页脚.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 搜索结果布局 + EN exact: SEARCHRESULTSLAYOUT"
+  },
+  {
+    "id": "287",
+    "name": "设置页面布局",
+    "name_en": "SETTINGS PAGE LAYOUT",
+    "category": "网页与 UI / 内容与产品模式",
+    "original_image_file": "262_顶部导航布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 设置页面布局 + EN exact: SETTINGSPAGELAYOUT"
+  },
+  {
+    "id": "288",
+    "name": "媒体对象布局",
+    "name_en": "MEDIA OBJECT LAYOUT",
+    "category": "网页与 UI / 内容与产品模式",
+    "original_image_file": "263_导航抽屉布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN core: 媒体对象 + EN exact: MEDIAOBJECTLAYOUT"
+  },
+  {
+    "id": "289",
+    "name": "Hero 主视觉布局",
+    "name_en": "HERO SECTION LAYOUT",
+    "category": "网页与 UI / 内容与产品模式",
+    "original_image_file": "264_底部导航布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN roots: HERO LAYOUT"
+  },
+  {
+    "id": "290",
+    "name": "分层导航布局",
+    "name_en": "TIERED NAVIGATION",
+    "category": "网页与 UI / 内容与产品模式",
+    "original_image_file": "265_标签页布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN partial: 分层导航 + EN key: NAVIGATION"
+  },
+  {
+    "id": "291",
+    "name": "大体流动模式",
+    "name_en": "MOSTLY FLUID PATTERN",
+    "category": "网页与 UI / 响应式重排模式",
+    "original_image_file": "291_大体流动模式.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "292",
+    "name": "列下落模式",
+    "name_en": "COLUMN DROP PATTERN",
+    "category": "网页与 UI / 响应式重排模式",
+    "original_image_file": "292_列下落模式.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "293",
+    "name": "布局切换模式",
+    "name_en": "LAYOUT SHIFTER PATTERN",
+    "category": "网页与 UI / 响应式重排模式",
+    "original_image_file": "268_辅助窗格布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN roots: LAYOUT PATTERN"
+  },
+  {
+    "id": "294",
+    "name": "微调模式",
+    "name_en": "TINY TWEAKS PATTERN",
+    "category": "网页与 UI / 响应式重排模式",
+    "original_image_file": "269_信息流布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 微调模式 + EN key: PATTERN"
+  },
+  {
+    "id": "295",
+    "name": "画布外模式",
+    "name_en": "OFF-CANVAS PATTERN",
+    "category": "网页与 UI / 响应式重排模式",
+    "original_image_file": "270_卡片网格布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: OFFCANVASPATTERN"
+  },
+  {
+    "id": "296",
+    "name": "堆叠重排",
+    "name_en": "STACK REORDERING",
+    "category": "网页与 UI / 响应式重排模式",
+    "original_image_file": "281_对话布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 堆叠重排"
+  },
+  {
+    "id": "297",
+    "name": "顺序重排",
+    "name_en": "SEQUENCE REORDERING",
+    "category": "网页与 UI / 响应式重排模式",
+    "original_image_file": "282_地图主导布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN roots: SEQUENCE REORDERING"
+  },
+  {
+    "id": "298",
+    "name": "折叠双窗格",
+    "name_en": "FOLDED DUAL PANE",
+    "category": "网页与 UI / 响应式重排模式",
+    "original_image_file": "283_画布工作区布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: FOLDEDDUALPANE"
+  },
+  {
+    "id": "299",
+    "name": "自适应网格",
+    "name_en": "ADAPTIVE GRID REFLOW",
+    "category": "网页与 UI / 响应式重排模式",
+    "original_image_file": "284_表单布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 自适应网格 + EN roots: ADAPTIVE GRID"
+  },
+  {
+    "id": "300",
+    "name": "组件级响应布局",
+    "name_en": "COMPONENT-LEVEL RESPONSIVE",
+    "category": "网页与 UI / 响应式重排模式",
+    "original_image_file": "285_分步表单.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 组件级响应布局 + EN exact: COMPONENTLEVELRESPONSIVE"
+  },
+  {
+    "id": "301",
+    "name": "单人构图",
+    "name_en": "SINGLE-CHARACTER SHOT",
+    "category": "影视画面构图 / 人物数量与群像",
+    "original_image_file": "301_单人构图.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "302",
+    "name": "双人构图",
+    "name_en": "TWO-SHOT COMPOSITION",
+    "category": "影视画面构图 / 人物数量与群像",
+    "original_image_file": "302_双人构图.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "303",
+    "name": "三人构图",
+    "name_en": "THREE-SHOT COMPOSITION",
+    "category": "影视画面构图 / 人物数量与群像",
+    "original_image_file": "273_仪表盘布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN roots: THREESHOT COMPOSITION"
+  },
+  {
+    "id": "304",
+    "name": "群像构图",
+    "name_en": "CROWD / ENSEMBLE SHOT",
+    "category": "影视画面构图 / 人物数量与群像",
+    "original_image_file": "274_数据表格布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 群像构图"
+  },
+  {
+    "id": "305",
+    "name": "过肩构图",
+    "name_en": "OVER-THE-SHOULDER SHOT",
+    "category": "影视画面构图 / 视角与镜头覆盖",
+    "original_image_file": "275_画廊布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 过肩构图"
+  },
+  {
+    "id": "306",
+    "name": "主观视角构图",
+    "name_en": "POINT-OF-VIEW SHOT",
+    "category": "影视画面构图 / 视角与镜头覆盖",
+    "original_image_file": "306_主观视角构图.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "307",
+    "name": "客观视角构图",
+    "name_en": "OBJECTIVE-VIEW SHOT",
+    "category": "影视画面构图 / 视角与镜头覆盖",
+    "original_image_file": "307_客观视角构图.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "308",
+    "name": "净单人镜头",
+    "name_en": "CLEAN SINGLE SHOT",
+    "category": "影视画面构图 / 视角与镜头覆盖",
+    "original_image_file": "278_看板布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 净单人镜头 + EN roots: SINGLE SHOT"
+  },
+  {
+    "id": "309",
+    "name": "脏单人镜头",
+    "name_en": "DIRTY SINGLE SHOT",
+    "category": "影视画面构图 / 视角与镜头覆盖",
+    "original_image_file": "279_日历布局.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: DIRTYSINGLESHOT"
+  },
+  {
+    "id": "310",
+    "name": "深度调度",
+    "name_en": "DEEP BLOCKING",
+    "category": "影视画面构图 / 场面调度与景深",
+    "original_image_file": "310_深度调度.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "311",
+    "name": "平面调度",
+    "name_en": "PLANAR BLOCKING",
+    "category": "影视画面构图 / 场面调度与景深",
+    "original_image_file": "311_平面调度.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "312",
+    "name": "三角调度",
+    "name_en": "TRIANGULAR BLOCKING",
+    "category": "影视画面构图 / 场面调度与景深",
+    "original_image_file": "312_三角调度.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "313",
+    "name": "横向调度",
+    "name_en": "LATERAL BLOCKING",
+    "category": "影视画面构图 / 场面调度与景深",
+    "original_image_file": "313_横向调度.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "314",
+    "name": "多层前景调度",
+    "name_en": "MULTI-LAYER FOREGROUND BLOCKING",
+    "category": "影视画面构图 / 场面调度与景深",
+    "original_image_file": "304_群像构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN roots: MULTILAYER FOREGROUND"
+  },
+  {
+    "id": "315",
+    "name": "高远法",
+    "name_en": "HIGH DISTANCE (GAO YUAN)",
+    "category": "中国传统构图 / 三远、透视与游观",
+    "original_image_file": "305_过肩构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 高远法 + EN roots: HIGH DISTANCE"
+  },
+  {
+    "id": "316",
+    "name": "深远法",
+    "name_en": "DEEP DISTANCE (SHEN YUAN)",
+    "category": "中国传统构图 / 三远、透视与游观",
+    "original_image_file": "306_主观视角构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN core: 深远 + EN roots: DEEP DISTANCE"
+  },
+  {
+    "id": "317",
+    "name": "平远法",
+    "name_en": "LEVEL DISTANCE (PING YUAN)",
+    "category": "中国传统构图 / 三远、透视与游观",
+    "original_image_file": "307_客观视角构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN core: 平远 + EN roots: LEVEL DISTANCE"
+  },
+  {
+    "id": "318",
+    "name": "三远综合构图",
+    "name_en": "SYNTHETIC THREE DISTANCES",
+    "category": "中国传统构图 / 三远、透视与游观",
+    "original_image_file": "318_三远综合构图.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "319",
+    "name": "散点透视",
+    "name_en": "SCATTERED PERSPECTIVE",
+    "category": "中国传统构图 / 三远、透视与游观",
+    "original_image_file": "309_脏单人镜头.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 散点透视 + EN exact: SCATTEREDPERSPECTIVE"
+  },
+  {
+    "id": "320",
+    "name": "游观式构图",
+    "name_en": "ROAMING VISION COMPOSITION",
+    "category": "中国传统构图 / 三远、透视与游观",
+    "original_image_file": "310_深度调度.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 游观式构图"
+  },
+  {
+    "id": "321",
+    "name": "全景式构图",
+    "name_en": "PANORAMIC VISTA COMPOSITION",
+    "category": "中国传统构图 / 取景与景式",
+    "original_image_file": "311_平面调度.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN roots: PANORAMIC COMPOSITION"
+  },
+  {
+    "id": "322",
+    "name": "一河两岸式",
+    "name_en": "ONE RIVER TWO BANKS",
+    "category": "中国传统构图 / 取景与景式",
+    "original_image_file": "322_一河两岸式.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "323",
+    "name": "边角式构图",
+    "name_en": "CORNER-BOUND (BIAN JIAO)",
+    "category": "中国传统构图 / 取景与景式",
+    "original_image_file": "323_边角式构图.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "324",
+    "name": "截景式构图",
+    "name_en": "CROPPED VISTA (JIE JING)",
+    "category": "中国传统构图 / 取景与景式",
+    "original_image_file": "324_截景式构图.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "325",
+    "name": "折枝式构图",
+    "name_en": "CUT-BRANCH (ZHE ZHI)",
+    "category": "中国传统构图 / 取景与景式",
+    "original_image_file": "325_折枝式构图.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "326",
+    "name": "留白构图",
+    "name_en": "NEGATIVE SPACE (LIU BAI)",
+    "category": "中国传统构图 / 留白、虚实与章法",
+    "original_image_file": "326_留白构图.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "327",
+    "name": "计白当黑构图",
+    "name_en": "VALUING THE VOID (JI BAI DANG HEI)",
+    "category": "中国传统构图 / 留白、虚实与章法",
+    "original_image_file": "327_计白当黑构图.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "328",
+    "name": "虚实相生构图",
+    "name_en": "VOID & SOLID HARMONY",
+    "category": "中国传统构图 / 留白、虚实与章法",
+    "original_image_file": "318_三远综合构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN roots: VOID SOLID"
+  },
+  {
+    "id": "329",
+    "name": "疏密相间构图",
+    "name_en": "DENSITY & SPARSENESS",
+    "category": "中国传统构图 / 留白、虚实与章法",
+    "original_image_file": "329_疏密相间构图.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "330",
+    "name": "主宾关系构图",
+    "name_en": "HOST & GUEST RELATION",
+    "category": "中国传统构图 / 留白、虚实与章法",
+    "original_image_file": "330_主宾关系构图.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "331",
+    "name": "开合构图",
+    "name_en": "OPENING & CLOSING (KAI HE)",
+    "category": "中国传统构图 / 留白、虚实与章法",
+    "original_image_file": "331_开合构图.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "332",
+    "name": "起承转合构图",
+    "name_en": "DEVELOPMENTAL FLOW (QI CHENG ZHUAN HE)",
+    "category": "中国传统构图 / 留白、虚实与章法",
+    "original_image_file": "332_起承转合构图.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "333",
+    "name": "藏露关系构图",
+    "name_en": "CONCEALING & REVEALING",
+    "category": "中国传统构图 / 留白、虚实与章法",
+    "original_image_file": "333_藏露关系构图.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "334",
+    "name": "欹正关系构图",
+    "name_en": "ASYMMETRICAL BALANCE (QI ZHENG)",
+    "category": "中国传统构图 / 留白、虚实与章法",
+    "original_image_file": "334_欹正关系构图.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "335",
+    "name": "标题幻灯片幻灯片版式",
+    "name_en": "TITLE SLIDE LAYOUT",
+    "category": "演示文稿页面 / 基础幻灯片",
+    "original_image_file": "325_折枝式构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN exact: TITLESLIDELAYOUT"
+  },
+  {
+    "id": "336",
+    "name": "标题和内容幻灯片版式",
+    "name_en": "TITLE & CONTENT SLIDE",
+    "category": "演示文稿页面 / 基础幻灯片",
+    "original_image_file": "336_标题和内容幻灯片版式.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "337",
+    "name": "节标题幻灯片版式",
+    "name_en": "SECTION HEADER SLIDE",
+    "category": "演示文稿页面 / 基础幻灯片",
+    "original_image_file": "337_节标题幻灯片版式.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "338",
+    "name": "两项内容幻灯片版式",
+    "name_en": "TWO-COLUMN CONTENT SLIDE",
+    "category": "演示文稿页面 / 基础幻灯片",
+    "original_image_file": "338_两项内容幻灯片版式.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "339",
+    "name": "比较幻灯片版式",
+    "name_en": "COMPARISON SLIDE LAYOUT",
+    "category": "演示文稿页面 / 基础幻灯片",
+    "original_image_file": "329_疏密相间构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN roots: COMPARISON LAYOUT"
+  },
+  {
+    "id": "340",
+    "name": "仅标题幻灯片版式",
+    "name_en": "TITLE-ONLY SLIDE LAYOUT",
+    "category": "演示文稿页面 / 基础幻灯片",
+    "original_image_file": "340_仅标题幻灯片版式.jpg",
+    "calibration_status": "nominal_fallback",
+    "calibration_reason": "Nominal fallback"
+  },
+  {
+    "id": "341",
+    "name": "空白幻灯片版式",
+    "name_en": "BLANK CANVAS SLIDE",
+    "category": "演示文稿页面 / 基础幻灯片",
+    "original_image_file": "331_开合构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 空白幻灯片版式 + EN roots: BLANK SLIDE"
+  },
+  {
+    "id": "342",
+    "name": "内容与标题说明幻灯片版式",
+    "name_en": "CONTENT & CAPTION SLIDE",
+    "category": "演示文稿页面 / 基础幻灯片",
+    "original_image_file": "342_内容与标题说明幻灯片版式.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "343",
+    "name": "图片与标题说明幻灯片版式",
+    "name_en": "IMAGE & CAPTION SLIDE",
+    "category": "演示文稿页面 / 基础幻灯片",
+    "original_image_file": "343_图片与标题说明幻灯片版式.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "344",
+    "name": "大数字页幻灯片版式",
+    "name_en": "BIG NUMBER STAT SLIDE",
+    "category": "演示文稿页面 / 叙事与数据页面",
+    "original_image_file": "334_欹正关系构图.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "EN roots: BIG NUMBER"
+  },
+  {
+    "id": "345",
+    "name": "引语页幻灯片版式",
+    "name_en": "PULL-QUOTE SLIDE LAYOUT",
+    "category": "演示文稿页面 / 叙事与数据页面",
+    "original_image_file": "335_标题幻灯片幻灯片版式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 引语页幻灯片版式"
+  },
+  {
+    "id": "346",
+    "name": "时间线页幻灯片版式",
+    "name_en": "TIMELINE ROADMAP SLIDE",
+    "category": "演示文稿页面 / 叙事与数据页面",
+    "original_image_file": "346_时间线页幻灯片版式.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "347",
+    "name": "流程页幻灯片版式",
+    "name_en": "PROCESS FLOW SLIDE",
+    "category": "演示文稿页面 / 叙事与数据页面",
+    "original_image_file": "337_节标题幻灯片版式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 流程页幻灯片版式"
+  },
+  {
+    "id": "348",
+    "name": "矩阵页幻灯片版式",
+    "name_en": "MATRIX QUADRANT SLIDE",
+    "category": "演示文稿页面 / 叙事与数据页面",
+    "original_image_file": "348_矩阵页幻灯片版式.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  },
+  {
+    "id": "349",
+    "name": "数据图表页幻灯片版式",
+    "name_en": "DATA CHART SLIDE LAYOUT",
+    "category": "演示文稿页面 / 叙事与数据页面",
+    "original_image_file": "339_比较幻灯片版式.jpg",
+    "calibration_status": "ocr_verified",
+    "calibration_reason": "CN exact: 数据图表页幻灯片版式 + EN roots: DATA CHART"
+  },
+  {
+    "id": "350",
+    "name": "全图页幻灯片版式",
+    "name_en": "FULL-BLEED HERO SLIDE",
+    "category": "演示文稿页面 / 叙事与数据页面",
+    "original_image_file": "350_全图页幻灯片版式.jpg",
+    "calibration_status": "nominal_uncontested",
+    "calibration_reason": "Nominal filename matching and uncontested"
+  }
+]
