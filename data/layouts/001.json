@@ -15,7 +15,7 @@
     "accent": "#E03E2D",
     "text": "#1A1A1A"
   },
-  "columns_ratio": "530px 380px",
+  "columns_ratio": "580px 344px",
   "visual_height": "690px",
   "features": [
     {
@@ -38,14 +38,40 @@
     }
   ],
   "tips": [
-    { "label": "风景 / 地平线", "content": "置于上三分线凸显地面细节，置于下三分线凸显广阔天空。" },
-    { "label": "人像 / 摄影", "content": "将人物主眼或鼻梁精准贴合在上交点，神态更具感染力。" },
-    { "label": "文字编排", "content": "将标题放置在主体相反侧的留白三分区，实现视觉杠杆平衡。" }
+    {
+      "label": "风景 / 地平线",
+      "content": "置于上三分线凸显地面细节，置于下三分线凸显广阔天空。"
+    },
+    {
+      "label": "人像 / 摄影",
+      "content": "将人物主眼或鼻梁精准贴合在上交点，神态更具感染力。"
+    },
+    {
+      "label": "文字编排",
+      "content": "将标题放置在主体相反侧的留白三分区，实现视觉杠杆平衡。"
+    }
   ],
   "keywords": [
-    { "name": "焦点", "name_en": "Focus", "icon": "target" },
-    { "name": "平衡", "name_en": "Balance", "icon": "scale" },
-    { "name": "节奏", "name_en": "Rhythm", "icon": "wave" },
-    { "name": "引导", "name_en": "Guide", "icon": "eye" }
-  ]
+    {
+      "name": "焦点",
+      "name_en": "Focus",
+      "icon": "target"
+    },
+    {
+      "name": "平衡",
+      "name_en": "Balance",
+      "icon": "scale"
+    },
+    {
+      "name": "节奏",
+      "name_en": "Rhythm",
+      "icon": "wave"
+    },
+    {
+      "name": "引导",
+      "name_en": "Guide",
+      "icon": "eye"
+    }
+  ],
+  "visual_order": "left"
 }

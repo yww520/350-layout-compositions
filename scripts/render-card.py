@@ -117,8 +117,10 @@ def render_card(layout_id, output_dir=None, theme=None, output_format="both", im
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    theme = theme or data.get("theme", "forest-green")
-    columns_ratio = data.get("columns_ratio", "345px 600px")
+    theme = theme or data.get("theme", "warm-ivory")
+    visual_order = data.get("visual_order", "left")
+    default_ratio = "270px 670px" if visual_order == "right" else "580px 344px"
+    columns_ratio = data.get("columns_ratio", default_ratio)
 
     with open(MASTER_TEMPLATE, "r", encoding="utf-8") as f:
         template = f.read()
@@ -168,10 +170,16 @@ def render_card(layout_id, output_dir=None, theme=None, output_format="both", im
     tips_html += '<div class="tips-bottom-bar"></div></ul></div>'
 
     # Assemble Main Content HTML
-    main_content_html = f"""
-    <div class="feature-column">{features_html}{tips_html}</div>
-    <div class="visual-box">{svg_content}</div>
-    """
+    if visual_order == "right":
+        main_content_html = f"""
+        <div class="feature-column">{features_html}{tips_html}</div>
+        <div class="visual-box">{svg_content}</div>
+        """
+    else:
+        main_content_html = f"""
+        <div class="visual-box">{svg_content}</div>
+        <div class="feature-column">{features_html}{tips_html}</div>
+        """
 
     # Build Keywords HTML
     keywords_html = ""

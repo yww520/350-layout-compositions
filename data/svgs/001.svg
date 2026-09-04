@@ -1,38 +1,38 @@
-<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <radialGradient id="sunGlowRed" cx="50%" cy="50%" r="50%">
-          <stop offset="0%" stop-color="#E25238" stop-opacity="0.8"/>
-          <stop offset="40%" stop-color="#E25238" stop-opacity="0.25"/>
-          <stop offset="100%" stop-color="#E25238" stop-opacity="0"/>
-        </radialGradient>
-        <linearGradient id="mountGradWarm" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" stop-color="#555047"/>
-          <stop offset="100%" stop-color="#22201D"/>
-        </linearGradient>
-      </defs>
-      <rect width="550" height="620" fill="#24211E" rx="8"/>
-      <!-- Water waves -->
-      <line x1="0" y1="510" x2="550" y2="510" stroke="#3A3630" stroke-width="1.5"/>
-      <path d="M 20 545 Q 90 550 160 545 T 300 545 T 440 545 T 530 545" stroke="#E25238" stroke-width="1.2" fill="none" opacity="0.3"/>
-      <path d="M 40 575 Q 110 580 180 575 T 320 575 T 460 575 T 520 575" stroke="#E25238" stroke-width="1.2" fill="none" opacity="0.2"/>
-      <!-- Mountain silhouettes -->
-      <polygon points="60,510 190,320 320,510" fill="url(#mountGradWarm)"/>
-      <polygon points="210,510 330,370 450,510" fill="#3D3A34" opacity="0.9"/>
-      <polygon points="145,385 190,320 235,385" fill="#FFFFFF" opacity="0.85"/>
-      <!-- Thirds Grid lines -->
-      <line x1="183.3" y1="50" x2="183.3" y2="570" stroke="#E25238" stroke-width="1.8" stroke-dasharray="6,6" opacity="0.75"/>
-      <line x1="366.6" y1="50" x2="366.6" y2="570" stroke="#E25238" stroke-width="1.8" stroke-dasharray="6,6" opacity="0.75"/>
-      <line x1="40" y1="206.6" x2="510" y2="206.6" stroke="#E25238" stroke-width="1.8" stroke-dasharray="6,6" opacity="0.75"/>
-      <line x1="40" y1="413.3" x2="510" y2="413.3" stroke="#E25238" stroke-width="1.8" stroke-dasharray="6,6" opacity="0.75"/>
-      <!-- Intersection anchors -->
-      <circle cx="366.6" cy="206.6" r="6" fill="#E25238"/>
-      <circle cx="183.3" cy="413.3" r="6" fill="#E25238"/>
-      <circle cx="366.6" cy="413.3" r="6" fill="#E25238"/>
-      <!-- Primary Focal Anchor (Upper Left Third) -->
-      <circle cx="183.3" cy="206.6" r="65" fill="url(#sunGlowRed)"/>
-      <circle cx="183.3" cy="206.6" r="30" stroke="#E25238" stroke-width="1.5" fill="none" stroke-dasharray="4,4"/>
-      <circle cx="183.3" cy="206.6" r="14" fill="#E25238"/>
-      <circle cx="183.3" cy="206.6" r="4" fill="#FFFFFF"/>
-      <rect x="110" y="130" width="146" height="30" rx="6" fill="#E25238"/>
-      <text x="183" y="150" fill="#FFFFFF" font-size="12" font-weight="900" font-family="PingFang SC" text-anchor="middle">视觉主角 · 黄金交点</text>
-    </svg>
+<svg viewBox="0 0 580 790" width="580" height="790" xmlns="http://www.w3.org/2000/svg">
+  <!-- Card background -->
+  <rect width="580" height="790" fill="#FAF7F0"/>
+
+  <!-- 3x3 Grid Lines (Coral red dashed) -->
+  <line x1="193.33" y1="0" x2="193.33" y2="790" stroke="#E03E2D" stroke-width="1.8" stroke-dasharray="6,6" opacity="0.85"/>
+  <line x1="386.66" y1="0" x2="386.66" y2="790" stroke="#E03E2D" stroke-width="1.8" stroke-dasharray="6,6" opacity="0.85"/>
+  <line x1="0" y1="263.33" x2="580" y2="263.33" stroke="#E03E2D" stroke-width="1.8" stroke-dasharray="6,6" opacity="0.85"/>
+  <line x1="0" y1="526.66" x2="580" y2="526.66" stroke="#E03E2D" stroke-width="1.8" stroke-dasharray="6,6" opacity="0.85"/>
+
+  <!-- Intersection Anchors (diameter 16px) -->
+  <circle cx="386.66" cy="263.33" r="8" fill="#E03E2D"/>
+  <circle cx="193.33" cy="526.66" r="8" fill="#E03E2D"/>
+  <circle cx="386.66" cy="526.66" r="8" fill="#E03E2D"/>
+
+  <!-- Flying Birds in upper right -->
+  <path d="M 450 200 Q 462 190 474 200 Q 486 190 498 200" fill="none" stroke="#1A1A1A" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M 490 220 Q 500 212 510 220 Q 520 212 530 220" fill="none" stroke="#1A1A1A" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M 470 242 Q 478 235 487 242 Q 495 235 504 242" fill="none" stroke="#1A1A1A" stroke-width="2.6" stroke-linecap="round"/>
+
+  <!-- Primary Focal Element: The Sun (Diameter ~130px) -->
+  <circle cx="193.33" cy="263.33" r="65" fill="#E03E2D"/>
+
+  <!-- Secondary Sandy Mountain behind -->
+  <polygon points="140,790 320,545 540,790" fill="#DDD4C5"/>
+
+  <!-- Foreground Dark Charcoal Mountain -->
+  <polygon points="0,790 0,680 125,510 400,790" fill="#262626"/>
+  <!-- Shadow facet of foreground mountain -->
+  <polygon points="125,510 215,790 400,790" fill="#1B1B1B"/>
+
+  <!-- Dense horizontal water ripples across the bottom -->
+  <line x1="290" y1="715" x2="520" y2="715" stroke="#E03E2D" stroke-width="2.0" opacity="0.65"/>
+  <line x1="330" y1="732" x2="495" y2="732" stroke="#E03E2D" stroke-width="1.8" opacity="0.6"/>
+  <line x1="375" y1="748" x2="530" y2="748" stroke="#E03E2D" stroke-width="1.6" opacity="0.55"/>
+  <line x1="415" y1="764" x2="505" y2="764" stroke="#E03E2D" stroke-width="1.4" opacity="0.5"/>
+  <line x1="440" y1="778" x2="490" y2="778" stroke="#E03E2D" stroke-width="1.2" opacity="0.45"/>
+</svg>

@@ -67,6 +67,7 @@ python3 scripts/render-card.py --id 084 --image assets/illustrations/084.png
 2. **宽幅无衬线副标（Wide Geometric Sans）**：英文副标题强制使用 `Montserrat` 或同等宽几何体（字重 800、全大写、字距 `0.08em`），严禁使用瘦高窄长的 Bebas Neue。
 3. **高饱和网格填充率（High Density Grid）**：内边距控制在 `48px 56px 42px 56px`，左侧/中间核心插画画布高度不低于 `780px`，消除上下多余大片空旷悬白。
 4. **扁平化信息层级（Flat Information Hierarchy）**：右侧解构要素严禁嵌套带外边框与阴影的浮动卡片，必须采用纯净的扁平行排版，配备纯色圆形徽章与全大写英文 Tag。
+5. **印刷级纸质肌理滤镜（SVG Paper Grain Texture）**：全局内嵌真实 SVG 湍流噪点滤镜（`<feTurbulence baseFrequency="0.75" numOctaves="3"/>`），彻底消除纯色 CSS 塑料感，带来逼真印刷品颗粒触感。
 
 #### 交付路径 B：编译生图提示词 (AI Image Prompt Directive)
 运行内置编译器生成专属生图 Prompt 与构图几何约束（全量 33 个子类与 350 个英文专业名全面去同质化）：
