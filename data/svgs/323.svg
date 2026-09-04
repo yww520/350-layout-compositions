@@ -2,23 +2,18 @@
 
   <rect width="550" height="620" fill="#1F1B18" rx="8"/>
 
-  <!-- Traditional Scroll Canvas -->
   <rect x="50" y="50" width="450" height="520" fill="#2B2622" stroke="#E25238" stroke-width="1.5" rx="6"/>
-  <!-- Mountain Silhouette Strata -->
-  <path d="M 80 340 Q 200 240 290 320 T 470 290 L 470 520 L 80 520 Z" fill="#524A44" opacity="0.6"/>
-  <path d="M 60 410 Q 180 320 275 390 T 490 360 L 490 540 L 60 540 Z" fill="#1F1B18"/>
-  <!-- Floating Mist Bands -->
-  <path d="M 100 320 Q 275 300 450 320" fill="none" stroke="#FFFFFF" stroke-width="12" opacity="0.3" stroke-linecap="round"/>
-  <!-- Poetic Vertical Hanzi Inscription -->
-  <text x="120" y="130" fill="#E25238" font-size="24" font-weight="900" font-family="Kaiti, STKaiti, serif">边角</text>
-  <text x="120" y="165" fill="#E25238" font-size="24" font-weight="900" font-family="Kaiti, STKaiti, serif">式构</text>
-  <!-- Red Seal Mark -->
-  <rect x="105" y="195" width="30" height="30" fill="#D32F2F" rx="2"/>
-  <text x="120" y="215" fill="#FFFFFF" font-size="12" font-family="Songti, serif" text-anchor="middle">印</text>
-  <!-- Minimalist Solar Void -->
-  <circle cx="370" cy="160" r="38" fill="#E25238" opacity="0.4"/>
-  <circle cx="370" cy="160" r="16" fill="#E25238"/>
-    <rect x="185" y="510" width="180" height="28" rx="5" fill="#E25238"/>
-  <text x="275.0" y="527.36" fill="#1F1B18" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">边角式构图</text>
+  <!-- Heavy Rocky Cliff occupying strictly lower-left 25% -->
+  <polygon points="50,220 280,570 50,570" fill="#524A44"/>
+  <line x1="50" y1="220" x2="280" y2="570" stroke="#E25238" stroke-width="3"/>
+  <!-- Gnarled pine extending from corner -->
+  <line x1="110" y1="350" x2="190" y2="290" stroke="#E25238" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="190" y1="290" x2="240" y2="310" stroke="#E25238" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Upper Right 75% Vast Mist Void -->
+  <text x="360" y="240" fill="#8A827A" font-size="20" font-family="Kaiti, STKaiti, serif" text-anchor="middle">马一角 · 留白旷远</text>
+  <circle cx="360" cy="150" r="26" fill="#E25238" opacity="0.4"/>
+  <rect x="430" y="80" width="26" height="26" fill="#D32F2F" rx="2"/>
+    <rect x="185" y="520" width="180" height="28" rx="5" fill="#E25238"/>
+  <text x="275.0" y="537.36" fill="#1F1B18" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">马远残山剩水边角式</text>
 
 </svg>

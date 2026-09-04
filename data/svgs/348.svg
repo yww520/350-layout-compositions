@@ -1,21 +1,25 @@
 <svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
 
-  <rect width="550" height="620" fill="#082018" rx="8"/>
+  <rect width="550" height="620" fill="#1F1B18" rx="8"/>
 
-  <!-- 16:9 Presentation Slide Card -->
-  <rect x="40" y="70" width="470" height="480" rx="8" fill="#0E2D23" stroke="#D4E751" stroke-width="2"/>
-  <text x="70" y="130" fill="#D4E751" font-size="12" font-weight="bold" font-family="Montserrat" letter-spacing="3">EXECUTIVE BRIEFING</text>
-  <text x="70" y="180" fill="#FFFFFF" font-size="28" font-weight="900" font-family="Montserrat">MATRIX QUADRANT SLIDE</text>
-  <!-- 3 Impact Cards / Graph Blocks -->
-  <rect x="70" y="220" width="120" height="160" rx="6" fill="#082018" stroke="#163E32" stroke-width="1.2"/>
-  <text x="130" y="280" fill="#26A69A" font-size="24" font-weight="900" font-family="Montserrat" text-anchor="middle">85%</text>
-  <rect x="215" y="200" width="120" height="180" rx="8" fill="#D4E751"/>
-  <text x="275" y="280" fill="#082018" font-size="28" font-weight="900" font-family="Montserrat" text-anchor="middle">98.4%</text>
-  <rect x="360" y="220" width="120" height="160" rx="6" fill="#082018" stroke="#163E32" stroke-width="1.2"/>
-  <text x="420" y="280" fill="#26A69A" font-size="24" font-weight="900" font-family="Montserrat" text-anchor="middle">4.9★</text>
-  <!-- Horizon Line -->
-  <line x1="70" y1="420" x2="480" y2="420" stroke="#163E32" stroke-width="1.5"/>
-    <rect x="185" y="480" width="180" height="28" rx="5" fill="#D4E751"/>
-  <text x="275.0" y="497.36" fill="#082018" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">矩阵页幻灯片版式</text>
+  <rect x="40" y="70" width="470" height="480" rx="8" fill="#2B2622" stroke="#3B342F" stroke-width="1.5"/>
+  <text x="275" y="110" fill="#FFFFFF" font-size="16" font-weight="900" font-family="Montserrat" text-anchor="middle">BCG STRATEGY MATRIX</text>
+  <!-- 2x2 Matrix Grid Lines -->
+  <line x1="275" y1="140" x2="275" y2="460" stroke="#E25238" stroke-width="2"/>
+  <line x1="80" y1="300" x2="470" y2="300" stroke="#E25238" stroke-width="2"/>
+  <!-- Q1 (Top Right Star) -->
+  <rect x="285" y="150" width="175" height="140" rx="6" fill="#D32F2F" opacity="0.2"/>
+  <text x="372" y="200" fill="#D32F2F" font-size="18" font-weight="900" font-family="Montserrat" text-anchor="middle">★ STARS</text>
+  <!-- Q2 (Top Left Question) -->
+  <rect x="90" y="150" width="175" height="140" rx="6" fill="#E25238" opacity="0.1"/>
+  <text x="177" y="200" fill="#E25238" font-size="16" font-weight="bold" font-family="Montserrat" text-anchor="middle">? QUESTION</text>
+  <!-- Q3 (Bottom Right Cash Cow) -->
+  <rect x="285" y="310" width="175" height="140" rx="6" fill="#FFB300" opacity="0.1"/>
+  <text x="372" y="360" fill="#FFB300" font-size="16" font-weight="bold" font-family="Montserrat" text-anchor="middle">$ CASH COW</text>
+  <!-- Q4 (Bottom Left Dogs) -->
+  <rect x="90" y="310" width="175" height="140" rx="6" fill="#524A44" opacity="0.2"/>
+  <text x="177" y="360" fill="#8A827A" font-size="16" font-family="Montserrat" text-anchor="middle">✕ DOGS</text>
+    <rect x="185" y="490" width="180" height="28" rx="5" fill="#E25238"/>
+  <text x="275.0" y="507.36" fill="#1F1B18" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">波士顿2x2决策象限</text>
 
 </svg>

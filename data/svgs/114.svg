@@ -1,24 +1,11 @@
 <svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
 
-  <rect width="550" height="620" fill="#12141A" rx="8"/>
+  <rect width="550" height="620" fill="#081630" rx="8"/>
 
-  <rect x="50" y="60" width="450" height="500" fill="#1A1D26" stroke="#333C4E" stroke-width="1.5" rx="6"/>
-  <!-- Geometric Diagonals and Symmetry Axes -->
-  <line x1="50" y1="60" x2="500" y2="560" stroke="#333C4E" stroke-width="1.2" stroke-dasharray="6,4"/>
-  <line x1="500" y1="60" x2="50" y2="560" stroke="#333C4E" stroke-width="1.2" stroke-dasharray="6,4"/>
-  <line x1="275" y1="60" x2="275" y2="560" stroke="#00E5FF" stroke-width="1.5" stroke-dasharray="6,6"/>
-  <line x1="50" y1="310" x2="500" y2="310" stroke="#00E5FF" stroke-width="1.5" stroke-dasharray="6,6"/>
-  <!-- Primary Geometric Field -->
-  <polygon points="275,130 440,310 275,490 110,310" fill="#12141A" stroke="#FFD700" stroke-width="2.5"/>
-  <!-- Focal Node Center -->
-    <circle cx="275" cy="310" r="43.2" fill="none" stroke="#FFD700" stroke-width="1.2" stroke-dasharray="4,3" opacity="0.7"/>
-  <circle cx="275" cy="310" r="24" fill="#FFD700"/>
-  <circle cx="275" cy="310" r="6" fill="#FFFFFF"/>
-  <line x1="217.4" y1="310" x2="332.6" y2="310" stroke="#FFD700" stroke-width="1.2" stroke-dasharray="2,2" opacity="0.6"/>
-  <line x1="275" y1="252.4" x2="275" y2="367.6" stroke="#FFD700" stroke-width="1.2" stroke-dasharray="2,2" opacity="0.6"/>
-  <!-- Subtitle Meta -->
-  <text x="275" y="240" fill="#FFFFFF" font-size="14" font-weight="900" font-family="Montserrat" text-anchor="middle">RANDOM RHYTHM</text>
-    <rect x="185" y="510" width="180" height="28" rx="5" fill="#FFD700"/>
-  <text x="275.0" y="527.36" fill="#12141A" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">随机节奏组织</text>
+  <rect x="50" y="60" width="450" height="500" fill="#0E2248" rx="8" stroke="#162E58" stroke-width="1.5"/>
+  <circle cx="213" cy="398" r="9" fill="#448AFF" opacity="0.65"/><circle cx="214" cy="430" r="25" fill="#00E5FF" opacity="0.52"/><circle cx="355" cy="381" r="22" fill="#FF5252" opacity="0.63"/><circle cx="122" cy="385" r="17" fill="#448AFF" opacity="0.65"/><circle cx="144" cy="157" r="20" fill="#00E5FF" opacity="0.68"/><circle cx="396" cy="380" r="15" fill="#FF5252" opacity="0.90"/><circle cx="359" cy="332" r="25" fill="#448AFF" opacity="0.71"/><circle cx="335" cy="433" r="13" fill="#00E5FF" opacity="0.89"/><circle cx="261" cy="398" r="15" fill="#FF5252" opacity="0.92"/><circle cx="440" cy="160" r="8" fill="#448AFF" opacity="0.89"/><circle cx="384" cy="448" r="26" fill="#00E5FF" opacity="0.61"/><circle cx="175" cy="375" r="12" fill="#FF5252" opacity="0.72"/><circle cx="132" cy="380" r="10" fill="#448AFF" opacity="0.55"/><circle cx="260" cy="141" r="12" fill="#00E5FF" opacity="0.70"/><circle cx="229" cy="284" r="8" fill="#FF5252" opacity="0.60"/><circle cx="195" cy="335" r="8" fill="#448AFF" opacity="0.57"/><circle cx="332" cy="322" r="17" fill="#00E5FF" opacity="0.66"/><circle cx="267" cy="326" r="24" fill="#FF5252" opacity="0.53"/><circle cx="158" cy="110" r="14" fill="#448AFF" opacity="0.73"/><circle cx="367" cy="138" r="25" fill="#00E5FF" opacity="0.72"/><circle cx="97" cy="273" r="17" fill="#FF5252" opacity="0.62"/><circle cx="451" cy="129" r="21" fill="#448AFF" opacity="0.56"/><circle cx="224" cy="370" r="23" fill="#00E5FF" opacity="0.70"/><circle cx="225" cy="283" r="7" fill="#FF5252" opacity="0.55"/><circle cx="168" cy="369" r="14" fill="#448AFF" opacity="0.68"/><circle cx="149" cy="442" r="20" fill="#00E5FF" opacity="0.73"/><circle cx="319" cy="443" r="19" fill="#FF5252" opacity="0.74"/><circle cx="199" cy="346" r="25" fill="#448AFF" opacity="0.84"/>
+  <text x="275" y="95" fill="#FFFFFF" font-size="14" font-weight="bold" font-family="Montserrat" text-anchor="middle">STOCHASTIC CHAOS DYNAMICS</text>
+    <rect x="185" y="520" width="180" height="28" rx="5" fill="#448AFF"/>
+  <text x="275.0" y="537.36" fill="#081630" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">随机散落受控无序</text>
 
 </svg>

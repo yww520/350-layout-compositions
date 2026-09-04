@@ -1,21 +1,20 @@
 <svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
 
-  <rect width="550" height="620" fill="#082018" rx="8"/>
+  <rect width="550" height="620" fill="#081630" rx="8"/>
 
-  <!-- 16:9 Presentation Slide Card -->
-  <rect x="40" y="70" width="470" height="480" rx="8" fill="#0E2D23" stroke="#D4E751" stroke-width="2"/>
-  <text x="70" y="130" fill="#D4E751" font-size="12" font-weight="bold" font-family="Montserrat" letter-spacing="3">EXECUTIVE BRIEFING</text>
-  <text x="70" y="180" fill="#FFFFFF" font-size="28" font-weight="900" font-family="Montserrat">DATA CHART SLIDE LAYOU</text>
-  <!-- 3 Impact Cards / Graph Blocks -->
-  <rect x="70" y="220" width="120" height="160" rx="6" fill="#082018" stroke="#163E32" stroke-width="1.2"/>
-  <text x="130" y="280" fill="#26A69A" font-size="24" font-weight="900" font-family="Montserrat" text-anchor="middle">85%</text>
-  <rect x="215" y="200" width="120" height="180" rx="8" fill="#D4E751"/>
-  <text x="275" y="280" fill="#082018" font-size="28" font-weight="900" font-family="Montserrat" text-anchor="middle">98.4%</text>
-  <rect x="360" y="220" width="120" height="160" rx="6" fill="#082018" stroke="#163E32" stroke-width="1.2"/>
-  <text x="420" y="280" fill="#26A69A" font-size="24" font-weight="900" font-family="Montserrat" text-anchor="middle">4.9★</text>
-  <!-- Horizon Line -->
-  <line x1="70" y1="420" x2="480" y2="420" stroke="#163E32" stroke-width="1.5"/>
-    <rect x="185" y="480" width="180" height="28" rx="5" fill="#D4E751"/>
-  <text x="275.0" y="497.36" fill="#082018" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">数据图表页幻灯片版式</text>
+  <rect x="40" y="70" width="470" height="480" rx="8" fill="#0E2248" stroke="#162E58" stroke-width="1.5"/>
+  <text x="70" y="120" fill="#FFFFFF" font-size="20" font-weight="900" font-family="Montserrat">QUARTERLY REVENUE GROWTH</text>
+  <!-- Bar chart columns -->
+  <rect x="80" y="360" width="45" height="100" rx="4" fill="#2A4B82"/>
+  <rect x="150" y="300" width="45" height="160" rx="4" fill="#00E5FF"/>
+  <rect x="220" y="240" width="45" height="220" rx="4" fill="#00E5FF"/>
+  <rect x="290" y="180" width="45" height="280" rx="4" fill="#448AFF"/>
+  <rect x="360" y="130" width="45" height="330" rx="4" fill="#FF5252"/>
+  <!-- Trend line -->
+  <path d="M 102 350 L 172 290 L 242 230 L 312 170 L 382 120" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+  <circle cx="382" cy="120" r="8" fill="#FFFFFF"/>
+  <text x="382" y="100" fill="#FF5252" font-size="16" font-weight="900" font-family="Montserrat" text-anchor="middle">+142%</text>
+    <rect x="185" y="490" width="180" height="28" rx="5" fill="#448AFF"/>
+  <text x="275.0" y="507.36" fill="#081630" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">多维数据图表仪表盘</text>
 
 </svg>

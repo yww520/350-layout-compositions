@@ -177,7 +177,7 @@
     /* ================= MAIN CONTENT GRID ================= */
     .main-content {
       display: grid;
-      grid-template-columns: 530px 380px;
+      grid-template-columns: 345px 600px;
       gap: 30px;
       align-items: stretch;
       margin-top: 14px;
@@ -200,6 +200,14 @@
     .visual-box svg {
       width: 100%;
       height: 100%;
+    }
+
+    .visual-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: 12px;
     }
 
     /* Features Column */
@@ -420,7 +428,7 @@
     }
   </style>
 </head>
-<body data-theme="cobalt-blue">
+<body data-theme="forest-green">
 
   <!-- HEADER -->
   <header class="header">
@@ -430,16 +438,16 @@
         <span class="meta-left-en">COMPOSITION PRINCIPLES</span>
       </div>
       <div class="meta-right">
-        <span class="meta-right-text">斜投影构图设计法则与空间建构</span>
+        <span class="meta-right-text">在二维平面中建构纵深维度，营造前中后景的层层穿透。</span>
         <div class="meta-right-bar"></div>
       </div>
     </div>
 
     <h1 class="main-title">斜投影构图</h1>
-    <div class="subtitle-en">斜投影构图 COMPOSITION</div>
+    <div class="subtitle-en">OBLIQUE PROJECTION</div>
 
     <div class="description-box">
-      经典视觉架构第 074 号：斜投影构图。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。
+      350 视觉排版系列第 074 号：斜投影构图（OBLIQUE PROJECTION）。归属于「构图逻辑 · 空间层次与投影」体系。在二维平面中建构纵深维度，营造前中后景的层层穿透。
     </div>
   </header>
 
@@ -459,9 +467,9 @@
             </svg>
           </div>
           <div class="feature-text-block">
-            <div class="feature-title">斜投核心锚点</div>
-            <div class="feature-desc">确立画面第一视觉据点，使主体在斜投影构图框架中获得最强烈的视觉重力与识别度。</div>
-            <div class="feature-tag-en">Focal Anchor</div>
+            <div class="feature-title">三维纵深</div>
+            <div class="feature-desc">在斜投影构图架构中，严格界定前景遮挡、中景主体与远景环境，拉伸画面的空间纵深。</div>
+            <div class="feature-tag-en">Three-Plane Depth</div>
           </div>
         </div>
         
@@ -477,9 +485,9 @@
             </svg>
           </div>
           <div class="feature-text-block">
-            <div class="feature-title">视线引导流线</div>
-            <div class="feature-desc">依据斜投影构图的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。</div>
-            <div class="feature-tag-en">Leading Flow</div>
+            <div class="feature-title">透视导引</div>
+            <div class="feature-desc">依据斜投影构图的内在几何规律，利用消逝点线条压缩空间比例，产生强烈的空间吸入感。</div>
+            <div class="feature-tag-en">Perspective Lead</div>
           </div>
         </div>
         
@@ -495,9 +503,9 @@
             </svg>
           </div>
           <div class="feature-text-block">
-            <div class="feature-title">负空间与呼吸感</div>
-            <div class="feature-desc">精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。</div>
-            <div class="feature-tag-en">Negative Space</div>
+            <div class="feature-title">光影切割</div>
+            <div class="feature-desc">针对斜投影构图的空间特性，利用明暗投影界定空间切面，增强体块与空气的距离感。</div>
+            <div class="feature-tag-en">Chiaroscuro Cut</div>
           </div>
         </div>
         </div>
@@ -511,19 +519,24 @@
         <span>应用建议</span>
       </div>
       <ul class="tips-list">
-    <li><strong>构图基准：</strong>在应用斜投影构图时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。</li><li><strong>图文呼应：</strong>文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。</li><div class="tips-bottom-bar"></div></ul></div></div>
-    <div class="visual-box">
-    <svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
-      <rect width="550" height="620" fill="none" />
-      <rect x="35" y="45" width="480" height="530" stroke="#E03E2D" stroke-width="2" fill="none" opacity="0.7"/>
-      <line x1="35" y1="372" x2="515" y2="372" stroke="#E03E2D" stroke-width="1.8" stroke-dasharray="6,6"/>
-      <line x1="331" y1="45" x2="331" y2="575" stroke="#E03E2D" stroke-width="1.8" stroke-dasharray="6,6"/>
-      <circle cx="331" cy="372" r="18" fill="#E03E2D" />
-      <circle cx="331" cy="372" r="38" stroke="#E03E2D" stroke-width="1.2" fill="none" stroke-dasharray="4,4"/>
-      <text x="275" y="300" fill="#E03E2D" font-size="20" font-weight="900" font-family="PingFang SC" text-anchor="middle">斜投影构图</text>
-      <text x="275" y="328" fill="currentColor" font-size="12" font-weight="bold" font-family="Montserrat" text-anchor="middle" opacity="0.8">COMPOSITION SCHEMATIC</text>
-    </svg>
-    </div>
+    <li><strong>前景压暗：</strong>前景遮挡物适当降低明度或增加剪影化处理，衬托中景高亮主体。</li><li><strong>尺度反差：</strong>前景物体与远景要素形成悬殊的尺度比例，能极大增强画面的宏大感。</li><div class="tips-bottom-bar"></div></ul></div></div>
+    <div class="visual-box"><svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#12141A" rx="8"/>
+
+  <rect x="50" y="60" width="450" height="500" fill="#1A1D26" rx="8" stroke="#333C4E" stroke-width="1.5"/>
+  <!-- True front face 100% scale -->
+  <rect x="90" y="230" width="220" height="180" rx="4" fill="#4A5568" stroke="#FFD700" stroke-width="2.5"/>
+  <!-- Oblique cabinet depth (ratio 0.5 at 30 deg) -->
+  <polygon points="90,230 220,140 440,140 310,230" fill="#FFD700" opacity="0.25" stroke="#FFD700" stroke-width="2"/>
+  <polygon points="310,230 440,140 440,320 310,410" fill="#00E5FF" opacity="0.3" stroke="#00E5FF" stroke-width="2"/>
+  <circle cx="200" cy="320" r="28" fill="#FFD700"/>
+  <circle cx="200" cy="320" r="8" fill="#FFFFFF"/>
+  <text x="200" y="280" fill="#FFFFFF" font-size="12" font-weight="bold" font-family="Montserrat" text-anchor="middle">TRUE FRONT FACE</text>
+    <rect x="185" y="480" width="180" height="28" rx="5" fill="#FFD700"/>
+  <text x="275.0" y="497.36" fill="#12141A" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">斜投影工程立体图示</text>
+
+</svg></div>
     
   </main>
 
@@ -542,8 +555,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">平衡</span>
-            <span class="kw-en">BALANCE</span>
+            <span class="kw-cn">景深层次</span>
+            <span class="kw-en">DEPTH LAYERS</span>
           </div>
         </div>
         
@@ -552,8 +565,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">焦点</span>
-            <span class="kw-en">FOCUS</span>
+            <span class="kw-cn">空间投影</span>
+            <span class="kw-en">PROJECTION</span>
           </div>
         </div>
         
@@ -562,8 +575,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">节奏</span>
-            <span class="kw-en">RHYTHM</span>
+            <span class="kw-cn">透视进深</span>
+            <span class="kw-en">PERSPECTIVE INSET</span>
           </div>
         </div>
         
@@ -572,8 +585,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">引导</span>
-            <span class="kw-en">GUIDE</span>
+            <span class="kw-cn">重叠穿透</span>
+            <span class="kw-en">OVERLAP</span>
           </div>
         </div>
         

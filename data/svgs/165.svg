@@ -1,24 +1,11 @@
 <svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
 
-  <rect width="550" height="620" fill="#1F1B18" rx="8"/>
+  <rect width="550" height="620" fill="#081630" rx="8"/>
 
-  <rect x="50" y="60" width="450" height="500" fill="#2B2622" stroke="#3B342F" stroke-width="1.5" rx="6"/>
-  <!-- Geometric Diagonals and Symmetry Axes -->
-  <line x1="50" y1="60" x2="500" y2="560" stroke="#3B342F" stroke-width="1.2" stroke-dasharray="6,4"/>
-  <line x1="500" y1="60" x2="50" y2="560" stroke="#3B342F" stroke-width="1.2" stroke-dasharray="6,4"/>
-  <line x1="275" y1="60" x2="275" y2="560" stroke="#FFB300" stroke-width="1.5" stroke-dasharray="6,6"/>
-  <line x1="50" y1="310" x2="500" y2="310" stroke="#FFB300" stroke-width="1.5" stroke-dasharray="6,6"/>
-  <!-- Primary Geometric Field -->
-  <polygon points="275,130 440,310 275,490 110,310" fill="#1F1B18" stroke="#E25238" stroke-width="2.5"/>
-  <!-- Focal Node Center -->
-    <circle cx="275" cy="310" r="43.2" fill="none" stroke="#E25238" stroke-width="1.2" stroke-dasharray="4,3" opacity="0.7"/>
-  <circle cx="275" cy="310" r="24" fill="#E25238"/>
-  <circle cx="275" cy="310" r="6" fill="#FFFFFF"/>
-  <line x1="217.4" y1="310" x2="332.6" y2="310" stroke="#E25238" stroke-width="1.2" stroke-dasharray="2,2" opacity="0.6"/>
-  <line x1="275" y1="252.4" x2="275" y2="367.6" stroke="#E25238" stroke-width="1.2" stroke-dasharray="2,2" opacity="0.6"/>
-  <!-- Subtitle Meta -->
-  <text x="275" y="240" fill="#FAF7F2" font-size="14" font-weight="900" font-family="Montserrat" text-anchor="middle">INDEX LAYOUT</text>
-    <rect x="185" y="510" width="180" height="28" rx="5" fill="#E25238"/>
-  <text x="275.0" y="527.36" fill="#1F1B18" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">索引版式</text>
+  <rect x="50" y="60" width="450" height="500" fill="#0E2248" rx="8" stroke="#162E58" stroke-width="1.5"/>
+  <text x="80" y="105" fill="#FFFFFF" font-size="20" font-weight="900" font-family="Montserrat">SUBJECT INDEX (A-Z)</text>
+  <g transform="translate(75, 0)"><text x="0" y="140" fill="#448AFF" font-size="16" font-weight="900" font-family="Montserrat">A</text><rect x="0" y="160" width="85" height="280" rx="3" fill="#2A4B82" opacity="0.4"/></g><g transform="translate(180, 0)"><text x="0" y="140" fill="#448AFF" font-size="16" font-weight="900" font-family="Montserrat">B</text><rect x="0" y="160" width="85" height="280" rx="3" fill="#2A4B82" opacity="0.4"/></g><g transform="translate(285, 0)"><text x="0" y="140" fill="#448AFF" font-size="16" font-weight="900" font-family="Montserrat">C</text><rect x="0" y="160" width="85" height="280" rx="3" fill="#2A4B82" opacity="0.4"/></g><g transform="translate(390, 0)"><text x="0" y="140" fill="#448AFF" font-size="16" font-weight="900" font-family="Montserrat">D</text><rect x="0" y="160" width="85" height="280" rx="3" fill="#2A4B82" opacity="0.4"/></g>
+    <rect x="185" y="520" width="180" height="28" rx="5" fill="#448AFF"/>
+  <text x="275.0" y="537.36" fill="#081630" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">多栏紧凑检索索引</text>
 
 </svg>

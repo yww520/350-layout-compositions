@@ -177,7 +177,7 @@
     /* ================= MAIN CONTENT GRID ================= */
     .main-content {
       display: grid;
-      grid-template-columns: 530px 380px;
+      grid-template-columns: 345px 600px;
       gap: 30px;
       align-items: stretch;
       margin-top: 14px;
@@ -200,6 +200,14 @@
     .visual-box svg {
       width: 100%;
       height: 100%;
+    }
+
+    .visual-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: 12px;
     }
 
     /* Features Column */
@@ -420,7 +428,7 @@
     }
   </style>
 </head>
-<body data-theme="cobalt-blue">
+<body data-theme="warm-ivory">
 
   <!-- HEADER -->
   <header class="header">
@@ -430,16 +438,16 @@
         <span class="meta-left-en">COMPOSITION PRINCIPLES</span>
       </div>
       <div class="meta-right">
-        <span class="meta-right-text">横直混排设计法则与空间建构</span>
+        <span class="meta-right-text">融合方块汉字的端庄气度与西文字母的几何流动，成就混排至美。</span>
         <div class="meta-right-bar"></div>
       </div>
     </div>
 
     <h1 class="main-title">横直混排</h1>
-    <div class="subtitle-en">横直混排 COMPOSITION</div>
+    <div class="subtitle-en">MIXED VERTICAL-HORIZONTAL</div>
 
     <div class="description-box">
-      经典视觉架构第 216 号：横直混排。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。
+      350 视觉排版系列第 216 号：横直混排（MIXED VERTICAL-HORIZONTAL）。归属于「字体、网格与东亚文字 · 东亚文字与混排」体系。融合方块汉字的端庄气度与西文字母的几何流动，成就混排至美。
     </div>
   </header>
 
@@ -459,9 +467,9 @@
             </svg>
           </div>
           <div class="feature-text-block">
-            <div class="feature-title">横直核心锚点</div>
-            <div class="feature-desc">确立画面第一视觉据点，使主体在横直混排框架中获得最强烈的视觉重力与识别度。</div>
-            <div class="feature-tag-en">Focal Anchor</div>
+            <div class="feature-title">直排风骨</div>
+            <div class="feature-desc">在横直混排架构中，自上而下、自右向左的竖排流向，承续古典东方书籍的宁静与凝炼。</div>
+            <div class="feature-tag-en">Vertical Splendor</div>
           </div>
         </div>
         
@@ -477,9 +485,9 @@
             </svg>
           </div>
           <div class="feature-text-block">
-            <div class="feature-title">视线引导流线</div>
-            <div class="feature-desc">依据横直混排的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。</div>
-            <div class="feature-tag-en">Leading Flow</div>
+            <div class="feature-title">纵中横排</div>
+            <div class="feature-desc">依据横直混排的内在几何规律，在直排纵行中将 2-3 位阿拉伯数字横向嵌入，保持排版流动的现代紧凑。</div>
+            <div class="feature-tag-en">Tate-Chu-Yoko</div>
           </div>
         </div>
         
@@ -495,9 +503,9 @@
             </svg>
           </div>
           <div class="feature-text-block">
-            <div class="feature-title">负空间与呼吸感</div>
-            <div class="feature-desc">精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。</div>
-            <div class="feature-tag-en">Negative Space</div>
+            <div class="feature-title">字形平衡</div>
+            <div class="feature-desc">针对横直混排的空间特性，精准调整中文字与英文字母的基线和字重比差，消除中西文混排的跳动感。</div>
+            <div class="feature-tag-en">Optical Balancing</div>
           </div>
         </div>
         </div>
@@ -511,19 +519,28 @@
         <span>应用建议</span>
       </div>
       <ul class="tips-list">
-    <li><strong>构图基准：</strong>在应用横直混排时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。</li><li><strong>图文呼应：</strong>文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。</li><div class="tips-bottom-bar"></div></ul></div></div>
-    <div class="visual-box">
-    <svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
-      <rect width="550" height="620" fill="none" />
-      <rect x="35" y="45" width="480" height="530" stroke="#E03E2D" stroke-width="2" fill="none" opacity="0.7"/>
-      <line x1="35" y1="372" x2="515" y2="372" stroke="#E03E2D" stroke-width="1.8" stroke-dasharray="6,6"/>
-      <line x1="331" y1="45" x2="331" y2="575" stroke="#E03E2D" stroke-width="1.8" stroke-dasharray="6,6"/>
-      <circle cx="331" cy="372" r="18" fill="#E03E2D" />
-      <circle cx="331" cy="372" r="38" stroke="#E03E2D" stroke-width="1.2" fill="none" stroke-dasharray="4,4"/>
-      <text x="275" y="300" fill="#E03E2D" font-size="20" font-weight="900" font-family="PingFang SC" text-anchor="middle">横直混排</text>
-      <text x="275" y="328" fill="currentColor" font-size="12" font-weight="bold" font-family="Montserrat" text-anchor="middle" opacity="0.8">COMPOSITION SCHEMATIC</text>
-    </svg>
-    </div>
+    <li><strong>西文字距：</strong>中西文混排时，汉字与英文单词之间强制插入四分之一汉字宽的盘面间距（U+0020）。</li><li><strong>避头尾法则：</strong>标点符号绝对禁止出现在行首（句号逗号等）或行尾（前括号等），必须合规挤压。</li><div class="tips-bottom-bar"></div></ul></div></div>
+    <div class="visual-box"><svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#081630" rx="8"/>
+
+  <rect x="50" y="60" width="450" height="500" fill="#0E2248" rx="8" stroke="#162E58" stroke-width="1.5"/>
+  <!-- Vertical Title / Callout Column on Right -->
+  <rect x="350" y="90" width="120" height="410" rx="6" fill="#448AFF" fill-opacity="0.9"/>
+  <g fill="#081630" font-size="32" font-weight="900" font-family="Kaiti, serif" text-anchor="middle">
+    <text x="410" y="160">横</text><text x="410" y="210">直</text><text x="410" y="260">交</text><text x="410" y="310">汇</text>
+  </g>
+  <!-- Horizontal Body Text Columns on Left -->
+  <rect x="75" y="90" width="255" height="20" rx="4" fill="#2A4B82"/>
+  <rect x="75" y="130" width="255" height="16" rx="3" fill="#2A4B82"/>
+  <rect x="75" y="160" width="235" height="16" rx="3" fill="#2A4B82"/>
+  <rect x="75" y="190" width="255" height="16" rx="3" fill="#2A4B82"/>
+  <rect x="75" y="240" width="255" height="160" rx="6" fill="#081630" stroke="#448AFF" stroke-width="2"/>
+  <circle cx="202" cy="320" r="32" fill="#00E5FF"/>
+    <rect x="185" y="520" width="180" height="28" rx="5" fill="#448AFF"/>
+  <text x="275.0" y="537.36" fill="#081630" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">现代日式杂志横直混排</text>
+
+</svg></div>
     
   </main>
 
@@ -542,8 +559,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">平衡</span>
-            <span class="kw-en">BALANCE</span>
+            <span class="kw-cn">方块字韵</span>
+            <span class="kw-en">CJK CHARACTER TONE</span>
           </div>
         </div>
         
@@ -552,8 +569,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">焦点</span>
-            <span class="kw-en">FOCUS</span>
+            <span class="kw-cn">横直混排</span>
+            <span class="kw-en">MIXED DIRECTION</span>
           </div>
         </div>
         
@@ -562,8 +579,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">节奏</span>
-            <span class="kw-en">RHYTHM</span>
+            <span class="kw-cn">纵中横排</span>
+            <span class="kw-en">TATE-CHU-YOKO</span>
           </div>
         </div>
         
@@ -572,8 +589,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">引导</span>
-            <span class="kw-en">GUIDE</span>
+            <span class="kw-cn">中西匹配</span>
+            <span class="kw-en">CJK-LATIN PAIRING</span>
           </div>
         </div>
         

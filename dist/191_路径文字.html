@@ -177,7 +177,7 @@
     /* ================= MAIN CONTENT GRID ================= */
     .main-content {
       display: grid;
-      grid-template-columns: 530px 380px;
+      grid-template-columns: 345px 600px;
       gap: 30px;
       align-items: stretch;
       margin-top: 14px;
@@ -200,6 +200,14 @@
     .visual-box svg {
       width: 100%;
       height: 100%;
+    }
+
+    .visual-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: 12px;
     }
 
     /* Features Column */
@@ -420,7 +428,7 @@
     }
   </style>
 </head>
-<body data-theme="warm-ivory">
+<body data-theme="cobalt-blue">
 
   <!-- HEADER -->
   <header class="header">
@@ -430,16 +438,16 @@
         <span class="meta-left-en">COMPOSITION PRINCIPLES</span>
       </div>
       <div class="meta-right">
-        <span class="meta-right-text">路径文字设计法则与空间建构</span>
+        <span class="meta-right-text">在边缘参差与精准对齐的毫厘之间，打磨文字的诗性肌理。</span>
         <div class="meta-right-bar"></div>
       </div>
     </div>
 
     <h1 class="main-title">路径文字</h1>
-    <div class="subtitle-en">路径文字 COMPOSITION</div>
+    <div class="subtitle-en">TYPE ON A PATH</div>
 
     <div class="description-box">
-      经典视觉架构第 191 号：路径文字。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。
+      350 视觉排版系列第 191 号：路径文字（TYPE ON A PATH）。归属于「字体、网格与东亚文字 · 对齐、缩进与文字造型」体系。在边缘参差与精准对齐的毫厘之间，打磨文字的诗性肌理。
     </div>
   </header>
 
@@ -459,9 +467,9 @@
             </svg>
           </div>
           <div class="feature-text-block">
-            <div class="feature-title">路径核心锚点</div>
-            <div class="feature-desc">确立画面第一视觉据点，使主体在路径文字框架中获得最强烈的视觉重力与识别度。</div>
-            <div class="feature-tag-en">Focal Anchor</div>
+            <div class="feature-title">参差飞白</div>
+            <div class="feature-desc">在路径文字架构中，左齐右参差在右侧制造富有活力的自然浪花边缘，消除两端强扭的字间空洞。</div>
+            <div class="feature-tag-en">Ragged Edge Rhythm</div>
           </div>
         </div>
         
@@ -477,9 +485,9 @@
             </svg>
           </div>
           <div class="feature-text-block">
-            <div class="feature-title">视线引导流线</div>
-            <div class="feature-desc">依据路径文字的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。</div>
-            <div class="feature-tag-en">Leading Flow</div>
+            <div class="feature-title">悬挂凸排</div>
+            <div class="feature-desc">依据路径文字的内在几何规律，将标点与缩进悬挂至外边距，保持正文阅读垂直线如刀切般绝对平直。</div>
+            <div class="feature-tag-en">Hanging Punctuation</div>
           </div>
         </div>
         
@@ -495,9 +503,9 @@
             </svg>
           </div>
           <div class="feature-text-block">
-            <div class="feature-title">负空间与呼吸感</div>
-            <div class="feature-desc">精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。</div>
-            <div class="feature-tag-en">Negative Space</div>
+            <div class="feature-title">轮廓环抱</div>
+            <div class="feature-desc">针对路径文字的空间特性，正文依随图形边缘流淌，文字本身化为勾勒主体轮廓的质感笔触。</div>
+            <div class="feature-tag-en">Contour Wrapping</div>
           </div>
         </div>
         </div>
@@ -511,19 +519,22 @@
         <span>应用建议</span>
       </div>
       <ul class="tips-list">
-    <li><strong>构图基准：</strong>在应用路径文字时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。</li><li><strong>图文呼应：</strong>文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。</li><div class="tips-bottom-bar"></div></ul></div></div>
-    <div class="visual-box">
-    <svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
-      <rect width="550" height="620" fill="none" />
-      <rect x="35" y="45" width="480" height="530" stroke="#E03E2D" stroke-width="2" fill="none" opacity="0.7"/>
-      <line x1="35" y1="372" x2="515" y2="372" stroke="#E03E2D" stroke-width="1.8" stroke-dasharray="6,6"/>
-      <line x1="331" y1="45" x2="331" y2="575" stroke="#E03E2D" stroke-width="1.8" stroke-dasharray="6,6"/>
-      <circle cx="331" cy="372" r="18" fill="#E03E2D" />
-      <circle cx="331" cy="372" r="38" stroke="#E03E2D" stroke-width="1.2" fill="none" stroke-dasharray="4,4"/>
-      <text x="275" y="300" fill="#E03E2D" font-size="20" font-weight="900" font-family="PingFang SC" text-anchor="middle">路径文字</text>
-      <text x="275" y="328" fill="currentColor" font-size="12" font-weight="bold" font-family="Montserrat" text-anchor="middle" opacity="0.8">COMPOSITION SCHEMATIC</text>
-    </svg>
-    </div>
+    <li><strong>避免孤字：</strong>严格消除段落末行的孤字（Widow）与页面首行的孤行（Orphan）。</li><li><strong>凸排对齐：</strong>引号、括号必须推出版芯左对齐线外，让视觉文字块边缘形成真正的直线。</li><div class="tips-bottom-bar"></div></ul></div></div>
+    <div class="visual-box"><svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#081630" rx="8"/>
+
+  <rect x="50" y="60" width="450" height="500" fill="#0E2248" rx="8" stroke="#162E58" stroke-width="1.5"/>
+  <path id="wavePath191" d="M 70 320 C 140 160 220 160 275 300 C 330 440 410 440 480 280" fill="none" stroke="#448AFF" stroke-width="3" stroke-dasharray="6,4"/>
+  <text fill="#FFFFFF" font-size="20" font-weight="900" font-family="Montserrat">
+    <textPath href="#wavePath191" startOffset="10%">TYPOGRAPHY FLOWING ALONG BEZIER SPLINE</textPath>
+  </text>
+  <circle cx="170" cy="220" r="10" fill="#FF5252"/>
+  <circle cx="380" cy="380" r="10" fill="#FF5252"/>
+    <rect x="185" y="520" width="180" height="28" rx="5" fill="#448AFF"/>
+  <text x="275.0" y="537.36" fill="#081630" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">样条曲线路径贴合编排</text>
+
+</svg></div>
     
   </main>
 
@@ -542,8 +553,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">平衡</span>
-            <span class="kw-en">BALANCE</span>
+            <span class="kw-cn">对齐参差</span>
+            <span class="kw-en">RAGGED ALIGNMENT</span>
           </div>
         </div>
         
@@ -552,8 +563,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">焦点</span>
-            <span class="kw-en">FOCUS</span>
+            <span class="kw-cn">文字绕排</span>
+            <span class="kw-en">CONTOUR WRAP</span>
           </div>
         </div>
         
@@ -562,8 +573,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">节奏</span>
-            <span class="kw-en">RHYTHM</span>
+            <span class="kw-cn">凸排悬挂</span>
+            <span class="kw-en">HANGING INDENT</span>
           </div>
         </div>
         
@@ -572,8 +583,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">引导</span>
-            <span class="kw-en">GUIDE</span>
+            <span class="kw-cn">文字造型</span>
+            <span class="kw-en">TYPOGRAPHIC FORM</span>
           </div>
         </div>
         

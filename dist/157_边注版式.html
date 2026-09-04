@@ -177,7 +177,7 @@
     /* ================= MAIN CONTENT GRID ================= */
     .main-content {
       display: grid;
-      grid-template-columns: 530px 380px;
+      grid-template-columns: 345px 600px;
       gap: 30px;
       align-items: stretch;
       margin-top: 14px;
@@ -200,6 +200,14 @@
     .visual-box svg {
       width: 100%;
       height: 100%;
+    }
+
+    .visual-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: 12px;
     }
 
     /* Features Column */
@@ -430,16 +438,16 @@
         <span class="meta-left-en">COMPOSITION PRINCIPLES</span>
       </div>
       <div class="meta-right">
-        <span class="meta-right-text">边注版式设计法则与空间建构</span>
+        <span class="meta-right-text">用模块规整复杂脉络，借侧栏边注赋予版面从容叙事。</span>
         <div class="meta-right-bar"></div>
       </div>
     </div>
 
     <h1 class="main-title">边注版式</h1>
-    <div class="subtitle-en">边注版式 COMPOSITION</div>
+    <div class="subtitle-en">MARGINALIA LAYOUT</div>
 
     <div class="description-box">
-      经典视觉架构第 157 号：边注版式。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。
+      350 视觉排版系列第 157 号：边注版式（MARGINALIA LAYOUT）。归属于「平面、出版与广告 · 模块、侧栏与图文关系」体系。用模块规整复杂脉络，借侧栏边注赋予版面从容叙事。
     </div>
   </header>
 
@@ -459,9 +467,9 @@
             </svg>
           </div>
           <div class="feature-text-block">
-            <div class="feature-title">边注核心锚点</div>
-            <div class="feature-desc">确立画面第一视觉据点，使主体在边注版式框架中获得最强烈的视觉重力与识别度。</div>
-            <div class="feature-tag-en">Focal Anchor</div>
+            <div class="feature-title">区块解耦</div>
+            <div class="feature-desc">在边注版式架构中，不同信息单元装入独立模块盒子中，实现高信噪比的并列陈列。</div>
+            <div class="feature-tag-en">Block Decoupling</div>
           </div>
         </div>
         
@@ -477,9 +485,9 @@
             </svg>
           </div>
           <div class="feature-text-block">
-            <div class="feature-title">视线引导流线</div>
-            <div class="feature-desc">依据边注版式的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。</div>
-            <div class="feature-tag-en">Leading Flow</div>
+            <div class="feature-title">双线叙事</div>
+            <div class="feature-desc">依据边注版式的内在几何规律，主文走中心大栏，侧栏承载延伸知识与快读摘要，互不干扰。</div>
+            <div class="feature-tag-en">Dual-Track Narrative</div>
           </div>
         </div>
         
@@ -495,9 +503,9 @@
             </svg>
           </div>
           <div class="feature-text-block">
-            <div class="feature-title">负空间与呼吸感</div>
-            <div class="feature-desc">精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。</div>
-            <div class="feature-tag-en">Negative Space</div>
+            <div class="feature-title">边注呼应</div>
+            <div class="feature-desc">针对边注版式的空间特性，注释与微缩图紧贴关联段落，视线水平平移即可完成释义查阅。</div>
+            <div class="feature-tag-en">Marginalia Dialogue</div>
           </div>
         </div>
         </div>
@@ -511,19 +519,27 @@
         <span>应用建议</span>
       </div>
       <ul class="tips-list">
-    <li><strong>构图基准：</strong>在应用边注版式时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。</li><li><strong>图文呼应：</strong>文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。</li><div class="tips-bottom-bar"></div></ul></div></div>
-    <div class="visual-box">
-    <svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
-      <rect width="550" height="620" fill="none" />
-      <rect x="35" y="45" width="480" height="530" stroke="#E03E2D" stroke-width="2" fill="none" opacity="0.7"/>
-      <line x1="35" y1="372" x2="515" y2="372" stroke="#E03E2D" stroke-width="1.8" stroke-dasharray="6,6"/>
-      <line x1="331" y1="45" x2="331" y2="575" stroke="#E03E2D" stroke-width="1.8" stroke-dasharray="6,6"/>
-      <circle cx="331" cy="372" r="18" fill="#E03E2D" />
-      <circle cx="331" cy="372" r="38" stroke="#E03E2D" stroke-width="1.2" fill="none" stroke-dasharray="4,4"/>
-      <text x="275" y="300" fill="#E03E2D" font-size="20" font-weight="900" font-family="PingFang SC" text-anchor="middle">边注版式</text>
-      <text x="275" y="328" fill="currentColor" font-size="12" font-weight="bold" font-family="Montserrat" text-anchor="middle" opacity="0.8">COMPOSITION SCHEMATIC</text>
-    </svg>
-    </div>
+    <li><strong>侧栏比例：</strong>侧栏宽度通常占总版面宽度的 25% - 30%，保持从属地位。</li><li><strong>模块对齐：</strong>相邻模块的上下边线必须严格吸附至基准网格，避免参差碎乱。</li><div class="tips-bottom-bar"></div></ul></div></div>
+    <div class="visual-box"><svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#12141A" rx="8"/>
+
+  <rect x="50" y="60" width="450" height="500" fill="#1A1D26" rx="8" stroke="#333C4E" stroke-width="1.5"/>
+  <!-- Centered Inner Main Column -->
+  <rect x="80" y="100" width="240" height="400" fill="#12141A" stroke="#333C4E" stroke-width="1.5" rx="4"/>
+  <g fill="#4A5568">
+    <rect x="100" y="130" width="200" height="8" rx="2"/><rect x="100" y="152" width="200" height="8" rx="2"/><rect x="100" y="174" width="200" height="8" rx="2"/><rect x="100" y="196" width="200" height="8" rx="2"/><rect x="100" y="218" width="200" height="8" rx="2"/><rect x="100" y="240" width="200" height="8" rx="2"/><rect x="100" y="262" width="200" height="8" rx="2"/><rect x="100" y="284" width="200" height="8" rx="2"/><rect x="100" y="306" width="200" height="8" rx="2"/><rect x="100" y="328" width="200" height="8" rx="2"/><rect x="100" y="350" width="200" height="8" rx="2"/><rect x="100" y="372" width="200" height="8" rx="2"/><rect x="100" y="394" width="200" height="8" rx="2"/><rect x="100" y="416" width="200" height="8" rx="2"/><rect x="100" y="438" width="200" height="8" rx="2"/>
+  </g>
+  <!-- Generous Outer Margin for Marginal Notes -->
+  <line x1="340" y1="100" x2="340" y2="500" stroke="#FFD700" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <rect x="355" y="160" width="115" height="70" rx="4" fill="#FFD700" fill-opacity="0.2" stroke="#FFD700" stroke-width="1.5"/>
+  <text x="412" y="195" fill="#FFD700" font-size="10" font-family="Montserrat" text-anchor="middle">[NOTE §1.4]</text>
+  <rect x="355" y="280" width="115" height="80" rx="4" fill="#00E5FF" fill-opacity="0.2" stroke="#00E5FF" stroke-width="1.5"/>
+  <text x="412" y="320" fill="#00E5FF" font-size="10" font-family="Montserrat" text-anchor="middle">[SCHOLIA]</text>
+    <rect x="185" y="520" width="180" height="28" rx="5" fill="#FFD700"/>
+  <text x="275.0" y="537.36" fill="#12141A" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">留白天地边注考据</text>
+
+</svg></div>
     
   </main>
 
@@ -542,8 +558,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">平衡</span>
-            <span class="kw-en">BALANCE</span>
+            <span class="kw-cn">模块分区</span>
+            <span class="kw-en">MODULAR SECTION</span>
           </div>
         </div>
         
@@ -552,8 +568,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">焦点</span>
-            <span class="kw-en">FOCUS</span>
+            <span class="kw-cn">侧栏导读</span>
+            <span class="kw-en">SIDEBAR LEAD</span>
           </div>
         </div>
         
@@ -562,8 +578,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">节奏</span>
-            <span class="kw-en">RHYTHM</span>
+            <span class="kw-cn">边注伴随</span>
+            <span class="kw-en">MARGINALIA</span>
           </div>
         </div>
         
@@ -572,8 +588,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">引导</span>
-            <span class="kw-en">GUIDE</span>
+            <span class="kw-cn">图文嵌合</span>
+            <span class="kw-en">TEXT-IMAGE FIT</span>
           </div>
         </div>
         

@@ -177,7 +177,7 @@
     /* ================= MAIN CONTENT GRID ================= */
     .main-content {
       display: grid;
-      grid-template-columns: 530px 380px;
+      grid-template-columns: 345px 600px;
       gap: 30px;
       align-items: stretch;
       margin-top: 14px;
@@ -200,6 +200,14 @@
     .visual-box svg {
       width: 100%;
       height: 100%;
+    }
+
+    .visual-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: 12px;
     }
 
     /* Features Column */
@@ -430,16 +438,16 @@
         <span class="meta-left-en">COMPOSITION PRINCIPLES</span>
       </div>
       <div class="meta-right">
-        <span class="meta-right-text">双栏版式设计法则与空间建构</span>
+        <span class="meta-right-text">以严谨分栏规整海量信息，用跨页满幅释放无限张力。</span>
         <div class="meta-right-bar"></div>
       </div>
     </div>
 
     <h1 class="main-title">双栏版式</h1>
-    <div class="subtitle-en">双栏版式 COMPOSITION</div>
+    <div class="subtitle-en">TWO-COLUMN LAYOUT</div>
 
     <div class="description-box">
-      经典视觉架构第 133 号：双栏版式。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。
+      350 视觉排版系列第 133 号：双栏版式（TWO-COLUMN LAYOUT）。归属于「平面、出版与广告 · 分栏、跨页与出血」体系。以严谨分栏规整海量信息，用跨页满幅释放无限张力。
     </div>
   </header>
 
@@ -459,9 +467,9 @@
             </svg>
           </div>
           <div class="feature-text-block">
-            <div class="feature-title">双栏核心锚点</div>
-            <div class="feature-desc">确立画面第一视觉据点，使主体在双栏版式框架中获得最强烈的视觉重力与识别度。</div>
-            <div class="feature-tag-en">Focal Anchor</div>
+            <div class="feature-title">栏线律动</div>
+            <div class="feature-desc">在双栏版式架构中，等宽分栏与栏间距规范行长，维持极度舒适的持续阅读节拍。</div>
+            <div class="feature-tag-en">Column Rhythm</div>
           </div>
         </div>
         
@@ -477,9 +485,9 @@
             </svg>
           </div>
           <div class="feature-text-block">
-            <div class="feature-title">视线引导流线</div>
-            <div class="feature-desc">依据双栏版式的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。</div>
-            <div class="feature-tag-en">Leading Flow</div>
+            <div class="feature-title">破页贯通</div>
+            <div class="feature-desc">依据双栏版式的内在几何规律，主体图像横跨中缝跨页展开，打破单页局限，倍增版面气魄。</div>
+            <div class="feature-tag-en">Spread Crossing</div>
           </div>
         </div>
         
@@ -495,9 +503,9 @@
             </svg>
           </div>
           <div class="feature-text-block">
-            <div class="feature-title">负空间与呼吸感</div>
-            <div class="feature-desc">精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。</div>
-            <div class="feature-tag-en">Negative Space</div>
+            <div class="feature-title">出血张力</div>
+            <div class="feature-desc">针对双栏版式的空间特性，将色块或图片直接裁切至纸张物理边缘，制造画面向外无限延伸的假象。</div>
+            <div class="feature-tag-en">Bleed Tension</div>
           </div>
         </div>
         </div>
@@ -511,19 +519,40 @@
         <span>应用建议</span>
       </div>
       <ul class="tips-list">
-    <li><strong>构图基准：</strong>在应用双栏版式时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。</li><li><strong>图文呼应：</strong>文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。</li><div class="tips-bottom-bar"></div></ul></div></div>
-    <div class="visual-box">
-    <svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
-      <rect width="550" height="620" fill="none" />
-      <rect x="35" y="45" width="480" height="530" stroke="#FFD700" stroke-width="2" fill="none" opacity="0.7"/>
-      <line x1="35" y1="372" x2="515" y2="372" stroke="#FFD700" stroke-width="1.8" stroke-dasharray="6,6"/>
-      <line x1="331" y1="45" x2="331" y2="575" stroke="#FFD700" stroke-width="1.8" stroke-dasharray="6,6"/>
-      <circle cx="331" cy="372" r="18" fill="#FFD700" />
-      <circle cx="331" cy="372" r="38" stroke="#FFD700" stroke-width="1.2" fill="none" stroke-dasharray="4,4"/>
-      <text x="275" y="300" fill="#FFD700" font-size="20" font-weight="900" font-family="PingFang SC" text-anchor="middle">双栏版式</text>
-      <text x="275" y="328" fill="currentColor" font-size="12" font-weight="bold" font-family="Montserrat" text-anchor="middle" opacity="0.8">COMPOSITION SCHEMATIC</text>
-    </svg>
-    </div>
+    <li><strong>最佳行长：</strong>单栏文字行长控制在 35-45 个中文字符，避免视线换行疲劳。</li><li><strong>中缝规避：</strong>跨页排版时严禁将人物面部或核心文字压在中缝折线处。</li><div class="tips-bottom-bar"></div></ul></div></div>
+    <div class="visual-box"><svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#1F1B18" rx="8"/>
+
+  <rect x="50" y="60" width="450" height="500" fill="#2B2622" stroke="#3B342F" stroke-width="1.5" rx="4"/>
+  <!-- Column 1 -->
+  <rect x="90" y="120" width="165" height="380" fill="#1F1B18" stroke="#E25238" stroke-width="1.2" rx="3"/>
+  <!-- Column 2 -->
+  <rect x="295" y="120" width="165" height="380" fill="#1F1B18" stroke="#E25238" stroke-width="1.2" rx="3"/>
+  <!-- Gutter Dimension -->
+    <line x1="255" y1="95" x2="295" y2="95" stroke="#E25238" stroke-width="1.2"/>
+  <line x1="255" y1="90" x2="255" y2="100" stroke="#E25238" stroke-width="1.2"/>
+  <line x1="295" y1="90" x2="295" y2="100" stroke="#E25238" stroke-width="1.2"/>
+  <rect x="251.0" y="86" width="48" height="18" fill="#12141A" rx="3"/>
+  <text x="275.0" y="99" fill="#E25238" font-size="10" font-weight="bold" font-family="Montserrat, monospace" text-anchor="middle">40px</text>
+  <!-- Header Banner spanning both columns -->
+  <rect x="90" y="80" width="370" height="24" fill="#E25238" rx="3"/>
+  <text x="275" y="97" fill="#1F1B18" font-size="11" font-weight="900" font-family="Montserrat" text-anchor="middle">ACADEMIC TWO-COLUMN SPREAD</text>
+  <!-- Column Text Simulation -->
+  <g fill="#8A827A">
+    <rect x="105" y="140" width="135" height="4" rx="1"/>
+    <rect x="105" y="152" width="135" height="4" rx="1"/>
+    <rect x="105" y="164" width="110" height="4" rx="1"/>
+    <rect x="105" y="184" width="135" height="4" rx="1"/>
+    <rect x="105" y="196" width="135" height="4" rx="1"/>
+    <rect x="310" y="140" width="135" height="4" rx="1"/>
+    <rect x="310" y="152" width="135" height="4" rx="1"/>
+    <rect x="310" y="164" width="125" height="4" rx="1"/>
+  </g>
+    <rect x="185" y="520" width="180" height="28" rx="5" fill="#E25238"/>
+  <text x="275.0" y="537.36" fill="#1F1B18" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">严谨双栏与中缝控制</text>
+
+</svg></div>
     
   </main>
 
@@ -542,8 +571,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">分栏</span>
-            <span class="kw-en">COLUMNS</span>
+            <span class="kw-cn">网格分栏</span>
+            <span class="kw-en">COLUMN GRID</span>
           </div>
         </div>
         
@@ -552,8 +581,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">网格</span>
-            <span class="kw-en">GRID</span>
+            <span class="kw-cn">连贯跨页</span>
+            <span class="kw-en">SPREAD CONTINUITY</span>
           </div>
         </div>
         
@@ -562,8 +591,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">行长</span>
-            <span class="kw-en">LINE LENGTH</span>
+            <span class="kw-cn">满版出血</span>
+            <span class="kw-en">FULL BLEED</span>
           </div>
         </div>
         
@@ -572,8 +601,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">跨栏</span>
-            <span class="kw-en">SPAN</span>
+            <span class="kw-cn">边距呼吸</span>
+            <span class="kw-en">MARGIN BREATH</span>
           </div>
         </div>
         

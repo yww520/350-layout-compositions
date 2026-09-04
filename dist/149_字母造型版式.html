@@ -177,7 +177,7 @@
     /* ================= MAIN CONTENT GRID ================= */
     .main-content {
       display: grid;
-      grid-template-columns: 530px 380px;
+      grid-template-columns: 345px 600px;
       gap: 30px;
       align-items: stretch;
       margin-top: 14px;
@@ -200,6 +200,14 @@
     .visual-box svg {
       width: 100%;
       height: 100%;
+    }
+
+    .visual-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: 12px;
     }
 
     /* Features Column */
@@ -420,7 +428,7 @@
     }
   </style>
 </head>
-<body data-theme="warm-ivory">
+<body data-theme="obsidian-black">
 
   <!-- HEADER -->
   <header class="header">
@@ -430,16 +438,16 @@
         <span class="meta-left-en">COMPOSITION PRINCIPLES</span>
       </div>
       <div class="meta-right">
-        <span class="meta-right-text">字母造型版式设计法则与空间建构</span>
+        <span class="meta-right-text">让图像统治视野，使文字化身建筑，碰撞出戏剧性的表现力量。</span>
         <div class="meta-right-bar"></div>
       </div>
     </div>
 
     <h1 class="main-title">字母造型版式</h1>
-    <div class="subtitle-en">字母造型版式 COMPOSITION</div>
+    <div class="subtitle-en">TYPOGRAPHIC FORM LAYOUT</div>
 
     <div class="description-box">
-      经典视觉架构第 149 号：字母造型版式。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。
+      350 视觉排版系列第 149 号：字母造型版式（TYPOGRAPHIC FORM LAYOUT）。归属于「平面、出版与广告 · 图文主导与表现型版式」体系。让图像统治视野，使文字化身建筑，碰撞出戏剧性的表现力量。
     </div>
   </header>
 
@@ -459,9 +467,9 @@
             </svg>
           </div>
           <div class="feature-text-block">
-            <div class="feature-title">字母核心锚点</div>
-            <div class="feature-desc">确立画面第一视觉据点，使主体在字母造型版式框架中获得最强烈的视觉重力与识别度。</div>
-            <div class="feature-tag-en">Focal Anchor</div>
+            <div class="feature-title">视觉巨幕</div>
+            <div class="feature-desc">在字母造型版式架构中，高质量大幅画面占据 70% 以上面积，先声夺人确立情感基调。</div>
+            <div class="feature-tag-en">Visual Canvas</div>
           </div>
         </div>
         
@@ -477,9 +485,9 @@
             </svg>
           </div>
           <div class="feature-text-block">
-            <div class="feature-title">视线引导流线</div>
-            <div class="feature-desc">依据字母造型版式的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。</div>
-            <div class="feature-tag-en">Leading Flow</div>
+            <div class="feature-title">字图嵌合</div>
+            <div class="feature-desc">依据字母造型版式的内在几何规律，大号标题穿插在人物或构筑物前后，营造前后遮挡的立体纵深。</div>
+            <div class="feature-tag-en">Type-Image Interlock</div>
           </div>
         </div>
         
@@ -495,9 +503,9 @@
             </svg>
           </div>
           <div class="feature-text-block">
-            <div class="feature-title">负空间与呼吸感</div>
-            <div class="feature-desc">精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。</div>
-            <div class="feature-tag-en">Negative Space</div>
+            <div class="feature-title">视窗裁切</div>
+            <div class="feature-desc">针对字母造型版式的空间特性，利用特定几何镂空视窗展示画面局部，制造窥探式的悬念感。</div>
+            <div class="feature-tag-en">Window Crop</div>
           </div>
         </div>
         </div>
@@ -511,19 +519,35 @@
         <span>应用建议</span>
       </div>
       <ul class="tips-list">
-    <li><strong>构图基准：</strong>在应用字母造型版式时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。</li><li><strong>图文呼应：</strong>文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。</li><div class="tips-bottom-bar"></div></ul></div></div>
-    <div class="visual-box">
-    <svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
-      <rect width="550" height="620" fill="none" />
-      <rect x="35" y="45" width="480" height="530" stroke="#E03E2D" stroke-width="2" fill="none" opacity="0.7"/>
-      <line x1="35" y1="372" x2="515" y2="372" stroke="#E03E2D" stroke-width="1.8" stroke-dasharray="6,6"/>
-      <line x1="331" y1="45" x2="331" y2="575" stroke="#E03E2D" stroke-width="1.8" stroke-dasharray="6,6"/>
-      <circle cx="331" cy="372" r="18" fill="#E03E2D" />
-      <circle cx="331" cy="372" r="38" stroke="#E03E2D" stroke-width="1.2" fill="none" stroke-dasharray="4,4"/>
-      <text x="275" y="300" fill="#E03E2D" font-size="20" font-weight="900" font-family="PingFang SC" text-anchor="middle">字母造型版式</text>
-      <text x="275" y="328" fill="currentColor" font-size="12" font-weight="bold" font-family="Montserrat" text-anchor="middle" opacity="0.8">COMPOSITION SCHEMATIC</text>
-    </svg>
-    </div>
+    <li><strong>文字压图：</strong>在复杂图像上压字时，必须添加纯色垫底、微弱投影或选择图像平坦低频区。</li><li><strong>图文调性：</strong>文字字体的性格（刚劲/温润/尖锐）必须与主图情绪形成精准互文。</li><div class="tips-bottom-bar"></div></ul></div></div>
+    <div class="visual-box"><svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#081630" rx="8"/>
+
+  <!-- Mathematical Strict 4-Column Asymmetrical Grid -->
+  <g stroke="#448AFF" stroke-width="1.2" stroke-dasharray="4,4" opacity="0.6">
+    <line x1="60" y1="50" x2="60" y2="570"/>
+    <line x1="160" y1="50" x2="160" y2="570"/>
+    <line x1="260" y1="50" x2="260" y2="570"/>
+    <line x1="360" y1="50" x2="360" y2="570"/>
+    <line x1="460" y1="50" x2="460" y2="570"/>
+    <!-- Horizontal Modules -->
+    <line x1="60" y1="120" x2="460" y2="120"/>
+    <line x1="60" y1="230" x2="460" y2="230"/>
+    <line x1="60" y1="340" x2="460" y2="340"/>
+    <line x1="60" y1="450" x2="460" y2="450"/>
+  </g>
+  <!-- Helvetica Asymmetric Bold Block -->
+  <rect x="160" y="120" width="200" height="110" fill="#448AFF"/>
+  <text x="180" y="175" fill="#FFFFFF" font-size="28" font-weight="900" font-family="Helvetica, Arial, sans-serif">ZÜRICH</text>
+  <text x="180" y="205" fill="#FFFFFF" font-size="12" font-weight="bold" font-family="Helvetica, Arial, sans-serif">1957 · SWISS TYPOGRAPHY</text>
+  <!-- Asymmetric Secondary Anchor -->
+  <rect x="260" y="340" width="100" height="110" fill="#FF5252"/>
+  <circle cx="310" cy="395" r="16" fill="#FFFFFF"/>
+    <rect x="185" y="520" width="180" height="30" rx="5" fill="#448AFF"/>
+  <text x="275.0" y="538.6" fill="#FFFFFF" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">理性客观网格法则</text>
+
+</svg></div>
     
   </main>
 
@@ -542,8 +566,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">平衡</span>
-            <span class="kw-en">BALANCE</span>
+            <span class="kw-cn">图片主导</span>
+            <span class="kw-en">IMAGE DOMINANT</span>
           </div>
         </div>
         
@@ -552,8 +576,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">焦点</span>
-            <span class="kw-en">FOCUS</span>
+            <span class="kw-cn">文字建筑</span>
+            <span class="kw-en">TYPE ARCHITECTURE</span>
           </div>
         </div>
         
@@ -562,8 +586,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">节奏</span>
-            <span class="kw-en">RHYTHM</span>
+            <span class="kw-cn">窗口剪影</span>
+            <span class="kw-en">WINDOW SILHOUETTE</span>
           </div>
         </div>
         
@@ -572,8 +596,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">引导</span>
-            <span class="kw-en">GUIDE</span>
+            <span class="kw-cn">表现张力</span>
+            <span class="kw-en">EXPRESSIVE TENSION</span>
           </div>
         </div>
         

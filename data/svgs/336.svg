@@ -1,21 +1,27 @@
 <svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
 
-  <rect width="550" height="620" fill="#082018" rx="8"/>
+  <rect width="550" height="620" fill="#1F1B18" rx="8"/>
 
-  <!-- 16:9 Presentation Slide Card -->
-  <rect x="40" y="70" width="470" height="480" rx="8" fill="#0E2D23" stroke="#D4E751" stroke-width="2"/>
-  <text x="70" y="130" fill="#D4E751" font-size="12" font-weight="bold" font-family="Montserrat" letter-spacing="3">EXECUTIVE BRIEFING</text>
-  <text x="70" y="180" fill="#FFFFFF" font-size="28" font-weight="900" font-family="Montserrat">TITLE & CONTENT SLIDE</text>
-  <!-- 3 Impact Cards / Graph Blocks -->
-  <rect x="70" y="220" width="120" height="160" rx="6" fill="#082018" stroke="#163E32" stroke-width="1.2"/>
-  <text x="130" y="280" fill="#26A69A" font-size="24" font-weight="900" font-family="Montserrat" text-anchor="middle">85%</text>
-  <rect x="215" y="200" width="120" height="180" rx="8" fill="#D4E751"/>
-  <text x="275" y="280" fill="#082018" font-size="28" font-weight="900" font-family="Montserrat" text-anchor="middle">98.4%</text>
-  <rect x="360" y="220" width="120" height="160" rx="6" fill="#082018" stroke="#163E32" stroke-width="1.2"/>
-  <text x="420" y="280" fill="#26A69A" font-size="24" font-weight="900" font-family="Montserrat" text-anchor="middle">4.9★</text>
-  <!-- Horizon Line -->
-  <line x1="70" y1="420" x2="480" y2="420" stroke="#163E32" stroke-width="1.5"/>
-    <rect x="185" y="480" width="180" height="28" rx="5" fill="#D4E751"/>
-  <text x="275.0" y="497.36" fill="#082018" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">标题和内容幻灯片版式</text>
+  <rect x="40" y="70" width="470" height="480" rx="8" fill="#2B2622" stroke="#E25238" stroke-width="2"/>
+  <text x="70" y="130" fill="#FFFFFF" font-size="26" font-weight="900" font-family="Montserrat">EXECUTIVE SUMMARY</text>
+  <line x1="70" y1="150" x2="480" y2="150" stroke="#E25238" stroke-width="2"/>
+  <!-- 3 Bullet points with accent chips -->
+  <g transform="translate(70, 190)">
+    <circle cx="10" cy="15" r="6" fill="#D32F2F"/>
+    <text x="30" y="20" fill="#FFFFFF" font-size="16" font-weight="bold" font-family="PingFang SC">战略协同：实现跨业务单元数据打通与无缝流转</text>
+    <rect x="30" y="35" width="350" height="8" rx="2" fill="#8A827A"/>
+  </g>
+  <g transform="translate(70, 270)">
+    <circle cx="10" cy="15" r="6" fill="#D32F2F"/>
+    <text x="30" y="20" fill="#FFFFFF" font-size="16" font-weight="bold" font-family="PingFang SC">成本控制：自动化流水线降低单次交付边际开销</text>
+    <rect x="30" y="35" width="320" height="8" rx="2" fill="#8A827A"/>
+  </g>
+  <g transform="translate(70, 350)">
+    <circle cx="10" cy="15" r="6" fill="#D32F2F"/>
+    <text x="30" y="20" fill="#FFFFFF" font-size="16" font-weight="bold" font-family="PingFang SC">价值升维：由流程跟随向技术主导决策全面转变</text>
+    <rect x="30" y="35" width="370" height="8" rx="2" fill="#8A827A"/>
+  </g>
+    <rect x="185" y="480" width="180" height="28" rx="5" fill="#E25238"/>
+  <text x="275.0" y="497.36" fill="#1F1B18" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">标准标题内容条列页</text>
 
 </svg>

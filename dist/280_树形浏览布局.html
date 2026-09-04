@@ -177,7 +177,7 @@
     /* ================= MAIN CONTENT GRID ================= */
     .main-content {
       display: grid;
-      grid-template-columns: 530px 380px;
+      grid-template-columns: 345px 600px;
       gap: 30px;
       align-items: stretch;
       margin-top: 14px;
@@ -200,6 +200,14 @@
     .visual-box svg {
       width: 100%;
       height: 100%;
+    }
+
+    .visual-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: 12px;
     }
 
     /* Features Column */
@@ -430,16 +438,16 @@
         <span class="meta-left-en">COMPOSITION PRINCIPLES</span>
       </div>
       <div class="meta-right">
-        <span class="meta-right-text">树形浏览布局设计法则与空间建构</span>
+        <span class="meta-right-text">提炼成熟商业产品范式，以高集成卡片与仪表盘驱动高效决策。</span>
         <div class="meta-right-bar"></div>
       </div>
     </div>
 
     <h1 class="main-title">树形浏览布局</h1>
-    <div class="subtitle-en">树形浏览布局 COMPOSITION</div>
+    <div class="subtitle-en">TREE-VIEW LAYOUT</div>
 
     <div class="description-box">
-      经典视觉架构第 280 号：树形浏览布局。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。
+      350 视觉排版系列第 280 号：树形浏览布局（TREE-VIEW LAYOUT）。归属于「网页与 UI · 内容与产品模式」体系。提炼成熟商业产品范式，以高集成卡片与仪表盘驱动高效决策。
     </div>
   </header>
 
@@ -459,9 +467,9 @@
             </svg>
           </div>
           <div class="feature-text-block">
-            <div class="feature-title">树形核心锚点</div>
-            <div class="feature-desc">确立画面第一视觉据点，使主体在树形浏览布局框架中获得最强烈的视觉重力与识别度。</div>
-            <div class="feature-tag-en">Focal Anchor</div>
+            <div class="feature-title">便当盒分区</div>
+            <div class="feature-desc">在树形浏览布局架构中，不同尺寸圆角矩形卡片紧凑拼嵌，将多维复杂数据包裹为诱人快餐。</div>
+            <div class="feature-tag-en">Bento Box Framing</div>
           </div>
         </div>
         
@@ -477,9 +485,9 @@
             </svg>
           </div>
           <div class="feature-text-block">
-            <div class="feature-title">视线引导流线</div>
-            <div class="feature-desc">依据树形浏览布局的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。</div>
-            <div class="feature-tag-en">Leading Flow</div>
+            <div class="feature-title">信息卡片化</div>
+            <div class="feature-desc">依据树形浏览布局的内在几何规律，单张卡片封装独立实体数据，自带微交互，可拖拽、翻转与重排。</div>
+            <div class="feature-tag-en">Card Atomization</div>
           </div>
         </div>
         
@@ -495,9 +503,9 @@
             </svg>
           </div>
           <div class="feature-text-block">
-            <div class="feature-title">负空间与呼吸感</div>
-            <div class="feature-desc">精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。</div>
-            <div class="feature-tag-en">Negative Space</div>
+            <div class="feature-title">双窗格并立</div>
+            <div class="feature-desc">针对树形浏览布局的空间特性，左侧列表快速筛选索引，右侧沉浸式展示实体详实档案，操作零跳转。</div>
+            <div class="feature-tag-en">Master-Detail Split</div>
           </div>
         </div>
         </div>
@@ -511,19 +519,31 @@
         <span>应用建议</span>
       </div>
       <ul class="tips-list">
-    <li><strong>构图基准：</strong>在应用树形浏览布局时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。</li><li><strong>图文呼应：</strong>文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。</li><div class="tips-bottom-bar"></div></ul></div></div>
-    <div class="visual-box">
-    <svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
-      <rect width="550" height="620" fill="none" />
-      <rect x="35" y="45" width="480" height="530" stroke="#E03E2D" stroke-width="2" fill="none" opacity="0.7"/>
-      <line x1="35" y1="372" x2="515" y2="372" stroke="#E03E2D" stroke-width="1.8" stroke-dasharray="6,6"/>
-      <line x1="331" y1="45" x2="331" y2="575" stroke="#E03E2D" stroke-width="1.8" stroke-dasharray="6,6"/>
-      <circle cx="331" cy="372" r="18" fill="#E03E2D" />
-      <circle cx="331" cy="372" r="38" stroke="#E03E2D" stroke-width="1.2" fill="none" stroke-dasharray="4,4"/>
-      <text x="275" y="300" fill="#E03E2D" font-size="20" font-weight="900" font-family="PingFang SC" text-anchor="middle">树形浏览布局</text>
-      <text x="275" y="328" fill="currentColor" font-size="12" font-weight="bold" font-family="Montserrat" text-anchor="middle" opacity="0.8">COMPOSITION SCHEMATIC</text>
-    </svg>
-    </div>
+    <li><strong>卡片视觉权重：</strong>便当盒核心主推功能占据 2×2 面积并施加主题强调色，次要卡片保持 1×1 浅色中立。</li><li><strong>空状态关怀：</strong>数据为空时必须提供富有亲和力的占位插画与单键创建按钮，引导后续行动。</li><div class="tips-bottom-bar"></div></ul></div></div>
+    <div class="visual-box"><svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#081630" rx="8"/>
+
+  <rect x="50" y="60" width="450" height="500" fill="#0E2248" rx="8" stroke="#162E58" stroke-width="1.5"/>
+  <!-- Root folder -->
+  <rect x="80" y="100" width="160" height="35" rx="4" fill="#448AFF"/>
+  <text x="110" y="122" fill="#081630" font-size="12" font-weight="900" font-family="Montserrat">📁 project-root/</text>
+  <!-- Tree connector branches -->
+  <line x1="110" y1="135" x2="110" y2="420" stroke="#448AFF" stroke-width="2" stroke-dasharray="4,4"/>
+  <line x1="110" y1="180" x2="150" y2="180" stroke="#448AFF" stroke-width="2"/>
+  <line x1="110" y1="250" x2="150" y2="250" stroke="#448AFF" stroke-width="2"/>
+  <line x1="110" y1="320" x2="150" y2="320" stroke="#448AFF" stroke-width="2"/>
+  <!-- Sub-items -->
+  <rect x="150" y="165" width="180" height="30" rx="3" fill="#081630" stroke="#162E58" stroke-width="1"/>
+  <text x="165" y="185" fill="#FFFFFF" font-size="11" font-family="Montserrat">📁 src/components/</text>
+  <rect x="150" y="235" width="200" height="30" rx="3" fill="#081630" stroke="#448AFF" stroke-width="1.5"/>
+  <text x="165" y="255" fill="#448AFF" font-size="11" font-family="Montserrat">📄 index.tsx (ACTIVE)</text>
+  <rect x="150" y="305" width="150" height="30" rx="3" fill="#081630" stroke="#162E58" stroke-width="1"/>
+  <text x="165" y="325" fill="#FFFFFF" font-size="11" font-family="Montserrat">📄 styles.css</text>
+    <rect x="185" y="480" width="180" height="28" rx="5" fill="#448AFF"/>
+  <text x="275.0" y="497.36" fill="#081630" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">目录树分支层级视图</text>
+
+</svg></div>
     
   </main>
 
@@ -542,8 +562,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">平衡</span>
-            <span class="kw-en">BALANCE</span>
+            <span class="kw-cn">便当盒布局</span>
+            <span class="kw-en">BENTO BOX</span>
           </div>
         </div>
         
@@ -552,8 +572,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">焦点</span>
-            <span class="kw-en">FOCUS</span>
+            <span class="kw-cn">卡片网格</span>
+            <span class="kw-en">CARD GRID</span>
           </div>
         </div>
         
@@ -562,8 +582,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">节奏</span>
-            <span class="kw-en">RHYTHM</span>
+            <span class="kw-cn">仪表盘面板</span>
+            <span class="kw-en">DASHBOARD PANEL</span>
           </div>
         </div>
         
@@ -572,8 +592,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">引导</span>
-            <span class="kw-en">GUIDE</span>
+            <span class="kw-cn">列表详情</span>
+            <span class="kw-en">LIST-DETAIL</span>
           </div>
         </div>
         

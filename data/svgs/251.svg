@@ -1,30 +1,23 @@
 <svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
 
-  <rect width="550" height="620" fill="#081630" rx="8"/>
+  <rect width="550" height="620" fill="#1F1B18" rx="8"/>
 
-  <!-- Browser / UI Viewport Shell -->
-  <rect x="40" y="50" width="470" height="520" rx="10" fill="#0E2248" stroke="#448AFF" stroke-width="2"/>
-  <!-- UI Header Bar -->
-  <rect x="40" y="50" width="470" height="42" rx="10" fill="#081630"/>
-  <circle cx="65" cy="71" r="5" fill="#FF5F56"/>
-  <circle cx="82" cy="71" r="5" fill="#FFBD2E"/>
-  <circle cx="99" cy="71" r="5" fill="#27C93F"/>
-  <rect x="130" y="60" width="280" height="22" rx="5" fill="#0E2248"/>
-  <text x="270" y="75" fill="#7C92B5" font-size="10" font-family="Montserrat" text-anchor="middle">https://ui.system/251</text>
-  <!-- Main UI Component Canvas -->
-  <rect x="65" y="115" width="260" height="200" rx="8" fill="#448AFF" fill-opacity="0.2" stroke="#448AFF" stroke-width="1.8"/>
-  <circle cx="195" cy="185" r="32" fill="#448AFF"/>
-  <circle cx="195" cy="185" r="8" fill="#FFFFFF"/>
-  <text x="195" y="250" fill="#FFFFFF" font-size="14" font-weight="900" font-family="Montserrat" text-anchor="middle">FRAME RATIO PRIMIT</text>
-  <!-- Flanking Sidebar Card -->
-  <rect x="345" y="115" width="140" height="200" rx="8" fill="#081630" stroke="#162E58" stroke-width="1.5"/>
-  <line x1="365" y1="145" x2="465" y2="145" stroke="#00E5FF" stroke-width="3" stroke-linecap="round"/>
-  <line x1="365" y1="175" x2="445" y2="175" stroke="#7C92B5" stroke-width="2"/>
-  <line x1="365" y1="195" x2="455" y2="195" stroke="#7C92B5" stroke-width="2"/>
-  <!-- Bottom Full-Width Strip -->
-  <rect x="65" y="335" width="420" height="110" rx="8" fill="#2A4B82"/>
-  <line x1="90" y1="390" x2="460" y2="390" stroke="#00E5FF" stroke-width="2" stroke-dasharray="6,4"/>
-    <rect x="185" y="490" width="180" height="28" rx="5" fill="#448AFF"/>
-  <text x="275.0" y="507.36" fill="#FFFFFF" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">比例框</text>
+  <rect x="50" y="60" width="450" height="500" fill="#2B2622" rx="8" stroke="#3B342F" stroke-width="1.5"/>
+  <!-- 16:9 Video Box -->
+  <rect x="75" y="160" width="390" height="220" rx="8" fill="#1F1B18" stroke="#E25238" stroke-width="2.5"/>
+  <polygon points="255,245 255,295 305,270" fill="#D32F2F"/>
+    <line x1="75" y1="140" x2="465" y2="140" stroke="#E25238" stroke-width="1.2"/>
+  <line x1="75" y1="135" x2="75" y2="145" stroke="#E25238" stroke-width="1.2"/>
+  <line x1="465" y1="135" x2="465" y2="145" stroke="#E25238" stroke-width="1.2"/>
+  <rect x="246.0" y="131" width="48" height="18" fill="#12141A" rx="3"/>
+  <text x="270.0" y="144" fill="#E25238" font-size="10" font-weight="bold" font-family="Montserrat, monospace" text-anchor="middle">16 UNIT WIDTH</text>
+    <line x1="485" y1="160" x2="485" y2="380" stroke="#E25238" stroke-width="1.2"/>
+  <line x1="480" y1="160" x2="490" y2="160" stroke="#E25238" stroke-width="1.2"/>
+  <line x1="480" y1="380" x2="490" y2="380" stroke="#E25238" stroke-width="1.2"/>
+  <rect x="461" y="261.0" width="48" height="18" fill="#12141A" rx="3"/>
+  <text x="485" y="274.0" fill="#E25238" font-size="10" font-weight="bold" font-family="Montserrat, monospace" text-anchor="middle">9</text>
+  <text x="275" y="430" fill="#FAF7F2" font-size="14" font-weight="bold" font-family="Montserrat" text-anchor="middle">aspect-ratio: 16 / 9;</text>
+    <rect x="185" y="490" width="180" height="28" rx="5" fill="#E25238"/>
+  <text x="275.0" y="507.36" fill="#1F1B18" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">等比缩放比例框原语</text>
 
 </svg>

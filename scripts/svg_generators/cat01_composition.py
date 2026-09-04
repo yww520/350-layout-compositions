@@ -931,7 +931,372 @@ def gen_080(): # 荷兰角倾斜 (Dutch Angle)
     return wrap_svg(inner, t['bg'])
 
 # Dispatch dictionary for Cat01
+
+def gen_065(): # 前中后景构图 (Foreground, Midground, Background)
+    t = get_theme("warm-ivory")
+    inner = f"""
+  <!-- Frame -->
+  <rect x="50" y="60" width="450" height="500" fill="{t['bg_surface']}" rx="8" stroke="{t['guide']}" stroke-width="1.5"/>
+  <!-- Background: Distant Mountain Ridge (Low contrast, Pale) -->
+  <path d="M 50 280 Q 180 210 280 250 T 500 230 L 500 560 L 50 560 Z" fill="{t['stroke']}" opacity="0.3"/>
+  <text x="80" y="200" fill="{t['text_dim']}" font-size="11" font-family="Montserrat">BACKGROUND (FAR)</text>
+  <!-- Midground: Architecture / Subject (Medium contrast) -->
+  <rect x="180" y="260" width="190" height="180" rx="6" fill="{t['stroke']}" opacity="0.7"/>
+  <polygon points="180,260 275,170 370,260" fill="{t['accent']}" opacity="0.85"/>
+  <text x="275" y="320" fill="#FFFFFF" font-size="11" font-family="Montserrat" text-anchor="middle">MIDGROUND (SUBJECT)</text>
+  <!-- Foreground: Dark Silhouetted Framing Tree/Rocks (High contrast) -->
+  <path d="M 50 360 Q 120 340 160 420 Q 200 500 240 560 L 50 560 Z" fill="{t['bg']}" stroke="{t['accent']}" stroke-width="2"/>
+  <circle cx="110" cy="390" r="26" fill="{t['bg']}" stroke="{t['accent']}" stroke-width="1.5"/>
+  <text x="80" y="490" fill="{t['accent']}" font-size="11" font-weight="bold" font-family="Montserrat">FOREGROUND</text>
+  <!-- Depth Vector -->
+  <line x1="110" y1="390" x2="275" y2="230" stroke="{t['accent']}" stroke-width="2" stroke-dasharray="6,4"/>
+  <circle cx="275" cy="230" r="12" fill="{t['accent']}"/>
+  {badge(185, 520, "前中后三层深度纵深", t['accent'], t['bg'], 180, 28)}
+"""
+    return wrap_svg(inner, t['bg'])
+
+def gen_066(): # 前景框架构图 (Foreground Framing)
+    t = get_theme("forest-green")
+    inner = f"""
+  <!-- Distant Illuminated Subject -->
+  <rect x="50" y="60" width="450" height="500" fill="{t['bg_surface']}" rx="8"/>
+  <circle cx="275" cy="310" r="90" fill="{t['accent']}" opacity="0.15"/>
+  <polygon points="275,190 220,350 330,350" fill="{t['accent']}"/>
+  <circle cx="275" cy="310" r="14" fill="#FFFFFF"/>
+  <line x1="70" y1="390" x2="480" y2="390" stroke="{t['guide']}" stroke-width="1.5"/>
+  <!-- Dark Foreground Archway / Door Frame Enclosing Subject -->
+  <path d="M 50 60 L 500 60 L 500 560 L 50 560 Z M 130 150 Q 275 90 420 150 L 420 500 L 130 500 Z" fill="{t['bg']}" stroke="{t['accent_alt']}" stroke-width="3"/>
+  <!-- Bracket Marks -->
+  <path d="M 100 130 L 70 130 L 70 160 M 450 130 L 480 130 L 480 160" stroke="{t['accent']}" stroke-width="2.5" fill="none"/>
+  {badge(185, 520, "天然遮挡 · 视线框定", t['accent'], t['bg'], 180, 28)}
+"""
+    return wrap_svg(inner, t['bg'])
+
+def gen_067(): # 重叠空间构图 (Overlapping Space)
+    t = get_theme("cobalt-blue")
+    inner = f"""
+  <rect x="50" y="60" width="450" height="500" fill="{t['bg_surface']}" rx="8" stroke="{t['guide']}" stroke-width="1.5"/>
+  <!-- 4 Overlapping Cards with Occlusion -->
+  <!-- Layer 1 (Furthest) -->
+  <rect x="240" y="110" width="210" height="200" rx="8" fill="{t['stroke']}" opacity="0.4" stroke="{t['guide']}" stroke-width="1.5"/>
+  <text x="345" y="150" fill="{t['text_dim']}" font-size="14" font-family="Montserrat" text-anchor="middle">LAYER 01</text>
+  <!-- Layer 2 -->
+  <rect x="180" y="170" width="210" height="200" rx="8" fill="{t['stroke']}" opacity="0.75" stroke="{t['guide']}" stroke-width="1.5"/>
+  <text x="285" y="210" fill="{t['text']}" font-size="14" font-family="Montserrat" text-anchor="middle">LAYER 02</text>
+  <!-- Layer 3 -->
+  <rect x="120" y="230" width="210" height="200" rx="8" fill="{t['accent_alt']}" opacity="0.85" stroke="{t['guide']}" stroke-width="1.5"/>
+  <text x="225" y="270" fill="{t['bg']}" font-size="14" font-weight="bold" font-family="Montserrat" text-anchor="middle">LAYER 03</text>
+  <!-- Layer 4 (Forefront Hero) -->
+  <rect x="70" y="290" width="210" height="200" rx="8" fill="{t['accent']}" stroke="#FFFFFF" stroke-width="2.5"/>
+  <circle cx="175" cy="390" r="32" fill="#FFFFFF"/>
+  <circle cx="175" cy="390" r="12" fill="{t['accent']}"/>
+  <text x="175" y="340" fill="{t['bg']}" font-size="16" font-weight="900" font-family="Montserrat" text-anchor="middle">LAYER 04 (HERO)</text>
+  {badge(185, 520, "层叠遮挡建立深度", t['accent'], t['bg'], 180, 28)}
+"""
+    return wrap_svg(inner, t['bg'])
+
+def gen_069(): # 线性透视 (Linear Perspective)
+    t = get_theme("obsidian-black")
+    inner = f"""
+  <rect x="50" y="60" width="450" height="500" fill="{t['bg_surface']}" rx="8" stroke="{t['guide']}" stroke-width="1.5"/>
+  <!-- Horizon line -->
+  <line x1="50" y1="260" x2="500" y2="260" stroke="{t['guide']}" stroke-width="1.8"/>
+  <text x="440" y="250" fill="{t['text_dim']}" font-size="11" font-family="Montserrat">HORIZON</text>
+  <!-- Vanishing Point on Horizon -->
+  <circle cx="275" cy="260" r="6" fill="{t['accent']}"/>
+  <!-- Receding Lines -->
+  <line x1="80" y1="560" x2="275" y2="260" stroke="{t['accent']}" stroke-width="3"/>
+  <line x1="470" y1="560" x2="275" y2="260" stroke="{t['accent']}" stroke-width="3"/>
+  <line x1="170" y1="560" x2="275" y2="260" stroke="{t['accent_alt']}" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <line x1="380" y1="560" x2="275" y2="260" stroke="{t['accent_alt']}" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <!-- Horizontal Railway Ties narrowing with depth -->
+  <line x1="125" y1="490" x2="425" y2="490" stroke="{t['stroke']}" stroke-width="2"/>
+  <line x1="165" y1="430" x2="385" y2="430" stroke="{t['stroke']}" stroke-width="1.8"/>
+  <line x1="198" y1="380" x2="352" y2="380" stroke="{t['stroke']}" stroke-width="1.5"/>
+  <line x1="225" y1="340" x2="325" y2="340" stroke="{t['stroke']}" stroke-width="1.2"/>
+  <line x1="247" y1="305" x2="303" y2="305" stroke="{t['stroke']}" stroke-width="1"/>
+  {badge(185, 120, "线性收拢 · 灭点延伸", t['accent'], t['bg'], 180, 28)}
+"""
+    return wrap_svg(inner, t['bg'])
+
+def gen_070(): # 一点透视 (One-Point Perspective)
+    t = get_theme("warm-ivory")
+    inner = f"""
+  <rect x="50" y="60" width="450" height="500" fill="{t['bg_surface']}" rx="8" stroke="{t['guide']}" stroke-width="1.5"/>
+  <!-- Outer room boundary -->
+  <rect x="90" y="100" width="370" height="420" fill="none" stroke="{t['stroke']}" stroke-width="2"/>
+  <!-- Inner back wall -->
+  <rect x="200" y="220" width="150" height="160" fill="{t['bg']}" stroke="{t['accent']}" stroke-width="2.5"/>
+  <!-- Corner rays converging to single center vanishing point -->
+  <line x1="90" y1="100" x2="200" y2="220" stroke="{t['accent']}" stroke-width="2"/>
+  <line x1="460" y1="100" x2="350" y2="220" stroke="{t['accent']}" stroke-width="2"/>
+  <line x1="90" y1="520" x2="200" y2="380" stroke="{t['accent']}" stroke-width="2"/>
+  <line x1="460" y1="520" x2="350" y2="380" stroke="{t['accent']}" stroke-width="2"/>
+  <!-- Central Vanishing Point -->
+  <circle cx="275" cy="300" r="24" fill="{t['accent']}" opacity="0.2"/>
+  <circle cx="275" cy="300" r="8" fill="{t['accent']}"/>
+  <circle cx="275" cy="300" r="2.5" fill="#FFFFFF"/>
+  <text x="275" y="335" fill="{t['accent']}" font-size="10" font-weight="bold" font-family="Montserrat" text-anchor="middle">VP (VANISHING POINT)</text>
+  {badge(185, 480, "单灭点焦点汇聚空间", t['accent'], t['bg'], 180, 28)}
+"""
+    return wrap_svg(inner, t['bg'])
+
+def gen_072(): # 三点透视 (Three-Point Perspective)
+    t = get_theme("forest-green")
+    inner = f"""
+  <rect x="50" y="60" width="450" height="500" fill="{t['bg_surface']}" rx="8" stroke="{t['guide']}" stroke-width="1.5"/>
+  <!-- Sky Zenith VP at top center -->
+  <circle cx="275" cy="90" r="6" fill="{t['accent']}"/>
+  <!-- Left VP and Right VP on horizon at y: 480 -->
+  <circle cx="70" cy="480" r="6" fill="{t['accent_alt']}"/>
+  <circle cx="480" cy="480" r="6" fill="{t['accent_alt']}"/>
+  <!-- Towering Monolith converging to 3 points -->
+  <polygon points="275,130 380,390 275,460 170,390" fill="{t['bg']}" stroke="{t['accent']}" stroke-width="2.5"/>
+  <!-- Center corner ridge -->
+  <line x1="275" y1="130" x2="275" y2="460" stroke="{t['accent']}" stroke-width="3"/>
+  <!-- Left face facets -->
+  <line x1="170" y1="390" x2="275" y2="340" stroke="{t['accent_alt']}" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <!-- Right face facets -->
+  <line x1="380" y1="390" x2="275" y2="340" stroke="{t['accent_alt']}" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <!-- Zenith Convergence lines -->
+  <line x1="170" y1="390" x2="275" y2="90" stroke="{t['guide']}" stroke-width="1.2" stroke-dasharray="4,4"/>
+  <line x1="380" y1="390" x2="275" y2="90" stroke="{t['guide']}" stroke-width="1.2" stroke-dasharray="4,4"/>
+  {badge(185, 520, "仰望摩天三点透视", t['accent'], t['bg'], 180, 28)}
+"""
+    return wrap_svg(inner, t['bg'])
+
+def gen_073(): # 平行透视构图 (Parallel Perspective)
+    t = get_theme("cobalt-blue")
+    inner = f"""
+  <rect x="50" y="60" width="450" height="500" fill="{t['bg_surface']}" rx="8" stroke="{t['guide']}" stroke-width="1.5"/>
+  <!-- Frontal orthogonal cube face (no horizontal/vertical convergence) -->
+  <rect x="110" y="210" width="200" height="200" fill="{t['bg']}" stroke="{t['accent']}" stroke-width="2.5"/>
+  <!-- 45-degree parallel receding lines -->
+  <line x1="110" y1="210" x2="220" y2="130" stroke="{t['accent_alt']}" stroke-width="2"/>
+  <line x1="310" y1="210" x2="420" y2="130" stroke="{t['accent_alt']}" stroke-width="2"/>
+  <line x1="310" y1="410" x2="420" y2="330" stroke="{t['accent_alt']}" stroke-width="2"/>
+  <!-- Back top/right edges -->
+  <line x1="220" y1="130" x2="420" y2="130" stroke="{t['accent_alt']}" stroke-width="2"/>
+  <line x1="420" y1="130" x2="420" y2="330" stroke="{t['accent_alt']}" stroke-width="2"/>
+  <!-- Shaded top plane -->
+  <polygon points="110,210 220,130 420,130 310,210" fill="{t['accent_alt']}" opacity="0.2"/>
+  <!-- Shaded right plane -->
+  <polygon points="310,210 420,130 420,330 310,410" fill="{t['accent']}" opacity="0.35"/>
+  {badge(185, 480, "正平投影 · 45°平行后退", t['accent'], t['bg'], 180, 28)}
+"""
+    return wrap_svg(inner, t['bg'])
+
+def gen_074(): # 斜投影构图 (Oblique Projection)
+    t = get_theme("obsidian-black")
+    inner = f"""
+  <rect x="50" y="60" width="450" height="500" fill="{t['bg_surface']}" rx="8" stroke="{t['guide']}" stroke-width="1.5"/>
+  <!-- True front face 100% scale -->
+  <rect x="90" y="230" width="220" height="180" rx="4" fill="{t['stroke']}" stroke="{t['accent']}" stroke-width="2.5"/>
+  <!-- Oblique cabinet depth (ratio 0.5 at 30 deg) -->
+  <polygon points="90,230 220,140 440,140 310,230" fill="{t['accent']}" opacity="0.25" stroke="{t['accent']}" stroke-width="2"/>
+  <polygon points="310,230 440,140 440,320 310,410" fill="{t['accent_alt']}" opacity="0.3" stroke="{t['accent_alt']}" stroke-width="2"/>
+  <circle cx="200" cy="320" r="28" fill="{t['accent']}"/>
+  <circle cx="200" cy="320" r="8" fill="#FFFFFF"/>
+  <text x="200" y="280" fill="#FFFFFF" font-size="12" font-weight="bold" font-family="Montserrat" text-anchor="middle">TRUE FRONT FACE</text>
+  {badge(185, 480, "斜投影工程立体图示", t['accent'], t['bg'], 180, 28)}
+"""
+    return wrap_svg(inner, t['bg'])
+
+def gen_075(): # 等距构图 (Isometric Projection)
+    t = get_theme("warm-ivory")
+    inner = f"""
+  <rect x="50" y="60" width="450" height="500" fill="{t['bg_surface']}" rx="8" stroke="{t['guide']}" stroke-width="1.5"/>
+  <!-- 30° Isometric Axis Grid -->
+  <g stroke="{t['guide']}" stroke-width="1" stroke-dasharray="4,4" opacity="0.5">
+    <line x1="275" y1="100" x2="275" y2="520"/>
+    <line x1="80" y1="200" x2="470" y2="425"/>
+    <line x1="470" y1="200" x2="80" y2="425"/>
+  </g>
+  <!-- Isometric Center Cube (30 deg angles) -->
+  <!-- Top Rhombus -->
+  <polygon points="275,180 379,240 275,300 171,240" fill="{t['accent_alt']}" opacity="0.85" stroke="#FFFFFF" stroke-width="2"/>
+  <!-- Left Rhombus -->
+  <polygon points="171,240 275,300 275,420 171,360" fill="{t['accent']}" stroke="#FFFFFF" stroke-width="2"/>
+  <!-- Right Rhombus -->
+  <polygon points="275,300 379,240 379,360 275,420" fill="{t['stroke']}" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="275" y="245" fill="{t['bg']}" font-size="14" font-weight="900" font-family="Montserrat" text-anchor="middle">ISOMETRIC 30°</text>
+  {badge(185, 490, "等轴测 30° 均等无衰减", t['accent'], t['bg'], 180, 28)}
+"""
+    return wrap_svg(inner, t['bg'])
+
+def gen_076(): # 轴测构图 (Axonometric Projection)
+    t = get_theme("forest-green")
+    inner = f"""
+  <rect x="50" y="60" width="450" height="500" fill="{t['bg_surface']}" rx="8" stroke="{t['guide']}" stroke-width="1.5"/>
+  <!-- Exploded vertical layers floating on Z axis -->
+  <line x1="275" y1="110" x2="275" y2="480" stroke="{t['danger']}" stroke-width="2" stroke-dasharray="6,4"/>
+  <!-- Layer 1 Top Component -->
+  <polygon points="275,130 380,180 275,230 170,180" fill="{t['accent']}" opacity="0.9" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="275" y="185" fill="{t['bg']}" font-size="12" font-weight="bold" font-family="Montserrat" text-anchor="middle">LAYER 01 (ROOF)</text>
+  <!-- Layer 2 Middle Component -->
+  <polygon points="275,240 380,290 275,340 170,290" fill="{t['accent_alt']}" opacity="0.8" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="275" y="295" fill="{t['bg']}" font-size="12" font-weight="bold" font-family="Montserrat" text-anchor="middle">LAYER 02 (STRUCTURE)</text>
+  <!-- Layer 3 Base Foundation -->
+  <polygon points="275,350 380,400 275,450 170,400" fill="{t['stroke']}" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="275" y="405" fill="#FFFFFF" font-size="12" font-weight="bold" font-family="Montserrat" text-anchor="middle">LAYER 03 (BASE)</text>
+  {badge(185, 510, "轴测分解爆炸图示", t['accent'], t['bg'], 180, 28)}
+"""
+    return wrap_svg(inner, t['bg'])
+
+def gen_079(): # 顶视构图 (Top-Down View)
+    t = get_theme("cobalt-blue")
+    inner = f"""
+  <rect x="50" y="60" width="450" height="500" fill="{t['bg_surface']}" rx="8" stroke="{t['guide']}" stroke-width="1.5"/>
+  <!-- Floor Plan Blueprint Walls -->
+  <rect x="90" y="100" width="370" height="400" fill="none" stroke="{t['accent']}" stroke-width="3"/>
+  <line x1="275" y1="100" x2="275" y2="340" stroke="{t['accent']}" stroke-width="2"/>
+  <line x1="90" y1="340" x2="460" y2="340" stroke="{t['accent']}" stroke-width="2"/>
+  <!-- Room A Objects (Top Left) -->
+  <rect x="120" y="140" width="80" height="60" rx="4" fill="{t['stroke']}"/>
+  <circle cx="220" cy="220" r="24" fill="{t['accent_alt']}"/>
+  <!-- Room B Centerpiece (Top Right) -->
+  <circle cx="365" cy="220" r="50" fill="{t['accent']}" opacity="0.25"/>
+  <circle cx="365" cy="220" r="20" fill="{t['accent']}"/>
+  <circle cx="365" cy="220" r="6" fill="#FFFFFF"/>
+  <!-- Compass Rose Indicator at Bottom -->
+  <circle cx="275" cy="420" r="26" fill="none" stroke="{t['accent']}" stroke-width="1.5"/>
+  <polygon points="275,400 270,420 280,420" fill="{t['danger']}"/>
+  <polygon points="275,440 270,420 280,420" fill="{t['guide']}"/>
+  <text x="275" y="395" fill="{t['danger']}" font-size="10" font-weight="bold" font-family="Montserrat" text-anchor="middle">N</text>
+  {badge(185, 520, "俯瞰空间平面布局", t['accent'], t['bg'], 180, 28)}
+"""
+    return wrap_svg(inner, t['bg'])
+
+def gen_081(): # 强制透视构图 (Forced Perspective)
+    t = get_theme("warm-ivory")
+    inner = f"""
+  <rect x="50" y="60" width="450" height="500" fill="{t['bg_surface']}" rx="8" stroke="{t['guide']}" stroke-width="1.5"/>
+  <!-- Huge Foreground Silhouette Hand on Left (Apparent Scale = Massive) -->
+  <path d="M 50 380 C 120 380 160 320 180 260 C 185 240 180 220 160 210 C 140 200 130 220 120 250 L 50 330 Z" fill="{t['accent']}"/>
+  <circle cx="180" cy="220" r="16" fill="{t['accent']}"/>
+  <!-- Tiny Distant Monument / Tower on Right (Physical Scale = Massive, Apparent Scale = Tiny) -->
+  <polygon points="380,210 370,340 390,340" fill="{t['stroke']}" stroke="{t['accent_alt']}" stroke-width="2"/>
+  <circle cx="380" cy="200" r="8" fill="{t['danger']}"/>
+  <!-- Sight Line Alignment connecting fingers to tower peak -->
+  <line x1="180" y1="220" x2="380" y2="200" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <circle cx="280" cy="210" r="14" fill="none" stroke="#FFFFFF" stroke-width="1.2" stroke-dasharray="2,2"/>
+  <text x="275" y="150" fill="{t['text']}" font-size="14" font-weight="bold" font-family="Montserrat" text-anchor="middle">FORCED SIGHTLINE TRICK</text>
+  {badge(185, 480, "视错觉比例交互", t['accent'], t['bg'], 180, 28)}
+"""
+    return wrap_svg(inner, t['bg'])
+
+def gen_082(): # 空气透视构图 (Atmospheric Perspective)
+    t = get_theme("obsidian-black")
+    inner = f"""
+  <rect x="50" y="60" width="450" height="500" fill="{t['bg_surface']}" rx="8" stroke="{t['guide']}" stroke-width="1.5"/>
+  <!-- Mountain Layers fading into atmosphere -->
+  <!-- Layer 5 Furthest (15% opacity) -->
+  <polygon points="50,220 180,140 320,220 500,160 500,560 50,560" fill="{t['stroke']}" opacity="0.15"/>
+  <!-- Layer 4 (30% opacity) -->
+  <polygon points="50,280 240,190 390,270 500,220 500,560 50,560" fill="{t['stroke']}" opacity="0.35"/>
+  <!-- Layer 3 (50% opacity) -->
+  <polygon points="50,340 160,250 310,320 500,290 500,560 50,560" fill="{t['accent_alt']}" opacity="0.55"/>
+  <!-- Layer 2 (75% opacity) -->
+  <polygon points="50,410 260,320 440,400 500,370 500,560 50,560" fill="{t['accent']}" opacity="0.75"/>
+  <!-- Layer 1 Closest Foreground (100% Crisp Black) -->
+  <polygon points="50,470 180,390 320,460 500,430 500,560 50,560" fill="{t['bg']}" stroke="{t['accent']}" stroke-width="2"/>
+  <!-- Sun glow in haze -->
+  <circle cx="380" cy="140" r="32" fill="{t['accent']}" opacity="0.4"/>
+  {badge(185, 520, "渐退递减大气透视", t['accent'], t['bg'], 180, 28)}
+"""
+    return wrap_svg(inner, t['bg'])
+
+def gen_083(): # 浅景深构图 (Shallow Depth of Field)
+    t = get_theme("forest-green")
+    inner = f"""
+  <rect x="50" y="60" width="450" height="500" fill="{t['bg_surface']}" rx="8" stroke="{t['guide']}" stroke-width="1.5"/>
+  <!-- Defocused Bokeh Discs in Background -->
+  <circle cx="120" cy="180" r="55" fill="{t['stroke']}" opacity="0.3"/>
+  <circle cx="420" cy="190" r="70" fill="{t['stroke']}" opacity="0.25"/>
+  <circle cx="150" cy="410" r="65" fill="{t['accent_alt']}" opacity="0.2"/>
+  <circle cx="400" cy="390" r="55" fill="{t['accent']}" opacity="0.25"/>
+  <circle cx="275" cy="140" r="40" fill="{t['stroke']}" opacity="0.3"/>
+  <!-- Razor Sharp In-Focus Subject Center -->
+  <circle cx="275" cy="300" r="60" fill="none" stroke="{t['accent']}" stroke-width="2" stroke-dasharray="6,4"/>
+  <circle cx="275" cy="300" r="42" fill="{t['accent']}"/>
+  <circle cx="275" cy="300" r="12" fill="#FFFFFF"/>
+  <text x="275" y="370" fill="#FFFFFF" font-size="14" font-weight="900" font-family="Montserrat" text-anchor="middle">CRISP FOCAL PLANE</text>
+  {badge(185, 480, "大光圈浅景深虚实", t['accent'], t['bg'], 180, 28)}
+"""
+    return wrap_svg(inner, t['bg'])
+
+def gen_085(): # 平面化构图 (Flattened Perspective)
+    t = get_theme("warm-ivory")
+    inner = f"""
+  <rect x="50" y="60" width="450" height="500" fill="{t['bg_surface']}" rx="8" stroke="{t['guide']}" stroke-width="1.5"/>
+  <!-- Pure 2D Flat Geometric Planes (Zero vanishing lines, Ukiyo-e style) -->
+  <rect x="80" y="110" width="180" height="220" fill="{t['accent']}" opacity="0.9" rx="4"/>
+  <circle cx="340" cy="200" r="70" fill="{t['accent_alt']}"/>
+  <polygon points="220,260 440,260 330,460" fill="{t['stroke']}" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="110" y="360" width="190" height="120" fill="{t['bg']}" stroke="{t['accent']}" stroke-width="2" rx="4"/>
+  <circle cx="205" cy="420" r="20" fill="{t['danger']}"/>
+  <text x="275" y="85" fill="{t['text']}" font-size="14" font-weight="900" font-family="Montserrat" text-anchor="middle">FLAT GRAPHIC PURITY</text>
+  {badge(185, 510, "二维平面化解构透视", t['accent'], t['bg'], 180, 28)}
+"""
+    return wrap_svg(inner, t['bg'])
+
+def gen_086(): # 深空间构图 (Deep Space)
+    t = get_theme("cobalt-blue")
+    inner = f"""
+  <rect x="50" y="60" width="450" height="500" fill="{t['bg_surface']}" rx="8" stroke="{t['guide']}" stroke-width="1.5"/>
+  <!-- Immense Floor Grid receding into deep infinity -->
+  <path d="M 50 560 L 260 220 L 290 220 L 500 560 Z" fill="{t['bg']}"/>
+  <line x1="50" y1="560" x2="275" y2="220" stroke="{t['accent']}" stroke-width="2.5"/>
+  <line x1="500" y1="560" x2="275" y2="220" stroke="{t['accent']}" stroke-width="2.5"/>
+  <!-- Grid Transverses -->
+  <line x1="110" y1="470" x2="440" y2="470" stroke="{t['accent_alt']}" stroke-width="1.5"/>
+  <line x1="165" y1="390" x2="385" y2="390" stroke="{t['accent_alt']}" stroke-width="1.2"/>
+  <line x1="205" y1="320" x2="345" y2="320" stroke="{t['accent_alt']}" stroke-width="1"/>
+  <line x1="240" y1="265" x2="310" y2="265" stroke="{t['accent_alt']}" stroke-width="0.8"/>
+  <!-- Distant Infinite Core Beacon -->
+  <circle cx="275" cy="220" r="28" fill="{t['accent']}" opacity="0.3"/>
+  <circle cx="275" cy="220" r="8" fill="#FFFFFF"/>
+  {badge(185, 120, "深邃纵深极限透视", t['accent'], t['bg'], 180, 28)}
+"""
+    return wrap_svg(inner, t['bg'])
+
+def gen_084(): # 深焦构图 (Deep Focus Composition)
+    t = get_theme("forest-green")
+    inner = f"""
+  <rect x="50" y="60" width="450" height="500" fill="{t['bg_surface']}" rx="8" stroke="{t['guide']}" stroke-width="1.5"/>
+  <!-- Deep Focus: Sharp Foreground, Midground, and Background -->
+  <!-- Layer 1: Background Horizon & Mountains (Sharp f/11) -->
+  <polygon points="50,280 180,180 290,260 410,160 500,240 500,560 50,560" fill="{t['bg']}" opacity="0.6"/>
+  <polyline points="50,280 180,180 290,260 410,160 500,240" fill="none" stroke="{t['accent']}" stroke-width="2"/>
+  <circle cx="410" cy="130" r="28" fill="{t['accent_alt']}" opacity="0.4"/>
+  <text x="460" y="195" fill="{t['accent']}" font-size="11" font-family="monospace">FAR: f/11</text>
+  
+  <!-- Layer 2: Midground Structural Bridge / Narrative Plane -->
+  <rect x="120" y="320" width="310" height="80" rx="4" fill="{t['stroke']}" stroke="{t['accent_alt']}" stroke-width="2"/>
+  <line x1="120" y1="360" x2="430" y2="360" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="275" y="348" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Montserrat" text-anchor="middle">MID: NARRATIVE SUBJECT</text>
+  <text x="275" y="385" fill="{t['guide']}" font-size="11" font-family="monospace" text-anchor="middle">HYPERFOCAL PLANE</text>
+  
+  <!-- Layer 3: Foreground High-Detail Botanical / Portal Frame -->
+  <path d="M 50 560 L 50 380 Q 110 440 160 420 Q 200 480 150 560 Z" fill="{t['accent']}" stroke="#FFFFFF" stroke-width="2"/>
+  <path d="M 500 560 L 500 400 Q 420 450 380 470 Q 410 520 460 560 Z" fill="{t['accent']}" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="80" y="530" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="monospace">NEAR: SHARP</text>
+  
+  <!-- Depth Caliper Indicator -->
+  <line x1="480" y1="160" x2="480" y2="520" stroke="{t['danger']}" stroke-width="2"/>
+  <line x1="472" y1="160" x2="488" y2="160" stroke="{t['danger']}" stroke-width="2"/>
+  <line x1="472" y1="360" x2="488" y2="360" stroke="{t['danger']}" stroke-width="2"/>
+  <line x1="472" y1="520" x2="488" y2="520" stroke="{t['danger']}" stroke-width="2"/>
+  
+  {badge(185, 90, "全域超焦 · 前中后景锐利", t['accent'], t['bg'], 190, 28)}
+"""
+    return wrap_svg(inner, t['bg'])
+
 CAT01_SVGS = {
+    "065": gen_065, "066": gen_066, "067": gen_067, "069": gen_069, "070": gen_070,
+    "072": gen_072, "073": gen_073, "074": gen_074, "075": gen_075, "076": gen_076,
+    "079": gen_079, "081": gen_081, "082": gen_082, "083": gen_083, "084": gen_084,
+    "085": gen_085, "086": gen_086,
     "006": gen_006, "007": gen_007, "008": gen_008, "009": gen_009, "010": gen_010,
     "011": gen_011, "012": gen_012, "013": gen_013, "014": gen_014, "015": gen_015,
     "020": gen_020, "028": gen_028, "029": gen_029, "031": gen_031, "032": gen_032,
@@ -943,4 +1308,5 @@ CAT01_SVGS = {
     "063": gen_063, "064": gen_064, "068": gen_068, "071": gen_071, "077": gen_077,
     "078": gen_078, "080": gen_080
 }
+
 

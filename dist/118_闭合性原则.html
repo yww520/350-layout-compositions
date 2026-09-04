@@ -177,7 +177,7 @@
     /* ================= MAIN CONTENT GRID ================= */
     .main-content {
       display: grid;
-      grid-template-columns: 530px 380px;
+      grid-template-columns: 345px 600px;
       gap: 30px;
       align-items: stretch;
       margin-top: 14px;
@@ -200,6 +200,14 @@
     .visual-box svg {
       width: 100%;
       height: 100%;
+    }
+
+    .visual-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: 12px;
     }
 
     /* Features Column */
@@ -420,7 +428,7 @@
     }
   </style>
 </head>
-<body data-theme="cobalt-blue">
+<body data-theme="forest-green">
 
   <!-- HEADER -->
   <header class="header">
@@ -430,16 +438,16 @@
         <span class="meta-left-en">COMPOSITION PRINCIPLES</span>
       </div>
       <div class="meta-right">
-        <span class="meta-right-text">闭合性原则设计法则与空间建构</span>
+        <span class="meta-right-text">调动人类知觉的完形本能，让离散符号自发凝聚为整体意象。</span>
         <div class="meta-right-bar"></div>
       </div>
     </div>
 
     <h1 class="main-title">闭合性原则</h1>
-    <div class="subtitle-en">闭合性原则 COMPOSITION</div>
+    <div class="subtitle-en">CLOSURE PRINCIPLE</div>
 
     <div class="description-box">
-      经典视觉架构第 118 号：闭合性原则。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。
+      350 视觉排版系列第 118 号：闭合性原则（CLOSURE PRINCIPLE）。归属于「视觉原则与阅读模式 · 格式塔与组群」体系。调动人类知觉的完形本能，让离散符号自发凝聚为整体意象。
     </div>
   </header>
 
@@ -459,9 +467,9 @@
             </svg>
           </div>
           <div class="feature-text-block">
-            <div class="feature-title">闭合核心锚点</div>
-            <div class="feature-desc">确立画面第一视觉据点，使主体在闭合性原则框架中获得最强烈的视觉重力与识别度。</div>
-            <div class="feature-tag-en">Focal Anchor</div>
+            <div class="feature-title">空间邻近</div>
+            <div class="feature-desc">在闭合性原则架构中，物理距离相近的离散点自动被知觉结为同一组块，清晰区分内容组。</div>
+            <div class="feature-tag-en">Spatial Proximity</div>
           </div>
         </div>
         
@@ -477,9 +485,9 @@
             </svg>
           </div>
           <div class="feature-text-block">
-            <div class="feature-title">视线引导流线</div>
-            <div class="feature-desc">依据闭合性原则的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。</div>
-            <div class="feature-tag-en">Leading Flow</div>
+            <div class="feature-title">闭合联想</div>
+            <div class="feature-desc">依据闭合性原则的内在几何规律，刻意留下开放缺口，激发观者大脑在潜意识中自行补全完美几何。</div>
+            <div class="feature-tag-en">Mind Closure</div>
           </div>
         </div>
         
@@ -495,9 +503,9 @@
             </svg>
           </div>
           <div class="feature-text-block">
-            <div class="feature-title">负空间与呼吸感</div>
-            <div class="feature-desc">精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。</div>
-            <div class="feature-tag-en">Negative Space</div>
+            <div class="feature-title">图底反转</div>
+            <div class="feature-desc">针对闭合性原则的空间特性，正负形空间共享轮廓，创造双重解读与意涵互文的智力愉悦。</div>
+            <div class="feature-tag-en">Figure-Ground Inversion</div>
           </div>
         </div>
         </div>
@@ -511,19 +519,25 @@
         <span>应用建议</span>
       </div>
       <ul class="tips-list">
-    <li><strong>构图基准：</strong>在应用闭合性原则时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。</li><li><strong>图文呼应：</strong>文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。</li><div class="tips-bottom-bar"></div></ul></div></div>
-    <div class="visual-box">
-    <svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
-      <rect width="550" height="620" fill="none" />
-      <rect x="35" y="45" width="480" height="530" stroke="#E03E2D" stroke-width="2" fill="none" opacity="0.7"/>
-      <line x1="35" y1="372" x2="515" y2="372" stroke="#E03E2D" stroke-width="1.8" stroke-dasharray="6,6"/>
-      <line x1="331" y1="45" x2="331" y2="575" stroke="#E03E2D" stroke-width="1.8" stroke-dasharray="6,6"/>
-      <circle cx="331" cy="372" r="18" fill="#E03E2D" />
-      <circle cx="331" cy="372" r="38" stroke="#E03E2D" stroke-width="1.2" fill="none" stroke-dasharray="4,4"/>
-      <text x="275" y="300" fill="#E03E2D" font-size="20" font-weight="900" font-family="PingFang SC" text-anchor="middle">闭合性原则</text>
-      <text x="275" y="328" fill="currentColor" font-size="12" font-weight="bold" font-family="Montserrat" text-anchor="middle" opacity="0.8">COMPOSITION SCHEMATIC</text>
-    </svg>
-    </div>
+    <li><strong>组间留白：</strong>组与组之间的外边距必须大于组内元素的内间距至少 2 倍，确保分组清晰。</li><li><strong>共同命运：</strong>具有相同行进方向或形态趋势的元素应赋予统一的色彩，强化同一性感知。</li><div class="tips-bottom-bar"></div></ul></div></div>
+    <div class="visual-box"><svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#082018" rx="8"/>
+
+  <!-- Smooth intersecting continuous curves -->
+  <path d="M 60 460 C 180 460 200 160 480 160" fill="none" stroke="#D4E751" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 60 160 C 180 160 200 460 480 460" fill="none" stroke="#26A69A" stroke-width="6" stroke-linecap="round"/>
+  <!-- Intersection Nexus Point -->
+  <circle cx="270" cy="310" r="26" fill="#FF7043"/>
+  <circle cx="270" cy="310" r="8" fill="#FFFFFF"/>
+  <!-- Directional Guiding Arrows -->
+  <polygon points="490,160 470,150 470,170" fill="#D4E751"/>
+  <polygon points="490,460 470,450 470,470" fill="#26A69A"/>
+  <text x="275" y="400" fill="#FFFFFF" font-size="14" font-weight="bold" font-family="PingFang SC" text-anchor="middle">平滑轨迹视线惯性延展</text>
+    <rect x="185" y="80" width="180" height="28" rx="5" fill="#D4E751"/>
+  <text x="275.0" y="97.36" fill="#082018" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">顺滑连续性</text>
+
+</svg></div>
     
   </main>
 
@@ -542,8 +556,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">平衡</span>
-            <span class="kw-en">BALANCE</span>
+            <span class="kw-cn">格式塔</span>
+            <span class="kw-en">GESTALT</span>
           </div>
         </div>
         
@@ -552,8 +566,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">焦点</span>
-            <span class="kw-en">FOCUS</span>
+            <span class="kw-cn">邻近亲和</span>
+            <span class="kw-en">PROXIMITY AFFILIATION</span>
           </div>
         </div>
         
@@ -562,8 +576,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">节奏</span>
-            <span class="kw-en">RHYTHM</span>
+            <span class="kw-cn">闭合联想</span>
+            <span class="kw-en">CLOSURE ASSOCIATION</span>
           </div>
         </div>
         
@@ -572,8 +586,8 @@
             <circle cx="12" cy="12" r="8"/>
           </svg>
           <div class="kw-text">
-            <span class="kw-cn">引导</span>
-            <span class="kw-en">GUIDE</span>
+            <span class="kw-cn">图底互换</span>
+            <span class="kw-en">FIGURE-GROUND INVERSION</span>
           </div>
         </div>
         

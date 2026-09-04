@@ -16,7 +16,8 @@ from .cat03_editorial import CAT03_SVGS
 from .cat04_typography import CAT04_SVGS
 from .cat05_web_ui import CAT05_SVGS
 from .cat06_cinema_art import CAT06_SVGS
-from .cat07_presentations import CAT07_SVGS
+from .cat07_chinese import CAT07_CHINESE_SVGS
+from .cat08_presentation import CAT08_PRESENTATION_SVGS
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 LAYOUTS_DIR = BASE_DIR / "data" / "layouts"
@@ -25,11 +26,13 @@ LAYOUTS_DIR = BASE_DIR / "data" / "layouts"
 BESPOKE_MAP = {}
 BESPOKE_MAP.update(CAT01_SVGS)
 BESPOKE_MAP.update(CAT02_SVGS)
-BESPOKE_MAP.update(CAT03_EDITORIAL_SVGS if 'CAT03_EDITORIAL_SVGS' in globals() else CAT03_SVGS)
+BESPOKE_MAP.update(CAT03_SVGS)
 BESPOKE_MAP.update(CAT04_SVGS)
 BESPOKE_MAP.update(CAT05_SVGS)
 BESPOKE_MAP.update(CAT06_SVGS)
-BESPOKE_MAP.update(CAT07_SVGS)
+BESPOKE_MAP.update(CAT07_CHINESE_SVGS)
+BESPOKE_MAP.update(CAT08_PRESENTATION_SVGS)
+
 
 def synthesize_procedural_svg(layout_id, data):
     """

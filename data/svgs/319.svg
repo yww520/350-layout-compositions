@@ -2,23 +2,21 @@
 
   <rect width="550" height="620" fill="#1F1B18" rx="8"/>
 
-  <!-- Traditional Scroll Canvas -->
-  <rect x="50" y="50" width="450" height="520" fill="#2B2622" stroke="#E25238" stroke-width="1.5" rx="6"/>
-  <!-- Mountain Silhouette Strata -->
-  <path d="M 80 340 Q 200 240 290 320 T 470 290 L 470 520 L 80 520 Z" fill="#524A44" opacity="0.6"/>
-  <path d="M 60 410 Q 180 320 275 390 T 490 360 L 490 540 L 60 540 Z" fill="#1F1B18"/>
-  <!-- Floating Mist Bands -->
-  <path d="M 100 320 Q 275 300 450 320" fill="none" stroke="#FFFFFF" stroke-width="12" opacity="0.3" stroke-linecap="round"/>
-  <!-- Poetic Vertical Hanzi Inscription -->
-  <text x="120" y="130" fill="#E25238" font-size="24" font-weight="900" font-family="Kaiti, STKaiti, serif">散点</text>
-  <text x="120" y="165" fill="#E25238" font-size="24" font-weight="900" font-family="Kaiti, STKaiti, serif">透视</text>
-  <!-- Red Seal Mark -->
-  <rect x="105" y="195" width="30" height="30" fill="#D32F2F" rx="2"/>
-  <text x="120" y="215" fill="#FFFFFF" font-size="12" font-family="Songti, serif" text-anchor="middle">印</text>
-  <!-- Minimalist Solar Void -->
-  <circle cx="370" cy="160" r="38" fill="#E25238" opacity="0.4"/>
-  <circle cx="370" cy="160" r="16" fill="#E25238"/>
-    <rect x="185" y="510" width="180" height="28" rx="5" fill="#E25238"/>
-  <text x="275.0" y="527.36" fill="#1F1B18" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">散点透视</text>
+  <rect x="50" y="50" width="450" height="520" fill="#2B2622" rx="6" stroke="#E25238" stroke-width="1.5"/>
+  <!-- Multi-focal scroll layout (Qingming scroll style) -->
+  <!-- Scene 1 Left -->
+  <rect x="80" y="120" width="90" height="110" rx="4" fill="#524A44" opacity="0.6"/>
+  <circle cx="125" cy="175" r="16" fill="#E25238"/>
+  <!-- Scene 2 Center-High -->
+  <rect x="230" y="200" width="100" height="120" rx="4" fill="#1F1B18" stroke="#E25238" stroke-width="2"/>
+  <circle cx="280" cy="260" r="20" fill="#FFB300"/>
+  <!-- Scene 3 Right-Low -->
+  <rect x="370" y="310" width="90" height="110" rx="4" fill="#524A44" opacity="0.6"/>
+  <circle cx="415" cy="365" r="16" fill="#D32F2F"/>
+  <!-- Wandering Eye Vector connecting multiple centers -->
+  <path d="M 125 175 C 180 280 230 180 280 260 C 330 340 370 260 415 365" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-dasharray="6,4"/>
+  <text x="275" y="90" fill="#E25238" font-size="14" font-family="Kaiti, serif" text-anchor="middle">游移视点 · 步移景异</text>
+    <rect x="185" y="520" width="180" height="28" rx="5" fill="#E25238"/>
+  <text x="275.0" y="537.36" fill="#1F1B18" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">散点透视移动视线长卷</text>
 
 </svg>

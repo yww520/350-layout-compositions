@@ -1,24 +1,23 @@
 <svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
 
-  <rect width="550" height="620" fill="#1F1B18" rx="8"/>
+  <rect width="550" height="620" fill="#082018" rx="8"/>
 
-  <rect x="50" y="60" width="450" height="500" fill="#2B2622" stroke="#3B342F" stroke-width="1.5" rx="6"/>
-  <!-- Geometric Diagonals and Symmetry Axes -->
-  <line x1="50" y1="60" x2="500" y2="560" stroke="#3B342F" stroke-width="1.2" stroke-dasharray="6,4"/>
-  <line x1="500" y1="60" x2="50" y2="560" stroke="#3B342F" stroke-width="1.2" stroke-dasharray="6,4"/>
-  <line x1="275" y1="60" x2="275" y2="560" stroke="#FFB300" stroke-width="1.5" stroke-dasharray="6,6"/>
-  <line x1="50" y1="310" x2="500" y2="310" stroke="#FFB300" stroke-width="1.5" stroke-dasharray="6,6"/>
-  <!-- Primary Geometric Field -->
-  <polygon points="275,130 440,310 275,490 110,310" fill="#1F1B18" stroke="#E25238" stroke-width="2.5"/>
-  <!-- Focal Node Center -->
-    <circle cx="275" cy="310" r="43.2" fill="none" stroke="#E25238" stroke-width="1.2" stroke-dasharray="4,3" opacity="0.7"/>
-  <circle cx="275" cy="310" r="24" fill="#E25238"/>
-  <circle cx="275" cy="310" r="6" fill="#FFFFFF"/>
-  <line x1="217.4" y1="310" x2="332.6" y2="310" stroke="#E25238" stroke-width="1.2" stroke-dasharray="2,2" opacity="0.6"/>
-  <line x1="275" y1="252.4" x2="275" y2="367.6" stroke="#E25238" stroke-width="1.2" stroke-dasharray="2,2" opacity="0.6"/>
-  <!-- Subtitle Meta -->
-  <text x="275" y="240" fill="#FAF7F2" font-size="14" font-weight="900" font-family="Montserrat" text-anchor="middle">MULTIPLE FOCAL POINTS</text>
-    <rect x="185" y="510" width="180" height="28" rx="5" fill="#E25238"/>
-  <text x="275.0" y="527.36" fill="#1F1B18" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">多重焦点构图</text>
+  <rect x="50" y="60" width="450" height="500" fill="#0E2D23" rx="8" stroke="#163E32" stroke-width="1.5"/>
+  <!-- Interconnecting Tension Triangle -->
+  <polygon points="170,200 380,240 250,420" fill="none" stroke="#163E32" stroke-width="2" stroke-dasharray="6,6"/>
+  <!-- Focus Node 1 (Alpha) -->
+  <circle cx="170" cy="200" r="34" fill="#D4E751"/>
+  <circle cx="170" cy="200" r="10" fill="#FFFFFF"/>
+  <text x="170" y="150" fill="#D4E751" font-size="12" font-weight="bold" font-family="Montserrat" text-anchor="middle">FOCUS α</text>
+  <!-- Focus Node 2 (Beta) -->
+  <circle cx="380" cy="240" r="26" fill="#26A69A"/>
+  <circle cx="380" cy="240" r="8" fill="#FFFFFF"/>
+  <text x="380" y="195" fill="#26A69A" font-size="12" font-weight="bold" font-family="Montserrat" text-anchor="middle">FOCUS β</text>
+  <!-- Focus Node 3 (Gamma) -->
+  <circle cx="250" cy="420" r="22" fill="#FF7043"/>
+  <circle cx="250" cy="420" r="6" fill="#FFFFFF"/>
+  <text x="250" y="470" fill="#FF7043" font-size="12" font-weight="bold" font-family="Montserrat" text-anchor="middle">FOCUS γ</text>
+    <rect x="185" y="520" width="180" height="28" rx="5" fill="#D4E751"/>
+  <text x="275.0" y="537.36" fill="#082018" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">多重焦点视线巡游</text>
 
 </svg>
