@@ -2,9 +2,9 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>002 黄金比例构图</title>
+  <title>002 黄金比例构图 - 350 Layout Compositions</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Noto+Sans+SC:wght@500;700;900&display=swap');
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Noto+Sans+SC:wght@700;900&display=swap");
 
     * {
       margin: 0;
@@ -13,393 +13,366 @@
       -webkit-font-smoothing: antialiased;
     }
 
+    /* THEME SYSTEM (CSS Variables) */
+    :root, body[data-theme="warm-ivory"] {
+      --bg-canvas: #F8F4EC;
+      --bg-card: #FAF7F0;
+      --accent: #E03E2D;
+      --text-main: #111111;
+      --text-sub: #383838;
+      --text-muted: #666666;
+      --border-outer: #E2DCD1;
+      --border-card: #D5CCC0;
+      --icon-bg: #E03E2D;
+      --icon-fg: #FFFFFF;
+      --divider: #E2DCD1;
+      --tips-bg: #FAF5ED;
+      --tips-border: #E03E2D;
+    }
+
+    body[data-theme="forest-green"] {
+      --bg-canvas: #09241C;
+      --bg-card: #0D2D23;
+      --accent: #D4AF37;
+      --text-main: #FFFFFF;
+      --text-sub: #D1E5DE;
+      --text-muted: #8AAEA3;
+      --border-outer: rgba(212, 175, 55, 0.3);
+      --border-card: rgba(212, 175, 55, 0.4);
+      --icon-bg: #D4AF37;
+      --icon-fg: #09241C;
+      --divider: rgba(212, 175, 55, 0.25);
+      --tips-bg: #103328;
+      --tips-border: #D4AF37;
+    }
+
+    body[data-theme="obsidian-black"] {
+      --bg-canvas: #0C0C0C;
+      --bg-card: #151515;
+      --accent: #FFD700;
+      --text-main: #FFFFFF;
+      --text-sub: #D8D8D8;
+      --text-muted: #888888;
+      --border-outer: rgba(255, 215, 0, 0.25);
+      --border-card: rgba(255, 215, 0, 0.35);
+      --icon-bg: #FFD700;
+      --icon-fg: #0C0C0C;
+      --divider: rgba(255, 215, 0, 0.25);
+      --tips-bg: #1A1A1A;
+      --tips-border: #FFD700;
+    }
+
+    body[data-theme="cobalt-blue"] {
+      --bg-canvas: #071B65;
+      --bg-card: #0A227E;
+      --accent: #FFD200;
+      --text-main: #FFFFFF;
+      --text-sub: #D6E4FF;
+      --text-muted: #8EB3F5;
+      --border-outer: rgba(255, 210, 0, 0.3);
+      --border-card: rgba(255, 210, 0, 0.4);
+      --icon-bg: #FFD200;
+      --icon-fg: #071B65;
+      --divider: rgba(255, 210, 0, 0.25);
+      --tips-bg: #0D2B9E;
+      --tips-border: #FFD200;
+    }
+
     body {
       width: 1086px;
       height: 1448px;
-      background-color: #071F17;
-      color: #FFFFFF;
-      font-family: -apple-system, BlinkMacSystemFont, "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-      padding: 50px 60px 42px 60px;
+      background-color: var(--bg-canvas);
+      color: var(--text-main);
+      font-family: -apple-system, BlinkMacSystemFont, "Noto Sans SC", "PingFang SC", sans-serif;
+      padding: 56px 64px 46px 64px;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
       overflow: hidden;
       position: relative;
     }
 
-    /* HEADER */
+    /* Paper Noise Overlay */
+    .paper-texture {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      opacity: 0.35;
+      mix-blend-mode: multiply;
+      z-index: 100;
+    }
+
+    /* ================= HEADER ================= */
     .header {
       display: flex;
       flex-direction: column;
+      margin-bottom: 24px;
     }
 
-    .main-title {
-      font-family: "Noto Sans SC", "PingFang SC", sans-serif;
-      font-size: 104px;
-      font-weight: 900;
-      line-height: 1.0;
-      color: #F7EFE2;
-      letter-spacing: -0.02em;
-      margin-bottom: 6px;
-    }
-
-    .subtitle-en {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 34px;
-      font-weight: 800;
-      color: #E5B842;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      line-height: 1.1;
-    }
-
-    .title-bar {
-      width: 38px;
-      height: 3.5px;
-      background-color: #E5B842;
-      border-radius: 2px;
-      margin-top: 12px;
-      margin-bottom: 14px;
-    }
-
-    .header-bottom {
-      display: grid;
-      grid-template-columns: 360px 1fr;
-      gap: 30px;
-      align-items: start;
-    }
-
-    .description-text {
-      font-size: 18.5px;
-      line-height: 1.6;
-      color: #A3C3B6;
-      font-weight: 500;
-      letter-spacing: 0.01em;
-    }
-
-    /* MIDDLE CONTENT */
-    .middle-content {
-      display: grid;
-      grid-template-columns: 360px 576px;
-      gap: 30px;
-      align-items: start;
-      margin-top: 16px;
-    }
-
-    /* Features List */
-    .features-list {
+    .header-top {
       display: flex;
-      flex-direction: column;
-      gap: 24px;
+      justify-content: space-between;
+      align-items: flex-start;
     }
 
-    .feature-item {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-    }
-
-    .feature-icon-circle {
-      width: 66px;
-      height: 66px;
-      border-radius: 50%;
-      border: 2px solid #E5B842;
-      background: rgba(229, 184, 66, 0.08);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0;
-      color: #E5B842;
-    }
-
-    .feature-text {
+    .category-group {
       display: flex;
       flex-direction: column;
       gap: 2px;
     }
 
-    .feature-title-row {
-      display: flex;
-      align-items: baseline;
-      gap: 8px;
-    }
-
-    .feature-title {
+    .category-cn {
       font-size: 21px;
       font-weight: 900;
-      color: #FFFFFF;
+      color: var(--text-main);
       letter-spacing: 0.02em;
     }
 
-    .feature-en {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 12px;
-      font-weight: 800;
-      color: #E5B842;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-    }
-
-    .feature-desc {
-      font-size: 14px;
-      line-height: 1.45;
-      color: #A3C3B6;
-      font-weight: 500;
-    }
-
-    /* Visual Golden Diagram */
-    .diagram-container {
-      display: flex;
-      flex-direction: column;
-      position: relative;
-    }
-
-    /* Top dimension line */
-    .dim-top {
-      display: flex;
-      align-items: center;
-      width: 530px;
-      margin-bottom: 8px;
-      position: relative;
-    }
-
-    .dim-line {
-      flex: 1;
-      height: 1px;
-      background: #E5B842;
-      position: relative;
-    }
-
-    .dim-line::before, .dim-line::after {
-      content: "";
-      position: absolute;
-      top: -4px;
-      width: 1px;
-      height: 9px;
-      background: #E5B842;
-    }
-
-    .dim-line::before { left: 0; }
-    .dim-line::after { right: 0; }
-
-    .dim-text {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 16px;
-      font-weight: 800;
-      color: #E5B842;
-      padding: 0 10px;
-    }
-
-    /* Golden Rectangle Box */
-    .golden-box {
-      width: 530px;
-      height: 328px;
-      border: 2px solid #E5B842;
-      background: #082319;
-      position: relative;
-      overflow: hidden;
-    }
-
-    /* Right dimension tick */
-    .dim-right {
-      position: absolute;
-      right: 18px;
-      top: 30px;
-      height: 328px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .dim-v-line {
-      width: 1px;
-      flex: 1;
-      background: #E5B842;
-      position: relative;
-    }
-
-    .dim-v-line::before, .dim-v-line::after {
-      content: "";
-      position: absolute;
-      left: -4px;
-      height: 1px;
-      width: 9px;
-      background: #E5B842;
-    }
-
-    .dim-v-line::before { top: 0; }
-    .dim-v-line::after { bottom: 0; }
-
-    .dim-v-text {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 16px;
-      font-weight: 800;
-      color: #E5B842;
-      margin: 8px 0;
-    }
-
-    /* Split Cards (1.618 Major & 1 Minor) */
-    .split-cards {
-      display: flex;
-      width: 530px;
-      margin-top: -2px; /* seamlessly connect */
-    }
-
-    .card-major {
-      width: 328px; /* ~61.8% of 530 */
-      height: 116px;
-      background: #EFE4CD;
-      color: #071F17;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      border: 2px solid #E5B842;
-      border-top: none;
-    }
-
-    .card-major .num {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 44px;
-      font-weight: 900;
-      line-height: 1.0;
-    }
-
-    .card-major .cn {
-      font-size: 17px;
-      font-weight: 900;
-      margin-top: 2px;
-    }
-
-    .card-major .en {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 11px;
-      font-weight: 800;
-      letter-spacing: 0.1em;
-    }
-
-    .card-minor {
-      width: 202px; /* ~38.2% of 530 */
-      height: 116px;
-      background: #0B2E22;
-      color: #FFFFFF;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      border: 2px solid #E5B842;
-      border-left: none;
-      border-top: none;
-    }
-
-    .card-minor .num {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 44px;
-      font-weight: 900;
-      line-height: 1.0;
-    }
-
-    .card-minor .cn {
-      font-size: 17px;
-      font-weight: 900;
-      margin-top: 2px;
-    }
-
-    .card-minor .en {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 11px;
-      font-weight: 800;
-      color: #A3C3B6;
-      letter-spacing: 0.1em;
-    }
-
-    /* BOTTOM SECTION: HOW TO APPLY */
-    .apply-section {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-      margin-top: 10px;
-    }
-
-    .apply-header {
-      display: flex;
-      align-items: baseline;
-      gap: 12px;
-      border-bottom: 1px solid rgba(229, 184, 66, 0.35);
-      padding-bottom: 8px;
-    }
-
-    .apply-title-cn {
-      font-size: 21px;
-      font-weight: 900;
-      color: #FFFFFF;
-    }
-
-    .apply-title-en {
-      font-family: 'Montserrat', sans-serif;
+    .category-en {
+      font-family: "Montserrat", sans-serif;
       font-size: 13px;
       font-weight: 800;
-      color: #E5B842;
-      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      letter-spacing: 0.1em;
     }
 
-    .apply-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 16px;
-    }
-
-    .apply-card {
+    .tagline-group {
       display: flex;
       flex-direction: column;
+      align-items: flex-end;
       gap: 6px;
     }
 
-    .apply-step-title {
-      font-size: 14.5px;
-      font-weight: 800;
-      color: #FFFFFF;
+    .tagline-text {
+      font-size: 19px;
+      font-weight: 700;
+      color: var(--text-sub);
+      letter-spacing: 0.02em;
+    }
+
+    .tagline-bar {
+      width: 44px;
+      height: 4px;
+      background-color: var(--accent);
+      border-radius: 2px;
+    }
+
+    /* TIGHT & POWERFUL TITLE */
+    .main-title {
+      font-family: "Noto Sans SC", "PingFang SC", sans-serif;
+      font-size: 114px;
+      font-weight: 900;
+      line-height: 0.95;
+      color: var(--text-main);
+      letter-spacing: -0.04em;
+      margin-top: 18px;
+      margin-bottom: 8px;
+      -webkit-text-stroke: 1.5px var(--text-main);
+    }
+
+    .subtitle-en {
+      font-family: "Montserrat", sans-serif;
+      font-size: 38px;
+      font-weight: 900;
+      color: var(--accent);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      line-height: 1.0;
+      margin-bottom: 14px;
+    }
+
+    .description-box {
+      font-size: 20px;
+      line-height: 1.5;
+      color: var(--text-sub);
+      font-weight: 600;
+      letter-spacing: 0.01em;
+    }
+
+    /* ================= MAIN CONTENT GRID ================= */
+    .main-content {
+      display: grid;
+      grid-template-columns: 345px 600px;
+      gap: 34px;
+      align-items: stretch;
+      margin-top: 4px;
+    }
+
+    /* Visual Canvas Card */
+    .visual-box {
+      background: var(--bg-card);
+      border: 1.8px solid var(--border-card);
+      border-radius: 24px;
+      height: 790px;
+      overflow: hidden;
+      position: relative;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .visual-box svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .visual-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: 22px;
+    }
+
+    /* Features Column */
+    .feature-column {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 790px;
+    }
+
+    .feature-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+    }
+
+    .feature-row {
       display: flex;
       align-items: center;
-      gap: 6px;
+      gap: 18px;
+      padding: 20px 0;
+      border-bottom: 1px solid var(--divider);
     }
 
-    .step-badge {
-      width: 18px;
-      height: 18px;
+    .feature-row:first-child {
+      padding-top: 4px;
+    }
+
+    .feature-row:last-child {
+      border-bottom: none;
+      padding-bottom: 16px;
+    }
+
+    .feature-icon-circle {
+      width: 68px;
+      height: 68px;
       border-radius: 50%;
-      background: #E5B842;
-      color: #071F17;
-      font-size: 11px;
-      font-weight: 900;
-      display: inline-flex;
+      background: var(--icon-bg);
+      color: var(--icon-fg);
+      display: flex;
       align-items: center;
       justify-content: center;
       flex-shrink: 0;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
     }
 
-    .apply-step-desc {
-      font-size: 12px;
-      color: #A3C3B6;
-      line-height: 1.35;
-      font-weight: 500;
+    .feature-icon-circle svg {
+      width: 32px;
+      height: 32px;
+      stroke-width: 2.5;
     }
 
-    .apply-step-box {
-      width: 100%;
-      height: 94px;
-      border: 1px solid rgba(229, 184, 66, 0.5);
-      background: #082319;
-      margin-top: 4px;
+    .feature-text-block {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .feature-title {
+      font-size: 23px;
+      font-weight: 900;
+      color: var(--text-main);
+      letter-spacing: 0.01em;
+    }
+
+    .feature-desc {
+      font-size: 15px;
+      line-height: 1.38;
+      color: var(--text-sub);
+      font-weight: 600;
+    }
+
+    .feature-tag-en {
+      font-family: "Montserrat", sans-serif;
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--accent);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-top: 1px;
+    }
+
+    /* Tips Card */
+    .tips-card {
+      background: var(--tips-bg);
+      border: 1.8px dashed var(--tips-border);
+      border-radius: 16px;
+      padding: 22px 22px 20px 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: auto;
+    }
+
+    .tips-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 20px;
+      font-weight: 900;
+      color: var(--text-main);
+    }
+
+    .tips-header svg {
+      width: 24px;
+      height: 24px;
+      color: var(--accent);
+    }
+
+    .tips-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .tips-list li {
       position: relative;
-      overflow: hidden;
+      padding-left: 14px;
+      font-size: 15px;
+      line-height: 1.45;
+      color: var(--text-sub);
+      font-weight: 600;
     }
 
-    /* FOOTER */
+    .tips-list li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: 900;
+      font-size: 17px;
+    }
+
+    .tips-bottom-bar {
+      width: 54px;
+      height: 4px;
+      background-color: var(--accent);
+      border-radius: 2px;
+      margin-top: 2px;
+    }
+
+    /* ================= FOOTER KEYWORDS ================= */
     .footer {
-      border-top: 1px solid rgba(229, 184, 66, 0.35);
-      padding-top: 16px;
+      border-top: 1.8px solid var(--border-outer);
+      padding-top: 20px;
+      margin-top: auto;
       display: flex;
       flex-direction: column;
       gap: 12px;
@@ -409,22 +382,30 @@
       display: flex;
       align-items: center;
       gap: 6px;
-      font-size: 15px;
-      font-weight: 800;
-      color: #E5B842;
+      font-size: 16px;
+      font-weight: 900;
+      color: var(--accent);
       letter-spacing: 0.05em;
     }
 
     .footer-title-row span.en {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 12px;
-      font-weight: 700;
+      font-family: "Montserrat", sans-serif;
+      font-size: 12.5px;
+      font-weight: 800;
       letter-spacing: 0.08em;
+    }
+
+    .footer-bar-accent {
+      width: 34px;
+      height: 3.5px;
+      background-color: var(--accent);
+      border-radius: 2px;
+      margin-top: -6px;
     }
 
     .keywords-row {
       display: grid;
-      grid-template-columns: repeat(5, 1fr);
+      grid-template-columns: repeat(4, 1fr);
       align-items: center;
     }
 
@@ -432,7 +413,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 10px;
+      gap: 14px;
       position: relative;
     }
 
@@ -440,16 +421,17 @@
       content: "";
       position: absolute;
       right: 0;
-      top: 15%;
-      height: 70%;
+      top: 10%;
+      height: 80%;
       width: 1px;
-      background-color: rgba(229, 184, 66, 0.25);
+      background-color: var(--divider);
     }
 
     .kw-item svg {
-      width: 26px;
-      height: 26px;
-      color: #E5B842;
+      width: 30px;
+      height: 30px;
+      color: var(--accent);
+      stroke-width: 2.4;
     }
 
     .kw-text {
@@ -459,239 +441,210 @@
     }
 
     .kw-cn {
-      font-size: 16px;
-      font-weight: 800;
-      color: #FFFFFF;
+      font-size: 18px;
+      font-weight: 900;
+      color: var(--text-main);
     }
 
     .kw-en {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 10.5px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 11.5px;
       font-weight: 700;
-      color: #A3C3B6;
+      color: var(--text-muted);
       letter-spacing: 0.08em;
       text-transform: uppercase;
     }
   </style>
 </head>
-<body>
+<body data-theme="forest-green">
+
+  <!-- Paper Grain SVG Texture -->
+  <svg class="paper-texture" xmlns="http://www.w3.org/2000/svg">
+    <filter id="noiseFilter">
+      <feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.15 0"/>
+    </filter>
+    <rect width="100%" height="100%" filter="url(#noiseFilter)"/>
+  </svg>
 
   <!-- HEADER -->
   <header class="header">
+    <div class="header-top">
+      <div class="category-group">
+        <span class="category-cn">构图逻辑</span>
+        <span class="category-en">COMPOSITION PRINCIPLES</span>
+      </div>
+      <div class="tagline-group">
+        <span class="tagline-text">COMPOSITION PRINCIPLES</span>
+        <div class="tagline-bar"></div>
+      </div>
+    </div>
+
     <h1 class="main-title">黄金比例构图</h1>
     <div class="subtitle-en">GOLDEN RATIO COMPOSITION</div>
-    <div class="title-bar"></div>
+
+    <div class="description-box">
+      黄金比例 (1:1.618) 是自然界与艺术中广泛存在的和谐法则。将画面按黄金比例划分，可使构图更具美感与力量感。
+    </div>
   </header>
 
-  <!-- MIDDLE SECTION -->
-  <section class="middle-content">
+  <!-- MAIN SECTION -->
+  <main class="main-content">
     
-    <!-- Left Column: Description & Features -->
-    <div class="features-list">
-      <div class="description-text">
-        黄金比例（1:1.618）是自然界<br>
-        与艺术中广泛存在的和谐法则。<br>
-        将画面按黄金比例划分，可使<br>
-        构图更具美感与力量感。
-      </div>
+        <div class="visual-box"><svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <radialGradient id="goldPointGlow" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.9"/>
+          <stop offset="40%" stop-color="#D4AF37" stop-opacity="0.3"/>
+          <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+        </radialGradient>
+        <linearGradient id="mountGradForest" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#2D5A4C"/>
+          <stop offset="100%" stop-color="#0E2E24"/>
+        </linearGradient>
+      </defs>
+      <rect width="550" height="620" fill="#072018" rx="8"/>
 
-      <!-- Feature 1 -->
-      <div class="feature-item">
-        <div class="feature-icon-circle">
-          <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2.2">
-            <circle cx="12" cy="12" r="8"/>
-            <circle cx="12" cy="12" r="3" fill="currentColor"/>
-            <line x1="12" y1="2" x2="12" y2="5"/>
-            <line x1="12" y1="19" x2="12" y2="22"/>
-            <line x1="2" y1="12" x2="5" y2="12"/>
-            <line x1="19" y1="12" x2="22" y2="12"/>
-          </svg>
-        </div>
-        <div class="feature-text">
-          <div class="feature-title-row">
-            <span class="feature-title">比例和谐</span>
-            <span class="feature-en">RATIO</span>
+      <!-- Golden Dimension top bar (1.618) -->
+      <line x1="50" y1="80" x2="500" y2="80" stroke="#D4AF37" stroke-width="1.5"/>
+      <line x1="50" y1="73" x2="50" y2="87" stroke="#D4AF37" stroke-width="1.5"/>
+      <line x1="500" y1="73" x2="500" y2="87" stroke="#D4AF37" stroke-width="1.5"/>
+      <text x="275" y="72" fill="#D4AF37" font-size="14" font-weight="800" font-family="Montserrat" text-anchor="middle">1.618</text>
+
+      <!-- Golden Dimension right bar (1.0) -->
+      <line x1="520" y1="100" x2="520" y2="480" stroke="#D4AF37" stroke-width="1.5"/>
+      <line x1="513" y1="100" x2="527" y2="100" stroke="#D4AF37" stroke-width="1.5"/>
+      <line x1="513" y1="480" x2="527" y2="480" stroke="#D4AF37" stroke-width="1.5"/>
+      <text x="536" y="295" fill="#D4AF37" font-size="14" font-weight="800" font-family="Montserrat" text-anchor="middle">1</text>
+
+      <!-- Main Golden Rectangle Outer Frame (450 x 380) -->
+      <rect x="50" y="100" width="450" height="380" fill="none" stroke="#D4AF37" stroke-width="2.5" rx="4"/>
+
+      <!-- Scenery inside Golden Rectangle -->
+      <g clip-path="url(#goldenClip)">
+        <clipPath id="goldenClip">
+          <rect x="51" y="101" width="448" height="378" rx="3"/>
+        </clipPath>
+        <!-- Mist mountain inside -->
+        <polygon points="50,480 210,250 360,480" fill="url(#mountGradForest)"/>
+        <polygon points="170,310 210,250 250,310" fill="#FFFFFF" opacity="0.85"/>
+        <polygon points="260,480 370,290 480,480" fill="#1A4337" opacity="0.8"/>
+        <!-- Flowing river -->
+        <path d="M 50 430 Q 200 450 328 335 T 500 410" stroke="#D4AF37" stroke-width="1.5" fill="none" stroke-dasharray="4,4" opacity="0.4"/>
+      </g>
+
+      <!-- Vertical Golden Divider (x = 50 + 450 * 0.618 = 328.1) -->
+      <line x1="328.1" y1="100" x2="328.1" y2="480" stroke="#D4AF37" stroke-width="2" stroke-dasharray="6,5"/>
+
+      <!-- Horizontal Golden Divider (y = 100 + 380 * 0.618 = 334.8) -->
+      <line x1="50" y1="334.8" x2="500" y2="334.8" stroke="#D4AF37" stroke-width="2" stroke-dasharray="6,5"/>
+
+      <!-- Golden Section Intersection Point (328.1, 334.8) -->
+      <circle cx="328.1" cy="334.8" r="60" fill="url(#goldPointGlow)"/>
+      <circle cx="328.1" cy="334.8" r="24" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-dasharray="4,4"/>
+      <circle cx="328.1" cy="334.8" r="14" fill="#D4AF37"/>
+      <circle cx="328.1" cy="334.8" r="4" fill="#072018"/>
+
+      <rect x="345" y="345" width="105" height="26" rx="4" fill="#0D2D23" stroke="#D4AF37" stroke-width="1"/>
+      <text x="397" y="362" fill="#D4AF37" font-size="11" font-weight="bold" font-family="PingFang SC" text-anchor="middle">黄金分割点</text>
+
+      <!-- Bottom Proportion Blocks -->
+      <!-- Major 1.618 Block (Width 278, Height 70) -->
+      <rect x="50" y="500" width="278" height="72" rx="4" fill="#E8DFCE"/>
+      <text x="189" y="534" fill="#09241C" font-size="24" font-weight="900" font-family="Montserrat" text-anchor="middle">1.618</text>
+      <text x="189" y="555" fill="#4B473F" font-size="12" font-weight="800" font-family="PingFang SC" text-anchor="middle">大部分 · MAJOR</text>
+
+      <!-- Minor 1.0 Block (Width 172, Height 70) -->
+      <rect x="328" y="500" width="172" height="72" rx="4" fill="#0E3327" stroke="#D4AF37" stroke-width="1.5"/>
+      <text x="414" y="534" fill="#FFFFFF" font-size="24" font-weight="900" font-family="Montserrat" text-anchor="middle">1</text>
+      <text x="414" y="555" fill="#D4AF37" font-size="12" font-weight="800" font-family="PingFang SC" text-anchor="middle">小部分 · MINOR</text>
+    </svg></div>
+        <div class="feature-column"><div class="feature-list">
+        <div class="feature-row">
+          <div class="feature-icon-circle">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3">
+              <circle cx="12" cy="12" r="7"/>
+              <circle cx="12" cy="12" r="2" fill="currentColor"/>
+              <line x1="12" y1="2" x2="12" y2="5"/>
+              <line x1="12" y1="19" x2="12" y2="22"/>
+              <line x1="2" y1="12" x2="5" y2="12"/>
+              <line x1="19" y1="12" x2="22" y2="12"/>
+            </svg>
           </div>
-          <div class="feature-desc">黄金分割使整体与局部<br>关系自然、舒适。</div>
-        </div>
-      </div>
-
-      <!-- Feature 2 -->
-      <div class="feature-item">
-        <div class="feature-icon-circle">
-          <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2.2">
-            <path d="M 4 8 L 4 4 L 8 4"/>
-            <path d="M 16 4 L 20 4 L 20 8"/>
-            <path d="M 20 16 L 20 20 L 16 20"/>
-            <path d="M 8 20 L 4 20 L 4 16"/>
-          </svg>
-        </div>
-        <div class="feature-text">
-          <div class="feature-title-row">
-            <span class="feature-title">焦点自然</span>
-            <span class="feature-en">HARMONY</span>
+          <div class="feature-text-block">
+            <div class="feature-title">比例和谐</div>
+            <div class="feature-desc">黄金分割使整体与局部关系自然、舒适。</div>
+            <div class="feature-tag-en">RATIO</div>
           </div>
-          <div class="feature-desc">黄金分割点是视觉着眼处，<br>增强画面吸引力。</div>
         </div>
-      </div>
-
-      <!-- Feature 3 -->
-      <div class="feature-item">
-        <div class="feature-icon-circle">
-          <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2.2">
-            <polygon points="12,4 20,18 4,18" stroke-linejoin="round"/>
-            <line x1="8" y1="14" x2="16" y2="14"/>
-          </svg>
-        </div>
-        <div class="feature-text">
-          <div class="feature-title-row">
-            <span class="feature-title">结构均衡</span>
-            <span class="feature-en">BALANCE</span>
+        
+        <div class="feature-row">
+          <div class="feature-icon-circle">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3">
+              <circle cx="12" cy="12" r="7"/>
+              <circle cx="12" cy="12" r="2" fill="currentColor"/>
+              <line x1="12" y1="2" x2="12" y2="5"/>
+              <line x1="12" y1="19" x2="12" y2="22"/>
+              <line x1="2" y1="12" x2="5" y2="12"/>
+              <line x1="19" y1="12" x2="22" y2="12"/>
+            </svg>
           </div>
-          <div class="feature-desc">主次分明，空间分配更<br>均衡稳定。</div>
+          <div class="feature-text-block">
+            <div class="feature-title">焦点自然</div>
+            <div class="feature-desc">黄金分割点是视觉落脚处，增强画面吸引力。</div>
+            <div class="feature-tag-en">HARMONY</div>
+          </div>
         </div>
-      </div>
-    </div>
-
-    <!-- Right Column: Diagram -->
-    <div class="diagram-container">
-      
-      <!-- Top dimension line -->
-      <div class="dim-top">
-        <div class="dim-line"></div>
-        <span class="dim-text">1.618</span>
-        <div class="dim-line"></div>
-      </div>
-
-      <!-- Golden Box -->
-      <div class="golden-box">
-        <svg viewBox="0 0 530 328" width="530" height="328" xmlns="http://www.w3.org/2000/svg">
-          <!-- Vertical golden dividing dashed line at 61.8% (x=328) -->
-          <line x1="328" y1="0" x2="328" y2="328" stroke="#E5B842" stroke-width="1.8" stroke-dasharray="5,5" opacity="0.9"/>
-          <!-- Horizontal dashed line at y=164 -->
-          <line x1="0" y1="164" x2="530" y2="164" stroke="#E5B842" stroke-width="1.8" stroke-dasharray="5,5" opacity="0.9"/>
-          
-          <!-- Golden Section Intersection Point -->
-          <circle cx="328" cy="164" r="12" fill="#E5B842"/>
-          
-          <!-- Callout Label -->
-          <text x="348" y="182" fill="#E5B842" font-size="15" font-weight="900" font-family="Noto Sans SC, PingFang SC">黄金分割点</text>
-          <text x="348" y="198" fill="#E5B842" font-size="11" font-weight="800" font-family="Montserrat">GOLDEN POINT</text>
+        
+        <div class="feature-row">
+          <div class="feature-icon-circle">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3">
+              <circle cx="12" cy="12" r="7"/>
+              <circle cx="12" cy="12" r="2" fill="currentColor"/>
+              <line x1="12" y1="2" x2="12" y2="5"/>
+              <line x1="12" y1="19" x2="12" y2="22"/>
+              <line x1="2" y1="12" x2="5" y2="12"/>
+              <line x1="19" y1="12" x2="22" y2="12"/>
+            </svg>
+          </div>
+          <div class="feature-text-block">
+            <div class="feature-title">结构均衡</div>
+            <div class="feature-desc">主次分明，空间分配更均衡稳定。</div>
+            <div class="feature-tag-en">BALANCE</div>
+          </div>
+        </div>
+        
+        <div class="feature-row">
+          <div class="feature-icon-circle">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3">
+              <circle cx="12" cy="12" r="7"/>
+              <circle cx="12" cy="12" r="2" fill="currentColor"/>
+              <line x1="12" y1="2" x2="12" y2="5"/>
+              <line x1="12" y1="19" x2="12" y2="22"/>
+              <line x1="2" y1="12" x2="5" y2="12"/>
+              <line x1="19" y1="12" x2="22" y2="12"/>
+            </svg>
+          </div>
+          <div class="feature-text-block">
+            <div class="feature-title">层次呼吸</div>
+            <div class="feature-desc">遵从 1:1.618 分割，消除局促感，保留自然呼吸。</div>
+            <div class="feature-tag-en">BREATHING</div>
+          </div>
+        </div>
+        </div>
+    <div class="tips-card">
+      <div class="tips-header">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path>
+          <path d="M9 18h6"></path>
+          <path d="M10 22h4"></path>
         </svg>
+        <span>应用建议</span>
       </div>
-
-      <!-- Right dimension line -->
-      <div class="dim-right">
-        <div class="dim-v-line"></div>
-        <span class="dim-v-text">1</span>
-        <div class="dim-v-line"></div>
-      </div>
-
-      <!-- Split Cards Major & Minor -->
-      <div class="split-cards">
-        <div class="card-major">
-          <span class="num">1.618</span>
-          <span class="cn">大部分</span>
-          <span class="en">MAJOR</span>
-        </div>
-        <div class="card-minor">
-          <span class="num">1</span>
-          <span class="cn">小部分</span>
-          <span class="en">MINOR</span>
-        </div>
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- BOTTOM SECTION: HOW TO APPLY -->
-  <section class="apply-section">
-    <div class="apply-header">
-      <span class="apply-title-cn">如何应用黄金比例构图</span>
-      <span class="apply-title-en">HOW TO APPLY</span>
-    </div>
-
-    <div class="apply-grid">
-      <!-- Step 1 -->
-      <div class="apply-card">
-        <div class="apply-step-title">
-          <span class="step-badge">1</span>
-          <span>确定画面比例</span>
-        </div>
-        <div class="apply-step-desc">按 1:1.618 划分画面框架。</div>
-        <div class="apply-step-box">
-          <svg viewBox="0 0 220 94" width="100%" height="100%">
-            <rect x="10" y="10" width="200" height="65" fill="none" stroke="#E5B842" stroke-width="1.2"/>
-            <line x1="134" y1="10" x2="134" y2="75" stroke="#E5B842" stroke-width="1.2" stroke-dasharray="3,3"/>
-            <text x="110" y="88" fill="#E5B842" font-size="11" font-weight="800" font-family="Montserrat" text-anchor="middle">1.618 : 1</text>
-          </svg>
-        </div>
-      </div>
-
-      <!-- Step 2 -->
-      <div class="apply-card">
-        <div class="apply-step-title">
-          <span class="step-badge">2</span>
-          <span>找到黄金分割点</span>
-        </div>
-        <div class="apply-step-desc">在分割线上找到黄金分割点。</div>
-        <div class="apply-step-box">
-          <svg viewBox="0 0 220 94" width="100%" height="100%">
-            <rect x="10" y="10" width="200" height="74" fill="none" stroke="#E5B842" stroke-width="1.2"/>
-            <line x1="134" y1="10" x2="134" y2="84" stroke="#E5B842" stroke-width="1.2" stroke-dasharray="3,3"/>
-            <line x1="10" y1="47" x2="210" y2="47" stroke="#E5B842" stroke-width="1.2" stroke-dasharray="3,3"/>
-            <circle cx="134" cy="47" r="5" fill="#E5B842"/>
-          </svg>
-        </div>
-      </div>
-
-      <!-- Step 3 -->
-      <div class="apply-card">
-        <div class="apply-step-title">
-          <span class="step-badge">3</span>
-          <span>安排主要视觉元素</span>
-        </div>
-        <div class="apply-step-desc">将主体或焦点放在黄金分割点。</div>
-        <div class="apply-step-box">
-          <svg viewBox="0 0 220 94" width="100%" height="100%">
-            <rect x="10" y="10" width="200" height="74" fill="none" stroke="#E5B842" stroke-width="1.2"/>
-            <!-- Mountain silhouette -->
-            <polygon points="10,84 80,40 150,84" fill="#0D3B2C"/>
-            <polygon points="90,84 134,35 190,84" fill="#124D3A"/>
-            <line x1="134" y1="10" x2="134" y2="84" stroke="#E5B842" stroke-width="1" stroke-dasharray="3,3" opacity="0.6"/>
-            <line x1="10" y1="47" x2="210" y2="47" stroke="#E5B842" stroke-width="1" stroke-dasharray="3,3" opacity="0.6"/>
-            <circle cx="134" cy="47" r="5" fill="#E5B842"/>
-          </svg>
-        </div>
-      </div>
-
-      <!-- Step 4 -->
-      <div class="apply-card">
-        <div class="apply-step-title">
-          <span class="step-badge">4</span>
-          <span>优化辅助元素与留白</span>
-        </div>
-        <div class="apply-step-desc">平衡空间，强化视觉节奏。</div>
-        <div class="apply-step-box">
-          <svg viewBox="0 0 220 94" width="100%" height="100%">
-            <rect x="10" y="10" width="200" height="74" fill="none" stroke="#E5B842" stroke-width="1.2"/>
-            <!-- Sun at upper left -->
-            <circle cx="48" cy="28" r="7" fill="#E5B842"/>
-            <!-- Mountain silhouette -->
-            <polygon points="20,84 70,45 130,84" fill="#0D3B2C"/>
-            <!-- Point on right -->
-            <circle cx="145" cy="52" r="4.5" fill="#E5B842"/>
-            <line x1="145" y1="10" x2="145" y2="84" stroke="#E5B842" stroke-width="0.8" stroke-dasharray="2,2" opacity="0.5"/>
-            <!-- Ripple lines -->
-            <line x1="150" y1="64" x2="185" y2="64" stroke="#E5B842" stroke-width="1" opacity="0.5"/>
-            <line x1="155" y1="70" x2="190" y2="70" stroke="#E5B842" stroke-width="1" opacity="0.5"/>
-            <line x1="160" y1="76" x2="180" y2="76" stroke="#E5B842" stroke-width="1" opacity="0.5"/>
-          </svg>
-        </div>
-      </div>
-    </div>
-  </section>
+      <ul class="tips-list">
+    <li><strong>确定画面比例：</strong>将画布按照 1:1.618 进行框架预划分。</li><li><strong>找到黄金分割点：</strong>在分割线上找到黄金交点放置核心主体。</li><li><strong>优化辅助元素与留白：</strong>平衡主次体块，强化视觉节奏。</li><div class="tips-bottom-bar"></div></ul></div></div>
+        
+  </main>
 
   <!-- FOOTER -->
   <footer class="footer">
@@ -699,68 +652,60 @@
       <span>关键词</span>
       <span class="en">KEYWORDS</span>
     </div>
+    <div class="footer-bar-accent"></div>
 
     <div class="keywords-row">
-      <!-- KW 1 -->
-      <div class="kw-item">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
-          <circle cx="12" cy="12" r="8"/>
-          <circle cx="12" cy="12" r="4"/>
-        </svg>
-        <div class="kw-text">
-          <span class="kw-cn">比例</span>
-          <span class="kw-en">RATIO</span>
+      
+        <div class="kw-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="8"/>
+          </svg>
+          <div class="kw-text">
+            <span class="kw-cn">比例</span>
+            <span class="kw-en">RATIO</span>
+          </div>
         </div>
-      </div>
-
-      <!-- KW 2 -->
-      <div class="kw-item">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
-          <path d="M 4 8 L 4 4 L 8 4"/>
-          <path d="M 16 4 L 20 4 L 20 8"/>
-          <path d="M 20 16 L 20 20 L 16 20"/>
-          <path d="M 8 20 L 4 20 L 4 16"/>
-        </svg>
-        <div class="kw-text">
-          <span class="kw-cn">和谐</span>
-          <span class="kw-en">HARMONY</span>
+        
+        <div class="kw-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="8"/>
+          </svg>
+          <div class="kw-text">
+            <span class="kw-cn">和谐</span>
+            <span class="kw-en">HARMONY</span>
+          </div>
         </div>
-      </div>
-
-      <!-- KW 3 -->
-      <div class="kw-item">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
-          <polygon points="12,4 20,18 4,18" stroke-linejoin="round"/>
-        </svg>
-        <div class="kw-text">
-          <span class="kw-cn">平衡</span>
-          <span class="kw-en">BALANCE</span>
+        
+        <div class="kw-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="8"/>
+          </svg>
+          <div class="kw-text">
+            <span class="kw-cn">平衡</span>
+            <span class="kw-en">BALANCE</span>
+          </div>
         </div>
-      </div>
-
-      <!-- KW 4 -->
-      <div class="kw-item">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
-          <path d="M 1 12 C 4 6, 20 6, 23 12 C 20 18, 4 18, 1 12 Z"/>
-          <circle cx="12" cy="12" r="3.5" fill="currentColor"/>
-        </svg>
-        <div class="kw-text">
-          <span class="kw-cn">焦点</span>
-          <span class="kw-en">FOCUS</span>
+        
+        <div class="kw-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="8"/>
+          </svg>
+          <div class="kw-text">
+            <span class="kw-cn">焦点</span>
+            <span class="kw-en">FOCUS</span>
+          </div>
         </div>
-      </div>
-
-      <!-- KW 5 -->
-      <div class="kw-item">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
-          <path d="M 2 8 C 5 5, 7 11, 10 8 C 13 5, 15 11, 18 8 C 20 6, 22 8, 23 8"/>
-          <path d="M 2 14 C 5 11, 7 17, 10 14 C 13 11, 15 17, 18 14 C 20 12, 22 14, 23 14"/>
-        </svg>
-        <div class="kw-text">
-          <span class="kw-cn">节奏</span>
-          <span class="kw-en">RHYTHM</span>
+        
+        <div class="kw-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="8"/>
+          </svg>
+          <div class="kw-text">
+            <span class="kw-cn">节奏</span>
+            <span class="kw-en">RHYTHM</span>
+          </div>
         </div>
-      </div>
+        
     </div>
   </footer>
 

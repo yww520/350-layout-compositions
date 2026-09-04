@@ -2,9 +2,9 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>003 黄金螺旋构图</title>
+  <title>003 黄金螺旋构图 - 350 Layout Compositions</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Noto+Sans+SC:wght@500;700;900&display=swap');
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Noto+Sans+SC:wght@700;900&display=swap");
 
     * {
       margin: 0;
@@ -13,602 +13,648 @@
       -webkit-font-smoothing: antialiased;
     }
 
+    /* THEME SYSTEM (CSS Variables) */
+    :root, body[data-theme="warm-ivory"] {
+      --bg-canvas: #F8F4EC;
+      --bg-card: #FAF7F0;
+      --accent: #E03E2D;
+      --text-main: #111111;
+      --text-sub: #383838;
+      --text-muted: #666666;
+      --border-outer: #E2DCD1;
+      --border-card: #D5CCC0;
+      --icon-bg: #E03E2D;
+      --icon-fg: #FFFFFF;
+      --divider: #E2DCD1;
+      --tips-bg: #FAF5ED;
+      --tips-border: #E03E2D;
+    }
+
+    body[data-theme="forest-green"] {
+      --bg-canvas: #09241C;
+      --bg-card: #0D2D23;
+      --accent: #D4AF37;
+      --text-main: #FFFFFF;
+      --text-sub: #D1E5DE;
+      --text-muted: #8AAEA3;
+      --border-outer: rgba(212, 175, 55, 0.3);
+      --border-card: rgba(212, 175, 55, 0.4);
+      --icon-bg: #D4AF37;
+      --icon-fg: #09241C;
+      --divider: rgba(212, 175, 55, 0.25);
+      --tips-bg: #103328;
+      --tips-border: #D4AF37;
+    }
+
+    body[data-theme="obsidian-black"] {
+      --bg-canvas: #0C0C0C;
+      --bg-card: #151515;
+      --accent: #FFD700;
+      --text-main: #FFFFFF;
+      --text-sub: #D8D8D8;
+      --text-muted: #888888;
+      --border-outer: rgba(255, 215, 0, 0.25);
+      --border-card: rgba(255, 215, 0, 0.35);
+      --icon-bg: #FFD700;
+      --icon-fg: #0C0C0C;
+      --divider: rgba(255, 215, 0, 0.25);
+      --tips-bg: #1A1A1A;
+      --tips-border: #FFD700;
+    }
+
+    body[data-theme="cobalt-blue"] {
+      --bg-canvas: #071B65;
+      --bg-card: #0A227E;
+      --accent: #FFD200;
+      --text-main: #FFFFFF;
+      --text-sub: #D6E4FF;
+      --text-muted: #8EB3F5;
+      --border-outer: rgba(255, 210, 0, 0.3);
+      --border-card: rgba(255, 210, 0, 0.4);
+      --icon-bg: #FFD200;
+      --icon-fg: #071B65;
+      --divider: rgba(255, 210, 0, 0.25);
+      --tips-bg: #0D2B9E;
+      --tips-border: #FFD200;
+    }
+
     body {
       width: 1086px;
       height: 1448px;
-      background-color: #0A0A0A;
-      color: #FFFFFF;
-      font-family: -apple-system, BlinkMacSystemFont, "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-      padding: 48px 58px 40px 58px;
+      background-color: var(--bg-canvas);
+      color: var(--text-main);
+      font-family: -apple-system, BlinkMacSystemFont, "Noto Sans SC", "PingFang SC", sans-serif;
+      padding: 56px 64px 46px 64px;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
       overflow: hidden;
       position: relative;
     }
 
-    /* HEADER */
+    /* Paper Noise Overlay */
+    .paper-texture {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      opacity: 0.35;
+      mix-blend-mode: multiply;
+      z-index: 100;
+    }
+
+    /* ================= HEADER ================= */
     .header {
       display: flex;
       flex-direction: column;
+      margin-bottom: 24px;
     }
 
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    .category-group {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .category-cn {
+      font-size: 21px;
+      font-weight: 900;
+      color: var(--text-main);
+      letter-spacing: 0.02em;
+    }
+
+    .category-en {
+      font-family: "Montserrat", sans-serif;
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--text-muted);
+      letter-spacing: 0.1em;
+    }
+
+    .tagline-group {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 6px;
+    }
+
+    .tagline-text {
+      font-size: 19px;
+      font-weight: 700;
+      color: var(--text-sub);
+      letter-spacing: 0.02em;
+    }
+
+    .tagline-bar {
+      width: 44px;
+      height: 4px;
+      background-color: var(--accent);
+      border-radius: 2px;
+    }
+
+    /* TIGHT & POWERFUL TITLE */
     .main-title {
       font-family: "Noto Sans SC", "PingFang SC", sans-serif;
-      font-size: 104px;
+      font-size: 114px;
       font-weight: 900;
-      line-height: 1.0;
-      background: linear-gradient(180deg, #F8E2A6 0%, #D4AF37 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      letter-spacing: -0.02em;
-      margin-bottom: 6px;
+      line-height: 0.95;
+      color: var(--text-main);
+      letter-spacing: -0.04em;
+      margin-top: 18px;
+      margin-bottom: 8px;
+      -webkit-text-stroke: 1.5px var(--text-main);
     }
 
     .subtitle-en {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 34px;
-      font-weight: 800;
-      color: #D4AF37;
-      letter-spacing: 0.08em;
+      font-family: "Montserrat", sans-serif;
+      font-size: 38px;
+      font-weight: 900;
+      color: var(--accent);
+      letter-spacing: 0.06em;
       text-transform: uppercase;
-      line-height: 1.1;
+      line-height: 1.0;
+      margin-bottom: 14px;
     }
 
-    .title-bar {
-      width: 38px;
-      height: 3.5px;
-      background-color: #D4AF37;
-      border-radius: 2px;
-      margin-top: 10px;
-      margin-bottom: 12px;
-    }
-
-    .description-text {
-      font-size: 18.5px;
-      line-height: 1.6;
-      color: #A0A0A0;
-      font-weight: 500;
+    .description-box {
+      font-size: 20px;
+      line-height: 1.5;
+      color: var(--text-sub);
+      font-weight: 600;
       letter-spacing: 0.01em;
     }
 
-    /* MIDDLE CONTENT */
-    .middle-content {
+    /* ================= MAIN CONTENT GRID ================= */
+    .main-content {
       display: grid;
-      grid-template-columns: 310px 630px;
-      gap: 30px;
-      align-items: start;
-      margin-top: 10px;
+      grid-template-columns: 345px 600px;
+      gap: 34px;
+      align-items: stretch;
+      margin-top: 4px;
     }
 
-    /* Features & Principle */
-    .left-column {
+    /* Visual Canvas Card */
+    .visual-box {
+      background: var(--bg-card);
+      border: 1.8px solid var(--border-card);
+      border-radius: 24px;
+      height: 790px;
+      overflow: hidden;
+      position: relative;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .visual-box svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .visual-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: 22px;
+    }
+
+    /* Features Column */
+    .feature-column {
       display: flex;
       flex-direction: column;
-      gap: 20px;
+      justify-content: space-between;
+      height: 790px;
     }
 
-    .feature-item {
+    .feature-list {
       display: flex;
-      align-items: flex-start;
-      gap: 14px;
+      flex-direction: column;
+      gap: 0px;
     }
 
-    .feature-icon-box {
-      width: 44px;
-      height: 44px;
-      border: 1.5px solid rgba(212, 175, 55, 0.6);
-      background: rgba(212, 175, 55, 0.05);
-      border-radius: 8px;
+    .feature-row {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      padding: 20px 0;
+      border-bottom: 1px solid var(--divider);
+    }
+
+    .feature-row:first-child {
+      padding-top: 4px;
+    }
+
+    .feature-row:last-child {
+      border-bottom: none;
+      padding-bottom: 16px;
+    }
+
+    .feature-icon-circle {
+      width: 68px;
+      height: 68px;
+      border-radius: 50%;
+      background: var(--icon-bg);
+      color: var(--icon-fg);
       display: flex;
       align-items: center;
       justify-content: center;
       flex-shrink: 0;
-      color: #D4AF37;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
     }
 
-    .feature-text {
+    .feature-icon-circle svg {
+      width: 32px;
+      height: 32px;
+      stroke-width: 2.5;
+    }
+
+    .feature-text-block {
       display: flex;
       flex-direction: column;
       gap: 2px;
     }
 
     .feature-title {
-      font-size: 19px;
-      font-weight: 800;
-      color: #FFFFFF;
+      font-size: 23px;
+      font-weight: 900;
+      color: var(--text-main);
+      letter-spacing: 0.01em;
     }
 
     .feature-desc {
-      font-size: 13px;
-      line-height: 1.4;
-      color: #888888;
+      font-size: 15px;
+      line-height: 1.38;
+      color: var(--text-sub);
+      font-weight: 600;
     }
 
-    .feature-en {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 11px;
-      font-weight: 700;
-      color: #D4AF37;
+    .feature-tag-en {
+      font-family: "Montserrat", sans-serif;
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--accent);
       letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-top: 1px;
+    }
+
+    /* Tips Card */
+    .tips-card {
+      background: var(--tips-bg);
+      border: 1.8px dashed var(--tips-border);
+      border-radius: 16px;
+      padding: 22px 22px 20px 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: auto;
+    }
+
+    .tips-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 20px;
+      font-weight: 900;
+      color: var(--text-main);
+    }
+
+    .tips-header svg {
+      width: 24px;
+      height: 24px;
+      color: var(--accent);
+    }
+
+    .tips-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .tips-list li {
+      position: relative;
+      padding-left: 14px;
+      font-size: 15px;
+      line-height: 1.45;
+      color: var(--text-sub);
+      font-weight: 600;
+    }
+
+    .tips-list li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: 900;
+      font-size: 17px;
+    }
+
+    .tips-bottom-bar {
+      width: 54px;
+      height: 4px;
+      background-color: var(--accent);
+      border-radius: 2px;
       margin-top: 2px;
     }
 
-    /* Principle Box */
-    .principle-box {
-      border-top: 1px solid rgba(212, 175, 55, 0.25);
-      padding-top: 14px;
+    /* ================= FOOTER KEYWORDS ================= */
+    .footer {
+      border-top: 1.8px solid var(--border-outer);
+      padding-top: 20px;
+      margin-top: auto;
       display: flex;
       flex-direction: column;
-      gap: 8px;
+      gap: 12px;
     }
 
-    .principle-title-row {
-      display: flex;
-      align-items: baseline;
-      gap: 8px;
-    }
-
-    .principle-title-cn {
-      font-size: 17px;
-      font-weight: 800;
-      color: #FFFFFF;
-    }
-
-    .principle-title-en {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 11px;
-      font-weight: 700;
-      color: #D4AF37;
-      letter-spacing: 0.08em;
-    }
-
-    .fib-sequence {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 13px;
-      font-weight: 700;
-      color: #D4AF37;
-      letter-spacing: 0.06em;
-    }
-
-    .fib-desc {
-      font-size: 12px;
-      color: #888888;
-      line-height: 1.35;
-    }
-
-    .fib-diagram-row {
+    .footer-title-row {
       display: flex;
       align-items: center;
-      gap: 12px;
-      margin-top: 4px;
-    }
-
-    .fib-svg-wrap {
-      width: 130px;
-      height: 90px;
-    }
-
-    .fib-note {
-      font-size: 11.5px;
-      color: #888888;
-      line-height: 1.4;
-      flex: 1;
-    }
-
-    /* Visual Golden Spiral Container */
-    .spiral-container {
-      width: 630px;
-      height: 600px;
-      position: relative;
-    }
-
-    /* Callout styling */
-    .callout {
-      position: absolute;
-      display: flex;
-      flex-direction: column;
-      gap: 2px;
-      z-index: 10;
-    }
-
-    .callout-title-row {
-      display: flex;
-      align-items: baseline;
       gap: 6px;
-    }
-
-    .callout-num {
-      font-family: 'Montserrat', sans-serif;
       font-size: 16px;
       font-weight: 900;
-      color: #D4AF37;
+      color: var(--accent);
+      letter-spacing: 0.05em;
     }
 
-    .callout-cn {
-      font-size: 16px;
+    .footer-title-row span.en {
+      font-family: "Montserrat", sans-serif;
+      font-size: 12.5px;
       font-weight: 800;
-      color: #FFFFFF;
-    }
-
-    .callout-en {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 11px;
-      font-weight: 800;
-      color: #D4AF37;
       letter-spacing: 0.08em;
     }
 
-    .callout-desc {
-      font-size: 12px;
-      line-height: 1.4;
-      color: #888888;
-      max-width: 170px;
+    .footer-bar-accent {
+      width: 34px;
+      height: 3.5px;
+      background-color: var(--accent);
+      border-radius: 2px;
+      margin-top: -6px;
     }
 
-    /* BOTTOM APPLICATIONS */
-    .bottom-section {
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
-      margin-top: 10px;
-    }
-
-    .apps-row {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-    }
-
-    .apps-header {
-      display: flex;
-      align-items: baseline;
-      gap: 8px;
-    }
-
-    .apps-title-cn {
-      font-size: 17px;
-      font-weight: 800;
-      color: #FFFFFF;
-    }
-
-    .apps-title-en {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 11px;
-      font-weight: 700;
-      color: #D4AF37;
-      letter-spacing: 0.08em;
-    }
-
-    .apps-grid {
+    .keywords-row {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      gap: 16px;
-    }
-
-    .app-card {
-      display: flex;
-      flex-direction: column;
       align-items: center;
-      text-align: center;
-      gap: 6px;
-      background: rgba(255, 255, 255, 0.03);
-      border: 1px solid rgba(212, 175, 55, 0.2);
-      border-radius: 10px;
-      padding: 12px 10px;
     }
 
-    .app-icon {
-      width: 36px;
-      height: 36px;
-      border-radius: 50%;
-      border: 1px solid #D4AF37;
+    .kw-item {
       display: flex;
       align-items: center;
       justify-content: center;
-      color: #D4AF37;
+      gap: 14px;
+      position: relative;
     }
 
-    .app-name {
-      font-size: 14.5px;
-      font-weight: 800;
-      color: #FFFFFF;
+    .kw-item:not(:last-child)::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 10%;
+      height: 80%;
+      width: 1px;
+      background-color: var(--divider);
     }
 
-    .app-desc {
-      font-size: 11.5px;
-      color: #777777;
-      line-height: 1.35;
+    .kw-item svg {
+      width: 30px;
+      height: 30px;
+      color: var(--accent);
+      stroke-width: 2.4;
     }
 
-    /* TIPS BAR */
-    .tips-bar-box {
-      border: 1px solid rgba(212, 175, 55, 0.3);
-      border-radius: 10px;
-      padding: 14px 18px;
-      background: rgba(212, 175, 55, 0.03);
+    .kw-text {
       display: flex;
       flex-direction: column;
-      gap: 8px;
+      gap: 1px;
     }
 
-    .tips-title-row {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      font-size: 16px;
-      font-weight: 800;
-      color: #D4AF37;
+    .kw-cn {
+      font-size: 18px;
+      font-weight: 900;
+      color: var(--text-main);
     }
 
-    .tips-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 6px 20px;
-      font-size: 12.5px;
-      color: #888888;
-      line-height: 1.4;
+    .kw-en {
+      font-family: "Montserrat", sans-serif;
+      font-size: 11.5px;
+      font-weight: 700;
+      color: var(--text-muted);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
     }
   </style>
 </head>
-<body>
+<body data-theme="warm-ivory">
+
+  <!-- Paper Grain SVG Texture -->
+  <svg class="paper-texture" xmlns="http://www.w3.org/2000/svg">
+    <filter id="noiseFilter">
+      <feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.15 0"/>
+    </filter>
+    <rect width="100%" height="100%" filter="url(#noiseFilter)"/>
+  </svg>
 
   <!-- HEADER -->
   <header class="header">
-    <h1 class="main-title">黄金螺旋构图</h1>
-    <div class="subtitle-en">GOLDEN SPIRAL COMPOSITION</div>
-    <div class="title-bar"></div>
+    <div class="header-top">
+      <div class="category-group">
+        <span class="category-cn">构图逻辑</span>
+        <span class="category-en">COMPOSITION PRINCIPLES</span>
+      </div>
+      <div class="tagline-group">
+        <span class="tagline-text">以几何分割与比例定势，构建画面的首要秩序与呼吸感。</span>
+        <div class="tagline-bar"></div>
+      </div>
+    </div>
 
-    <div class="description-text">
-      黄金螺旋是一种基于黄金比例的视觉引导工具，<br>
-      能自然地将视线引导向画面的焦点，<br>
-      创造和谐、优雅、富有生命力的构图。
+    <h1 class="main-title">黄金螺旋构图</h1>
+    <div class="subtitle-en">GOLDEN SPIRAL</div>
+
+    <div class="description-box">
+      350 视觉排版系列第 003 号：黄金螺旋构图（GOLDEN SPIRAL）。归属于「构图逻辑 · 经典法则与空间留白」体系。以几何分割与比例定势，构建画面的首要秩序与呼吸感。
     </div>
   </header>
 
-  <!-- MIDDLE CONTENT -->
-  <section class="middle-content">
+  <!-- MAIN SECTION -->
+  <main class="main-content">
     
-    <!-- Left Column: Features & Principle -->
-    <div class="left-column">
-      <!-- Feature 1 -->
-      <div class="feature-item">
-        <div class="feature-icon-box">
-          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M12 3a9 9 0 0 0-9 9c0 4.97 4.03 9 9 9 3.5 0 6.5-2 8-5a6.5 6.5 0 0 0-1.5-7.5A4.5 4.5 0 0 0 12 7c-1.5 0-3 1-3 2.5a2 2 0 0 0 2 2c.8 0 1.5-.5 1.5-1.2"/>
-          </svg>
-        </div>
-        <div class="feature-text">
-          <span class="feature-title">自然之美</span>
-          <span class="feature-desc">广泛存在于自然界<br>如海螺、向日葵、飓风</span>
-          <span class="feature-en">NATURE'S BEAUTY</span>
-        </div>
-      </div>
+        <div class="visual-box"><svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <radialGradient id="spiralGlow" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#FFD000" stop-opacity="0.95"/>
+          <stop offset="45%" stop-color="#FFD000" stop-opacity="0.3"/>
+          <stop offset="100%" stop-color="#FFD000" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <rect width="550" height="620" fill="#0A1838" rx="8"/>
+      <!-- Starry sky particles -->
+      <circle cx="80" cy="120" r="1.5" fill="#FFFFFF" opacity="0.7"/>
+      <circle cx="210" cy="95" r="2" fill="#FFFFFF" opacity="0.8"/>
+      <circle cx="480" cy="140" r="1.5" fill="#FFFFFF" opacity="0.6"/>
+      <circle cx="450" cy="380" r="2" fill="#FFFFFF" opacity="0.8"/>
+      <circle cx="120" cy="460" r="1.5" fill="#FFFFFF" opacity="0.7"/>
 
-      <!-- Feature 2 -->
-      <div class="feature-item">
-        <div class="feature-icon-box">
-          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
-            <rect x="3" y="3" width="18" height="18"/>
-            <line x1="14" y1="3" x2="14" y2="21"/>
-            <line x1="14" y1="14" x2="21" y2="14"/>
-          </svg>
-        </div>
-        <div class="feature-text">
-          <span class="feature-title">黄金比例</span>
-          <span class="feature-desc">相邻数列比值约为 1:1.618<br>形成和谐的空间关系</span>
-          <span class="feature-en">PROPORTION</span>
-        </div>
-      </div>
+      <!-- Fibonacci Nested Rectangles -->
+      <g stroke="#FFD000" stroke-width="1.5" fill="none" opacity="0.45">
+        <rect x="40" y="80" width="460" height="460" rx="4"/>
+        <line x1="324.3" y1="80" x2="324.3" y2="540"/>
+        <line x1="324.3" y1="364.3" x2="500" y2="364.3"/>
+        <line x1="391.3" y1="80" x2="391.3" y2="364.3"/>
+        <line x1="324.3" y1="188.3" x2="391.3" y2="188.3"/>
+      </g>
 
-      <!-- Feature 3 -->
-      <div class="feature-item">
-        <div class="feature-icon-box">
-          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
-            <circle cx="12" cy="12" r="3"/>
-          </svg>
-        </div>
-        <div class="feature-text">
-          <span class="feature-title">视觉引导</span>
-          <span class="feature-desc">曲线引导视线自然流动<br>聚焦于画面核心</span>
-          <span class="feature-en">VISUAL PATH</span>
-        </div>
-      </div>
+      <!-- Golden Spiral Curve -->
+      <path d="M 40 540 A 460 460 0 0 1 500 80 A 284.3 284.3 0 0 1 324.3 364.3 A 175.7 175.7 0 0 1 391.3 188.3 A 108 108 0 0 1 349 230"
+            stroke="#FFD000" stroke-width="4.5" fill="none" stroke-linecap="round"/>
 
-      <!-- Principle Box -->
-      <div class="principle-box">
-        <div class="principle-title-row">
-          <span class="principle-title-cn">构成原理</span>
-          <span class="principle-title-en">THE PRINCIPLE</span>
+      <!-- Secondary guide vector -->
+      <line x1="40" y1="540" x2="366" y2="215" stroke="#8BB6F9" stroke-width="1.8" stroke-dasharray="6,6" opacity="0.6"/>
+
+      <!-- Focal Whirl Center (366, 215) -->
+      <circle cx="366" cy="215" r="60" fill="url(#spiralGlow)"/>
+      <circle cx="366" cy="215" r="22" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+      <circle cx="366" cy="215" r="12" fill="#FFD000"/>
+      <circle cx="366" cy="215" r="3.5" fill="#0A1838"/>
+
+      <rect x="250" y="160" width="100" height="28" rx="4" fill="#082154" stroke="#FFD000" stroke-width="1.2"/>
+      <text x="300" y="179" fill="#FFD000" font-size="11" font-weight="900" font-family="PingFang SC" text-anchor="middle">螺旋汇聚极点</text>
+
+      <text x="275" y="575" fill="#FFD000" font-size="14" font-weight="bold" font-family="PingFang SC" text-anchor="middle">
+        斐波那契黄金螺旋 · 引导视觉汇聚核心
+      </text>
+    </svg></div>
+        <div class="feature-column"><div class="feature-list">
+        <div class="feature-row">
+          <div class="feature-icon-circle">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3">
+              <circle cx="12" cy="12" r="7"/>
+              <circle cx="12" cy="12" r="2" fill="currentColor"/>
+              <line x1="12" y1="2" x2="12" y2="5"/>
+              <line x1="12" y1="19" x2="12" y2="22"/>
+              <line x1="2" y1="12" x2="5" y2="12"/>
+              <line x1="19" y1="12" x2="22" y2="12"/>
+            </svg>
+          </div>
+          <div class="feature-text-block">
+            <div class="feature-title">比例锚定</div>
+            <div class="feature-desc">在黄金螺旋构图架构中，严格遵循黄金比例或均分网格确立画面几何重力点，锁定第一注意力。</div>
+            <div class="feature-tag-en">Proportion Anchor</div>
+          </div>
         </div>
-        <div class="fib-sequence">1  1  2  3  5  8  13  21 ...</div>
-        <div class="fib-desc">相邻数的比值趋近于 1.618 : 1<br>（黄金比例）</div>
         
-        <div class="fib-diagram-row">
-          <div class="fib-svg-wrap">
-            <svg viewBox="0 0 130 90" width="130" height="90">
-              <rect x="0" y="0" width="130" height="90" fill="none" stroke="#D4AF37" stroke-width="1.2"/>
-              <line x1="80" y1="0" x2="80" y2="90" stroke="#D4AF37" stroke-width="1"/>
-              <text x="38" y="50" fill="#D4AF37" font-size="12" font-weight="800" text-anchor="middle">13</text>
-              <line x1="80" y1="55" x2="130" y2="55" stroke="#D4AF37" stroke-width="1"/>
-              <text x="105" y="32" fill="#D4AF37" font-size="12" font-weight="800" text-anchor="middle">8</text>
-              <line x1="110" y1="55" x2="110" y2="90" stroke="#D4AF37" stroke-width="1"/>
-              <text x="120" y="75" fill="#D4AF37" font-size="11" font-weight="800" text-anchor="middle">5</text>
-              <path d="M 0 90 A 80 80 0 0 1 80 0 A 55 55 0 0 1 130 55 A 35 35 0 0 1 110 90" fill="none" stroke="#D4AF37" stroke-width="1.5"/>
+        <div class="feature-row">
+          <div class="feature-icon-circle">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3">
+              <circle cx="12" cy="12" r="7"/>
+              <circle cx="12" cy="12" r="2" fill="currentColor"/>
+              <line x1="12" y1="2" x2="12" y2="5"/>
+              <line x1="12" y1="19" x2="12" y2="22"/>
+              <line x1="2" y1="12" x2="5" y2="12"/>
+              <line x1="19" y1="12" x2="22" y2="12"/>
             </svg>
           </div>
-          <div class="fib-note">以斐波那契数列构建方形与螺旋，形成黄金螺旋。</div>
+          <div class="feature-text-block">
+            <div class="feature-title">留白定界</div>
+            <div class="feature-desc">依据黄金螺旋构图的内在几何规律，借由宽广的负空间赋予视觉主体充足呼吸域，消除信息窒息感。</div>
+            <div class="feature-tag-en">Space Delimitation</div>
+          </div>
         </div>
-      </div>
-    </div>
-
-    <!-- Right Column: Visual Spiral -->
-    <div class="spiral-container">
-      
-      <!-- Callout 1: Start (top right) -->
-      <div class="callout" style="top: 0px; right: 15px;">
-        <div class="callout-title-row">
-          <span class="callout-num">1</span>
-          <span class="callout-cn">起点</span>
-          <span class="callout-en">START</span>
-        </div>
-        <div class="callout-desc">从画面边缘开始，曲线自然展开，引导视线进入画面。</div>
-      </div>
-
-      <!-- Callout 2: Flow (upper center) -->
-      <div class="callout" style="top: 65px; left: 140px;">
-        <div class="callout-title-row">
-          <span class="callout-num">2</span>
-          <span class="callout-cn">流动</span>
-          <span class="callout-en">FLOW</span>
-        </div>
-        <div class="callout-desc">曲线的弧度引导视线沿路径自然向内流动。</div>
-      </div>
-
-      <!-- Callout 3: Focus (center right) -->
-      <div class="callout" style="top: 270px; right: 15px;">
-        <div class="callout-title-row">
-          <span class="callout-num">3</span>
-          <span class="callout-cn">聚焦</span>
-          <span class="callout-en">FOCUS</span>
-        </div>
-        <div class="callout-desc">螺旋中心是视觉的焦点所在，吸引并聚集注意力。</div>
-      </div>
-
-      <!-- Callout 4: Balance (lower left) -->
-      <div class="callout" style="top: 290px; left: 0px;">
-        <div class="callout-title-row">
-          <span class="callout-num">4</span>
-          <span class="callout-cn">平衡</span>
-          <span class="callout-en">BALANCE</span>
-        </div>
-        <div class="callout-desc">黄金螺旋带来动态中的平衡，使画面稳定且富有张力。</div>
-      </div>
-
-      <!-- SVG Spiral Graphic -->
-      <svg viewBox="0 0 630 600" width="630" height="600" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-          <filter id="glow3" x="-20%" y="-20%" width="140%" height="140%">
-            <feGaussianBlur stdDeviation="5" result="blur" />
-            <feComposite in="SourceGraphic" in2="blur" operator="over" />
-          </filter>
-        </defs>
-
-        <!-- Golden Construction Grid -->
-        <g stroke="#D4AF37" stroke-width="0.8" opacity="0.22" fill="none">
-          <rect x="110" y="120" width="480" height="296"/>
-          <line x1="406" y1="120" x2="406" y2="416" stroke-dasharray="3,3"/>
-          <line x1="406" y1="303" x2="590" y2="303" stroke-dasharray="3,3"/>
-          <line x1="476" y1="303" x2="476" y2="416" stroke-dasharray="3,3"/>
-          <line x1="406" y1="373" x2="476" y2="373" stroke-dasharray="3,3"/>
-        </g>
-
-        <!-- Golden Spiral Smooth Parametric Arc -->
-        <!-- Ribbon background trail -->
-        <path d="M 380 0 C 230 40, 15 210, 15 390 C 15 510, 120 590, 310 590 C 470 590, 580 470, 580 320 C 580 180, 460 140, 350 140 C 250 140, 210 230, 210 310 C 210 380, 260 420, 320 420 C 370 420, 400 380, 400 340 C 400 300, 360 280, 330 280 C 305 280, 290 300, 290 320 C 290 338, 305 348, 320 348 C 330 348, 336 340, 336 332"
-              fill="none" stroke="#FFD54F" stroke-width="3.8" filter="url(#glow3)"/>
-
-        <!-- Crisp white/bright core line -->
-        <path d="M 380 0 C 230 40, 15 210, 15 390 C 15 510, 120 590, 310 590 C 470 590, 580 470, 580 320 C 580 180, 460 140, 350 140 C 250 140, 210 230, 210 310 C 210 380, 260 420, 320 420 C 370 420, 400 380, 400 340 C 400 300, 360 280, 330 280 C 305 280, 290 300, 290 320 C 290 338, 305 348, 320 348 C 330 348, 336 340, 336 332"
-              fill="none" stroke="#FFF8E1" stroke-width="1.4"/>
-
-        <!-- Fibonacci nautilus core detailing -->
-        <g stroke="#D4AF37" stroke-width="1" opacity="0.6" fill="none">
-          <circle cx="325" cy="332" r="2.5" fill="#FFE082"/>
-        </g>
-
-        <!-- Dashed Leader Lines to Callouts -->
-        <!-- Leader 1 to Start -->
-        <line x1="430" y1="20" x2="380" y2="0" stroke="#D4AF37" stroke-width="1" stroke-dasharray="3,3" opacity="0.6"/>
-        <circle cx="380" cy="0" r="3" fill="#D4AF37"/>
-
-        <!-- Leader 2 to Flow -->
-        <line x1="210" y1="85" x2="300" y2="140" stroke="#D4AF37" stroke-width="1" stroke-dasharray="3,3" opacity="0.6"/>
-        <circle cx="300" cy="140" r="3" fill="#D4AF37"/>
-
-        <!-- Leader 3 to Focus -->
-        <line x1="440" y1="290" x2="336" y2="332" stroke="#D4AF37" stroke-width="1" stroke-dasharray="3,3" opacity="0.6"/>
-        <circle cx="336" cy="332" r="4" fill="#FFE082"/>
-
-        <!-- Leader 4 to Balance -->
-        <line x1="80" y1="310" x2="100" y2="410" stroke="#D4AF37" stroke-width="1" stroke-dasharray="3,3" opacity="0.6"/>
-        <circle cx="100" cy="410" r="3" fill="#D4AF37"/>
-      </svg>
-
-    </div>
-
-  </section>
-
-  <!-- BOTTOM SECTION: APPLICATIONS & TIPS -->
-  <footer class="bottom-section">
-    <div class="apps-row">
-      <div class="apps-header">
-        <span class="apps-title-cn">应用场景</span>
-        <span class="apps-title-en">APPLICATIONS</span>
-      </div>
-
-      <div class="apps-grid">
-        <div class="app-card">
-          <div class="app-icon">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
-              <polygon points="12,4 21,18 3,18"/>
+        
+        <div class="feature-row">
+          <div class="feature-icon-circle">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3">
+              <circle cx="12" cy="12" r="7"/>
+              <circle cx="12" cy="12" r="2" fill="currentColor"/>
+              <line x1="12" y1="2" x2="12" y2="5"/>
+              <line x1="12" y1="19" x2="12" y2="22"/>
+              <line x1="2" y1="12" x2="5" y2="12"/>
+              <line x1="19" y1="12" x2="22" y2="12"/>
             </svg>
           </div>
-          <span class="app-name">风景摄影</span>
-          <span class="app-desc">增强画面纵深感<br>与节奏感</span>
-        </div>
-
-        <div class="app-card">
-          <div class="app-icon">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
-              <circle cx="12" cy="7" r="4"/>
-            </svg>
+          <div class="feature-text-block">
+            <div class="feature-title">动势延伸</div>
+            <div class="feature-desc">针对黄金螺旋构图的空间特性，沿分割辅助线构建视线滑行轨迹，形成从局部通往全局的稳定导引。</div>
+            <div class="feature-tag-en">Kinetic Extension</div>
           </div>
-          <span class="app-name">人像摄影</span>
-          <span class="app-desc">突出主体<br>营造优雅氛围</span>
         </div>
-
-        <div class="app-card">
-          <div class="app-icon">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
-              <circle cx="12" cy="12" r="9"/>
-              <path d="M12 7a5 5 0 0 1 5 5c0 2-1.5 3.5-3.5 3.5S10 14 10 12"/>
-            </svg>
-          </div>
-          <span class="app-name">平面设计</span>
-          <span class="app-desc">引导信息层级<br>提升视觉体验</span>
         </div>
-
-        <div class="app-card">
-          <div class="app-icon">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
-              <rect x="3" y="3" width="18" height="18" rx="2"/>
-              <path d="M7 3v18M17 3v18M3 8h4M3 16h4M17 8h4M17 16h4"/>
-            </svg>
-          </div>
-          <span class="app-name">影视构图</span>
-          <span class="app-desc">增强叙事性<br>与情感引导</span>
-        </div>
-      </div>
-    </div>
-
-    <!-- Tips bar -->
-    <div class="tips-bar-box">
-      <div class="tips-title-row">
-        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/>
-          <path d="M9 18h6M10 22h4"/>
+    <div class="tips-card">
+      <div class="tips-header">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path>
+          <path d="M9 18h6"></path>
+          <path d="M10 22h4"></path>
         </svg>
-        <span>使用建议 TIPS</span>
+        <span>应用建议</span>
       </div>
-      <div class="tips-grid">
-        <div>• 将主体或焦点放置在螺旋中心或关键转折点。</div>
-        <div>• 留白与节奏同样重要，给视觉“呼吸”的空间。</div>
-        <div>• 利用螺旋的曲线安排元素，避免死板的直线排列。</div>
-        <div>• 实践与观察自然中的黄金螺旋，培养直觉。</div>
-      </div>
+      <ul class="tips-list">
+    <li><strong>视觉基准：</strong>确立主视觉交叉点时，优先将核心元素置于第一强交点，次要信息落入对角弱区。</li><li><strong>留白控制：</strong>保持至少 40% 以上的有效负空间，确保画面呼吸顺畅与层级通透。</li><div class="tips-bottom-bar"></div></ul></div></div>
+        
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-title-row">
+      <span>关键词</span>
+      <span class="en">KEYWORDS</span>
+    </div>
+    <div class="footer-bar-accent"></div>
+
+    <div class="keywords-row">
+      
+        <div class="kw-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="8"/>
+          </svg>
+          <div class="kw-text">
+            <span class="kw-cn">黄金分割</span>
+            <span class="kw-en">GOLDEN RATIO</span>
+          </div>
+        </div>
+        
+        <div class="kw-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="8"/>
+          </svg>
+          <div class="kw-text">
+            <span class="kw-cn">三分网格</span>
+            <span class="kw-en">THIRDS GRID</span>
+          </div>
+        </div>
+        
+        <div class="kw-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="8"/>
+          </svg>
+          <div class="kw-text">
+            <span class="kw-cn">负空间</span>
+            <span class="kw-en">NEGATIVE SPACE</span>
+          </div>
+        </div>
+        
+        <div class="kw-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="8"/>
+          </svg>
+          <div class="kw-text">
+            <span class="kw-cn">视线导引</span>
+            <span class="kw-en">EYE LEAD</span>
+          </div>
+        </div>
+        
     </div>
   </footer>
 

@@ -2,9 +2,9 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>001 三分法构图</title>
+  <title>001 三分法构图 - 350 Layout Compositions</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Noto+Sans+SC:wght@500;700;900&display=swap');
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Noto+Sans+SC:wght@700;900&display=swap");
 
     * {
       margin: 0;
@@ -13,24 +13,102 @@
       -webkit-font-smoothing: antialiased;
     }
 
+    /* THEME SYSTEM (CSS Variables) */
+    :root, body[data-theme="warm-ivory"] {
+      --bg-canvas: #F8F4EC;
+      --bg-card: #FAF7F0;
+      --accent: #E03E2D;
+      --text-main: #111111;
+      --text-sub: #383838;
+      --text-muted: #666666;
+      --border-outer: #E2DCD1;
+      --border-card: #D5CCC0;
+      --icon-bg: #E03E2D;
+      --icon-fg: #FFFFFF;
+      --divider: #E2DCD1;
+      --tips-bg: #FAF5ED;
+      --tips-border: #E03E2D;
+    }
+
+    body[data-theme="forest-green"] {
+      --bg-canvas: #09241C;
+      --bg-card: #0D2D23;
+      --accent: #D4AF37;
+      --text-main: #FFFFFF;
+      --text-sub: #D1E5DE;
+      --text-muted: #8AAEA3;
+      --border-outer: rgba(212, 175, 55, 0.3);
+      --border-card: rgba(212, 175, 55, 0.4);
+      --icon-bg: #D4AF37;
+      --icon-fg: #09241C;
+      --divider: rgba(212, 175, 55, 0.25);
+      --tips-bg: #103328;
+      --tips-border: #D4AF37;
+    }
+
+    body[data-theme="obsidian-black"] {
+      --bg-canvas: #0C0C0C;
+      --bg-card: #151515;
+      --accent: #FFD700;
+      --text-main: #FFFFFF;
+      --text-sub: #D8D8D8;
+      --text-muted: #888888;
+      --border-outer: rgba(255, 215, 0, 0.25);
+      --border-card: rgba(255, 215, 0, 0.35);
+      --icon-bg: #FFD700;
+      --icon-fg: #0C0C0C;
+      --divider: rgba(255, 215, 0, 0.25);
+      --tips-bg: #1A1A1A;
+      --tips-border: #FFD700;
+    }
+
+    body[data-theme="cobalt-blue"] {
+      --bg-canvas: #071B65;
+      --bg-card: #0A227E;
+      --accent: #FFD200;
+      --text-main: #FFFFFF;
+      --text-sub: #D6E4FF;
+      --text-muted: #8EB3F5;
+      --border-outer: rgba(255, 210, 0, 0.3);
+      --border-card: rgba(255, 210, 0, 0.4);
+      --icon-bg: #FFD200;
+      --icon-fg: #071B65;
+      --divider: rgba(255, 210, 0, 0.25);
+      --tips-bg: #0D2B9E;
+      --tips-border: #FFD200;
+    }
+
     body {
       width: 1086px;
       height: 1448px;
-      background-color: #F8F4EC;
-      color: #1A1A1A;
-      font-family: -apple-system, BlinkMacSystemFont, "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-      padding: 50px 60px 42px 60px;
+      background-color: var(--bg-canvas);
+      color: var(--text-main);
+      font-family: -apple-system, BlinkMacSystemFont, "Noto Sans SC", "PingFang SC", sans-serif;
+      padding: 56px 64px 46px 64px;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
       overflow: hidden;
       position: relative;
     }
 
-    /* HEADER */
+    /* Paper Noise Overlay */
+    .paper-texture {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      opacity: 0.35;
+      mix-blend-mode: multiply;
+      z-index: 100;
+    }
+
+    /* ================= HEADER ================= */
     .header {
       display: flex;
       flex-direction: column;
+      margin-bottom: 24px;
     }
 
     .header-top {
@@ -42,22 +120,22 @@
     .category-group {
       display: flex;
       flex-direction: column;
-      gap: 3px;
+      gap: 2px;
     }
 
     .category-cn {
-      font-size: 20px;
-      font-weight: 800;
-      color: #222222;
-      letter-spacing: 0.05em;
+      font-size: 21px;
+      font-weight: 900;
+      color: var(--text-main);
+      letter-spacing: 0.02em;
     }
 
     .category-en {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 12px;
-      font-weight: 700;
-      color: #666666;
-      letter-spacing: 0.12em;
+      font-family: "Montserrat", sans-serif;
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--text-muted);
+      letter-spacing: 0.1em;
     }
 
     .tagline-group {
@@ -68,66 +146,86 @@
     }
 
     .tagline-text {
-      font-size: 18px;
-      font-weight: 600;
-      color: #333333;
-      letter-spacing: 0.03em;
+      font-size: 19px;
+      font-weight: 700;
+      color: var(--text-sub);
+      letter-spacing: 0.02em;
     }
 
     .tagline-bar {
-      width: 38px;
-      height: 3.5px;
-      background-color: #E03E2D;
+      width: 44px;
+      height: 4px;
+      background-color: var(--accent);
       border-radius: 2px;
     }
 
+    /* TIGHT & POWERFUL TITLE */
     .main-title {
       font-family: "Noto Sans SC", "PingFang SC", sans-serif;
-      font-size: 104px;
+      font-size: 114px;
       font-weight: 900;
-      line-height: 1.0;
-      color: #111111;
-      letter-spacing: -0.02em;
-      margin-top: 20px;
-      margin-bottom: 6px;
+      line-height: 0.95;
+      color: var(--text-main);
+      letter-spacing: -0.04em;
+      margin-top: 18px;
+      margin-bottom: 8px;
+      -webkit-text-stroke: 1.5px var(--text-main);
     }
 
     .subtitle-en {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 34px;
-      font-weight: 800;
-      color: #E03E2D;
-      letter-spacing: 0.08em;
+      font-family: "Montserrat", sans-serif;
+      font-size: 38px;
+      font-weight: 900;
+      color: var(--accent);
+      letter-spacing: 0.06em;
       text-transform: uppercase;
-      line-height: 1.1;
+      line-height: 1.0;
+      margin-bottom: 14px;
     }
 
-    .description-text {
-      font-size: 19px;
-      line-height: 1.55;
-      color: #444444;
-      font-weight: 500;
-      margin-top: 14px;
+    .description-box {
+      font-size: 20px;
+      line-height: 1.5;
+      color: var(--text-sub);
+      font-weight: 600;
       letter-spacing: 0.01em;
     }
 
-    /* MAIN CONTENT */
+    /* ================= MAIN CONTENT GRID ================= */
     .main-content {
       display: grid;
-      grid-template-columns: 550px 380px;
-      gap: 36px;
+      grid-template-columns: 580px 344px;
+      gap: 34px;
       align-items: stretch;
-      margin-top: 18px;
+      margin-top: 4px;
     }
 
-    /* Visual Box */
+    /* Visual Canvas Card */
     .visual-box {
-      background: #FAF7F0;
-      border: 1.5px solid #D8CFC2;
-      border-radius: 22px;
-      height: 740px;
+      background: var(--bg-card);
+      border: 1.8px solid var(--border-card);
+      border-radius: 24px;
+      height: 790px;
       overflow: hidden;
       position: relative;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .visual-box svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .visual-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: 22px;
     }
 
     /* Features Column */
@@ -135,111 +233,121 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      height: 740px;
-      padding: 4px 0 2px 0;
+      height: 790px;
     }
 
     .feature-list {
       display: flex;
       flex-direction: column;
-      gap: 20px;
+      gap: 0px;
     }
 
-    .feature-item {
+    .feature-row {
       display: flex;
       align-items: center;
       gap: 18px;
-      padding-bottom: 18px;
-      border-bottom: 1px solid #EBE4D8;
+      padding: 20px 0;
+      border-bottom: 1px solid var(--divider);
     }
 
-    .feature-item:last-child {
+    .feature-row:first-child {
+      padding-top: 4px;
+    }
+
+    .feature-row:last-child {
       border-bottom: none;
-      padding-bottom: 0;
+      padding-bottom: 16px;
     }
 
     .feature-icon-circle {
-      width: 64px;
-      height: 64px;
+      width: 68px;
+      height: 68px;
       border-radius: 50%;
-      background: #E03E2D;
-      color: #FFFFFF;
+      background: var(--icon-bg);
+      color: var(--icon-fg);
       display: flex;
       align-items: center;
       justify-content: center;
       flex-shrink: 0;
-      box-shadow: 0 4px 12px rgba(224, 62, 45, 0.25);
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
     }
 
-    .feature-text {
+    .feature-icon-circle svg {
+      width: 32px;
+      height: 32px;
+      stroke-width: 2.5;
+    }
+
+    .feature-text-block {
       display: flex;
       flex-direction: column;
-      gap: 3px;
+      gap: 2px;
     }
 
     .feature-title {
-      font-size: 22px;
+      font-size: 23px;
       font-weight: 900;
-      color: #111111;
-      letter-spacing: 0.02em;
+      color: var(--text-main);
+      letter-spacing: 0.01em;
     }
 
     .feature-desc {
-      font-size: 14.5px;
-      line-height: 1.4;
-      color: #4A4A4A;
-      font-weight: 500;
+      font-size: 15px;
+      line-height: 1.38;
+      color: var(--text-sub);
+      font-weight: 600;
     }
 
-    .feature-en {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 12.5px;
+    .feature-tag-en {
+      font-family: "Montserrat", sans-serif;
+      font-size: 13px;
       font-weight: 800;
-      color: #E03E2D;
+      color: var(--accent);
       letter-spacing: 0.08em;
       text-transform: uppercase;
-      margin-top: 2px;
+      margin-top: 1px;
     }
 
-    /* Tips Box */
+    /* Tips Card */
     .tips-card {
-      background: #FAF6EF;
-      border: 1.5px dashed #E03E2D;
-      border-radius: 14px;
-      padding: 20px 22px;
+      background: var(--tips-bg);
+      border: 1.8px dashed var(--tips-border);
+      border-radius: 16px;
+      padding: 22px 22px 20px 22px;
       display: flex;
       flex-direction: column;
       gap: 12px;
+      margin-top: auto;
     }
 
     .tips-header {
       display: flex;
       align-items: center;
       gap: 8px;
-      font-size: 19px;
+      font-size: 20px;
       font-weight: 900;
-      color: #111111;
+      color: var(--text-main);
     }
 
     .tips-header svg {
-      width: 22px;
-      height: 22px;
-      color: #E03E2D;
+      width: 24px;
+      height: 24px;
+      color: var(--accent);
     }
 
     .tips-list {
       list-style: none;
       display: flex;
       flex-direction: column;
-      gap: 7px;
+      gap: 8px;
     }
 
     .tips-list li {
       position: relative;
       padding-left: 14px;
-      font-size: 14.5px;
+      font-size: 15px;
       line-height: 1.45;
-      color: #383531;
+      color: var(--text-sub);
       font-weight: 600;
     }
 
@@ -247,23 +355,24 @@
       content: "•";
       position: absolute;
       left: 0;
-      color: #383531;
+      color: var(--accent);
       font-weight: 900;
-      font-size: 16px;
+      font-size: 17px;
     }
 
-    .tips-bar {
-      width: 48px;
-      height: 3.5px;
-      background-color: #E03E2D;
+    .tips-bottom-bar {
+      width: 54px;
+      height: 4px;
+      background-color: var(--accent);
       border-radius: 2px;
       margin-top: 2px;
     }
 
-    /* FOOTER */
+    /* ================= FOOTER KEYWORDS ================= */
     .footer {
-      border-top: 1.5px solid #E2DCD1;
-      padding-top: 18px;
+      border-top: 1.8px solid var(--border-outer);
+      padding-top: 20px;
+      margin-top: auto;
       display: flex;
       flex-direction: column;
       gap: 12px;
@@ -273,23 +382,23 @@
       display: flex;
       align-items: center;
       gap: 6px;
-      font-size: 15px;
-      font-weight: 800;
-      color: #E03E2D;
+      font-size: 16px;
+      font-weight: 900;
+      color: var(--accent);
       letter-spacing: 0.05em;
     }
 
     .footer-title-row span.en {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 12px;
-      font-weight: 700;
+      font-family: "Montserrat", sans-serif;
+      font-size: 12.5px;
+      font-weight: 800;
       letter-spacing: 0.08em;
     }
 
-    .footer-bar {
-      width: 32px;
-      height: 3px;
-      background-color: #E03E2D;
+    .footer-bar-accent {
+      width: 34px;
+      height: 3.5px;
+      background-color: var(--accent);
       border-radius: 2px;
       margin-top: -6px;
     }
@@ -304,7 +413,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 12px;
+      gap: 14px;
       position: relative;
     }
 
@@ -312,16 +421,17 @@
       content: "";
       position: absolute;
       right: 0;
-      top: 15%;
-      height: 70%;
+      top: 10%;
+      height: 80%;
       width: 1px;
-      background-color: #E2DCD1;
+      background-color: var(--divider);
     }
 
     .kw-item svg {
-      width: 28px;
-      height: 28px;
-      color: #E03E2D;
+      width: 30px;
+      height: 30px;
+      color: var(--accent);
+      stroke-width: 2.4;
     }
 
     .kw-text {
@@ -332,31 +442,40 @@
 
     .kw-cn {
       font-size: 18px;
-      font-weight: 800;
-      color: #111111;
+      font-weight: 900;
+      color: var(--text-main);
     }
 
     .kw-en {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 11px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 11.5px;
       font-weight: 700;
-      color: #666666;
+      color: var(--text-muted);
       letter-spacing: 0.08em;
       text-transform: uppercase;
     }
   </style>
 </head>
-<body>
+<body data-theme="warm-ivory">
+
+  <!-- Paper Grain SVG Texture -->
+  <svg class="paper-texture" xmlns="http://www.w3.org/2000/svg">
+    <filter id="noiseFilter">
+      <feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.15 0"/>
+    </filter>
+    <rect width="100%" height="100%" filter="url(#noiseFilter)"/>
+  </svg>
 
   <!-- HEADER -->
   <header class="header">
     <div class="header-top">
       <div class="category-group">
-        <span class="category-cn">构图原理 / 视觉美学</span>
+        <span class="category-cn">构图逻辑</span>
         <span class="category-en">COMPOSITION PRINCIPLES</span>
       </div>
       <div class="tagline-group">
-        <span class="tagline-text">用简单的规则，创作更有力量的画面。</span>
+        <span class="tagline-text">消除画面沉闷，给主体更大展示空间。</span>
         <div class="tagline-bar"></div>
       </div>
     </div>
@@ -364,136 +483,119 @@
     <h1 class="main-title">三分法构图</h1>
     <div class="subtitle-en">RULE OF THIRDS COMPOSITION</div>
 
-    <div class="description-text">
-      将画面用两条横线和两条竖线平均分成九宫格，<br>
-      把主体放在交点或线条上，使画面更自然、更有张力。
+    <div class="description-box">
+      将画面横竖各画两条线将其平均分成九个网格。使主体落在四个交叉点或分割线上，画面自然生动，更具呼吸感与视觉张力。
     </div>
   </header>
 
-  <!-- MAIN CONTENT -->
+  <!-- MAIN SECTION -->
   <main class="main-content">
     
-    <!-- Visual Graphic Box -->
-    <div class="visual-box">
-      <svg viewBox="0 0 550 740" width="550" height="740" xmlns="http://www.w3.org/2000/svg">
-        <!-- 3x3 Grid Lines (Coral red dashed) -->
-        <line x1="183.33" y1="0" x2="183.33" y2="740" stroke="#E03E2D" stroke-width="1.8" stroke-dasharray="6,6" opacity="0.8"/>
-        <line x1="366.66" y1="0" x2="366.66" y2="740" stroke="#E03E2D" stroke-width="1.8" stroke-dasharray="6,6" opacity="0.8"/>
-        <line x1="0" y1="246.66" x2="550" y2="246.66" stroke="#E03E2D" stroke-width="1.8" stroke-dasharray="6,6" opacity="0.8"/>
-        <line x1="0" y1="493.33" x2="550" y2="493.33" stroke="#E03E2D" stroke-width="1.8" stroke-dasharray="6,6" opacity="0.8"/>
+        <div class="visual-box"><svg viewBox="0 0 580 790" width="580" height="790" xmlns="http://www.w3.org/2000/svg">
+  <!-- Card background -->
+  <rect width="580" height="790" fill="#FAF7F0"/>
 
-        <!-- Four Intersection Anchors -->
-        <!-- Top-Right -->
-        <circle cx="366.66" cy="246.66" r="7.5" fill="#E03E2D"/>
-        <!-- Bottom-Left -->
-        <circle cx="183.33" cy="493.33" r="7.5" fill="#E03E2D"/>
-        <!-- Bottom-Right -->
-        <circle cx="366.66" cy="493.33" r="7.5" fill="#E03E2D"/>
+  <!-- 3x3 Grid Lines (Coral red dashed) -->
+  <line x1="193.33" y1="0" x2="193.33" y2="790" stroke="#E03E2D" stroke-width="1.8" stroke-dasharray="6,6" opacity="0.85"/>
+  <line x1="386.66" y1="0" x2="386.66" y2="790" stroke="#E03E2D" stroke-width="1.8" stroke-dasharray="6,6" opacity="0.85"/>
+  <line x1="0" y1="263.33" x2="580" y2="263.33" stroke="#E03E2D" stroke-width="1.8" stroke-dasharray="6,6" opacity="0.85"/>
+  <line x1="0" y1="526.66" x2="580" y2="526.66" stroke="#E03E2D" stroke-width="1.8" stroke-dasharray="6,6" opacity="0.85"/>
 
-        <!-- Flying Birds in upper right quadrant -->
-        <!-- Bird 1 -->
-        <path d="M 430 190 Q 440 182 450 190 Q 460 182 470 190" fill="none" stroke="#222222" stroke-width="2.8" stroke-linecap="round"/>
-        <!-- Bird 2 -->
-        <path d="M 465 208 Q 473 201 482 208 Q 490 201 498 208" fill="none" stroke="#222222" stroke-width="2.4" stroke-linecap="round"/>
-        <!-- Bird 3 -->
-        <path d="M 445 228 Q 452 221 460 228 Q 468 221 475 228" fill="none" stroke="#222222" stroke-width="2.4" stroke-linecap="round"/>
+  <!-- Intersection Anchors (diameter 16px) -->
+  <circle cx="386.66" cy="263.33" r="8" fill="#E03E2D"/>
+  <circle cx="193.33" cy="526.66" r="8" fill="#E03E2D"/>
+  <circle cx="386.66" cy="526.66" r="8" fill="#E03E2D"/>
 
-        <!-- Upper-Left Primary Focal Element: The Sun -->
-        <circle cx="183.33" cy="246.66" r="58" fill="#E03E2D"/>
+  <!-- Flying Birds in upper right -->
+  <path d="M 450 200 Q 462 190 474 200 Q 486 190 498 200" fill="none" stroke="#1A1A1A" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M 490 220 Q 500 212 510 220 Q 520 212 530 220" fill="none" stroke="#1A1A1A" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M 470 242 Q 478 235 487 242 Q 495 235 504 242" fill="none" stroke="#1A1A1A" stroke-width="2.6" stroke-linecap="round"/>
 
-        <!-- Secondary Sandy Mountain behind -->
-        <polygon points="120,740 280,510 490,740" fill="#DDD4C5"/>
+  <!-- Primary Focal Element: The Sun (Diameter ~130px) -->
+  <circle cx="193.33" cy="263.33" r="65" fill="#E03E2D"/>
 
-        <!-- Foreground Dark Charcoal Mountain -->
-        <polygon points="0,740 0,640 110,470 330,740" fill="#282828"/>
-        <!-- Shadow facet of foreground mountain -->
-        <polygon points="110,470 180,740 330,740" fill="#1E1E1E"/>
+  <!-- Secondary Sandy Mountain behind -->
+  <polygon points="140,790 320,545 540,790" fill="#DDD4C5"/>
 
-        <!-- Horizontal Water Ripple Reflections -->
-        <line x1="260" y1="675" x2="440" y2="675" stroke="#E03E2D" stroke-width="1.8" opacity="0.6"/>
-        <line x1="290" y1="692" x2="420" y2="692" stroke="#E03E2D" stroke-width="1.6" opacity="0.55"/>
-        <line x1="330" y1="708" x2="450" y2="708" stroke="#E03E2D" stroke-width="1.4" opacity="0.5"/>
-        <line x1="370" y1="724" x2="430" y2="724" stroke="#E03E2D" stroke-width="1.2" opacity="0.45"/>
-      </svg>
-    </div>
+  <!-- Foreground Dark Charcoal Mountain -->
+  <polygon points="0,790 0,680 125,510 400,790" fill="#262626"/>
+  <!-- Shadow facet of foreground mountain -->
+  <polygon points="125,510 215,790 400,790" fill="#1B1B1B"/>
 
-    <!-- Features & Tips Column -->
-    <div class="feature-column">
-      <div class="feature-list">
-        
-        <!-- Feature 1 -->
-        <div class="feature-item">
+  <!-- Dense horizontal water ripples across the bottom -->
+  <line x1="290" y1="715" x2="520" y2="715" stroke="#E03E2D" stroke-width="2.0" opacity="0.65"/>
+  <line x1="330" y1="732" x2="495" y2="732" stroke="#E03E2D" stroke-width="1.8" opacity="0.6"/>
+  <line x1="375" y1="748" x2="530" y2="748" stroke="#E03E2D" stroke-width="1.6" opacity="0.55"/>
+  <line x1="415" y1="764" x2="505" y2="764" stroke="#E03E2D" stroke-width="1.4" opacity="0.5"/>
+  <line x1="440" y1="778" x2="490" y2="778" stroke="#E03E2D" stroke-width="1.2" opacity="0.45"/>
+</svg></div>
+        <div class="feature-column"><div class="feature-list">
+        <div class="feature-row">
           <div class="feature-icon-circle">
-            <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="8"/>
-              <circle cx="12" cy="12" r="3" fill="currentColor"/>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3">
+              <circle cx="12" cy="12" r="7"/>
+              <circle cx="12" cy="12" r="2" fill="currentColor"/>
               <line x1="12" y1="2" x2="12" y2="5"/>
               <line x1="12" y1="19" x2="12" y2="22"/>
               <line x1="2" y1="12" x2="5" y2="12"/>
               <line x1="19" y1="12" x2="22" y2="12"/>
             </svg>
           </div>
-          <div class="feature-text">
+          <div class="feature-text-block">
             <div class="feature-title">主体落在交点</div>
-            <div class="feature-desc">四个交点是视觉焦点<br>自然吸引观看者的目光</div>
-            <div class="feature-en">FOCUS</div>
+            <div class="feature-desc">四个交点是人类视觉天然停留的重心位置，将焦点置于交点处能瞬间吸附注意力。</div>
+            <div class="feature-tag-en">Focus</div>
           </div>
         </div>
-
-        <!-- Feature 2 -->
-        <div class="feature-item">
+        
+        <div class="feature-row">
           <div class="feature-icon-circle">
-            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M 4 8 L 4 4 L 8 4"/>
-              <path d="M 16 4 L 20 4 L 20 8"/>
-              <path d="M 20 16 L 20 20 L 16 20"/>
-              <path d="M 8 20 L 4 20 L 4 16"/>
-              <line x1="9" y1="12" x2="15" y2="12" stroke-dasharray="2,2"/>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3">
+              <circle cx="12" cy="12" r="7"/>
+              <circle cx="12" cy="12" r="2" fill="currentColor"/>
+              <line x1="12" y1="2" x2="12" y2="5"/>
+              <line x1="12" y1="19" x2="12" y2="22"/>
+              <line x1="2" y1="12" x2="5" y2="12"/>
+              <line x1="19" y1="12" x2="22" y2="12"/>
             </svg>
           </div>
-          <div class="feature-text">
+          <div class="feature-text-block">
             <div class="feature-title">平衡留白</div>
-            <div class="feature-desc">合理分配画面空间<br>让画面呼吸，更显高级</div>
-            <div class="feature-en">BALANCE</div>
+            <div class="feature-desc">主体移出绝对物理居中，留出 2/3 的自然呼吸区域，画面舒展、避免呆板紧绷。</div>
+            <div class="feature-tag-en">Balance</div>
           </div>
         </div>
-
-        <!-- Feature 3 -->
-        <div class="feature-item">
+        
+        <div class="feature-row">
           <div class="feature-icon-circle">
-            <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-              <line x1="5" y1="12" x2="19" y2="12"/>
-              <polyline points="12 5 19 12 12 19"/>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3">
+              <circle cx="12" cy="12" r="7"/>
+              <circle cx="12" cy="12" r="2" fill="currentColor"/>
+              <line x1="12" y1="2" x2="12" y2="5"/>
+              <line x1="12" y1="19" x2="12" y2="22"/>
+              <line x1="2" y1="12" x2="5" y2="12"/>
+              <line x1="19" y1="12" x2="22" y2="12"/>
             </svg>
           </div>
-          <div class="feature-text">
+          <div class="feature-text-block">
             <div class="feature-title">视觉引导</div>
-            <div class="feature-desc">线条与元素引导视线<br>增强画面节奏与方向感</div>
-            <div class="feature-en">RHYTHM</div>
+            <div class="feature-desc">借助三分分割线牵引视线动线，让观看者的眼球从主体自然巡航至辅助叙事元素。</div>
+            <div class="feature-tag-en">Guidance</div>
           </div>
         </div>
-
-      </div>
-
-      <!-- Tips Box -->
-      <div class="tips-card">
-        <div class="tips-header">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path>
-            <path d="M9 18h6"></path>
-            <path d="M10 22h4"></path>
-          </svg>
-          <span>应用建议</span>
         </div>
-        <ul class="tips-list">
-          <li>风景 / 建筑：地平线放在上下三分线</li>
-          <li>人像 / 静物：主体对准交点或三分线</li>
-          <li>创意设计：打破规则以创造张力</li>
-        </ul>
-        <div class="tips-bar"></div>
+    <div class="tips-card">
+      <div class="tips-header">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path>
+          <path d="M9 18h6"></path>
+          <path d="M10 22h4"></path>
+        </svg>
+        <span>应用建议</span>
       </div>
-    </div>
-
+      <ul class="tips-list">
+    <li><strong>风景 / 地平线：</strong>置于上三分线凸显地面细节，置于下三分线凸显广阔天空。</li><li><strong>人像 / 摄影：</strong>将人物主眼或鼻梁精准贴合在上交点，神态更具感染力。</li><li><strong>文字编排：</strong>将标题放置在主体相反侧的留白三分区，实现视觉杠杆平衡。</li><div class="tips-bottom-bar"></div></ul></div></div>
+        
   </main>
 
   <!-- FOOTER -->
@@ -502,61 +604,50 @@
       <span>关键词</span>
       <span class="en">KEYWORDS</span>
     </div>
-    <div class="footer-bar"></div>
+    <div class="footer-bar-accent"></div>
 
     <div class="keywords-row">
-      <!-- KW 1 -->
-      <div class="kw-item">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="12" cy="12" r="8"/>
-          <line x1="12" y1="2" x2="12" y2="6"/>
-          <line x1="12" y1="18" x2="12" y2="22"/>
-          <line x1="2" y1="12" x2="6" y2="12"/>
-          <line x1="18" y1="12" x2="22" y2="12"/>
-        </svg>
-        <div class="kw-text">
-          <span class="kw-cn">焦点</span>
-          <span class="kw-en">FOCUS</span>
+      
+        <div class="kw-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="8"/>
+          </svg>
+          <div class="kw-text">
+            <span class="kw-cn">焦点</span>
+            <span class="kw-en">FOCUS</span>
+          </div>
         </div>
-      </div>
-
-      <!-- KW 2 -->
-      <div class="kw-item">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M 4 8 L 4 4 L 8 4"/>
-          <path d="M 16 4 L 20 4 L 20 8"/>
-          <path d="M 20 16 L 20 20 L 16 20"/>
-          <path d="M 8 20 L 4 20 L 4 16"/>
-        </svg>
-        <div class="kw-text">
-          <span class="kw-cn">平衡</span>
-          <span class="kw-en">BALANCE</span>
+        
+        <div class="kw-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="8"/>
+          </svg>
+          <div class="kw-text">
+            <span class="kw-cn">平衡</span>
+            <span class="kw-en">BALANCE</span>
+          </div>
         </div>
-      </div>
-
-      <!-- KW 3 -->
-      <div class="kw-item">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M 2 8 C 5 5, 7 11, 10 8 C 13 5, 15 11, 18 8 C 20 6, 22 8, 23 8"/>
-          <path d="M 2 14 C 5 11, 7 17, 10 14 C 13 11, 15 17, 18 14 C 20 12, 22 14, 23 14"/>
-        </svg>
-        <div class="kw-text">
-          <span class="kw-cn">节奏</span>
-          <span class="kw-en">RHYTHM</span>
+        
+        <div class="kw-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="8"/>
+          </svg>
+          <div class="kw-text">
+            <span class="kw-cn">节奏</span>
+            <span class="kw-en">RHYTHM</span>
+          </div>
         </div>
-      </div>
-
-      <!-- KW 4 -->
-      <div class="kw-item">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M 1 12 C 4 6, 20 6, 23 12 C 20 18, 4 18, 1 12 Z"/>
-          <circle cx="12" cy="12" r="3.5" fill="currentColor"/>
-        </svg>
-        <div class="kw-text">
-          <span class="kw-cn">引导</span>
-          <span class="kw-en">GUIDE</span>
+        
+        <div class="kw-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="8"/>
+          </svg>
+          <div class="kw-text">
+            <span class="kw-cn">引导</span>
+            <span class="kw-en">GUIDE</span>
+          </div>
         </div>
-      </div>
+        
     </div>
   </footer>
 

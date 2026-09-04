@@ -2,9 +2,9 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>004 黄金三角构图</title>
+  <title>004 黄金三角构图 - 350 Layout Compositions</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Noto+Sans+SC:wght@500;700;900&display=swap');
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Noto+Sans+SC:wght@700;900&display=swap");
 
     * {
       margin: 0;
@@ -13,637 +13,659 @@
       -webkit-font-smoothing: antialiased;
     }
 
+    /* THEME SYSTEM (CSS Variables) */
+    :root, body[data-theme="warm-ivory"] {
+      --bg-canvas: #F8F4EC;
+      --bg-card: #FAF7F0;
+      --accent: #E03E2D;
+      --text-main: #111111;
+      --text-sub: #383838;
+      --text-muted: #666666;
+      --border-outer: #E2DCD1;
+      --border-card: #D5CCC0;
+      --icon-bg: #E03E2D;
+      --icon-fg: #FFFFFF;
+      --divider: #E2DCD1;
+      --tips-bg: #FAF5ED;
+      --tips-border: #E03E2D;
+    }
+
+    body[data-theme="forest-green"] {
+      --bg-canvas: #09241C;
+      --bg-card: #0D2D23;
+      --accent: #D4AF37;
+      --text-main: #FFFFFF;
+      --text-sub: #D1E5DE;
+      --text-muted: #8AAEA3;
+      --border-outer: rgba(212, 175, 55, 0.3);
+      --border-card: rgba(212, 175, 55, 0.4);
+      --icon-bg: #D4AF37;
+      --icon-fg: #09241C;
+      --divider: rgba(212, 175, 55, 0.25);
+      --tips-bg: #103328;
+      --tips-border: #D4AF37;
+    }
+
+    body[data-theme="obsidian-black"] {
+      --bg-canvas: #0C0C0C;
+      --bg-card: #151515;
+      --accent: #FFD700;
+      --text-main: #FFFFFF;
+      --text-sub: #D8D8D8;
+      --text-muted: #888888;
+      --border-outer: rgba(255, 215, 0, 0.25);
+      --border-card: rgba(255, 215, 0, 0.35);
+      --icon-bg: #FFD700;
+      --icon-fg: #0C0C0C;
+      --divider: rgba(255, 215, 0, 0.25);
+      --tips-bg: #1A1A1A;
+      --tips-border: #FFD700;
+    }
+
+    body[data-theme="cobalt-blue"] {
+      --bg-canvas: #071B65;
+      --bg-card: #0A227E;
+      --accent: #FFD200;
+      --text-main: #FFFFFF;
+      --text-sub: #D6E4FF;
+      --text-muted: #8EB3F5;
+      --border-outer: rgba(255, 210, 0, 0.3);
+      --border-card: rgba(255, 210, 0, 0.4);
+      --icon-bg: #FFD200;
+      --icon-fg: #071B65;
+      --divider: rgba(255, 210, 0, 0.25);
+      --tips-bg: #0D2B9E;
+      --tips-border: #FFD200;
+    }
+
     body {
       width: 1086px;
       height: 1448px;
-      background-color: #061D75;
-      color: #FFFFFF;
-      font-family: -apple-system, BlinkMacSystemFont, "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-      padding: 48px 58px 40px 58px;
+      background-color: var(--bg-canvas);
+      color: var(--text-main);
+      font-family: -apple-system, BlinkMacSystemFont, "Noto Sans SC", "PingFang SC", sans-serif;
+      padding: 56px 64px 46px 64px;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
       overflow: hidden;
       position: relative;
     }
 
-    /* HEADER */
+    /* Paper Noise Overlay */
+    .paper-texture {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      opacity: 0.35;
+      mix-blend-mode: multiply;
+      z-index: 100;
+    }
+
+    /* ================= HEADER ================= */
     .header {
       display: flex;
       flex-direction: column;
+      margin-bottom: 24px;
     }
 
-    .meta-row {
+    .header-top {
       display: flex;
-      flex-direction: column;
-      gap: 3px;
-      margin-bottom: 8px;
+      justify-content: space-between;
+      align-items: flex-start;
     }
 
-    .meta-cn {
-      font-size: 19px;
-      font-weight: 800;
-      color: #FFFFFF;
-      letter-spacing: 0.04em;
-    }
-
-    .meta-en {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 11.5px;
-      font-weight: 700;
-      color: #8EA6E8;
-      letter-spacing: 0.12em;
-    }
-
-    .main-title {
-      font-family: "Noto Sans SC", "PingFang SC", sans-serif;
-      font-size: 104px;
-      font-weight: 900;
-      line-height: 1.0;
-      color: #FFFFFF;
-      letter-spacing: -0.02em;
-      margin-bottom: 6px;
-    }
-
-    .subtitle-en {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 34px;
-      font-weight: 800;
-      color: #FFD200;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      line-height: 1.1;
-    }
-
-    .title-bar {
-      width: 38px;
-      height: 3.5px;
-      background-color: #FFD200;
-      border-radius: 2px;
-      margin-top: 10px;
-      margin-bottom: 12px;
-    }
-
-    .desc-row {
-      display: grid;
-      grid-template-columns: 280px 1fr;
-      gap: 24px;
-      align-items: start;
-    }
-
-    .desc-cn {
-      font-size: 17.5px;
-      line-height: 1.55;
-      color: #E2E8F8;
-      font-weight: 500;
-    }
-
-    .desc-en {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 12px;
-      line-height: 1.45;
-      color: #8EA6E8;
-      font-weight: 600;
-    }
-
-    /* MIDDLE CONTENT */
-    .middle-content {
-      display: grid;
-      grid-template-columns: 270px 670px;
-      gap: 26px;
-      align-items: start;
-      margin-top: 10px;
-    }
-
-    /* Left Column: 4 Circular Features */
-    .features-list {
-      display: flex;
-      flex-direction: column;
-      gap: 18px;
-    }
-
-    .feature-item {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-    }
-
-    .feature-icon-circle {
-      width: 54px;
-      height: 54px;
-      border-radius: 50%;
-      background: #FFD200;
-      color: #061D75;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0;
-      box-shadow: 0 4px 12px rgba(255, 210, 0, 0.3);
-    }
-
-    .feature-text {
+    .category-group {
       display: flex;
       flex-direction: column;
       gap: 2px;
     }
 
-    .feature-title-row {
+    .category-cn {
+      font-size: 21px;
+      font-weight: 900;
+      color: var(--text-main);
+      letter-spacing: 0.02em;
+    }
+
+    .category-en {
+      font-family: "Montserrat", sans-serif;
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--text-muted);
+      letter-spacing: 0.1em;
+    }
+
+    .tagline-group {
       display: flex;
-      align-items: baseline;
+      flex-direction: column;
+      align-items: flex-end;
       gap: 6px;
     }
 
-    .feature-title {
-      font-size: 18.5px;
-      font-weight: 900;
-      color: #FFFFFF;
+    .tagline-text {
+      font-size: 19px;
+      font-weight: 700;
+      color: var(--text-sub);
+      letter-spacing: 0.02em;
     }
 
-    .feature-en {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 11px;
-      font-weight: 800;
-      color: #FFD200;
-      letter-spacing: 0.08em;
+    .tagline-bar {
+      width: 44px;
+      height: 4px;
+      background-color: var(--accent);
+      border-radius: 2px;
+    }
+
+    /* TIGHT & POWERFUL TITLE */
+    .main-title {
+      font-family: "Noto Sans SC", "PingFang SC", sans-serif;
+      font-size: 114px;
+      font-weight: 900;
+      line-height: 0.95;
+      color: var(--text-main);
+      letter-spacing: -0.04em;
+      margin-top: 18px;
+      margin-bottom: 8px;
+      -webkit-text-stroke: 1.5px var(--text-main);
+    }
+
+    .subtitle-en {
+      font-family: "Montserrat", sans-serif;
+      font-size: 38px;
+      font-weight: 900;
+      color: var(--accent);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      line-height: 1.0;
+      margin-bottom: 14px;
+    }
+
+    .description-box {
+      font-size: 20px;
+      line-height: 1.5;
+      color: var(--text-sub);
+      font-weight: 600;
+      letter-spacing: 0.01em;
+    }
+
+    /* ================= MAIN CONTENT GRID ================= */
+    .main-content {
+      display: grid;
+      grid-template-columns: 360px 550px;
+      gap: 34px;
+      align-items: stretch;
+      margin-top: 4px;
+    }
+
+    /* Visual Canvas Card */
+    .visual-box {
+      background: var(--bg-card);
+      border: 1.8px solid var(--border-card);
+      border-radius: 24px;
+      height: 790px;
+      overflow: hidden;
+      position: relative;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .visual-box svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .visual-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: 22px;
+    }
+
+    /* Features Column */
+    .feature-column {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 790px;
+    }
+
+    .feature-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+    }
+
+    .feature-row {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      padding: 20px 0;
+      border-bottom: 1px solid var(--divider);
+    }
+
+    .feature-row:first-child {
+      padding-top: 4px;
+    }
+
+    .feature-row:last-child {
+      border-bottom: none;
+      padding-bottom: 16px;
+    }
+
+    .feature-icon-circle {
+      width: 68px;
+      height: 68px;
+      border-radius: 50%;
+      background: var(--icon-bg);
+      color: var(--icon-fg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+    }
+
+    .feature-icon-circle svg {
+      width: 32px;
+      height: 32px;
+      stroke-width: 2.5;
+    }
+
+    .feature-text-block {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .feature-title {
+      font-size: 23px;
+      font-weight: 900;
+      color: var(--text-main);
+      letter-spacing: 0.01em;
     }
 
     .feature-desc {
-      font-size: 12.5px;
-      line-height: 1.35;
-      color: #A8C4FF;
+      font-size: 15px;
+      line-height: 1.38;
+      color: var(--text-sub);
+      font-weight: 600;
     }
 
-    /* Visual Geometric Diagram */
-    .diagram-wrap {
-      width: 670px;
-      height: 580px;
-      position: relative;
+    .feature-tag-en {
+      font-family: "Montserrat", sans-serif;
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--accent);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-top: 1px;
     }
 
-    /* Callout on the right of the sun */
-    .focal-callout {
-      position: absolute;
-      top: 130px;
-      right: 40px;
+    /* Tips Card */
+    .tips-card {
+      background: var(--tips-bg);
+      border: 1.8px dashed var(--tips-border);
+      border-radius: 16px;
+      padding: 22px 22px 20px 22px;
       display: flex;
       flex-direction: column;
-      gap: 3px;
-      z-index: 10;
+      gap: 12px;
+      margin-top: auto;
     }
 
-    .focal-title {
-      font-size: 16px;
+    .tips-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 20px;
       font-weight: 900;
-      color: #FFD200;
+      color: var(--text-main);
     }
 
-    .focal-en {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 11px;
-      font-weight: 800;
-      color: #FFD200;
-      letter-spacing: 0.08em;
+    .tips-header svg {
+      width: 24px;
+      height: 24px;
+      color: var(--accent);
     }
 
-    .focal-desc {
-      font-size: 12px;
-      color: #FFFFFF;
-      line-height: 1.35;
+    .tips-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
     }
 
-    /* BOTTOM SECTION */
-    .bottom-section {
-      display: grid;
-      grid-template-columns: 460px 480px;
-      gap: 26px;
-      margin-top: 10px;
+    .tips-list li {
+      position: relative;
+      padding-left: 14px;
+      font-size: 15px;
+      line-height: 1.45;
+      color: var(--text-sub);
+      font-weight: 600;
     }
 
-    .bottom-box {
-      border: 1.5px solid rgba(255, 210, 0, 0.35);
-      border-radius: 12px;
-      background: rgba(6, 29, 117, 0.4);
-      padding: 16px 18px;
+    .tips-list li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: 900;
+      font-size: 17px;
+    }
+
+    .tips-bottom-bar {
+      width: 54px;
+      height: 4px;
+      background-color: var(--accent);
+      border-radius: 2px;
+      margin-top: 2px;
+    }
+
+    /* ================= FOOTER KEYWORDS ================= */
+    .footer {
+      border-top: 1.8px solid var(--border-outer);
+      padding-top: 20px;
+      margin-top: auto;
       display: flex;
       flex-direction: column;
       gap: 12px;
     }
 
-    .bottom-header {
+    .footer-title-row {
       display: flex;
-      align-items: baseline;
-      gap: 8px;
-      border-bottom: 1px solid rgba(255, 210, 0, 0.25);
-      padding-bottom: 8px;
-    }
-
-    .bottom-title-cn {
-      font-size: 16.5px;
+      align-items: center;
+      gap: 6px;
+      font-size: 16px;
       font-weight: 900;
-      color: #FFFFFF;
+      color: var(--accent);
+      letter-spacing: 0.05em;
     }
 
-    .bottom-title-en {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 11px;
+    .footer-title-row span.en {
+      font-family: "Montserrat", sans-serif;
+      font-size: 12.5px;
       font-weight: 800;
-      color: #FFD200;
       letter-spacing: 0.08em;
     }
 
-    /* Elements Grid */
-    .elements-grid {
+    .footer-bar-accent {
+      width: 34px;
+      height: 3.5px;
+      background-color: var(--accent);
+      border-radius: 2px;
+      margin-top: -6px;
+    }
+
+    .keywords-row {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      gap: 8px;
-    }
-
-    .element-card {
-      display: flex;
-      flex-direction: column;
       align-items: center;
-      text-align: center;
-      gap: 4px;
     }
 
-    .element-card svg {
-      color: #FFD200;
-    }
-
-    .element-name {
-      font-size: 14px;
-      font-weight: 800;
-      color: #FFFFFF;
-    }
-
-    .element-en {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 9.5px;
-      font-weight: 800;
-      color: #FFD200;
-      letter-spacing: 0.06em;
-    }
-
-    .element-desc {
-      font-size: 10.5px;
-      color: #A8C4FF;
-      line-height: 1.3;
-    }
-
-    /* Application Bullets */
-    .app-bullets {
-      list-style: none;
+    .kw-item {
       display: flex;
-      flex-direction: column;
-      gap: 5px;
-    }
-
-    .app-bullets li {
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
       position: relative;
-      padding-left: 12px;
-      font-size: 12px;
-      line-height: 1.35;
-      color: #E2E8F8;
     }
 
-    .app-bullets li::before {
-      content: "•";
+    .kw-item:not(:last-child)::after {
+      content: "";
       position: absolute;
-      left: 0;
-      color: #FFD200;
-      font-weight: 900;
+      right: 0;
+      top: 10%;
+      height: 80%;
+      width: 1px;
+      background-color: var(--divider);
     }
 
-    .progress-row {
+    .kw-item svg {
+      width: 30px;
+      height: 30px;
+      color: var(--accent);
+      stroke-width: 2.4;
+    }
+
+    .kw-text {
       display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-top: 4px;
-      padding-top: 6px;
-      border-top: 1px solid rgba(255, 210, 0, 0.2);
+      flex-direction: column;
+      gap: 1px;
     }
 
-    .progress-box {
-      width: 80px;
-      height: 44px;
-      border: 1px solid rgba(255, 210, 0, 0.3);
-      background: rgba(0, 0, 0, 0.15);
-      border-radius: 4px;
-      overflow: hidden;
+    .kw-cn {
+      font-size: 18px;
+      font-weight: 900;
+      color: var(--text-main);
     }
 
-    .progress-arrow {
-      color: #FFD200;
-      font-size: 10px;
-    }
-
-    .progress-caption {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 10px;
+    .kw-en {
+      font-family: "Montserrat", sans-serif;
+      font-size: 11.5px;
       font-weight: 700;
-      color: #A8C4FF;
-      text-align: center;
-      margin-top: 2px;
-      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
     }
   </style>
 </head>
-<body>
+<body data-theme="cobalt-blue">
+
+  <!-- Paper Grain SVG Texture -->
+  <svg class="paper-texture" xmlns="http://www.w3.org/2000/svg">
+    <filter id="noiseFilter">
+      <feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.15 0"/>
+    </filter>
+    <rect width="100%" height="100%" filter="url(#noiseFilter)"/>
+  </svg>
 
   <!-- HEADER -->
   <header class="header">
-    <div class="meta-row">
-      <span class="meta-cn">构图原理 | 结构与视觉引导</span>
-      <span class="meta-en">COMPOSITION PRINCIPLES</span>
+    <div class="header-top">
+      <div class="category-group">
+        <span class="category-cn">构图逻辑</span>
+        <span class="category-en">COMPOSITION PRINCIPLES</span>
+      </div>
+      <div class="tagline-group">
+        <span class="tagline-text">COMPOSITION PRINCIPLES</span>
+        <div class="tagline-bar"></div>
+      </div>
     </div>
 
     <h1 class="main-title">黄金三角构图</h1>
     <div class="subtitle-en">GOLDEN TRIANGLE COMPOSITION</div>
-    <div class="title-bar"></div>
 
-    <div class="desc-row">
-      <div class="desc-cn">
-        利用一条主要斜线与一条辅助斜线，<br>
-        构建稳定而有张力的三角结构，<br>
-        自然引导视线聚焦于关键主体。
-      </div>
-      <div class="desc-en">
-        Use a primary diagonal and an auxiliary line to form a stable yet dynamic triangular structure, naturally guiding the eye to the focal subject.
-      </div>
+    <div class="description-box">
+      由对角线与两顶点引出的垂直线交汇而成。形成动态三角形视觉框架，天然引导视线聚拢，赋予画面强烈的动态张力与行进动势。
     </div>
   </header>
 
-  <!-- MIDDLE CONTENT -->
-  <section class="middle-content">
+  <!-- MAIN SECTION -->
+  <main class="main-content">
     
-    <!-- Left Column: 4 Features -->
-    <div class="features-list">
-      <!-- Feature 1 -->
-      <div class="feature-item">
-        <div class="feature-icon-circle">
-          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2.6">
-            <line x1="7" y1="17" x2="17" y2="7"/>
-            <polyline points="7 7 17 7 17 17"/>
-          </svg>
-        </div>
-        <div class="feature-text">
-          <div class="feature-title-row">
-            <span class="feature-title">方向引导</span>
-            <span class="feature-en">DIRECTION</span>
+        <div class="visual-box"><svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <radialGradient id="sunGold" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#FFD000" stop-opacity="0.8"/>
+          <stop offset="40%" stop-color="#FFD000" stop-opacity="0.25"/>
+          <stop offset="100%" stop-color="#FFD000" stop-opacity="0"/>
+        </radialGradient>
+        <linearGradient id="mountGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#8BB6F9"/>
+          <stop offset="100%" stop-color="#1B428A"/>
+        </linearGradient>
+      </defs>
+      <rect width="550" height="620" fill="#071E4D" rx="8"/>
+      <line x1="0" y1="520" x2="550" y2="520" stroke="#1C448D" stroke-width="1.5" />
+      <line x1="20" y1="550" x2="530" y2="550" stroke="#1C448D" stroke-width="1.2" stroke-dasharray="8,8" />
+      <polygon points="120,530 260,330 400,530" fill="#133674" />
+      <polygon points="40,530 180,380 320,530" fill="url(#mountGrad)" opacity="0.9" />
+      <polygon points="140,430 180,380 220,430" fill="#FFFFFF" opacity="0.9" />
+      <polygon points="200,530 330,280 460,530" fill="#3A6EC7" />
+      <polygon points="280,360 330,280 375,360" fill="#FFFFFF" />
+      <g transform="translate(380, 460)">
+        <polygon points="20,0 20,-48 44,0" fill="#FFFFFF"/>
+        <polygon points="16,0 16,-40 -2,0" fill="#D6E4FF"/>
+        <polygon points="-8,3 48,3 38,12 2,12" fill="#FFD000"/>
+      </g>
+      <line x1="30" y1="530" x2="480" y2="90" stroke="#FFD000" stroke-width="3.5" stroke-linecap="round"/>
+      <polygon points="480,90 462,108 478,114" fill="#FFD000"/>
+      <line x1="480" y1="530" x2="365" y2="205" stroke="#FFD000" stroke-width="3" stroke-linecap="round"/>
+      <rect x="30" y="90" width="450" height="440" stroke="rgba(255, 208, 0, 0.4)" stroke-width="1.2" stroke-dasharray="4,4" fill="none"/>
+      <circle cx="365" cy="205" r="64" fill="url(#sunGold)"/>
+      <circle cx="365" cy="205" r="22" stroke="#FFFFFF" stroke-width="2" fill="#FFFFFF"/>
+      <line x1="365" y1="180" x2="365" y2="230" stroke="#0B2B68" stroke-width="2"/>
+      <line x1="340" y1="205" x2="390" y2="205" stroke="#0B2B68" stroke-width="2"/>
+      <text x="140" y="290" fill="#FFD000" font-size="12" font-weight="600" font-family="PingFang SC" transform="rotate(-44 140 290)">
+        主对角动态引导线 · 牵引视线自下而上
+      </text>
+    </svg></div>
+        <div class="feature-column"><div class="feature-list">
+        <div class="feature-row">
+          <div class="feature-icon-circle">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3">
+              <circle cx="12" cy="12" r="7"/>
+              <circle cx="12" cy="12" r="2" fill="currentColor"/>
+              <line x1="12" y1="2" x2="12" y2="5"/>
+              <line x1="12" y1="19" x2="12" y2="22"/>
+              <line x1="2" y1="12" x2="5" y2="12"/>
+              <line x1="19" y1="12" x2="22" y2="12"/>
+            </svg>
           </div>
-          <div class="feature-desc">对角线创造动感<br>引导视线流动</div>
+          <div class="feature-text-block">
+            <div class="feature-title">方向引导</div>
+            <div class="feature-desc">主对角线天然构成视线引力通道，牵引眼球从低位直达核心高位。</div>
+            <div class="feature-tag-en">Direction</div>
+          </div>
         </div>
+        
+        <div class="feature-row">
+          <div class="feature-icon-circle">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3">
+              <circle cx="12" cy="12" r="7"/>
+              <circle cx="12" cy="12" r="2" fill="currentColor"/>
+              <line x1="12" y1="2" x2="12" y2="5"/>
+              <line x1="12" y1="19" x2="12" y2="22"/>
+              <line x1="2" y1="12" x2="5" y2="12"/>
+              <line x1="19" y1="12" x2="22" y2="12"/>
+            </svg>
+          </div>
+          <div class="feature-text-block">
+            <div class="feature-title">视觉焦点</div>
+            <div class="feature-desc">垂线交叉点（黄金交点）汇聚双向动量，是锚定主角的天然据点。</div>
+            <div class="feature-tag-en">Focus</div>
+          </div>
+        </div>
+        
+        <div class="feature-row">
+          <div class="feature-icon-circle">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3">
+              <circle cx="12" cy="12" r="7"/>
+              <circle cx="12" cy="12" r="2" fill="currentColor"/>
+              <line x1="12" y1="2" x2="12" y2="5"/>
+              <line x1="12" y1="19" x2="12" y2="22"/>
+              <line x1="2" y1="12" x2="5" y2="12"/>
+              <line x1="19" y1="12" x2="22" y2="12"/>
+            </svg>
+          </div>
+          <div class="feature-text-block">
+            <div class="feature-title">张力感</div>
+            <div class="feature-desc">斜线打破水平沉闷，斜倾坡度与直角交错激发速度与冲劲。</div>
+            <div class="feature-tag-en">Tension</div>
+          </div>
+        </div>
+        
+        <div class="feature-row">
+          <div class="feature-icon-circle">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3">
+              <circle cx="12" cy="12" r="7"/>
+              <circle cx="12" cy="12" r="2" fill="currentColor"/>
+              <line x1="12" y1="2" x2="12" y2="5"/>
+              <line x1="12" y1="19" x2="12" y2="22"/>
+              <line x1="2" y1="12" x2="5" y2="12"/>
+              <line x1="19" y1="12" x2="22" y2="12"/>
+            </svg>
+          </div>
+          <div class="feature-text-block">
+            <div class="feature-title">透视导向</div>
+            <div class="feature-desc">三角形构架支撑纵深透视空间，前后景错落分明，秩序稳定。</div>
+            <div class="feature-tag-en">Perspective</div>
+          </div>
+        </div>
+        </div>
+    <div class="tips-card">
+      <div class="tips-header">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path>
+          <path d="M9 18h6"></path>
+          <path d="M10 22h4"></path>
+        </svg>
+        <span>应用建议</span>
       </div>
+      <ul class="tips-list">
+    <li><strong>运动/速度题材：</strong>主体沿着主斜线冲刺（如飞鸟、跑车），顺风而行。</li><li><strong>风光与航海：</strong>地平/海面平压底部，帆船或山峰沿斜角穿透空间。</li><li><strong>科技商业海报：</strong>将核心文案置于左下大三角，高亮光效汇聚右上顶点。</li><div class="tips-bottom-bar"></div></ul></div></div>
+        
+  </main>
 
-      <!-- Feature 2 -->
-      <div class="feature-item">
-        <div class="feature-icon-circle">
-          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2.4">
-            <circle cx="12" cy="12" r="9"/>
-            <circle cx="12" cy="12" r="5"/>
-            <circle cx="12" cy="12" r="2" fill="currentColor"/>
-          </svg>
-        </div>
-        <div class="feature-text">
-          <div class="feature-title-row">
-            <span class="feature-title">视觉焦点</span>
-            <span class="feature-en">FOCUS</span>
-          </div>
-          <div class="feature-desc">强交点聚集注意力<br>突出关键主体</div>
-        </div>
-      </div>
-
-      <!-- Feature 3 -->
-      <div class="feature-item">
-        <div class="feature-icon-circle">
-          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2.4">
-            <path d="M2 8 C5 5, 7 11, 10 8 C13 5, 15 11, 18 8 C20 6, 22 8, 23 8"/>
-            <path d="M2 13 C5 10, 7 16, 10 13 C13 10, 15 16, 18 13 C20 11, 22 13, 23 13"/>
-            <path d="M2 18 C5 15, 7 21, 10 18 C13 15, 15 21, 18 18 C20 16, 22 18, 23 18"/>
-          </svg>
-        </div>
-        <div class="feature-text">
-          <div class="feature-title-row">
-            <span class="feature-title">张力感</span>
-            <span class="feature-en">TENSION</span>
-          </div>
-          <div class="feature-desc">对角线与三角形<br>形成视觉张力</div>
-        </div>
-      </div>
-
-      <!-- Feature 4 -->
-      <div class="feature-item">
-        <div class="feature-icon-circle">
-          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2.4">
-            <polygon points="12,4 21,19 3,19"/>
-          </svg>
-        </div>
-        <div class="feature-text">
-          <div class="feature-title-row">
-            <span class="feature-title">稳定结构</span>
-            <span class="feature-en">STABILITY</span>
-          </div>
-          <div class="feature-desc">三角结构稳固<br>画面均衡可靠</div>
-        </div>
-      </div>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-title-row">
+      <span>关键词</span>
+      <span class="en">KEYWORDS</span>
     </div>
+    <div class="footer-bar-accent"></div>
 
-    <!-- Right Column: Visual Graphic -->
-    <div class="diagram-wrap">
+    <div class="keywords-row">
       
-      <!-- Focal Callout -->
-      <div class="focal-callout">
-        <div class="focal-title">视觉焦点</div>
-        <div class="focal-en">FOCUS</div>
-        <div class="focal-desc">主体落在强交点<br>吸引注意力</div>
-      </div>
-
-      <svg viewBox="0 0 670 580" width="670" height="580" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-          <filter id="sunBlur" x="-50%" y="-50%" width="200%" height="200%">
-            <feGaussianBlur stdDeviation="6" result="blur"/>
-            <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-          </filter>
-        </defs>
-
-        <!-- Vertical grid indicator line -->
-        <line x1="418" y1="100" x2="418" y2="500" stroke="#FFFFFF" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
-        <line x1="210" y1="204" x2="590" y2="204" stroke="#FFFFFF" stroke-width="1" stroke-dasharray="3,3" opacity="0.3"/>
-
-        <!-- Secondary Mountain in background -->
-        <polygon points="300,500 430,350 530,500" fill="#1B388A"/>
-        <polygon points="430,350 455,390 405,390" fill="#7595EB" opacity="0.6"/>
-
-        <!-- Foreground Navy Mountain with Snow Peak -->
-        <polygon points="170,500 330,280 490,500" fill="#0D2875"/>
-        <!-- Crisp Snow White Peak -->
-        <polygon points="330,280 390,360 365,355 350,370 330,350 310,370 295,355 270,360" fill="#FFFFFF"/>
-        <!-- Mountain facet shadow -->
-        <polygon points="330,280 390,360 490,500 330,500" fill="#081D5E" opacity="0.6"/>
-
-        <!-- Sea water surface reflection lines -->
-        <line x1="450" y1="485" x2="550" y2="485" stroke="#FFFFFF" stroke-width="1.5" opacity="0.5"/>
-        <line x1="470" y1="492" x2="530" y2="492" stroke="#FFFFFF" stroke-width="1.2" opacity="0.4"/>
-
-        <!-- Origami Sailboat -->
-        <g transform="translate(485, 455)">
-          <polygon points="-25,12 25,12 18,20 -18,20" fill="#FFFFFF"/>
-          <polygon points="-2,10 -2,-28 16,8" fill="#FFFFFF"/>
-          <polygon points="-5,8 -5,-22 -18,8" fill="#E2E8F8"/>
-        </g>
-
-        <!-- Flying Birds -->
-        <path d="M 490 180 Q 496 175 502 180 Q 508 175 514 180" fill="none" stroke="#FFFFFF" stroke-width="1.8" opacity="0.75"/>
-        <path d="M 510 195 Q 515 191 520 195 Q 525 191 530 195" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.7"/>
-        <path d="M 485 205 Q 489 202 494 205 Q 498 202 503 205" fill="none" stroke="#FFFFFF" stroke-width="1.4" opacity="0.6"/>
-
-        <!-- BASE LINE: STABILITY -->
-        <line x1="160" y1="500" x2="580" y2="500" stroke="#FFD200" stroke-width="4.5" stroke-linecap="round"/>
-        <circle cx="160" cy="500" r="8" fill="#FFD200"/>
-        <circle cx="580" cy="500" r="8" fill="#FFD200"/>
-
-        <!-- Text under Base Line -->
-        <text x="370" y="528" fill="#FFFFFF" font-size="14" font-weight="800" text-anchor="middle">底边：稳定基础</text>
-        <text x="370" y="544" fill="#FFD200" font-size="11" font-weight="800" font-family="Montserrat" text-anchor="middle">BASE LINE: STABILITY</text>
-
-        <!-- PRIMARY DIAGONAL: From bottom-left (160, 500) to top-right (520, 80) -->
-        <line x1="160" y1="500" x2="520" y2="80" stroke="#FFD200" stroke-width="4.5"/>
-        <!-- Arrow tip at top-right -->
-        <polygon points="525,65 505,85 535,95" fill="#FFD200"/>
-
-        <!-- Text along Primary Diagonal -->
-        <text x="280" y="320" fill="#FFD200" font-size="13" font-weight="900" transform="rotate(-49.4 280 320)">
-          主要斜线：强方向引导  MAIN DIAGONAL: DIRECTION
-        </text>
-
-        <!-- AUXILIARY PERPENDICULAR LINE: From (580, 500) up-left to (418, 204) -->
-        <line x1="580" y1="500" x2="418" y2="204" stroke="#FFD200" stroke-width="2.8" stroke-dasharray="6,4"/>
-
-        <!-- Text along Auxiliary Line -->
-        <text x="470" y="290" fill="#FFD200" font-size="11.5" font-weight="900" transform="rotate(61.3 470 290)">
-          辅助斜线：支撑与稳定  AUXILIARY LINE: SUPPORT
-        </text>
-
-        <!-- THE SUN (Focal Point at Upper Intersection 418, 204) -->
-        <!-- Concentric rings -->
-        <circle cx="418" cy="204" r="65" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.2"/>
-        <circle cx="418" cy="204" r="50" fill="none" stroke="#FFFFFF" stroke-width="1.2" opacity="0.35"/>
-        <!-- Bright White Sun -->
-        <circle cx="418" cy="204" r="36" fill="#FFFFFF" filter="url(#sunBlur)"/>
-        <!-- Golden Center Dot -->
-        <circle cx="418" cy="204" r="6" fill="#FFD200"/>
-      </svg>
-
+        <div class="kw-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="8"/>
+          </svg>
+          <div class="kw-text">
+            <span class="kw-cn">方向</span>
+            <span class="kw-en">DIRECTION</span>
+          </div>
+        </div>
+        
+        <div class="kw-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="8"/>
+          </svg>
+          <div class="kw-text">
+            <span class="kw-cn">焦点</span>
+            <span class="kw-en">FOCUS</span>
+          </div>
+        </div>
+        
+        <div class="kw-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="8"/>
+          </svg>
+          <div class="kw-text">
+            <span class="kw-cn">张力</span>
+            <span class="kw-en">TENSION</span>
+          </div>
+        </div>
+        
+        <div class="kw-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="8"/>
+          </svg>
+          <div class="kw-text">
+            <span class="kw-cn">稳定</span>
+            <span class="kw-en">STABILITY</span>
+          </div>
+        </div>
+        
     </div>
-
-  </section>
-
-  <!-- BOTTOM SECTION: KEY ELEMENTS & APPLICATION -->
-  <footer class="bottom-section">
-    
-    <!-- Left Box: Key Elements -->
-    <div class="bottom-box">
-      <div class="bottom-header">
-        <span class="bottom-title-cn">黄金三角的关键要素</span>
-        <span class="bottom-title-en">KEY ELEMENTS</span>
-      </div>
-
-      <div class="elements-grid">
-        <div class="element-card">
-          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2.4">
-            <line x1="6" y1="18" x2="18" y2="6"/>
-            <polyline points="9 6 18 6 18 15"/>
-          </svg>
-          <span class="element-name">斜线</span>
-          <span class="element-en">DIAGONAL</span>
-          <span class="element-desc">创造方向感<br>增强画面动势</span>
-        </div>
-
-        <div class="element-card">
-          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2.2">
-            <circle cx="12" cy="12" r="9"/>
-            <circle cx="12" cy="12" r="4"/>
-            <circle cx="12" cy="12" r="1.5" fill="currentColor"/>
-          </svg>
-          <span class="element-name">交点</span>
-          <span class="element-en">INTERSECTION</span>
-          <span class="element-desc">强交点是焦点<br>吸引视线停留</span>
-        </div>
-
-        <div class="element-card">
-          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2.4">
-            <polygon points="12,4 21,19 3,19"/>
-          </svg>
-          <span class="element-name">三角形</span>
-          <span class="element-en">TRIANGLE</span>
-          <span class="element-desc">构建稳定结构<br>增强画面力量</span>
-        </div>
-
-        <div class="element-card">
-          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2.4">
-            <line x1="4" y1="7" x2="20" y2="7"/>
-            <line x1="4" y1="12" x2="20" y2="12"/>
-            <line x1="4" y1="17" x2="20" y2="17"/>
-          </svg>
-          <span class="element-name">平衡</span>
-          <span class="element-en">BALANCE</span>
-          <span class="element-desc">张力与稳定并存<br>画面和谐统一</span>
-        </div>
-      </div>
-    </div>
-
-    <!-- Right Box: Application -->
-    <div class="bottom-box">
-      <div class="bottom-header">
-        <span class="bottom-title-cn">应用建议</span>
-        <span class="bottom-title-en">APPLICATION</span>
-      </div>
-
-      <ul class="app-bullets">
-        <li>风景摄影：horizon与斜线结合，焦点置于强交点</li>
-        <li>人物拍摄：主体放在交点，背景线条辅助引导</li>
-        <li>版式设计：重要信息置于交点，形成清晰层级</li>
-        <li>产品展示：斜线引导视线，突出核心卖点</li>
-      </ul>
-
-      <!-- Progression sequence -->
-      <div class="progress-row">
-        <div class="progress-box">
-          <svg viewBox="0 0 80 44" width="80" height="44">
-            <line x1="15" y1="35" x2="65" y2="10" stroke="#FFD200" stroke-width="1.5"/>
-          </svg>
-        </div>
-        <span class="progress-arrow">▶</span>
-
-        <div class="progress-box">
-          <svg viewBox="0 0 80 44" width="80" height="44">
-            <line x1="15" y1="35" x2="65" y2="10" stroke="#FFD200" stroke-width="1.5"/>
-            <line x1="65" y1="35" x2="45" y2="20" stroke="#FFD200" stroke-width="1" stroke-dasharray="2,2"/>
-            <line x1="15" y1="35" x2="65" y2="35" stroke="#FFD200" stroke-width="1.5"/>
-          </svg>
-        </div>
-        <span class="progress-arrow">▶</span>
-
-        <div class="progress-box">
-          <svg viewBox="0 0 80 44" width="80" height="44">
-            <polygon points="20,35 40,18 60,35" fill="#0D2875" stroke="#FFD200" stroke-width="1"/>
-            <line x1="15" y1="35" x2="65" y2="35" stroke="#FFD200" stroke-width="1"/>
-          </svg>
-        </div>
-        <span class="progress-arrow">▶</span>
-
-        <div class="progress-box">
-          <svg viewBox="0 0 80 44" width="80" height="44">
-            <polygon points="20,35 40,18 60,35" fill="#0D2875" stroke="#FFD200" stroke-width="1"/>
-            <circle cx="52" cy="15" r="5" fill="#FFFFFF"/>
-            <circle cx="52" cy="15" r="8" fill="none" stroke="#FFD200" stroke-width="0.8"/>
-          </svg>
-        </div>
-      </div>
-
-      <div class="progress-caption">从线到形，从结构到焦点 · FROM LINE TO SHAPE, FROM STRUCTURE TO FOCUS</div>
-    </div>
-
   </footer>
 
 </body>

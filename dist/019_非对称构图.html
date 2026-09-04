@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>019 非对称构图 - 350 Layout Compositions</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Noto+Sans+SC:wght@900&display=swap');
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Noto+Sans+SC:wght@700;900&display=swap");
 
     * {
       margin: 0;
@@ -14,18 +14,20 @@
     }
 
     /* THEME SYSTEM (CSS Variables) */
-    :root {
+    :root, body[data-theme="warm-ivory"] {
       --bg-canvas: #F8F4EC;
-      --bg-card: #FDFBF7;
-      --accent: #E25238;
+      --bg-card: #FAF7F0;
+      --accent: #E03E2D;
       --text-main: #111111;
-      --text-sub: #383531;
-      --text-muted: #555047;
-      --border-outer: #E6DFD3;
-      --border-card: #E4DDD2;
-      --icon-bg: #E25238;
+      --text-sub: #383838;
+      --text-muted: #666666;
+      --border-outer: #E2DCD1;
+      --border-card: #D5CCC0;
+      --icon-bg: #E03E2D;
       --icon-fg: #FFFFFF;
       --divider: #E2DCD1;
+      --tips-bg: #FAF5ED;
+      --tips-border: #E03E2D;
     }
 
     body[data-theme="forest-green"] {
@@ -36,10 +38,12 @@
       --text-sub: #D1E5DE;
       --text-muted: #8AAEA3;
       --border-outer: rgba(212, 175, 55, 0.3);
-      --border-card: rgba(212, 175, 55, 0.35);
+      --border-card: rgba(212, 175, 55, 0.4);
       --icon-bg: #D4AF37;
       --icon-fg: #09241C;
       --divider: rgba(212, 175, 55, 0.25);
+      --tips-bg: #103328;
+      --tips-border: #D4AF37;
     }
 
     body[data-theme="obsidian-black"] {
@@ -54,20 +58,24 @@
       --icon-bg: #FFD700;
       --icon-fg: #0C0C0C;
       --divider: rgba(255, 215, 0, 0.25);
+      --tips-bg: #1A1A1A;
+      --tips-border: #FFD700;
     }
 
     body[data-theme="cobalt-blue"] {
-      --bg-canvas: #0B2B68;
-      --bg-card: #082154;
-      --accent: #FFD000;
+      --bg-canvas: #071B65;
+      --bg-card: #0A227E;
+      --accent: #FFD200;
       --text-main: #FFFFFF;
       --text-sub: #D6E4FF;
       --text-muted: #8EB3F5;
-      --border-outer: rgba(255, 255, 255, 0.2);
-      --border-card: rgba(255, 208, 0, 0.35);
-      --icon-bg: #FFD000;
-      --icon-fg: #0B2B68;
-      --divider: rgba(255, 255, 255, 0.15);
+      --border-outer: rgba(255, 210, 0, 0.3);
+      --border-card: rgba(255, 210, 0, 0.4);
+      --icon-bg: #FFD200;
+      --icon-fg: #071B65;
+      --divider: rgba(255, 210, 0, 0.25);
+      --tips-bg: #0D2B9E;
+      --tips-border: #FFD200;
     }
 
     body {
@@ -75,123 +83,132 @@
       height: 1448px;
       background-color: var(--bg-canvas);
       color: var(--text-main);
-      font-family: -apple-system, BlinkMacSystemFont, "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-      padding: 48px 56px 42px 56px;
+      font-family: -apple-system, BlinkMacSystemFont, "Noto Sans SC", "PingFang SC", sans-serif;
+      padding: 56px 64px 46px 64px;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
       overflow: hidden;
       position: relative;
+    }
+
+    /* Paper Noise Overlay */
+    .paper-texture {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      opacity: 0.35;
+      mix-blend-mode: multiply;
+      z-index: 100;
     }
 
     /* ================= HEADER ================= */
     .header {
       display: flex;
       flex-direction: column;
-      gap: 6px;
+      margin-bottom: 24px;
     }
 
-    .header-meta-row {
+    .header-top {
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
     }
 
-    .meta-left {
+    .category-group {
       display: flex;
       flex-direction: column;
-      gap: 3px;
+      gap: 2px;
     }
 
-    .meta-left-cn {
-      font-size: 16px;
-      font-weight: 800;
+    .category-cn {
+      font-size: 21px;
+      font-weight: 900;
       color: var(--text-main);
-      letter-spacing: 0.04em;
+      letter-spacing: 0.02em;
     }
 
-    .meta-left-en {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 11px;
-      font-weight: 700;
+    .category-en {
+      font-family: "Montserrat", sans-serif;
+      font-size: 13px;
+      font-weight: 800;
       color: var(--text-muted);
-      letter-spacing: 0.09em;
-      text-transform: uppercase;
+      letter-spacing: 0.1em;
     }
 
-    .meta-right {
+    .tagline-group {
       display: flex;
       flex-direction: column;
       align-items: flex-end;
       gap: 6px;
     }
 
-    .meta-right-text {
-      font-size: 15px;
-      font-weight: 600;
+    .tagline-text {
+      font-size: 19px;
+      font-weight: 700;
       color: var(--text-sub);
-      letter-spacing: 0.04em;
+      letter-spacing: 0.02em;
     }
 
-    .meta-right-bar {
+    .tagline-bar {
       width: 44px;
-      height: 3.5px;
+      height: 4px;
       background-color: var(--accent);
       border-radius: 2px;
     }
 
-    /* Main Big Title */
+    /* TIGHT & POWERFUL TITLE */
     .main-title {
       font-family: "Noto Sans SC", "PingFang SC", sans-serif;
-      font-size: 96px;
+      font-size: 114px;
       font-weight: 900;
-      line-height: 1.0;
+      line-height: 0.95;
       color: var(--text-main);
-      letter-spacing: -0.01em;
-      -webkit-text-stroke: 2px var(--text-main);
-      margin-top: 8px;
-      margin-bottom: 4px;
+      letter-spacing: -0.04em;
+      margin-top: 18px;
+      margin-bottom: 8px;
+      -webkit-text-stroke: 1.5px var(--text-main);
     }
 
-    /* Subtitle in English */
     .subtitle-en {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 33px;
-      font-weight: 800;
+      font-family: "Montserrat", sans-serif;
+      font-size: 38px;
+      font-weight: 900;
       color: var(--accent);
-      letter-spacing: 0.08em;
+      letter-spacing: 0.06em;
       text-transform: uppercase;
-      line-height: 1.1;
+      line-height: 1.0;
+      margin-bottom: 14px;
     }
 
-    /* Description paragraph */
     .description-box {
-      font-size: 18.5px;
+      font-size: 20px;
       line-height: 1.5;
       color: var(--text-sub);
       font-weight: 600;
-      margin-top: 10px;
-      letter-spacing: 0.02em;
+      letter-spacing: 0.01em;
     }
 
     /* ================= MAIN CONTENT GRID ================= */
     .main-content {
       display: grid;
       grid-template-columns: 345px 600px;
-      gap: 30px;
+      gap: 34px;
       align-items: stretch;
-      margin-top: 14px;
+      margin-top: 4px;
     }
 
     /* Visual Canvas Card */
     .visual-box {
       background: var(--bg-card);
-      border: 1.5px solid var(--border-card);
-      border-radius: 16px;
-      position: relative;
-      overflow: hidden;
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+      border: 1.8px solid var(--border-card);
+      border-radius: 24px;
       height: 790px;
+      overflow: hidden;
+      position: relative;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -200,6 +217,7 @@
     .visual-box svg {
       width: 100%;
       height: 100%;
+      display: block;
     }
 
     .visual-box img {
@@ -207,7 +225,7 @@
       height: 100%;
       object-fit: cover;
       display: block;
-      border-radius: 12px;
+      border-radius: 22px;
     }
 
     /* Features Column */
@@ -216,24 +234,34 @@
       flex-direction: column;
       justify-content: space-between;
       height: 790px;
-      padding: 4px 0 2px 0;
     }
 
     .feature-list {
       display: flex;
       flex-direction: column;
-      gap: 34px;
+      gap: 0px;
     }
 
     .feature-row {
       display: flex;
-      gap: 16px;
-      align-items: flex-start;
+      align-items: center;
+      gap: 18px;
+      padding: 20px 0;
+      border-bottom: 1px solid var(--divider);
+    }
+
+    .feature-row:first-child {
+      padding-top: 4px;
+    }
+
+    .feature-row:last-child {
+      border-bottom: none;
+      padding-bottom: 16px;
     }
 
     .feature-icon-circle {
-      width: 52px;
-      height: 52px;
+      width: 68px;
+      height: 68px;
       border-radius: 50%;
       background: var(--icon-bg);
       color: var(--icon-fg);
@@ -241,68 +269,69 @@
       align-items: center;
       justify-content: center;
       flex-shrink: 0;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
     }
 
     .feature-icon-circle svg {
-      width: 28px;
-      height: 28px;
-      stroke-width: 2.3;
+      width: 32px;
+      height: 32px;
+      stroke-width: 2.5;
     }
 
     .feature-text-block {
       display: flex;
       flex-direction: column;
-      gap: 4px;
+      gap: 2px;
     }
 
     .feature-title {
-      font-size: 21px;
+      font-size: 23px;
       font-weight: 900;
       color: var(--text-main);
-      letter-spacing: 0.02em;
+      letter-spacing: 0.01em;
     }
 
     .feature-desc {
-      font-size: 14.5px;
-      line-height: 1.45;
+      font-size: 15px;
+      line-height: 1.38;
       color: var(--text-sub);
       font-weight: 600;
     }
 
     .feature-tag-en {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 12px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 13px;
       font-weight: 800;
       color: var(--accent);
       letter-spacing: 0.08em;
       text-transform: uppercase;
-      margin-top: 2px;
+      margin-top: 1px;
     }
 
     /* Tips Card */
     .tips-card {
-      background: var(--bg-card);
-      border: 1.5px solid var(--border-card);
-      border-radius: 12px;
-      padding: 18px 20px;
+      background: var(--tips-bg);
+      border: 1.8px dashed var(--tips-border);
+      border-radius: 16px;
+      padding: 22px 22px 20px 22px;
       display: flex;
       flex-direction: column;
-      gap: 10px;
-      position: relative;
+      gap: 12px;
+      margin-top: auto;
     }
 
     .tips-header {
       display: flex;
       align-items: center;
       gap: 8px;
-      font-size: 18px;
+      font-size: 20px;
       font-weight: 900;
       color: var(--text-main);
     }
 
     .tips-header svg {
-      width: 22px;
-      height: 22px;
+      width: 24px;
+      height: 24px;
       color: var(--accent);
     }
 
@@ -310,13 +339,13 @@
       list-style: none;
       display: flex;
       flex-direction: column;
-      gap: 6px;
+      gap: 8px;
     }
 
     .tips-list li {
       position: relative;
       padding-left: 14px;
-      font-size: 14px;
+      font-size: 15px;
       line-height: 1.45;
       color: var(--text-sub);
       font-weight: 600;
@@ -328,22 +357,22 @@
       left: 0;
       color: var(--accent);
       font-weight: 900;
-      font-size: 18px;
-      line-height: 1.1;
+      font-size: 17px;
     }
 
     .tips-bottom-bar {
-      width: 48px;
-      height: 3.5px;
+      width: 54px;
+      height: 4px;
       background-color: var(--accent);
       border-radius: 2px;
-      margin-top: 4px;
+      margin-top: 2px;
     }
 
     /* ================= FOOTER KEYWORDS ================= */
     .footer {
-      border-top: 1.5px solid var(--border-outer);
-      padding-top: 18px;
+      border-top: 1.8px solid var(--border-outer);
+      padding-top: 20px;
+      margin-top: auto;
       display: flex;
       flex-direction: column;
       gap: 12px;
@@ -353,23 +382,22 @@
       display: flex;
       align-items: center;
       gap: 6px;
-      font-size: 15px;
-      font-weight: 800;
+      font-size: 16px;
+      font-weight: 900;
       color: var(--accent);
       letter-spacing: 0.05em;
     }
 
     .footer-title-row span.en {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 12px;
-      font-weight: 700;
-      color: var(--accent);
+      font-family: "Montserrat", sans-serif;
+      font-size: 12.5px;
+      font-weight: 800;
       letter-spacing: 0.08em;
     }
 
     .footer-bar-accent {
-      width: 32px;
-      height: 3px;
+      width: 34px;
+      height: 3.5px;
       background-color: var(--accent);
       border-radius: 2px;
       margin-top: -6px;
@@ -385,7 +413,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 10px;
+      gap: 14px;
       position: relative;
     }
 
@@ -400,10 +428,10 @@
     }
 
     .kw-item svg {
-      width: 24px;
-      height: 24px;
+      width: 30px;
+      height: 30px;
       color: var(--accent);
-      stroke-width: 2.2;
+      stroke-width: 2.4;
     }
 
     .kw-text {
@@ -413,14 +441,14 @@
     }
 
     .kw-cn {
-      font-size: 17px;
-      font-weight: 800;
+      font-size: 18px;
+      font-weight: 900;
       color: var(--text-main);
     }
 
     .kw-en {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 11px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 11.5px;
       font-weight: 700;
       color: var(--text-muted);
       letter-spacing: 0.08em;
@@ -430,16 +458,25 @@
 </head>
 <body data-theme="cobalt-blue">
 
+  <!-- Paper Grain SVG Texture -->
+  <svg class="paper-texture" xmlns="http://www.w3.org/2000/svg">
+    <filter id="noiseFilter">
+      <feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.15 0"/>
+    </filter>
+    <rect width="100%" height="100%" filter="url(#noiseFilter)"/>
+  </svg>
+
   <!-- HEADER -->
   <header class="header">
-    <div class="header-meta-row">
-      <div class="meta-left">
-        <span class="meta-left-cn">构图逻辑</span>
-        <span class="meta-left-en">COMPOSITION PRINCIPLES</span>
+    <div class="header-top">
+      <div class="category-group">
+        <span class="category-cn">构图逻辑</span>
+        <span class="category-en">COMPOSITION PRINCIPLES</span>
       </div>
-      <div class="meta-right">
-        <span class="meta-right-text">以轴线贯穿力场，用骨架线条撬动静态空间的动势张力。</span>
-        <div class="meta-right-bar"></div>
+      <div class="tagline-group">
+        <span class="tagline-text">以轴线贯穿力场，用骨架线条撬动静态空间的动势张力。</span>
+        <div class="tagline-bar"></div>
       </div>
     </div>
 
@@ -454,7 +491,41 @@
   <!-- MAIN SECTION -->
   <main class="main-content">
     
-    <div class="feature-column"><div class="feature-list">
+        <div class="visual-box"><svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="sunRed019" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E53935" stop-opacity="1"/>
+      <stop offset="80%" stop-color="#C62828" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#B71C1C" stop-opacity="1"/>
+    </radialGradient>
+  </defs>
+  <rect width="550" height="620" fill="#E8B838" rx="8"/>
+
+  <!-- Massive Blue Diagonal Geometric Wedge -->
+  <polygon points="170,550 500,160 500,550" fill="#15489D"/>
+  <polygon points="240,550 500,240 500,550" fill="#0D2E68" opacity="0.6"/>
+
+  <!-- Lever Tension Line -->
+  <line x1="120" y1="360" x2="380" y2="150" stroke="#1C1A18" stroke-width="2.5" stroke-dasharray="6,6"/>
+
+  <!-- Left Counterweight Ball (Small, far from fulcrum) -->
+  <circle cx="120" cy="360" r="28" fill="#15489D"/>
+  <circle cx="120" cy="360" r="10" fill="#FFFFFF"/>
+
+  <!-- Right Dominant Mass (Large, near center) -->
+  <circle cx="380" cy="150" r="82" fill="url(#sunRed019)"/>
+  <circle cx="380" cy="150" r="26" fill="#E8B838"/>
+  <circle cx="380" cy="150" r="8" fill="#FFFFFF"/>
+
+  <!-- Fulcrum Pivot Point -->
+  <polygon points="250,290 235,320 265,320" fill="#1C1A18"/>
+  <circle cx="250" cy="280" r="6" fill="#E53935"/>
+
+  <!-- Callout Label -->
+  <rect x="70" y="90" width="160" height="32" rx="6" fill="#15489D"/>
+  <text x="150" y="111" fill="#FFFFFF" font-size="12" font-weight="900" font-family="PingFang SC" text-anchor="middle">力矩对冲 · 动态平衡</text>
+</svg></div>
+        <div class="feature-column"><div class="feature-list">
         <div class="feature-row">
           <div class="feature-icon-circle">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3">
@@ -520,41 +591,7 @@
       </div>
       <ul class="tips-list">
     <li><strong>轴线对齐：</strong>标题与关键图元必须沿主要视觉轴线定位，强化整体骨骼硬度。</li><li><strong>张力收敛：</strong>倾斜线条延伸至版面边缘时，需有端点重物或对立小元素进行视觉刹车。</li><div class="tips-bottom-bar"></div></ul></div></div>
-    <div class="visual-box"><svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <radialGradient id="sunRed019" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#E53935" stop-opacity="1"/>
-      <stop offset="80%" stop-color="#C62828" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#B71C1C" stop-opacity="1"/>
-    </radialGradient>
-  </defs>
-  <rect width="550" height="620" fill="#E8B838" rx="8"/>
-
-  <!-- Massive Blue Diagonal Geometric Wedge -->
-  <polygon points="170,550 500,160 500,550" fill="#15489D"/>
-  <polygon points="240,550 500,240 500,550" fill="#0D2E68" opacity="0.6"/>
-
-  <!-- Lever Tension Line -->
-  <line x1="120" y1="360" x2="380" y2="150" stroke="#1C1A18" stroke-width="2.5" stroke-dasharray="6,6"/>
-
-  <!-- Left Counterweight Ball (Small, far from fulcrum) -->
-  <circle cx="120" cy="360" r="28" fill="#15489D"/>
-  <circle cx="120" cy="360" r="10" fill="#FFFFFF"/>
-
-  <!-- Right Dominant Mass (Large, near center) -->
-  <circle cx="380" cy="150" r="82" fill="url(#sunRed019)"/>
-  <circle cx="380" cy="150" r="26" fill="#E8B838"/>
-  <circle cx="380" cy="150" r="8" fill="#FFFFFF"/>
-
-  <!-- Fulcrum Pivot Point -->
-  <polygon points="250,290 235,320 265,320" fill="#1C1A18"/>
-  <circle cx="250" cy="280" r="6" fill="#E53935"/>
-
-  <!-- Callout Label -->
-  <rect x="70" y="90" width="160" height="32" rx="6" fill="#15489D"/>
-  <text x="150" y="111" fill="#FFFFFF" font-size="12" font-weight="900" font-family="PingFang SC" text-anchor="middle">力矩对冲 · 动态平衡</text>
-</svg></div>
-    
+        
   </main>
 
   <!-- FOOTER -->
