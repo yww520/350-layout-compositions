@@ -1,73 +1,73 @@
 {
   "id": "320",
   "name": "游观式构图",
-  "name_en": "游观式构图 COMPOSITION",
+  "name_en": "ROAMING VISION COMPOSITION",
   "category": "中国传统构图 / 三远、透视与游观",
   "category_slug": "07-chinese-composition",
   "subcategory": "三远、透视与游观",
-  "tagline": "游观式构图设计法则与空间建构",
-  "description": "经典视觉架构第 320 号：游观式构图。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
+  "tagline": "以高远仰势、深远幽邃、平远渺茫，破尽西方焦点透视之局限。",
+  "description": "350 视觉排版系列第 320 号：游观式构图（ROAMING VISION COMPOSITION）。归属于「中国传统构图 · 三远、透视与游观」体系。以高远仰势、深远幽邃、平远渺茫，破尽西方焦点透视之局限。",
   "theme": "warm-ivory",
-  "columns_ratio": "530px 380px",
-  "visual_height": "660px",
-  "ai_prompt": "Professional editorial illustration demonstrating 游观式构图 (350 Layouts series #320), Three distances classical Chinese shan shui landscape, towering vertical cliffs, deep gorges and expansive valleys. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching warm-ivory tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
+  "columns_ratio": "345px 600px",
+  "visual_height": "790px",
+  "ai_prompt": "Professional editorial design illustration demonstrating 游观式构图 (ROAMING VISION COMPOSITION), 350 Layout series #320. Three distances classical Chinese shan shui landscape, towering vertical cliffs, deep gorges and expansive valleys. Art style: clean Swiss International Typographic poster aesthetic, palette tuned to warm-ivory theme, vector geometry, sharp visual hierarchy, 3:4 aspect ratio, ultra-high resolution, museum publication quality.",
   "features": [
     {
       "icon": "target",
-      "title": "游观核心锚点",
-      "title_en": "Focal Anchor",
-      "desc": "确立画面第一视觉据点，使主体在游观式构图框架中获得最强烈的视觉重力与识别度。"
+      "title": "高远立骨",
+      "title_en": "Towering High Distance",
+      "desc": "在游观式构图架构中，自山下而仰山巅，峰峦崔嵬拔地而起，突显天地威严与崇高气势。"
     },
     {
       "icon": "compass",
-      "title": "视线引导流线",
-      "title_en": "Leading Flow",
-      "desc": "依据游观式构图的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
+      "title": "深远通幽",
+      "title_en": "Layered Deep Distance",
+      "desc": "依据游观式构图的内在几何规律，自山前而窥山后，山回路转重峦叠嶂，诱人向烟云深处探寻幽渺。"
     },
     {
       "icon": "layers",
-      "title": "负空间与呼吸感",
-      "title_en": "Negative Space",
-      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
+      "title": "散点游观",
+      "title_en": "Roaming Scattered View",
+      "desc": "针对游观式构图的空间特性，视点伴随脚步自由移动移步换景，打破单一画框，容纳咫尺千里。"
     }
   ],
   "tips": [
     {
-      "label": "构图基准",
-      "content": "在应用游观式构图时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
+      "label": "三远合一",
+      "content": "山水长卷中巧妙融合高远、深远与平远，在同一画幅中展现全景气象。"
     },
     {
-      "label": "图文呼应",
-      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
+      "label": "墨色五彩",
+      "content": "利用焦、浓、重、淡、清五种墨色拉开远近空间，淡墨出远山，浓墨立近石。"
     }
   ],
   "keywords": [
     {
-      "name": "高远",
+      "name": "高远自下",
       "name_en": "High Distance",
-      "icon": "check"
+      "icon": "target"
     },
     {
-      "name": "深远",
+      "name": "深远自前",
       "name_en": "Deep Distance",
-      "icon": "check"
+      "icon": "compass"
     },
     {
-      "name": "平远",
+      "name": "平远自近",
       "name_en": "Level Distance",
-      "icon": "check"
+      "icon": "layers"
     },
     {
-      "name": "游观",
-      "name_en": "Roaming Vision",
+      "name": "散点游观",
+      "name_en": "Scattered Perspective",
       "icon": "check"
     }
   ],
   "checklist": [
-    "游观式构图核心主体位置明确无歧义",
-    "引导线与视觉流向顺畅自然",
-    "留白空间充足，无视觉拥挤感",
-    "明暗与色彩反差符合层级逻辑",
-    "信息传达准确，整体秩序严密"
+    "游观式构图核心主体或骨骼线定位明确严谨",
+    "视觉引导线与视线流向顺畅自然",
+    "留白空间充足，版面呼吸感良好",
+    "色彩与明暗层级完全吻合「warm-ivory」基调",
+    "符合「三远、透视与游观」的专业设计规范"
   ]
 }

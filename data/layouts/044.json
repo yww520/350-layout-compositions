@@ -1,73 +1,73 @@
 {
   "id": "044",
   "name": "菱形构图",
-  "name_en": "菱形构图 COMPOSITION",
+  "name_en": "RHOMBUS COMPOSITION",
   "category": "构图逻辑 / 几何形与放射结构",
   "category_slug": "01-composition-logic",
   "subcategory": "几何形与放射结构",
-  "tagline": "菱形构图设计法则与空间建构",
-  "description": "经典视觉架构第 044 号：菱形构图。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
+  "tagline": "以纯粹几何体块聚散与放射线束，汇聚高密度的视觉冲击能量。",
+  "description": "350 视觉排版系列第 044 号：菱形构图（RHOMBUS COMPOSITION）。归属于「构图逻辑 · 几何形与放射结构」体系。以纯粹几何体块聚散与放射线束，汇聚高密度的视觉冲击能量。",
   "theme": "obsidian-black",
-  "columns_ratio": "530px 380px",
-  "visual_height": "660px",
-  "ai_prompt": "Professional editorial illustration demonstrating 菱形构图 (350 Layouts series #044), Dynamic geometric forces, radiating beams and stark architectural lines converging at a focal nexus. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching obsidian-black tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
+  "columns_ratio": "345px 600px",
+  "visual_height": "790px",
+  "ai_prompt": "Professional editorial design illustration demonstrating 菱形构图 (RHOMBUS COMPOSITION), 350 Layout series #044. Dynamic architectural atrium skylight with radiating beams converging at a glowing central nexus. Art style: clean Swiss International Typographic poster aesthetic, palette tuned to obsidian-black theme, vector geometry, sharp visual hierarchy, 3:4 aspect ratio, ultra-high resolution, museum publication quality.",
   "features": [
     {
       "icon": "target",
-      "title": "菱形核心锚点",
-      "title_en": "Focal Anchor",
-      "desc": "确立画面第一视觉据点，使主体在菱形构图框架中获得最强烈的视觉重力与识别度。"
+      "title": "能量源点",
+      "title_en": "Energy Nexus",
+      "desc": "在菱形构图架构中，以中心点或基准形为核，产生强烈的向心凝聚或离心爆发能量场。"
     },
     {
       "icon": "compass",
-      "title": "视线引导流线",
-      "title_en": "Leading Flow",
-      "desc": "依据菱形构图的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
+      "title": "几何切分",
+      "title_en": "Geometric Division",
+      "desc": "依据菱形构图的内在几何规律，运用正圆、三角、多边形强力分割背景，确立极简而强烈的图底反差。"
     },
     {
       "icon": "layers",
-      "title": "负空间与呼吸感",
-      "title_en": "Negative Space",
-      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
+      "title": "节奏递进",
+      "title_en": "Rhythmic Step",
+      "desc": "针对菱形构图的空间特性，放射线束按严格的角度递增排列，营造精密严谨的工程美感。"
     }
   ],
   "tips": [
     {
-      "label": "构图基准",
-      "content": "在应用菱形构图时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
+      "label": "中心突出",
+      "content": "放射中心必须有明确的实体重心，避免射线空悬导致视线无处落脚。"
     },
     {
-      "label": "图文呼应",
-      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
+      "label": "密度疏密",
+      "content": "向外扩散时注意线束与形状的疏密渐变，保持边缘呼吸感。"
     }
   ],
   "keywords": [
     {
-      "name": "几何",
-      "name_en": "Geometry",
-      "icon": "check"
+      "name": "几何凝聚",
+      "name_en": "Geometric Cohesion",
+      "icon": "target"
     },
     {
-      "name": "放射",
-      "name_en": "Radial",
-      "icon": "check"
+      "name": "放射能量",
+      "name_en": "Radial Energy",
+      "icon": "compass"
     },
     {
-      "name": "力场",
-      "name_en": "Force Field",
-      "icon": "check"
-    },
-    {
-      "name": "汇聚",
+      "name": "中心汇聚",
       "name_en": "Convergence",
+      "icon": "layers"
+    },
+    {
+      "name": "向心张力",
+      "name_en": "Centripetal Tension",
       "icon": "check"
     }
   ],
   "checklist": [
-    "菱形构图核心主体位置明确无歧义",
-    "引导线与视觉流向顺畅自然",
-    "留白空间充足，无视觉拥挤感",
-    "明暗与色彩反差符合层级逻辑",
-    "信息传达准确，整体秩序严密"
+    "菱形构图核心主体或骨骼线定位明确严谨",
+    "视觉引导线与视线流向顺畅自然",
+    "留白空间充足，版面呼吸感良好",
+    "色彩与明暗层级完全吻合「obsidian-black」基调",
+    "符合「几何形与放射结构」的专业设计规范"
   ]
 }

@@ -1,0 +1,19 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#12141A" rx="8"/>
+
+  <!-- Calibrated Concentric Target Rings -->
+  <circle cx="275" cy="310" r="220" fill="none" stroke="#333C4E" stroke-width="1.5"/>
+  <circle cx="275" cy="310" r="165" fill="none" stroke="#4A5568" stroke-width="2" stroke-dasharray="6,6"/>
+  <circle cx="275" cy="310" r="110" fill="none" stroke="#00E5FF" stroke-width="2.5"/>
+  <circle cx="275" cy="310" r="55" fill="#FFD700" opacity="0.3"/>
+  <!-- Center Bullseye -->
+  <circle cx="275" cy="310" r="22" fill="#FFD700"/>
+  <circle cx="275" cy="310" r="6" fill="#FFFFFF"/>
+  <!-- Crosshair Radial Lines -->
+  <line x1="55" y1="310" x2="495" y2="310" stroke="#FFD700" stroke-width="1.2" stroke-dasharray="4,4"/>
+  <line x1="275" y1="90" x2="275" y2="530" stroke="#FFD700" stroke-width="1.2" stroke-dasharray="4,4"/>
+    <rect x="185" y="480" width="180" height="30" rx="5" fill="#FFD700"/>
+  <text x="275.0" y="498.6" fill="#12141A" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">等距同心波纹</text>
+
+</svg>

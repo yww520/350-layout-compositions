@@ -1,0 +1,20 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#1F1B18" rx="8"/>
+
+  <!-- Massive Macro Geometric Burst Overflowing Edges -->
+  <rect x="30" y="40" width="490" height="540" fill="none" stroke="#E25238" stroke-width="3" rx="4"/>
+  <polygon points="-20,120 280,30 580,160 520,580 40,640" fill="#2B2622" stroke="#524A44" stroke-width="2"/>
+  <circle cx="275" cy="310" r="190" fill="#E25238" opacity="0.15"/>
+  <circle cx="275" cy="310" r="130" fill="#E25238" opacity="0.3"/>
+  <circle cx="275" cy="310" r="70" fill="#E25238"/>
+  <circle cx="275" cy="310" r="18" fill="#FFFFFF"/>
+  <!-- Edge Burst Bleed Indicators -->
+  <line x1="10" y1="310" x2="50" y2="310" stroke="#E25238" stroke-width="3"/>
+  <line x1="500" y1="310" x2="540" y2="310" stroke="#E25238" stroke-width="3"/>
+  <line x1="275" y1="20" x2="275" y2="60" stroke="#E25238" stroke-width="3"/>
+  <line x1="275" y1="560" x2="275" y2="600" stroke="#E25238" stroke-width="3"/>
+    <rect x="185" y="480" width="180" height="30" rx="5" fill="#E25238"/>
+  <text x="275.0" y="498.6" fill="#1F1B18" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">无留白 · 满幅张力</text>
+
+</svg>

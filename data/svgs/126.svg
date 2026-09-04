@@ -1,0 +1,24 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#082018" rx="8"/>
+
+  <!-- 4x4 Grid of Identical Gray Circles -->
+  <g fill="#285848">
+    <circle cx="130" cy="160" r="18"/><circle cx="210" cy="160" r="18"/><circle cx="290" cy="160" r="18"/><circle cx="370" cy="160" r="18"/>
+    <circle cx="130" cy="240" r="18"/><circle cx="210" cy="240" r="18"/><circle cx="290" cy="240" r="18"/><circle cx="370" cy="240" r="18"/>
+    <circle cx="130" cy="320" r="18"/><circle cx="210" cy="320" r="18"/>
+    <!-- (290, 320) is the EXTREME ANOMALY FOCAL POINT -->
+    <circle cx="370" cy="320" r="18"/>
+    <circle cx="130" cy="400" r="18"/><circle cx="210" cy="400" r="18"/><circle cx="290" cy="400" r="18"/><circle cx="370" cy="400" r="18"/>
+  </g>
+  <!-- Heterogeneous Hero Focal Anchor -->
+  <rect x="265" y="295" width="50" height="50" fill="#FF7043" rx="6" transform="rotate(45 290 320)"/>
+  <circle cx="290" cy="320" r="38" fill="none" stroke="#D4E751" stroke-width="2" stroke-dasharray="4,4"/>
+  <circle cx="290" cy="320" r="8" fill="#FFFFFF"/>
+  <line x1="290" y1="230" x2="290" y2="280" stroke="#D4E751" stroke-width="2"/>
+  <polygon points="290,285 285,270 295,270" fill="#D4E751"/>
+  <text x="290" y="215" fill="#D4E751" font-size="13" font-weight="900" font-family="PingFang SC" text-anchor="middle">特异形态强焦点</text>
+    <rect x="185" y="480" width="180" height="30" rx="5" fill="#D4E751"/>
+  <text x="275.0" y="498.6" fill="#082018" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">同质背景破局点</text>
+
+</svg>

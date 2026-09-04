@@ -1,73 +1,73 @@
 {
   "id": "120",
   "name": "共同区域原则",
-  "name_en": "共同区域原则 COMPOSITION",
+  "name_en": "COMMON REGION PRINCIPLE",
   "category": "视觉原则与阅读模式 / 格式塔与组群",
   "category_slug": "02-visual-principles",
   "subcategory": "格式塔与组群",
-  "tagline": "共同区域原则设计法则与空间建构",
-  "description": "经典视觉架构第 120 号：共同区域原则。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
-  "theme": "cobalt-blue",
-  "columns_ratio": "530px 380px",
-  "visual_height": "660px",
-  "ai_prompt": "Professional editorial illustration demonstrating 共同区域原则 (350 Layouts series #120), Masterful visual composition demonstrating 共同区域原则 principle. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching cobalt-blue tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
+  "tagline": "调动人类知觉的完形本能，让离散符号自发凝聚为整体意象。",
+  "description": "350 视觉排版系列第 120 号：共同区域原则（COMMON REGION PRINCIPLE）。归属于「视觉原则与阅读模式 · 格式塔与组群」体系。调动人类知觉的完形本能，让离散符号自发凝聚为整体意象。",
+  "theme": "forest-green",
+  "columns_ratio": "345px 600px",
+  "visual_height": "790px",
+  "ai_prompt": "Professional editorial design illustration demonstrating 共同区域原则 (COMMON REGION PRINCIPLE), 350 Layout series #120. Abstract geometric shapes spontaneously forming a coherent silhouette through human perceptual closure. Art style: clean Swiss International Typographic poster aesthetic, palette tuned to forest-green theme, vector geometry, sharp visual hierarchy, 3:4 aspect ratio, ultra-high resolution, museum publication quality.",
   "features": [
     {
       "icon": "target",
-      "title": "共同核心锚点",
-      "title_en": "Focal Anchor",
-      "desc": "确立画面第一视觉据点，使主体在共同区域原则框架中获得最强烈的视觉重力与识别度。"
+      "title": "空间邻近",
+      "title_en": "Spatial Proximity",
+      "desc": "在共同区域原则架构中，物理距离相近的离散点自动被知觉结为同一组块，清晰区分内容组。"
     },
     {
       "icon": "compass",
-      "title": "视线引导流线",
-      "title_en": "Leading Flow",
-      "desc": "依据共同区域原则的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
+      "title": "闭合联想",
+      "title_en": "Mind Closure",
+      "desc": "依据共同区域原则的内在几何规律，刻意留下开放缺口，激发观者大脑在潜意识中自行补全完美几何。"
     },
     {
       "icon": "layers",
-      "title": "负空间与呼吸感",
-      "title_en": "Negative Space",
-      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
+      "title": "图底反转",
+      "title_en": "Figure-Ground Inversion",
+      "desc": "针对共同区域原则的空间特性，正负形空间共享轮廓，创造双重解读与意涵互文的智力愉悦。"
     }
   ],
   "tips": [
     {
-      "label": "构图基准",
-      "content": "在应用共同区域原则时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
+      "label": "组间留白",
+      "content": "组与组之间的外边距必须大于组内元素的内间距至少 2 倍，确保分组清晰。"
     },
     {
-      "label": "图文呼应",
-      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
+      "label": "共同命运",
+      "content": "具有相同行进方向或形态趋势的元素应赋予统一的色彩，强化同一性感知。"
     }
   ],
   "keywords": [
     {
-      "name": "平衡",
-      "name_en": "Balance",
-      "icon": "check"
+      "name": "格式塔",
+      "name_en": "Gestalt",
+      "icon": "target"
     },
     {
-      "name": "焦点",
-      "name_en": "Focus",
-      "icon": "check"
+      "name": "邻近亲和",
+      "name_en": "Proximity Affiliation",
+      "icon": "compass"
     },
     {
-      "name": "节奏",
-      "name_en": "Rhythm",
-      "icon": "check"
+      "name": "闭合联想",
+      "name_en": "Closure Association",
+      "icon": "layers"
     },
     {
-      "name": "引导",
-      "name_en": "Guide",
+      "name": "图底互换",
+      "name_en": "Figure-Ground Inversion",
       "icon": "check"
     }
   ],
   "checklist": [
-    "共同区域原则核心主体位置明确无歧义",
-    "引导线与视觉流向顺畅自然",
-    "留白空间充足，无视觉拥挤感",
-    "明暗与色彩反差符合层级逻辑",
-    "信息传达准确，整体秩序严密"
+    "共同区域原则核心主体或骨骼线定位明确严谨",
+    "视觉引导线与视线流向顺畅自然",
+    "留白空间充足，版面呼吸感良好",
+    "色彩与明暗层级完全吻合「forest-green」基调",
+    "符合「格式塔与组群」的专业设计规范"
   ]
 }

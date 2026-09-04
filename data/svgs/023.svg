@@ -1,0 +1,33 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="diagGrad023" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E25238"/>
+      <stop offset="100%" stop-color="#FF9800"/>
+    </linearGradient>
+  </defs>
+  <rect width="550" height="620" fill="#141416" rx="8"/>
+
+  <!-- Diagonal Dividing Background Tone -->
+  <polygon points="0,620 550,0 550,620" fill="#202026"/>
+
+  <!-- Primary Diagonal Kinetic Rails -->
+  <line x1="0" y1="620" x2="550" y2="0" stroke="url(#diagGrad023)" stroke-width="5"/>
+  <line x1="30" y1="620" x2="550" y2="34" stroke="#E25238" stroke-width="1.8" stroke-dasharray="8,6" opacity="0.6"/>
+  <line x1="-30" y1="620" x2="520" y2="0" stroke="#E25238" stroke-width="1.8" stroke-dasharray="8,6" opacity="0.6"/>
+
+  <!-- High-speed Dynamic Chevrons along Diagonal -->
+  <g stroke="#E25238" stroke-width="2.5" fill="none" opacity="0.8">
+    <path d="M 120 460 L 150 430 L 120 400"/>
+    <path d="M 220 350 L 250 320 L 220 290"/>
+    <path d="M 320 240 L 350 210 L 320 180"/>
+  </g>
+
+  <!-- High-speed Focal Bullet Mass -->
+  <circle cx="275" cy="310" r="64" fill="rgba(226,82,56,0.15)"/>
+  <circle cx="275" cy="310" r="28" fill="#E25238"/>
+  <circle cx="275" cy="310" r="10" fill="#FFFFFF"/>
+
+  <!-- Callout Label aligned with diagonal -->
+  <rect x="230" y="380" width="160" height="32" rx="6" fill="#E25238"/>
+  <text x="310" y="401" fill="#FFFFFF" font-size="12" font-weight="900" font-family="PingFang SC" text-anchor="middle">斜角贯穿 · 极速破界</text>
+</svg>

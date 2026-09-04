@@ -1,73 +1,73 @@
 {
   "id": "200",
   "name": "非对称网格",
-  "name_en": "非对称网格 COMPOSITION",
+  "name_en": "ASYMMETRICAL GRID",
   "category": "字体、网格与东亚文字 / 网格系统",
   "category_slug": "04-type-grid-cjk",
   "subcategory": "网格系统",
-  "tagline": "非对称网格设计法则与空间建构",
-  "description": "经典视觉架构第 200 号：非对称网格。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
+  "tagline": "以数学精度划分版面天地，于不可撼动的铁律中催生自由。",
+  "description": "350 视觉排版系列第 200 号：非对称网格（ASYMMETRICAL GRID）。归属于「字体、网格与东亚文字 · 网格系统」体系。以数学精度划分版面天地，于不可撼动的铁律中催生自由。",
   "theme": "cobalt-blue",
-  "columns_ratio": "530px 380px",
-  "visual_height": "660px",
-  "ai_prompt": "Professional editorial illustration demonstrating 非对称网格 (350 Layouts series #200), Precision baseline and modular grid system, structural alignment guides, mathematical typographic harmony. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching cobalt-blue tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
+  "columns_ratio": "345px 600px",
+  "visual_height": "790px",
+  "ai_prompt": "Professional editorial design illustration demonstrating 非对称网格 (ASYMMETRICAL GRID), 350 Layout series #200. Pristine Swiss International Typographic grid diagram with visible red guidelines and mathematical subdivisions. Art style: clean Swiss International Typographic poster aesthetic, palette tuned to cobalt-blue theme, vector geometry, sharp visual hierarchy, 3:4 aspect ratio, ultra-high resolution, museum publication quality.",
   "features": [
     {
       "icon": "target",
-      "title": "非对核心锚点",
-      "title_en": "Focal Anchor",
-      "desc": "确立画面第一视觉据点，使主体在非对称网格框架中获得最强烈的视觉重力与识别度。"
+      "title": "全幅咬合",
+      "title_en": "Snap to Grid",
+      "desc": "在非对称网格架构中，所有图元与文本块上下左右严格吸附网格线，实现严丝合缝的秩序共振。"
     },
     {
       "icon": "compass",
-      "title": "视线引导流线",
-      "title_en": "Leading Flow",
-      "desc": "依据非对称网格的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
+      "title": "基线韵律",
+      "title_en": "Baseline Harmony",
+      "desc": "依据非对称网格的内在几何规律，各栏文本无论字号大小，正文基线全部垂直对齐在恒定模数网格线上。"
     },
     {
       "icon": "layers",
-      "title": "负空间与呼吸感",
-      "title_en": "Negative Space",
-      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
+      "title": "破格聚焦",
+      "title_en": "Calculated Break",
+      "desc": "针对非对称网格的空间特性，在严密的九宫/十六宫矩阵中让单一主角冲破网格边缘，诞生万钧张力。"
     }
   ],
   "tips": [
     {
-      "label": "构图基准",
-      "content": "在应用非对称网格时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
+      "label": "网格先定",
+      "content": "动笔前必须先根据内容复杂度设定网格（单栏/三栏/十二栏），全程绝不动摇。"
     },
     {
-      "label": "图文呼应",
-      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
+      "label": "留白占位",
+      "content": "网格单元允许成片留空，留空的模块本身就是重要的结构性呼吸体块。"
     }
   ],
   "keywords": [
     {
-      "name": "模块",
-      "name_en": "Modular",
-      "icon": "check"
+      "name": "瑞士网格",
+      "name_en": "Swiss Grid",
+      "icon": "target"
     },
     {
-      "name": "基准线",
-      "name_en": "Baseline",
-      "icon": "check"
+      "name": "基准网格",
+      "name_en": "Baseline Grid",
+      "icon": "compass"
     },
     {
-      "name": "栅格",
-      "name_en": "Grid",
-      "icon": "check"
+      "name": "模块矩阵",
+      "name_en": "Modular Matrix",
+      "icon": "layers"
     },
     {
-      "name": "秩序",
-      "name_en": "Order",
+      "name": "破格解构",
+      "name_en": "Grid Breaking",
       "icon": "check"
     }
   ],
   "checklist": [
-    "非对称网格核心主体位置明确无歧义",
-    "引导线与视觉流向顺畅自然",
-    "留白空间充足，无视觉拥挤感",
-    "明暗与色彩反差符合层级逻辑",
-    "信息传达准确，整体秩序严密"
+    "非对称网格核心主体或骨骼线定位明确严谨",
+    "视觉引导线与视线流向顺畅自然",
+    "留白空间充足，版面呼吸感良好",
+    "色彩与明暗层级完全吻合「cobalt-blue」基调",
+    "符合「网格系统」的专业设计规范"
   ]
 }

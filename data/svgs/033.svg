@@ -1,0 +1,18 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#1F1B18" rx="8"/>
+
+  <!-- Vertical Left Mast -->
+  <rect x="60" y="70" width="90" height="470" fill="#E25238" rx="6"/>
+  <!-- Bottom Horizontal Base -->
+  <rect x="60" y="450" width="430" height="90" fill="#E25238" rx="6"/>
+  <!-- Sheltered Open Arena at Upper Right -->
+  <rect x="180" y="70" width="310" height="350" fill="#2B2622" stroke="#3B342F" stroke-width="1.5" stroke-dasharray="6,4" rx="6"/>
+  <!-- Focal Element in L Corner -->
+  <circle cx="220" cy="380" r="32" fill="#FFB300"/>
+  <circle cx="220" cy="380" r="10" fill="#FFFFFF"/>
+  <text x="335" y="240" fill="#8A827A" font-size="16" font-family="PingFang SC" text-anchor="middle">L 型半包围主场</text>
+    <rect x="245" y="480" width="160" height="28" rx="5" fill="#1F1B18"/>
+  <text x="325.0" y="497.36" fill="#FAF7F2" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">L 构架基底</text>
+
+</svg>

@@ -1,0 +1,19 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+  <rect width="550" height="620" fill="#0D211A" rx="8"/>
+  <!-- Monumental Central Axis Pillar -->
+  <rect x="255" y="40" width="40" height="540" fill="#00BFA5"/>
+  <line x1="275" y1="40" x2="275" y2="580" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="6,6"/>
+  <!-- Left-Right Balanced Tiered Blocks -->
+  <rect x="110" y="160" width="125" height="70" fill="#1B4D3E" rx="4"/>
+  <rect x="315" y="160" width="125" height="70" fill="#1B4D3E" rx="4"/>
+  <rect x="70" y="270" width="165" height="90" fill="#13382D" rx="4"/>
+  <rect x="315" y="270" width="165" height="90" fill="#13382D" rx="4"/>
+  <rect x="130" y="400" width="105" height="60" fill="#1B4D3E" rx="4"/>
+  <rect x="315" y="400" width="105" height="60" fill="#1B4D3E" rx="4"/>
+  <!-- Golden Crown Nodes -->
+  <circle cx="275" cy="110" r="18" fill="#FFD700"/>
+  <circle cx="275" cy="110" r="6" fill="#0D211A"/>
+  <!-- Central Axis Callout Badge -->
+  <rect x="195" y="490" width="160" height="32" rx="6" fill="#00BFA5"/>
+  <text x="275" y="511" fill="#0D211A" font-size="12" font-weight="900" font-family="PingFang SC" text-anchor="middle">神圣中轴 · 崇高威仪</text>
+</svg>

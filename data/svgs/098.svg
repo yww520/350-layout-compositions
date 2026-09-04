@@ -1,0 +1,18 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#081630" rx="8"/>
+
+  <!-- Icy Cold Cyan vs Molten Hot Crimson -->
+  <path d="M 50 60 L 320 60 L 180 550 L 50 550 Z" fill="#00E5FF" opacity="0.9"/>
+  <path d="M 320 60 L 500 60 L 500 550 L 180 550 Z" fill="#FF3D00" opacity="0.9"/>
+  <!-- Clash Boundary Lightning Vector -->
+  <line x1="320" y1="60" x2="180" y2="550" stroke="#FFFFFF" stroke-width="4"/>
+  <!-- Thermal Core Nodes -->
+  <circle cx="160" cy="200" r="28" fill="#081630"/>
+  <circle cx="160" cy="200" r="8" fill="#00E5FF"/>
+  <circle cx="340" cy="410" r="28" fill="#FFFFFF"/>
+  <circle cx="340" cy="410" r="8" fill="#FF3D00"/>
+    <rect x="185" y="290" width="180" height="32" rx="5" fill="#FFFFFF"/>
+  <text x="275.0" y="309.84" fill="#12141A" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">冷暖极致对撞</text>
+
+</svg>

@@ -1,0 +1,19 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#081630" rx="8"/>
+
+  <!-- Dual Axes Intersecting at (275, 310) -->
+  <line x1="40" y1="310" x2="510" y2="310" stroke="#448AFF" stroke-width="2.5"/>
+  <line x1="275" y1="50" x2="275" y2="570" stroke="#448AFF" stroke-width="2.5"/>
+  <!-- 4 Energetic Quadrants -->
+  <rect x="70" y="90" width="170" height="180" fill="#0E2248" stroke="#162E58" stroke-width="1.5" rx="4"/>
+  <rect x="310" y="90" width="170" height="180" fill="#448AFF" opacity="0.2" rx="4"/>
+  <rect x="70" y="350" width="170" height="180" fill="#448AFF" opacity="0.2" rx="4"/>
+  <rect x="310" y="350" width="170" height="180" fill="#0E2248" stroke="#162E58" stroke-width="1.5" rx="4"/>
+  <!-- Central Axis Intersection Nexus -->
+  <circle cx="275" cy="310" r="36" fill="#FF5252"/>
+  <circle cx="275" cy="310" r="10" fill="#FFFFFF"/>
+    <rect x="195" y="296" width="160" height="28" rx="5" fill="#FF5252"/>
+  <text x="275.0" y="313.36" fill="#FFFFFF" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">十字双轴</text>
+
+</svg>

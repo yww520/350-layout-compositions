@@ -1,0 +1,25 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#082018" rx="8"/>
+
+  <!-- 4 Distant Nodes Connected in pairs creating dominant unity -->
+  <!-- Pair 1 Linked -->
+  <line x1="120" y1="200" x2="330" y2="200" stroke="#D4E751" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="120" cy="200" r="28" fill="#D4E751"/>
+  <circle cx="120" cy="200" r="8" fill="#FFFFFF"/>
+  <circle cx="330" cy="200" r="28" fill="#D4E751"/>
+  <circle cx="330" cy="200" r="8" fill="#FFFFFF"/>
+  <text x="225" y="240" fill="#D4E751" font-size="12" font-weight="bold" font-family="Montserrat" text-anchor="middle">CONNECTED UNIT 1</text>
+
+  <!-- Pair 2 Linked diagonally -->
+  <line x1="180" y1="380" x2="430" y2="380" stroke="#26A69A" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="180" cy="380" r="28" fill="#26A69A"/>
+  <circle cx="180" cy="380" r="8" fill="#FFFFFF"/>
+  <circle cx="430" cy="380" r="28" fill="#26A69A"/>
+  <circle cx="430" cy="380" r="8" fill="#FFFFFF"/>
+  <text x="305" y="420" fill="#26A69A" font-size="12" font-weight="bold" font-family="Montserrat" text-anchor="middle">CONNECTED UNIT 2</text>
+
+    <rect x="185" y="480" width="180" height="30" rx="5" fill="#D4E751"/>
+  <text x="275.0" y="498.6" fill="#082018" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">连线强力覆盖临近</text>
+
+</svg>

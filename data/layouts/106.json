@@ -1,73 +1,73 @@
 {
   "id": "106",
   "name": "隔离原则",
-  "name_en": "隔离原则 COMPOSITION",
+  "name_en": "ISOLATION PRINCIPLE",
   "category": "视觉原则与阅读模式 / 层级、比例与对比",
   "category_slug": "02-visual-principles",
   "subcategory": "层级、比例与对比",
-  "tagline": "隔离原则设计法则与空间建构",
-  "description": "经典视觉架构第 106 号：隔离原则。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
+  "tagline": "以悬殊的反差拉开信息阶梯，建立毫无歧义的阅读顺序。",
+  "description": "350 视觉排版系列第 106 号：隔离原则（ISOLATION PRINCIPLE）。归属于「视觉原则与阅读模式 · 层级、比例与对比」体系。以悬殊的反差拉开信息阶梯，建立毫无歧义的阅读顺序。",
   "theme": "cobalt-blue",
-  "columns_ratio": "530px 380px",
-  "visual_height": "660px",
-  "ai_prompt": "Professional editorial illustration demonstrating 隔离原则 (350 Layouts series #106), Masterful visual composition demonstrating 隔离原则 principle. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching cobalt-blue tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
+  "columns_ratio": "345px 600px",
+  "visual_height": "790px",
+  "ai_prompt": "Professional editorial design illustration demonstrating 隔离原则 (ISOLATION PRINCIPLE), 350 Layout series #106. Monumental stark typographic letterforms towering over miniature human figures in graphic contrast. Art style: clean Swiss International Typographic poster aesthetic, palette tuned to cobalt-blue theme, vector geometry, sharp visual hierarchy, 3:4 aspect ratio, ultra-high resolution, museum publication quality.",
   "features": [
     {
       "icon": "target",
-      "title": "隔离核心锚点",
-      "title_en": "Focal Anchor",
-      "desc": "确立画面第一视觉据点，使主体在隔离原则框架中获得最强烈的视觉重力与识别度。"
+      "title": "级差跃升",
+      "title_en": "Tiered Leap",
+      "desc": "在隔离原则架构中，主副标题与正文采用 3 倍以上的字阶跳跃，打造刀刻般的秩序界线。"
     },
     {
       "icon": "compass",
-      "title": "视线引导流线",
-      "title_en": "Leading Flow",
-      "desc": "依据隔离原则的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
+      "title": "双极对立",
+      "title_en": "Bipolar Opposition",
+      "desc": "依据隔离原则的内在几何规律，将大与小、黑与白、粗与细强力并置，在对抗中凸显核心。"
     },
     {
       "icon": "layers",
-      "title": "负空间与呼吸感",
-      "title_en": "Negative Space",
-      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
+      "title": "权重分配",
+      "title_en": "Weight Distribution",
+      "desc": "针对隔离原则的空间特性，以精准的面积配比确立 60-30-10 比例规则，保证主次分明。"
     }
   ],
   "tips": [
     {
-      "label": "构图基准",
-      "content": "在应用隔离原则时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
+      "label": "对比果决",
+      "content": "对比必须显著坚决，微小的比例差异容易被误读为对齐失误。"
     },
     {
-      "label": "图文呼应",
-      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
+      "label": "层级收束",
+      "content": "全版层级严格控制在 3 到 4 级以内，避免层级过多导致认知过载。"
     }
   ],
   "keywords": [
     {
-      "name": "平衡",
-      "name_en": "Balance",
-      "icon": "check"
+      "name": "阶梯层级",
+      "name_en": "Stepped Hierarchy",
+      "icon": "target"
     },
     {
-      "name": "焦点",
-      "name_en": "Focus",
-      "icon": "check"
+      "name": "悬殊尺度",
+      "name_en": "Scale Contrast",
+      "icon": "compass"
     },
     {
-      "name": "节奏",
-      "name_en": "Rhythm",
-      "icon": "check"
+      "name": "明暗对冲",
+      "name_en": "Light-Dark Clash",
+      "icon": "layers"
     },
     {
-      "name": "引导",
-      "name_en": "Guide",
+      "name": "首要权重",
+      "name_en": "Dominant Weight",
       "icon": "check"
     }
   ],
   "checklist": [
-    "隔离原则核心主体位置明确无歧义",
-    "引导线与视觉流向顺畅自然",
-    "留白空间充足，无视觉拥挤感",
-    "明暗与色彩反差符合层级逻辑",
-    "信息传达准确，整体秩序严密"
+    "隔离原则核心主体或骨骼线定位明确严谨",
+    "视觉引导线与视线流向顺畅自然",
+    "留白空间充足，版面呼吸感良好",
+    "色彩与明暗层级完全吻合「cobalt-blue」基调",
+    "符合「层级、比例与对比」的专业设计规范"
   ]
 }

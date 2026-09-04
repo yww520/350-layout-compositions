@@ -44,11 +44,23 @@ description: 350 构图与视觉排版全能技能 (Layout Architect)。提供�
 根据用户的目标载体执行对应编译输出：
 
 #### 交付路径 A：生成 350 风格图鉴海报 (Poster Card)
-直接调用项目内置渲染引擎导出高清卡片：
+直接调用项目内置渲染引擎导出高清卡片（自动适配 A/B/C 三档插画与位图挂载）：
 ```bash
+# 标准渲染（自动按优先级路由：外部 SVG -> 外部位图 -> 内置库 -> 几何降级）
 python3 scripts/render-card.py --id {id} --output ./output/
+
+# 挂载外部位图（如小云雀生成的插画）
+python3 scripts/render-card.py --id 084 --image assets/illustrations/084.png
 ```
 或将渲染出的 HTML 文件在浏览器中打开供用户预览。
+
+##### 多层级插画解析机制 (Multi-Tier Visual Resolution)：
+依据 `references/abc-classification.md` 的 A/B/C 三档分类：
+1. **优先度 1（显式位图）**：CLI 传入 `--image <path>` 时强制使用外部位图（支持 PNG/JPG/WebP，自适应转换为 Base64 嵌入）；
+2. **优先度 2（外部 SVG）**：读取 `data/svgs/{id}.svg`（全量 350 个构图已生成独立定制矢量图，覆盖率 100%）；
+3. **优先度 3（外部插画）**：读取 `assets/illustrations/{id}.{png,jpg,webp}`（小云雀生成的 B/C 档位图）；
+4. **优先度 4（内置库）**：回退至 `scripts/svg_library.py` 定制矢量函数；
+5. **优先度 5（程序化矢量引擎）**：由 `scripts/svg_generators/procedural_engine.py` 基于 33 大子类原型动态合成专属瑞士几何原理图，彻底根除同质化虚线方框。
 
 ##### 排版密度与字重严苛规范（全量构图统一强制遵循）：
 1. **纯黑粗壮大标题（Bold Display Type）**：主标题强制采用 `font-weight: 900`（Noto Sans SC / 思源特黑），禁止任何水平压缩（禁止 `scaleX < 1`），并注入 `-webkit-text-stroke: 2px` 确保原版厚重、刚劲、平直的字重质感。
@@ -57,7 +69,7 @@ python3 scripts/render-card.py --id {id} --output ./output/
 4. **扁平化信息层级（Flat Information Hierarchy）**：右侧解构要素严禁嵌套带外边框与阴影的浮动卡片，必须采用纯净的扁平行排版，配备纯色圆形徽章与全大写英文 Tag。
 
 #### 交付路径 B：编译生图提示词 (AI Image Prompt Directive)
-运行内置编译器生成专属生图 Prompt 与构图几何约束：
+运行内置编译器生成专属生图 Prompt 与构图几何约束（全量 33 个子类与 350 个英文专业名全面去同质化）：
 ```bash
 python3 scripts/compile-prompt.py --id {id}
 ```
@@ -73,15 +85,25 @@ python3 scripts/compile-prompt.py --all
 
 ## 常用指令示例 (Quick Commands)
 
-- **编译生图提示词**：
+- **查阅 A/B/C 三档分类路由表**：
+  ```bash
+  cat references/abc-classification.md
+  ```
+- **编译生图提示词与几何规范**：
   ```bash
   python3 scripts/compile-prompt.py --id 084
-  python3 scripts/compile-prompt.py --id 134
+  python3 scripts/compile-prompt.py --id 272
+  ```
+- **批量生成/重置全量 350 张定制 SVG 图解**：
+  ```bash
+  python3 scripts/generate_all_svgs.py
+  # 单独重新生成某一张：
+  python3 scripts/generate_all_svgs.py --id 007
   ```
 - **生成指定图鉴卡片（矢量网格或挂载插画）**：
   ```bash
-  python3 scripts/render-card.py --id 134 --theme forest-green
-  python3 scripts/render-card.py --id 084 --image assets/084_landscape.png
+  python3 scripts/render-card.py --id 001 --theme warm-ivory
+  python3 scripts/render-card.py --id 084 --image assets/illustrations/084.png
   ```
 - **根据文章智能推荐构图**：
   ```text

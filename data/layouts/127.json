@@ -1,73 +1,73 @@
 {
   "id": "127",
   "name": "F 型扫描模式",
-  "name_en": "F 型扫描模式 COMPOSITION",
+  "name_en": "F-SHAPED READING PATTERN",
   "category": "视觉原则与阅读模式 / 页面阅读模式",
   "category_slug": "02-visual-principles",
   "subcategory": "页面阅读模式",
-  "tagline": "F 型扫描模式设计法则与空间建构",
-  "description": "经典视觉架构第 127 号：F 型扫描模式。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
+  "tagline": "顺应人类眼动的生理惯性，在视线必经之路布设价值锚点。",
+  "description": "350 视觉排版系列第 127 号：F 型扫描模式（F-SHAPED READING PATTERN）。归属于「视觉原则与阅读模式 · 页面阅读模式」体系。顺应人类眼动的生理惯性，在视线必经之路布设价值锚点。",
   "theme": "warm-ivory",
-  "columns_ratio": "530px 380px",
-  "visual_height": "660px",
-  "ai_prompt": "Professional editorial illustration demonstrating F 型扫描模式 (350 Layouts series #127), Masterful visual composition demonstrating F 型扫描模式 principle. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching warm-ivory tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
+  "columns_ratio": "345px 600px",
+  "visual_height": "790px",
+  "ai_prompt": "Professional editorial design illustration demonstrating F 型扫描模式 (F-SHAPED READING PATTERN), 350 Layout series #127. Clean heat-map overlay tracing the natural human eye movement across an editorial typographic page. Art style: clean Swiss International Typographic poster aesthetic, palette tuned to warm-ivory theme, vector geometry, sharp visual hierarchy, 3:4 aspect ratio, ultra-high resolution, museum publication quality.",
   "features": [
     {
       "icon": "target",
-      "title": "F 核心锚点",
-      "title_en": "Focal Anchor",
-      "desc": "确立画面第一视觉据点，使主体在F 型扫描模式框架中获得最强烈的视觉重力与识别度。"
+      "title": "入口强击",
+      "title_en": "Primary Optical Area",
+      "desc": "在F 型扫描模式架构中，页面左上方第一落脚点布置决定性的品牌徽标与大标题。"
     },
     {
       "icon": "compass",
-      "title": "视线引导流线",
-      "title_en": "Leading Flow",
-      "desc": "依据F 型扫描模式的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
+      "title": "横扫下潜",
+      "title_en": "Horizontal Sweep",
+      "desc": "依据F 型扫描模式的内在几何规律，遵循自左向右扫读后再向下的规律，在行首安置高亮词组。"
     },
     {
       "icon": "layers",
-      "title": "负空间与呼吸感",
-      "title_en": "Negative Space",
-      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
+      "title": "终点收网",
+      "title_en": "Terminal Area Catch",
+      "desc": "针对F 型扫描模式的空间特性，右下角终点区域部署行动号召（CTA）或核心结论，完成闭环。"
     }
   ],
   "tips": [
     {
-      "label": "构图基准",
-      "content": "在应用F 型扫描模式时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
+      "label": "闲置区弱化",
+      "content": "右上与左下为弱势闲置区，适合放置辅助页码、日期等低频参考信息。"
     },
     {
-      "label": "图文呼应",
-      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
+      "label": "打断扫描",
+      "content": "在 F 型长正文中穿插醒目的引语块或小图，能打断疲劳，重新唤醒注意。"
     }
   ],
   "keywords": [
     {
-      "name": "平衡",
-      "name_en": "Balance",
-      "icon": "check"
+      "name": "视线动线",
+      "name_en": "Gaze Pathway",
+      "icon": "target"
     },
     {
-      "name": "焦点",
-      "name_en": "Focus",
-      "icon": "check"
+      "name": "古腾堡图",
+      "name_en": "Gutenberg Diagram",
+      "icon": "compass"
     },
     {
-      "name": "节奏",
-      "name_en": "Rhythm",
-      "icon": "check"
+      "name": "F型扫描",
+      "name_en": "F-Pattern Scan",
+      "icon": "layers"
     },
     {
-      "name": "引导",
-      "name_en": "Guide",
+      "name": "黄金落点",
+      "name_en": "Terminal Anchor",
       "icon": "check"
     }
   ],
   "checklist": [
-    "F 型扫描模式核心主体位置明确无歧义",
-    "引导线与视觉流向顺畅自然",
-    "留白空间充足，无视觉拥挤感",
-    "明暗与色彩反差符合层级逻辑",
-    "信息传达准确，整体秩序严密"
+    "F 型扫描模式核心主体或骨骼线定位明确严谨",
+    "视觉引导线与视线流向顺畅自然",
+    "留白空间充足，版面呼吸感良好",
+    "色彩与明暗层级完全吻合「warm-ivory」基调",
+    "符合「页面阅读模式」的专业设计规范"
   ]
 }

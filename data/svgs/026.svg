@@ -1,0 +1,20 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+  <rect width="550" height="620" fill="#1A1816" rx="8"/>
+  <!-- Dramatic X-Crossing Beams -->
+  <line x1="60" y1="100" x2="490" y2="520" stroke="#00E5FF" stroke-width="5" stroke-linecap="round"/>
+  <line x1="490" y1="100" x2="60" y2="520" stroke="#FF3D00" stroke-width="5" stroke-linecap="round"/>
+  <line x1="70" y1="120" x2="480" y2="530" stroke="#00E5FF" stroke-width="1.5" stroke-dasharray="6,6" opacity="0.6"/>
+  <line x1="480" y1="120" x2="70" y2="530" stroke="#FF3D00" stroke-width="1.5" stroke-dasharray="6,6" opacity="0.6"/>
+  <!-- Intersection Anchor (275, 310) -->
+  <circle cx="275" cy="310" r="44" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="4,4"/>
+  <circle cx="275" cy="310" r="22" fill="#FFFFFF"/>
+  <circle cx="275" cy="310" r="8" fill="#1A1816"/>
+  <!-- Quadrant Energy Markers -->
+  <polygon points="275,230 265,250 285,250" fill="#00E5FF"/>
+  <polygon points="275,390 265,370 285,370" fill="#00E5FF"/>
+  <polygon points="195,310 215,300 215,320" fill="#FF3D00"/>
+  <polygon points="355,310 335,300 335,320" fill="#FF3D00"/>
+  <!-- Callout Badge -->
+  <rect x="185" y="440" width="180" height="32" rx="6" fill="#FF3D00"/>
+  <text x="275" y="461" fill="#FFFFFF" font-size="12" font-weight="900" font-family="PingFang SC" text-anchor="middle">十字相交 · 四方受力</text>
+</svg>

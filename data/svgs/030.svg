@@ -1,0 +1,20 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+  <rect width="550" height="620" fill="#18181B" rx="8"/>
+  <!-- Subdued 4 Quadrants -->
+  <rect x="50" y="60" width="205" height="230" fill="#222228" rx="6"/>
+  <rect x="295" y="60" width="205" height="230" fill="#222228" rx="6"/>
+  <rect x="50" y="330" width="205" height="230" fill="#222228" rx="6"/>
+  <rect x="295" y="330" width="205" height="230" fill="#222228" rx="6"/>
+  <!-- Cross Beams -->
+  <line x1="50" y1="310" x2="500" y2="310" stroke="#FF5722" stroke-width="8" stroke-linecap="round"/>
+  <line x1="275" y1="60" x2="275" y2="560" stroke="#FF5722" stroke-width="8" stroke-linecap="round"/>
+  <line x1="40" y1="310" x2="510" y2="310" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <line x1="275" y1="50" x2="275" y2="570" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <!-- Center Intersection Nexus -->
+  <circle cx="275" cy="310" r="36" fill="#18181B" stroke="#FF5722" stroke-width="3"/>
+  <circle cx="275" cy="310" r="16" fill="#FF5722"/>
+  <circle cx="275" cy="310" r="5" fill="#FFFFFF"/>
+  <!-- Badge -->
+  <rect x="185" y="210" width="180" height="32" rx="6" fill="#FF5722"/>
+  <text x="275" y="231" fill="#FFFFFF" font-size="12" font-weight="900" font-family="PingFang SC" text-anchor="middle">十字架构 · 四方平衡</text>
+</svg>

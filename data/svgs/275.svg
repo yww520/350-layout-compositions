@@ -1,0 +1,29 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#081630" rx="8"/>
+
+  <!-- 3-Tier Pricing Matrix (Starter, Pro [Hero Highlight], Enterprise) -->
+  <!-- Card 1: Starter -->
+  <rect x="40" y="120" width="135" height="380" rx="10" fill="#0E2248" stroke="#162E58" stroke-width="1.5"/>
+  <text x="107" y="160" fill="#7C92B5" font-size="12" font-weight="bold" font-family="Montserrat" text-anchor="middle">STARTER</text>
+  <text x="107" y="205" fill="#FFFFFF" font-size="26" font-weight="900" font-family="Montserrat" text-anchor="middle">$0</text>
+
+  <!-- Card 2: PRO (HERO POPPED ELEVATED) -->
+  <rect x="195" y="80" width="160" height="430" rx="12" fill="#081630" stroke="#448AFF" stroke-width="3"/>
+  <!-- Popular Tag -->
+  <rect x="235" y="65" width="80" height="24" rx="12" fill="#FF5252"/>
+  <text x="275" y="81" fill="#FFFFFF" font-size="10" font-weight="900" font-family="Montserrat" text-anchor="middle">POPULAR</text>
+  <text x="275" y="130" fill="#448AFF" font-size="14" font-weight="900" font-family="Montserrat" text-anchor="middle">PRO PLAN</text>
+  <text x="275" y="185" fill="#FFFFFF" font-size="38" font-weight="900" font-family="Montserrat" text-anchor="middle">$29</text>
+  <rect x="220" y="440" width="110" height="40" rx="6" fill="#448AFF"/>
+  <text x="275" y="465" fill="#FFFFFF" font-size="12" font-weight="900" font-family="Montserrat" text-anchor="middle">GET PRO</text>
+
+  <!-- Card 3: Enterprise -->
+  <rect x="375" y="120" width="135" height="380" rx="10" fill="#0E2248" stroke="#162E58" stroke-width="1.5"/>
+  <text x="442" y="160" fill="#7C92B5" font-size="12" font-weight="bold" font-family="Montserrat" text-anchor="middle">ENTERPRISE</text>
+  <text x="442" y="205" fill="#FFFFFF" font-size="26" font-weight="900" font-family="Montserrat" text-anchor="middle">$99</text>
+
+    <rect x="185" y="530" width="180" height="28" rx="5" fill="#448AFF"/>
+  <text x="275.0" y="547.36" fill="#FFFFFF" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">突出高转化核心档位</text>
+
+</svg>

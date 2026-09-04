@@ -1,0 +1,21 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#082018" rx="8"/>
+
+  <!-- 16:9 Presentation Frame -->
+  <rect x="40" y="70" width="470" height="480" rx="8" fill="#0E2D23" stroke="#D4E751" stroke-width="2"/>
+  <!-- Category Meta -->
+  <text x="70" y="140" fill="#D4E751" font-size="14" font-weight="bold" font-family="Montserrat" letter-spacing="4">KEYNOTE · 2026</text>
+  <!-- Colossal Headline -->
+  <text x="70" y="240" fill="#FFFFFF" font-size="58" font-weight="900" font-family="Helvetica, Arial, sans-serif">BEYOND</text>
+  <text x="70" y="310" fill="#D4E751" font-size="58" font-weight="900" font-family="Helvetica, Arial, sans-serif">LIMITS.</text>
+  <!-- Subtitle Paragraph -->
+  <text x="70" y="370" fill="#80988E" font-size="16" font-family="PingFang SC">重塑下一代人机协作工作流系统架构</text>
+  <!-- Author / Presenter Stamp -->
+  <line x1="70" y1="430" x2="480" y2="430" stroke="#163E32" stroke-width="1.5"/>
+  <circle cx="90" cy="465" r="16" fill="#D4E751"/>
+  <text x="120" y="470" fill="#FFFFFF" font-size="13" font-weight="bold" font-family="Montserrat">DR. ALEX CHEN · PRINCIPAL RESEARCHER</text>
+    <rect x="185" y="510" width="180" height="28" rx="5" fill="#D4E751"/>
+  <text x="275.0" y="527.36" fill="#082018" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">极简巨字第一视线压强</text>
+
+</svg>

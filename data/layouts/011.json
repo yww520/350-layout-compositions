@@ -1,73 +1,73 @@
 {
   "id": "011",
   "name": "头部空间构图",
-  "name_en": "头部空间构图 COMPOSITION",
+  "name_en": "HEADROOM",
   "category": "构图逻辑 / 经典法则与空间留白",
   "category_slug": "01-composition-logic",
   "subcategory": "经典法则与空间留白",
-  "tagline": "头部空间构图设计法则与空间建构",
-  "description": "经典视觉架构第 011 号：头部空间构图。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
+  "tagline": "以几何分割与比例定势，构建画面的首要秩序与呼吸感。",
+  "description": "350 视觉排版系列第 011 号：头部空间构图（HEADROOM）。归属于「构图逻辑 · 经典法则与空间留白」体系。以几何分割与比例定势，构建画面的首要秩序与呼吸感。",
   "theme": "warm-ivory",
-  "columns_ratio": "530px 380px",
-  "visual_height": "660px",
-  "ai_prompt": "Professional editorial illustration demonstrating 头部空间构图 (350 Layouts series #011), A majestic minimalist landscape with a solitary traveler or natural landmark. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching warm-ivory tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
+  "columns_ratio": "345px 600px",
+  "visual_height": "790px",
+  "ai_prompt": "Professional editorial design illustration demonstrating 头部空间构图 (HEADROOM), 350 Layout series #011. A majestic minimalist landscape with solitary traveler and architectural focal anchor. Art style: clean Swiss International Typographic poster aesthetic, palette tuned to warm-ivory theme, vector geometry, sharp visual hierarchy, 3:4 aspect ratio, ultra-high resolution, museum publication quality.",
   "features": [
     {
       "icon": "target",
-      "title": "头部核心锚点",
-      "title_en": "Focal Anchor",
-      "desc": "确立画面第一视觉据点，使主体在头部空间构图框架中获得最强烈的视觉重力与识别度。"
+      "title": "比例锚定",
+      "title_en": "Proportion Anchor",
+      "desc": "在头部空间构图架构中，严格遵循黄金比例或均分网格确立画面几何重力点，锁定第一注意力。"
     },
     {
       "icon": "compass",
-      "title": "视线引导流线",
-      "title_en": "Leading Flow",
-      "desc": "依据头部空间构图的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
+      "title": "留白定界",
+      "title_en": "Space Delimitation",
+      "desc": "依据头部空间构图的内在几何规律，借由宽广的负空间赋予视觉主体充足呼吸域，消除信息窒息感。"
     },
     {
       "icon": "layers",
-      "title": "负空间与呼吸感",
-      "title_en": "Negative Space",
-      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
+      "title": "动势延伸",
+      "title_en": "Kinetic Extension",
+      "desc": "针对头部空间构图的空间特性，沿分割辅助线构建视线滑行轨迹，形成从局部通往全局的稳定导引。"
     }
   ],
   "tips": [
     {
-      "label": "构图基准",
-      "content": "在应用头部空间构图时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
+      "label": "视觉基准",
+      "content": "确立主视觉交叉点时，优先将核心元素置于第一强交点，次要信息落入对角弱区。"
     },
     {
-      "label": "图文呼应",
-      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
+      "label": "留白控制",
+      "content": "保持至少 40% 以上的有效负空间，确保画面呼吸顺畅与层级通透。"
     }
   ],
   "keywords": [
     {
-      "name": "平衡",
-      "name_en": "Balance",
-      "icon": "check"
-    },
-    {
-      "name": "留白",
-      "name_en": "Negative Space",
-      "icon": "check"
-    },
-    {
-      "name": "比例",
-      "name_en": "Ratio",
-      "icon": "check"
-    },
-    {
       "name": "黄金分割",
       "name_en": "Golden Ratio",
+      "icon": "target"
+    },
+    {
+      "name": "三分网格",
+      "name_en": "Thirds Grid",
+      "icon": "compass"
+    },
+    {
+      "name": "负空间",
+      "name_en": "Negative Space",
+      "icon": "layers"
+    },
+    {
+      "name": "视线导引",
+      "name_en": "Eye Lead",
       "icon": "check"
     }
   ],
   "checklist": [
-    "头部空间构图核心主体位置明确无歧义",
-    "引导线与视觉流向顺畅自然",
-    "留白空间充足，无视觉拥挤感",
-    "明暗与色彩反差符合层级逻辑",
-    "信息传达准确，整体秩序严密"
+    "头部空间构图核心主体或骨骼线定位明确严谨",
+    "视觉引导线与视线流向顺畅自然",
+    "留白空间充足，版面呼吸感良好",
+    "色彩与明暗层级完全吻合「warm-ivory」基调",
+    "符合「经典法则与空间留白」的专业设计规范"
   ]
 }

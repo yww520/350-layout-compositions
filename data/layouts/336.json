@@ -1,73 +1,73 @@
 {
   "id": "336",
   "name": "标题和内容幻灯片版式",
-  "name_en": "标题和内容幻灯片版式 COMPOSITION",
+  "name_en": "TITLE & CONTENT SLIDE",
   "category": "演示文稿页面 / 基础幻灯片",
   "category_slug": "08-presentation",
   "subcategory": "基础幻灯片",
-  "tagline": "标题和内容幻灯片版式设计法则与空间建构",
-  "description": "经典视觉架构第 336 号：标题和内容幻灯片版式。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
-  "theme": "cobalt-blue",
-  "columns_ratio": "530px 380px",
-  "visual_height": "660px",
-  "ai_prompt": "Professional editorial illustration demonstrating 标题和内容幻灯片版式 (350 Layouts series #336), Masterful visual composition demonstrating 标题和内容幻灯片版式 principle. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching cobalt-blue tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
+  "tagline": "秒级传达演讲核心，用纯粹版式为演讲者提供坚实信任背书。",
+  "description": "350 视觉排版系列第 336 号：标题和内容幻灯片版式（TITLE & CONTENT SLIDE）。归属于「演示文稿页面 · 基础幻灯片」体系。秒级传达演讲核心，用纯粹版式为演讲者提供坚实信任背书。",
+  "theme": "forest-green",
+  "columns_ratio": "345px 600px",
+  "visual_height": "790px",
+  "ai_prompt": "Professional editorial design illustration demonstrating 标题和内容幻灯片版式 (TITLE & CONTENT SLIDE), 350 Layout series #336. Professional keynote presentation slide layout with crisp title, balanced columns, and modern geometric card. Art style: clean Swiss International Typographic poster aesthetic, palette tuned to forest-green theme, vector geometry, sharp visual hierarchy, 3:4 aspect ratio, ultra-high resolution, museum publication quality.",
   "features": [
     {
       "icon": "target",
-      "title": "标题核心锚点",
-      "title_en": "Focal Anchor",
-      "desc": "确立画面第一视觉据点，使主体在标题和内容幻灯片版式框架中获得最强烈的视觉重力与识别度。"
+      "title": "三秒定势",
+      "title_en": "Three-Second Recognition",
+      "desc": "在标题和内容幻灯片版式架构中，标题字体硕大醒目，听众无需眯眼即可在 3 秒内捕捉本页核心论点。"
     },
     {
       "icon": "compass",
-      "title": "视线引导流线",
-      "title_en": "Leading Flow",
-      "desc": "依据标题和内容幻灯片版式的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
+      "title": "双向对照",
+      "title_en": "Bilateral Comparison",
+      "desc": "依据标题和内容幻灯片版式的内在几何规律，采用两项卡片并列版式，左右对阵展示优劣、现状与目标对比。"
     },
     {
       "icon": "layers",
-      "title": "负空间与呼吸感",
-      "title_en": "Negative Space",
-      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
+      "title": "少即是多",
+      "title_en": "Blank Breathing",
+      "desc": "针对标题和内容幻灯片版式的空间特性，坚决摒弃花哨装饰符，以充沛的幻灯片边距为现场声场留足空间。"
     }
   ],
   "tips": [
     {
-      "label": "构图基准",
-      "content": "在应用标题和内容幻灯片版式时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
+      "label": "一页一事",
+      "content": "单张幻灯片绝对禁止出现两个以上平级核心观点，贪多必失。"
     },
     {
-      "label": "图文呼应",
-      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
+      "label": "字号底线",
+      "content": "投影正文字号不得低于 18pt，关键标题字号保持在 44pt 以上，确保全场清晰。"
     }
   ],
   "keywords": [
     {
-      "name": "平衡",
-      "name_en": "Balance",
-      "icon": "check"
+      "name": "封面立势",
+      "name_en": "Cover Stance",
+      "icon": "target"
     },
     {
-      "name": "焦点",
-      "name_en": "Focus",
-      "icon": "check"
+      "name": "两项对比",
+      "name_en": "Two-Way Contrast",
+      "icon": "compass"
     },
     {
-      "name": "节奏",
-      "name_en": "Rhythm",
-      "icon": "check"
+      "name": "极简空白",
+      "name_en": "Minimal Blank",
+      "icon": "layers"
     },
     {
-      "name": "引导",
-      "name_en": "Guide",
+      "name": "图文排布",
+      "name_en": "Slide Typography",
       "icon": "check"
     }
   ],
   "checklist": [
-    "标题和内容幻灯片版式核心主体位置明确无歧义",
-    "引导线与视觉流向顺畅自然",
-    "留白空间充足，无视觉拥挤感",
-    "明暗与色彩反差符合层级逻辑",
-    "信息传达准确，整体秩序严密"
+    "标题和内容幻灯片版式核心主体或骨骼线定位明确严谨",
+    "视觉引导线与视线流向顺畅自然",
+    "留白空间充足，版面呼吸感良好",
+    "色彩与明暗层级完全吻合「forest-green」基调",
+    "符合「基础幻灯片」的专业设计规范"
   ]
 }

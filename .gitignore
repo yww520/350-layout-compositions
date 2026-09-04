@@ -3,4 +3,5 @@ raw_assets/
 __pycache__/
 *.pyc
 .chrome_headless_tmp/
+dist/test_renders/
 *.log

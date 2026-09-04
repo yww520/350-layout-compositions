@@ -1,0 +1,19 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#12141A" rx="8"/>
+
+  <!-- Inverted Triangular Wedge balancing on bottom apex -->
+  <polygon points="60,110 490,110 275,510" fill="#1A1D26" stroke="#FFD700" stroke-width="3"/>
+  <!-- Unstable Balance Fulcrum Point (275, 510) -->
+  <circle cx="275" cy="510" r="30" fill="#FF3D00" opacity="0.25"/>
+  <circle cx="275" cy="510" r="16" fill="#FF3D00"/>
+  <circle cx="275" cy="510" r="4" fill="#FFFFFF"/>
+  <!-- Center of Mass Tension Line -->
+  <line x1="275" y1="110" x2="275" y2="510" stroke="#00E5FF" stroke-width="1.8" stroke-dasharray="6,4"/>
+  <!-- Mass Top Load Blocks -->
+  <rect x="140" y="150" width="270" height="70" fill="#FFD700" opacity="0.8" rx="4"/>
+  <text x="275" y="192" fill="#12141A" font-size="14" font-weight="900" font-family="PingFang SC" text-anchor="middle">顶重底尖 · 极端张力</text>
+    <rect x="185" y="540" width="180" height="28" rx="5" fill="#FF3D00"/>
+  <text x="275.0" y="557.36" fill="#FFFFFF" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">临界平衡点</text>
+
+</svg>

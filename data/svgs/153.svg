@@ -1,0 +1,26 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#081630" rx="8"/>
+
+  <!-- Asymmetric Bento Box Cards (Apple / Modern Web standard) -->
+  <!-- Box 1: Hero Large Card (Top Left) -->
+  <rect x="50" y="70" width="270" height="220" rx="16" fill="#0E2248" stroke="#448AFF" stroke-width="2"/>
+  <rect x="80" y="100" width="40" height="40" rx="8" fill="#448AFF"/>
+  <text x="80" y="180" fill="#FFFFFF" font-size="18" font-weight="900" font-family="Montserrat">CORE STAT</text>
+  <text x="80" y="210" fill="#7C92B5" font-size="12" font-family="Montserrat">99.8% Efficiency</text>
+  <!-- Box 2: Tall Vertical Card (Right) -->
+  <rect x="340" y="70" width="160" height="350" rx="16" fill="#448AFF" opacity="0.9"/>
+  <circle cx="420" cy="150" r="34" fill="#FFFFFF"/>
+  <text x="420" y="260" fill="#081630" font-size="16" font-weight="900" font-family="Montserrat" text-anchor="middle">INTEGRATION</text>
+  <!-- Box 3: Small Card (Bottom Left A) -->
+  <rect x="50" y="310" width="125" height="180" rx="16" fill="#0E2248" stroke="#162E58" stroke-width="1.5"/>
+  <circle cx="112" cy="370" r="20" fill="#FF5252"/>
+  <!-- Box 4: Small Card (Bottom Left B) -->
+  <rect x="195" y="310" width="125" height="180" rx="16" fill="#0E2248" stroke="#162E58" stroke-width="1.5"/>
+  <circle cx="257" cy="370" r="20" fill="#00E5FF"/>
+  <!-- Box 5: Wide Bottom Span -->
+  <rect x="50" y="510" width="450" height="60" rx="14" fill="#2A4B82"/>
+    <rect x="185" y="525" width="180" height="28" rx="5" fill="#448AFF"/>
+  <text x="275.0" y="542.36" fill="#FFFFFF" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">便当盒模块化容器</text>
+
+</svg>

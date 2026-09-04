@@ -1,73 +1,73 @@
 {
   "id": "175",
   "name": "双边系统",
-  "name_en": "双边系统 COMPOSITION",
+  "name_en": "BILATERAL TYPE SYSTEM",
   "category": "字体、网格与东亚文字 / 字体组织系统",
   "category_slug": "04-type-grid-cjk",
   "subcategory": "字体组织系统",
-  "tagline": "双边系统设计法则与空间建构",
-  "description": "经典视觉架构第 175 号：双边系统。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
-  "theme": "warm-ivory",
-  "columns_ratio": "530px 380px",
-  "visual_height": "660px",
-  "ai_prompt": "Professional editorial illustration demonstrating 双边系统 (350 Layouts series #175), Masterful visual composition demonstrating 双边系统 principle. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching warm-ivory tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
+  "tagline": "以理性系统组织文字，使字符在空间中构建自洽的建筑学逻辑。",
+  "description": "350 视觉排版系列第 175 号：双边系统（BILATERAL TYPE SYSTEM）。归属于「字体、网格与东亚文字 · 字体组织系统」体系。以理性系统组织文字，使字符在空间中构建自洽的建筑学逻辑。",
+  "theme": "cobalt-blue",
+  "columns_ratio": "345px 600px",
+  "visual_height": "790px",
+  "ai_prompt": "Professional editorial design illustration demonstrating 双边系统 (BILATERAL TYPE SYSTEM), 350 Layout series #175. Comprehensive typographical hierarchy specimen sheet showing axial, radial, and modular type systems. Art style: clean Swiss International Typographic poster aesthetic, palette tuned to cobalt-blue theme, vector geometry, sharp visual hierarchy, 3:4 aspect ratio, ultra-high resolution, museum publication quality.",
   "features": [
     {
       "icon": "target",
-      "title": "双边核心锚点",
-      "title_en": "Focal Anchor",
-      "desc": "确立画面第一视觉据点，使主体在双边系统框架中获得最强烈的视觉重力与识别度。"
+      "title": "系统骨架",
+      "title_en": "Systemic Skeleton",
+      "desc": "在双边系统架构中，基于固定轴线或网格生成文字阵列，彻底规避随机散落的混乱。"
     },
     {
       "icon": "compass",
-      "title": "视线引导流线",
-      "title_en": "Leading Flow",
-      "desc": "依据双边系统的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
+      "title": "音阶比例",
+      "title_en": "Harmonic Scale",
+      "desc": "依据双边系统的内在几何规律，字体字号严格按照和声比率（如 1.25 / 1.5）递增，自然天成。"
     },
     {
       "icon": "layers",
-      "title": "负空间与呼吸感",
-      "title_en": "Negative Space",
-      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
+      "title": "灰度匀称",
+      "title_en": "Type Gray Tone",
+      "desc": "针对双边系统的空间特性，调控字距（Tracking）与行距（Leading），呈现完美均匀的正文纸张灰度。"
     }
   ],
   "tips": [
     {
-      "label": "构图基准",
-      "content": "在应用双边系统时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
+      "label": "字体克制",
+      "content": "单幅作品中使用的字族（Font Family）不得超过 2 款，通过字重变化表现丰富度。"
     },
     {
-      "label": "图文呼应",
-      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
+      "label": "行距黄金比",
+      "content": "正文行距通常设置为字号的 1.5 至 1.8 倍，确保阅读时视线换行精准。"
     }
   ],
   "keywords": [
     {
-      "name": "平衡",
-      "name_en": "Balance",
-      "icon": "check"
+      "name": "字体系统",
+      "name_en": "Type System",
+      "icon": "target"
     },
     {
-      "name": "焦点",
-      "name_en": "Focus",
-      "icon": "check"
+      "name": "轴线对齐",
+      "name_en": "Axial Alignment",
+      "icon": "compass"
     },
     {
-      "name": "节奏",
-      "name_en": "Rhythm",
-      "icon": "check"
+      "name": "字阶级差",
+      "name_en": "Scale Ladder",
+      "icon": "layers"
     },
     {
-      "name": "引导",
-      "name_en": "Guide",
+      "name": "文字构架",
+      "name_en": "Type Framework",
       "icon": "check"
     }
   ],
   "checklist": [
-    "双边系统核心主体位置明确无歧义",
-    "引导线与视觉流向顺畅自然",
-    "留白空间充足，无视觉拥挤感",
-    "明暗与色彩反差符合层级逻辑",
-    "信息传达准确，整体秩序严密"
+    "双边系统核心主体或骨骼线定位明确严谨",
+    "视觉引导线与视线流向顺畅自然",
+    "留白空间充足，版面呼吸感良好",
+    "色彩与明暗层级完全吻合「cobalt-blue」基调",
+    "符合「字体组织系统」的专业设计规范"
   ]
 }

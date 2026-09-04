@@ -1,0 +1,21 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#12141A" rx="8"/>
+
+  <!-- Ascending Geometric Terraced Steps -->
+  <path d="M 60 520 L 170 520 L 170 420 L 280 420 L 280 320 L 390 320 L 390 220 L 490 220 L 490 520 Z" fill="#1A1D26" stroke="#FFD700" stroke-width="2.5"/>
+  <!-- Step Highlights -->
+  <rect x="60" y="490" width="110" height="30" fill="#4A5568"/>
+  <rect x="170" y="390" width="110" height="30" fill="#00E5FF" opacity="0.6"/>
+  <rect x="280" y="290" width="110" height="30" fill="#FFD700" opacity="0.8"/>
+  <rect x="390" y="190" width="100" height="30" fill="#FFD700"/>
+  <!-- Upward Progression Vector -->
+  <line x1="80" y1="460" x2="460" y2="150" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="6,4"/>
+  <polygon points="465,145 445,150 455,165" fill="#FFFFFF"/>
+  <!-- Apex Summit Anchor -->
+  <circle cx="440" cy="190" r="20" fill="#FFD700"/>
+  <circle cx="440" cy="190" r="6" fill="#FFFFFF"/>
+    <rect x="185" y="470" width="180" height="30" rx="5" fill="#FFD700"/>
+  <text x="275.0" y="488.6" fill="#12141A" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">阶梯递进上扬</text>
+
+</svg>

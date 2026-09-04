@@ -1,0 +1,38 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#1F1B18" rx="8"/>
+
+  <!-- Classical Book Margins (Tschichold Canon 2:3:4:6) -->
+  <rect x="50" y="50" width="450" height="520" fill="#2B2622" stroke="#3B342F" stroke-width="1.5" rx="4"/>
+  <!-- Elegant Centered Text Block -->
+  <rect x="130" y="110" width="290" height="380" fill="#1F1B18" stroke="#E25238" stroke-width="1.5" rx="3"/>
+  <!-- Simulated Text Lines -->
+  <g fill="#8A827A">
+    <rect x="150" y="140" width="250" height="8" rx="2" fill="#E25238"/>
+    <rect x="150" y="165" width="250" height="5" rx="1"/>
+    <rect x="150" y="180" width="250" height="5" rx="1"/>
+    <rect x="150" y="195" width="220" height="5" rx="1"/>
+    <rect x="150" y="225" width="250" height="5" rx="1"/>
+    <rect x="150" y="240" width="250" height="5" rx="1"/>
+    <rect x="150" y="255" width="180" height="5" rx="1"/>
+    <rect x="150" y="285" width="250" height="5" rx="1"/>
+    <rect x="150" y="300" width="240" height="5" rx="1"/>
+    <rect x="150" y="315" width="250" height="5" rx="1"/>
+    <rect x="150" y="330" width="200" height="5" rx="1"/>
+  </g>
+  <!-- Classical Folio Page Number -->
+  <text x="275" y="460" fill="#E25238" font-size="12" font-family="Montserrat" text-anchor="middle">· 42 ·</text>
+    <line x1="50" y1="80" x2="130" y2="80" stroke="#E25238" stroke-width="1.2"/>
+  <line x1="50" y1="75" x2="50" y2="85" stroke="#E25238" stroke-width="1.2"/>
+  <line x1="130" y1="75" x2="130" y2="85" stroke="#E25238" stroke-width="1.2"/>
+  <rect x="66.0" y="71" width="48" height="18" fill="#12141A" rx="3"/>
+  <text x="90.0" y="84" fill="#E25238" font-size="10" font-weight="bold" font-family="Montserrat, monospace" text-anchor="middle">INNER</text>
+    <line x1="420" y1="80" x2="500" y2="80" stroke="#E25238" stroke-width="1.2"/>
+  <line x1="420" y1="75" x2="420" y2="85" stroke="#E25238" stroke-width="1.2"/>
+  <line x1="500" y1="75" x2="500" y2="85" stroke="#E25238" stroke-width="1.2"/>
+  <rect x="436.0" y="71" width="48" height="18" fill="#12141A" rx="3"/>
+  <text x="460.0" y="84" fill="#E25238" font-size="10" font-weight="bold" font-family="Montserrat, monospace" text-anchor="middle">OUTER</text>
+    <rect x="185" y="520" width="180" height="28" rx="5" fill="#E25238"/>
+  <text x="275.0" y="537.36" fill="#1F1B18" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">中世纪手抄本黄金比例</text>
+
+</svg>

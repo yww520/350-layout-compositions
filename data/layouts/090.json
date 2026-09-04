@@ -1,73 +1,73 @@
 {
   "id": "090",
   "name": "动态构图",
-  "name_en": "动态构图 COMPOSITION",
+  "name_en": "DYNAMIC COMPOSITION",
   "category": "视觉原则与阅读模式 / 平衡、动势与焦点",
   "category_slug": "02-visual-principles",
   "subcategory": "平衡、动势与焦点",
-  "tagline": "动态构图设计法则与空间建构",
-  "description": "经典视觉架构第 090 号：动态构图。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
-  "theme": "cobalt-blue",
-  "columns_ratio": "530px 380px",
-  "visual_height": "660px",
-  "ai_prompt": "Professional editorial illustration demonstrating 动态构图 (350 Layouts series #090), Masterful visual composition demonstrating 动态构图 principle. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching cobalt-blue tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
+  "tagline": "在力的对立与抗衡中，构筑静中有动的永恒均势。",
+  "description": "350 视觉排版系列第 090 号：动态构图（DYNAMIC COMPOSITION）。归属于「视觉原则与阅读模式 · 平衡、动势与焦点」体系。在力的对立与抗衡中，构筑静中有动的永恒均势。",
+  "theme": "warm-ivory",
+  "columns_ratio": "345px 600px",
+  "visual_height": "790px",
+  "ai_prompt": "Professional editorial design illustration demonstrating 动态构图 (DYNAMIC COMPOSITION), 350 Layout series #090. Abstract kinetic sculpture balancing bold spheres and slender beams in harmonic equilibrium. Art style: clean Swiss International Typographic poster aesthetic, palette tuned to warm-ivory theme, vector geometry, sharp visual hierarchy, 3:4 aspect ratio, ultra-high resolution, museum publication quality.",
   "features": [
     {
       "icon": "target",
-      "title": "动态核心锚点",
-      "title_en": "Focal Anchor",
-      "desc": "确立画面第一视觉据点，使主体在动态构图框架中获得最强烈的视觉重力与识别度。"
+      "title": "杠杆支点",
+      "title_en": "Lever Fulcrum",
+      "desc": "在动态构图架构中，通过不对称元素的面积与距离调配，达成如同天平般的物理平衡感。"
     },
     {
       "icon": "compass",
-      "title": "视线引导流线",
-      "title_en": "Leading Flow",
-      "desc": "依据动态构图的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
+      "title": "动态预压",
+      "title_en": "Kinetic Preload",
+      "desc": "依据动态构图的内在几何规律，让画面元素呈现即将运动的倾斜临界态，蓄积强烈的视觉张力。"
     },
     {
       "icon": "layers",
-      "title": "负空间与呼吸感",
-      "title_en": "Negative Space",
-      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
+      "title": "单一聚核",
+      "title_en": "Singular Focus",
+      "desc": "针对动态构图的空间特性，确保全画幅存在压倒性的第一焦点，彻底消除层级摇摆。"
     }
   ],
   "tips": [
     {
-      "label": "构图基准",
-      "content": "在应用动态构图时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
+      "label": "视觉重量",
+      "content": "深色与密集肌理具有更大视觉重量，需用更大面积的浅色负空间去抗衡。"
     },
     {
-      "label": "图文呼应",
-      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
+      "label": "焦点排他",
+      "content": "同一焦区内严禁放置竞争性高对比要素，确保目光瞬间锁定。"
     }
   ],
   "keywords": [
     {
-      "name": "平衡",
-      "name_en": "Balance",
-      "icon": "check"
+      "name": "动态平衡",
+      "name_en": "Dynamic Balance",
+      "icon": "target"
     },
     {
-      "name": "焦点",
-      "name_en": "Focus",
-      "icon": "check"
+      "name": "视觉重力",
+      "name_en": "Visual Gravity",
+      "icon": "compass"
     },
     {
-      "name": "节奏",
-      "name_en": "Rhythm",
-      "icon": "check"
+      "name": "单一据点",
+      "name_en": "Focal Anchor",
+      "icon": "layers"
     },
     {
-      "name": "引导",
-      "name_en": "Guide",
+      "name": "力量对抗",
+      "name_en": "Force Confrontation",
       "icon": "check"
     }
   ],
   "checklist": [
-    "动态构图核心主体位置明确无歧义",
-    "引导线与视觉流向顺畅自然",
-    "留白空间充足，无视觉拥挤感",
-    "明暗与色彩反差符合层级逻辑",
-    "信息传达准确，整体秩序严密"
+    "动态构图核心主体或骨骼线定位明确严谨",
+    "视觉引导线与视线流向顺畅自然",
+    "留白空间充足，版面呼吸感良好",
+    "色彩与明暗层级完全吻合「warm-ivory」基调",
+    "符合「平衡、动势与焦点」的专业设计规范"
   ]
 }

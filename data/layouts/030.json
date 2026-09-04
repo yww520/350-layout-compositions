@@ -1,73 +1,73 @@
 {
   "id": "030",
   "name": "十字构图",
-  "name_en": "十字构图 COMPOSITION",
+  "name_en": "CROSS COMPOSITION",
   "category": "构图逻辑 / 重心、线条与轴线",
   "category_slug": "01-composition-logic",
   "subcategory": "重心、线条与轴线",
-  "tagline": "十字构图设计法则与空间建构",
-  "description": "经典视觉架构第 030 号：十字构图。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
+  "tagline": "以轴线贯穿力场，用骨架线条撬动静态空间的动势张力。",
+  "description": "350 视觉排版系列第 030 号：十字构图（CROSS COMPOSITION）。归属于「构图逻辑 · 重心、线条与轴线」体系。以轴线贯穿力场，用骨架线条撬动静态空间的动势张力。",
   "theme": "cobalt-blue",
-  "columns_ratio": "530px 380px",
-  "visual_height": "660px",
-  "ai_prompt": "Professional editorial illustration demonstrating 十字构图 (350 Layouts series #030), Soaring bridges, diagonal architectural rafters or stark diagonal horizon creating powerful kinetic tension. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching cobalt-blue tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
+  "columns_ratio": "345px 600px",
+  "visual_height": "790px",
+  "ai_prompt": "Professional editorial design illustration demonstrating 十字构图 (CROSS COMPOSITION), 350 Layout series #030. Soaring suspension bridge cables and stark diagonal architectural beams under clean directional light. Art style: clean Swiss International Typographic poster aesthetic, palette tuned to cobalt-blue theme, vector geometry, sharp visual hierarchy, 3:4 aspect ratio, ultra-high resolution, museum publication quality.",
   "features": [
     {
       "icon": "target",
-      "title": "十字核心锚点",
-      "title_en": "Focal Anchor",
-      "desc": "确立画面第一视觉据点，使主体在十字构图框架中获得最强烈的视觉重力与识别度。"
+      "title": "轴线骨架",
+      "title_en": "Axis Framework",
+      "desc": "在十字构图架构中，以强烈的线性走势贯穿画幅，分割版面体量并确立视觉方向。"
     },
     {
       "icon": "compass",
-      "title": "视线引导流线",
-      "title_en": "Leading Flow",
-      "desc": "依据十字构图的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
+      "title": "倾斜动能",
+      "title_en": "Kinetic Tilt",
+      "desc": "依据十字构图的内在几何规律，打破水平垂直的死板平衡，借助斜向夹角传递速度感与冲击力。"
     },
     {
       "icon": "layers",
-      "title": "负空间与呼吸感",
-      "title_en": "Negative Space",
-      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
+      "title": "重力平衡",
+      "title_en": "Mass Balance",
+      "desc": "针对十字构图的空间特性，通过对边或异形区块的质量对冲，实现非对称中的力学均势。"
     }
   ],
   "tips": [
     {
-      "label": "构图基准",
-      "content": "在应用十字构图时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
+      "label": "轴线对齐",
+      "content": "标题与关键图元必须沿主要视觉轴线定位，强化整体骨骼硬度。"
     },
     {
-      "label": "图文呼应",
-      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
+      "label": "张力收敛",
+      "content": "倾斜线条延伸至版面边缘时，需有端点重物或对立小元素进行视觉刹车。"
     }
   ],
   "keywords": [
     {
-      "name": "轴线",
-      "name_en": "Axis",
-      "icon": "check"
+      "name": "力场轴线",
+      "name_en": "Force Axis",
+      "icon": "target"
     },
     {
-      "name": "重力",
-      "name_en": "Gravity",
-      "icon": "check"
+      "name": "倾斜张力",
+      "name_en": "Oblique Tension",
+      "icon": "compass"
     },
     {
-      "name": "张力",
-      "name_en": "Tension",
-      "icon": "check"
+      "name": "重力平衡",
+      "name_en": "Gravity Balance",
+      "icon": "layers"
     },
     {
-      "name": "对角线",
-      "name_en": "Diagonal",
+      "name": "动势收束",
+      "name_en": "Motion Convergence",
       "icon": "check"
     }
   ],
   "checklist": [
-    "十字构图核心主体位置明确无歧义",
-    "引导线与视觉流向顺畅自然",
-    "留白空间充足，无视觉拥挤感",
-    "明暗与色彩反差符合层级逻辑",
-    "信息传达准确，整体秩序严密"
+    "十字构图核心主体或骨骼线定位明确严谨",
+    "视觉引导线与视线流向顺畅自然",
+    "留白空间充足，版面呼吸感良好",
+    "色彩与明暗层级完全吻合「cobalt-blue」基调",
+    "符合「重心、线条与轴线」的专业设计规范"
   ]
 }

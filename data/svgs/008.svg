@@ -1,0 +1,19 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#1F1B18" rx="8"/>
+
+  <!-- Vast Void Negative Space Field (80%) -->
+  <rect x="40" y="50" width="470" height="520" fill="none" stroke="#3B342F" stroke-width="1.5" stroke-dasharray="6,6"/>
+  <!-- Tension Arc Vector -->
+  <path d="M 400 440 Q 200 420 120 150" fill="none" stroke="#E25238" stroke-width="2" stroke-dasharray="6,4" opacity="0.7"/>
+  <polygon points="120,150 135,160 125,170" fill="#E25238"/>
+  <!-- Minimalist Micro Focal Element at Lower Right Third -->
+  <circle cx="400" cy="440" r="32" fill="#E25238"/>
+  <circle cx="400" cy="440" r="8" fill="#FFFFFF"/>
+  <!-- Negative Space Label -->
+  <text x="220" y="260" fill="#8A827A" font-size="28" font-weight="900" font-family="Montserrat" opacity="0.4">NEGATIVE SPACE</text>
+  <text x="220" y="295" fill="#8A827A" font-size="14" font-family="PingFang SC" opacity="0.5">留白即空间 · 气韵自然流淌</text>
+    <rect x="310" y="500" width="150" height="28" rx="5" fill="#E25238"/>
+  <text x="385.0" y="517.36" fill="#1F1B18" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">80% 呼吸留白</text>
+
+</svg>

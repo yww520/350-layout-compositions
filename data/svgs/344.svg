@@ -1,0 +1,38 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#082018" rx="8"/>
+
+  <rect x="40" y="60" width="470" height="500" rx="8" fill="#0E2D23" stroke="#163E32" stroke-width="1.5"/>
+  <!-- Central Horizontal Timeline Vector (y=310) -->
+  <line x1="70" y1="310" x2="470" y2="310" stroke="#D4E751" stroke-width="4" stroke-linecap="round"/>
+  <!-- 4 Milestone Nodes -->
+  <!-- Milestone 1 (Top Branch) -->
+  <line x1="110" y1="310" x2="110" y2="200" stroke="#26A69A" stroke-width="2"/>
+  <circle cx="110" cy="310" r="14" fill="#26A69A"/>
+  <circle cx="110" cy="310" r="4" fill="#FFFFFF"/>
+  <rect x="60" y="140" width="100" height="50" rx="6" fill="#082018" stroke="#26A69A" stroke-width="1.2"/>
+  <text x="110" y="165" fill="#26A69A" font-size="12" font-weight="900" font-family="Montserrat" text-anchor="middle">Q1 · ALPHA</text>
+
+  <!-- Milestone 2 (Bottom Branch) -->
+  <line x1="220" y1="310" x2="220" y2="420" stroke="#26A69A" stroke-width="2"/>
+  <circle cx="220" cy="310" r="14" fill="#26A69A"/>
+  <circle cx="220" cy="310" r="4" fill="#FFFFFF"/>
+  <rect x="170" y="430" width="100" height="50" rx="6" fill="#082018" stroke="#26A69A" stroke-width="1.2"/>
+  <text x="220" y="455" fill="#26A69A" font-size="12" font-weight="900" font-family="Montserrat" text-anchor="middle">Q2 · BETA</text>
+
+  <!-- Milestone 3 (Top Branch HERO) -->
+  <line x1="330" y1="310" x2="330" y2="180" stroke="#D4E751" stroke-width="3"/>
+  <circle cx="330" cy="310" r="20" fill="#D4E751"/>
+  <circle cx="330" cy="310" r="6" fill="#FFFFFF"/>
+  <rect x="270" y="110" width="120" height="60" rx="8" fill="#D4E751"/>
+  <text x="330" y="145" fill="#082018" font-size="13" font-weight="900" font-family="Montserrat" text-anchor="middle">Q3 · LAUNCH</text>
+
+  <!-- Milestone 4 (Bottom Branch) -->
+  <line x1="440" y1="310" x2="440" y2="420" stroke="#285848" stroke-width="2"/>
+  <circle cx="440" cy="310" r="14" fill="#285848"/>
+  <rect x="390" y="430" width="100" height="50" rx="6" fill="#082018" stroke="#285848" stroke-width="1.2"/>
+  <text x="440" y="455" fill="#80988E" font-size="12" font-weight="bold" font-family="Montserrat" text-anchor="middle">Q4 · SCALE</text>
+    <rect x="185" y="520" width="180" height="28" rx="5" fill="#D4E751"/>
+  <text x="275.0" y="537.36" fill="#082018" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">时间轴里程碑演进</text>
+
+</svg>

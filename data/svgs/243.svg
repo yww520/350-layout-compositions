@@ -1,0 +1,31 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#081630" rx="8"/>
+
+  <rect x="70" y="60" width="410" height="500" fill="#0E2248" stroke="#162E58" stroke-width="1.5" rx="8"/>
+  <!-- Vertical Stack Item 1 -->
+  <rect x="100" y="90" width="350" height="80" rx="6" fill="#448AFF"/>
+  <text x="275" y="136" fill="#FFFFFF" font-size="14" font-weight="900" font-family="Montserrat" text-anchor="middle">STACK ITEM 1</text>
+  <!-- Gap Token 1 -->
+    <line x1="465" y1="170" x2="465" y2="200" stroke="#FF5252" stroke-width="1.2"/>
+  <line x1="460" y1="170" x2="470" y2="170" stroke="#FF5252" stroke-width="1.2"/>
+  <line x1="460" y1="200" x2="470" y2="200" stroke="#FF5252" stroke-width="1.2"/>
+  <rect x="441" y="176.0" width="48" height="18" fill="#12141A" rx="3"/>
+  <text x="465" y="189.0" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="Montserrat, monospace" text-anchor="middle">gap</text>
+  <!-- Vertical Stack Item 2 -->
+  <rect x="100" y="200" width="350" height="110" rx="6" fill="#081630" stroke="#00E5FF" stroke-width="2"/>
+  <circle cx="150" cy="255" r="22" fill="#00E5FF"/>
+  <text x="275" y="260" fill="#FFFFFF" font-size="14" font-weight="bold" font-family="Montserrat" text-anchor="middle">STACK ITEM 2</text>
+  <!-- Gap Token 2 -->
+    <line x1="465" y1="310" x2="465" y2="340" stroke="#FF5252" stroke-width="1.2"/>
+  <line x1="460" y1="310" x2="470" y2="310" stroke="#FF5252" stroke-width="1.2"/>
+  <line x1="460" y1="340" x2="470" y2="340" stroke="#FF5252" stroke-width="1.2"/>
+  <rect x="441" y="316.0" width="48" height="18" fill="#12141A" rx="3"/>
+  <text x="465" y="329.0" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="Montserrat, monospace" text-anchor="middle">gap</text>
+  <!-- Vertical Stack Item 3 -->
+  <rect x="100" y="340" width="350" height="80" rx="6" fill="#2A4B82"/>
+  <text x="275" y="386" fill="#FFFFFF" font-size="14" font-weight="bold" font-family="Montserrat" text-anchor="middle">STACK ITEM 3</text>
+    <rect x="185" y="480" width="180" height="28" rx="5" fill="#448AFF"/>
+  <text x="275.0" y="497.36" fill="#FFFFFF" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">等距一维垂直流</text>
+
+</svg>

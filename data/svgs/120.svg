@@ -1,0 +1,22 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+  <rect width="550" height="620" fill="#141E1A" rx="8"/>
+  <!-- Common Region Box A (Left Enclosure) -->
+  <rect x="50" y="100" width="205" height="380" fill="#1B382D" stroke="#00BFA5" stroke-width="2.5" rx="12"/>
+  <text x="152" y="140" fill="#00BFA5" font-size="14" font-weight="900" font-family="Montserrat" text-anchor="middle">REGION A</text>
+  <circle cx="152" cy="210" r="30" fill="#00E676"/>
+  <circle cx="152" cy="300" r="30" fill="#00E676"/>
+  <circle cx="152" cy="390" r="30" fill="#00E676"/>
+
+  <!-- Common Region Box B (Right Enclosure) -->
+  <rect x="295" y="100" width="205" height="380" fill="#2E2419" stroke="#FF9100" stroke-width="2.5" rx="12"/>
+  <text x="397" y="140" fill="#FF9100" font-size="14" font-weight="900" font-family="Montserrat" text-anchor="middle">REGION B</text>
+  <rect x="367" y="180" width="60" height="60" fill="#FFB300" rx="6"/>
+  <rect x="367" y="270" width="60" height="60" fill="#FFB300" rx="6"/>
+  <rect x="367" y="360" width="60" height="60" fill="#FFB300" rx="6"/>
+
+  <!-- External Boundary Isolation Divider -->
+  <line x1="275" y1="80" x2="275" y2="500" stroke="#4A6B5D" stroke-width="1.5" stroke-dasharray="6,6"/>
+  <!-- Badge -->
+  <rect x="175" y="520" width="200" height="34" rx="6" fill="#00BFA5"/>
+  <text x="275" y="542" fill="#141E1A" font-size="12" font-weight="900" font-family="PingFang SC" text-anchor="middle">封闭边界 · 明确归属区域</text>
+</svg>

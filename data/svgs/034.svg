@@ -1,0 +1,16 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#1F1B18" rx="8"/>
+
+  <!-- V Shape Inward Funnel Wedge -->
+  <polygon points="60,90 275,510 490,90 400,90 275,370 150,90" fill="#E25238"/>
+  <!-- Downward Guiding Vector Lines -->
+  <line x1="80" y1="120" x2="275" y2="510" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.7"/>
+  <line x1="470" y1="120" x2="275" y2="510" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.7"/>
+  <!-- Bottom Apex Anchor -->
+  <circle cx="275" cy="510" r="30" fill="#FFB300"/>
+  <circle cx="275" cy="510" r="8" fill="#FFFFFF"/>
+    <rect x="185" y="250" width="180" height="30" rx="5" fill="#FFB300"/>
+  <text x="275.0" y="268.6" fill="#1F1B18" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">V 型下倾汇聚</text>
+
+</svg>

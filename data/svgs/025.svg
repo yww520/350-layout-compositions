@@ -1,0 +1,28 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="vanishGlow025" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD700" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#FF9100" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#FF9100" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="550" height="620" fill="#12141A" rx="8"/>
+  <!-- Converging Perspective Ground -->
+  <polygon points="50,580 500,580 275,190" fill="#1C212D"/>
+  <!-- Converging Lines to Vanishing Point (275, 190) -->
+  <line x1="50" y1="580" x2="275" y2="190" stroke="#FF9100" stroke-width="3"/>
+  <line x1="140" y1="580" x2="275" y2="190" stroke="#FF9100" stroke-width="1.8" stroke-dasharray="6,4"/>
+  <line x1="230" y1="580" x2="275" y2="190" stroke="#FF9100" stroke-width="1.2" stroke-dasharray="4,4"/>
+  <line x1="320" y1="580" x2="275" y2="190" stroke="#FF9100" stroke-width="1.2" stroke-dasharray="4,4"/>
+  <line x1="410" y1="580" x2="275" y2="190" stroke="#FF9100" stroke-width="1.8" stroke-dasharray="6,4"/>
+  <line x1="500" y1="580" x2="275" y2="190" stroke="#FF9100" stroke-width="3"/>
+  <!-- Horizontal Horizon Line -->
+  <line x1="40" y1="190" x2="510" y2="190" stroke="#4A5568" stroke-width="1.5" stroke-dasharray="5,5"/>
+  <!-- Vanishing Point Nexus -->
+  <circle cx="275" cy="190" r="70" fill="url(#vanishGlow025)"/>
+  <circle cx="275" cy="190" r="16" fill="#FFD700"/>
+  <circle cx="275" cy="190" r="5" fill="#12141A"/>
+  <!-- Callout Badge -->
+  <rect x="195" y="110" width="160" height="32" rx="6" fill="#FF9100"/>
+  <text x="275" y="131" fill="#12141A" font-size="12" font-weight="900" font-family="PingFang SC" text-anchor="middle">透视灭点 · 极速吸入</text>
+</svg>

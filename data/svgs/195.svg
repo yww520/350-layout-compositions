@@ -1,0 +1,26 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#1F1B18" rx="8"/>
+
+  <!-- Canonical Page Outline (2:3 Ratio) -->
+  <rect x="60" y="50" width="430" height="520" fill="#2B2622" stroke="#E25238" stroke-width="2" rx="4"/>
+  <!-- Construction Diagonals (Tschichold Canon) -->
+  <g stroke="#3B342F" stroke-width="1.5" stroke-dasharray="6,4">
+    <line x1="60" y1="50" x2="490" y2="570"/>
+    <line x1="490" y1="50" x2="60" y2="570"/>
+    <!-- Page 1/9 divisions -->
+    <line x1="60" y1="223" x2="490" y2="223"/>
+    <line x1="203" y1="50" x2="203" y2="570"/>
+  </g>
+  <!-- Constructed Text Area (Golden Canon Proportions 2:3:4:6) -->
+  <rect x="132" y="108" width="286" height="347" fill="#1F1B18" stroke="#E25238" stroke-width="2.5" rx="3"/>
+  <!-- Circle intersection nodes of canon -->
+  <circle cx="275" cy="310" r="8" fill="#D32F2F"/>
+  <circle cx="132" cy="108" r="6" fill="#E25238"/>
+  <circle cx="418" cy="455" r="6" fill="#E25238"/>
+  <text x="275" y="270" fill="#E25238" font-size="16" font-weight="900" font-family="Georgia, serif" text-anchor="middle">TEXT AREA 2:3</text>
+  <text x="275" y="295" fill="#8A827A" font-size="12" font-family="Montserrat" text-anchor="middle">1/9 PAGE MARGIN CANON</text>
+    <rect x="185" y="490" width="180" height="28" rx="5" fill="#E25238"/>
+  <text x="275.0" y="507.36" fill="#1F1B18" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">奇肖尔德九等分网格</text>
+
+</svg>

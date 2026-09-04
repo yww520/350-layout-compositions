@@ -1,0 +1,16 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#1F1B18" rx="8"/>
+
+  <!-- Interlocking Gestalt Figure-Ground -->
+  <rect x="50" y="80" width="450" height="460" fill="#524A44" rx="6"/>
+  <!-- Negative Space Carve Cutout -->
+  <path d="M 275 80 C 200 180 200 240 230 300 C 250 340 250 400 180 540 L 370 540 C 300 400 300 340 320 300 C 350 240 350 180 275 80 Z" fill="#1F1B18"/>
+  <!-- Central White Nexus inside Void -->
+  <circle cx="275" cy="270" r="18" fill="#E25238"/>
+  <circle cx="275" cy="270" r="5" fill="#FFFFFF"/>
+  <text x="275" y="440" fill="#E25238" font-size="16" font-weight="900" font-family="PingFang SC" text-anchor="middle">虚实相生 · 意在形外</text>
+    <rect x="195" y="120" width="160" height="28" rx="5" fill="#E25238"/>
+  <text x="275.0" y="137.36" fill="#1F1B18" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">正负形双重视觉</text>
+
+</svg>

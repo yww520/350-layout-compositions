@@ -1,0 +1,33 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="vertSky022" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EDE7DA"/>
+      <stop offset="100%" stop-color="#D5CBB8"/>
+    </linearGradient>
+  </defs>
+  <rect width="550" height="620" fill="url(#vertSky022)" rx="8"/>
+
+  <!-- Vertical Towering Columns (Forest Green / Dark Teal Palette) -->
+  <rect x="220" y="40" width="70" height="540" fill="#0D3328"/>
+  <rect x="160" y="110" width="50" height="470" fill="#174A3C"/>
+  <rect x="300" y="140" width="50" height="440" fill="#174A3C"/>
+  <rect x="110" y="210" width="40" height="370" fill="#246352"/>
+  <rect x="360" y="240" width="40" height="340" fill="#246352"/>
+  <rect x="70" y="320" width="30" height="260" fill="#3D826F"/>
+  <rect x="410" y="340" width="30" height="240" fill="#3D826F"/>
+
+  <!-- Central Luminous Arch Portal -->
+  <rect x="235" y="430" width="40" height="150" fill="#F4EEDD"/>
+  <rect x="245" y="450" width="20" height="130" fill="#E2A638"/>
+
+  <!-- Vertical Ascent Guide Arrow & Line -->
+  <line x1="255" y1="560" x2="255" y2="70" stroke="#E2A638" stroke-width="3" stroke-dasharray="6,6"/>
+  <polygon points="255,50 245,72 265,72" fill="#E2A638"/>
+
+  <!-- Sun Sphere at upper right -->
+  <circle cx="430" cy="110" r="36" fill="#E2A638"/>
+
+  <!-- Callout Label -->
+  <rect x="50" y="90" width="150" height="30" rx="6" fill="#0D3328"/>
+  <text x="125" y="110" fill="#FFFFFF" font-size="12" font-weight="900" font-family="PingFang SC" text-anchor="middle">竖向拔萃 · 崇高耸立</text>
+</svg>

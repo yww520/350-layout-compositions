@@ -1,73 +1,73 @@
 {
   "id": "314",
   "name": "多层前景调度",
-  "name_en": "多层前景调度 COMPOSITION",
+  "name_en": "MULTI-LAYER FOREGROUND BLOCKING",
   "category": "影视画面构图 / 场面调度与景深",
   "category_slug": "06-film-frame",
   "subcategory": "场面调度与景深",
-  "tagline": "多层前景调度设计法则与空间建构",
-  "description": "经典视觉架构第 314 号：多层前景调度。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
-  "theme": "cobalt-blue",
-  "columns_ratio": "530px 380px",
-  "visual_height": "660px",
-  "ai_prompt": "Professional editorial illustration demonstrating 多层前景调度 (350 Layouts series #314), Masterful visual composition demonstrating 多层前景调度 principle. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching cobalt-blue tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
+  "tagline": "在纵深空间中调度多重线索，让画面每一个切面都在讲述故事。",
+  "description": "350 视觉排版系列第 314 号：多层前景调度（MULTI-LAYER FOREGROUND BLOCKING）。归属于「影视画面构图 · 场面调度与景深」体系。在纵深空间中调度多重线索，让画面每一个切面都在讲述故事。",
+  "theme": "obsidian-black",
+  "columns_ratio": "345px 600px",
+  "visual_height": "790px",
+  "ai_prompt": "Professional editorial design illustration demonstrating 多层前景调度 (MULTI-LAYER FOREGROUND BLOCKING), 350 Layout series #314. Deep focus cinematography with actor in extreme sharp foreground and dynamic action in deep background. Art style: clean Swiss International Typographic poster aesthetic, palette tuned to obsidian-black theme, vector geometry, sharp visual hierarchy, 3:4 aspect ratio, ultra-high resolution, museum publication quality.",
   "features": [
     {
       "icon": "target",
-      "title": "多层核心锚点",
-      "title_en": "Focal Anchor",
-      "desc": "确立画面第一视觉据点，使主体在多层前景调度框架中获得最强烈的视觉重力与识别度。"
+      "title": "深度贯穿",
+      "title_en": "Z-Axis Penetration",
+      "desc": "在多层前景调度架构中，角色由远至近沿 Z 轴纵深走动，将背景事件与前景情绪紧密缝合。"
     },
     {
       "icon": "compass",
-      "title": "视线引导流线",
-      "title_en": "Leading Flow",
-      "desc": "依据多层前景调度的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
+      "title": "全幅锐利",
+      "title_en": "Deep Focus Omnipresence",
+      "desc": "依据多层前景调度的内在几何规律，大光圈配合超焦距，使咫尺前景与数里远山尽数纤毫毕现。"
     },
     {
       "icon": "layers",
-      "title": "负空间与呼吸感",
-      "title_en": "Negative Space",
-      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
+      "title": "横向卷轴",
+      "title_en": "Lateral Pan Tracking",
+      "desc": "针对多层前景调度的空间特性，摄影机水平横向跟移，如徐徐展开的古典画卷，连续展现环境与人群。"
     }
   ],
   "tips": [
     {
-      "label": "构图基准",
-      "content": "在应用多层前景调度时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
+      "label": "前后呼应",
+      "content": "前景发生的静态交流与后景发生的动态冲突形成反差，可极佳烘托悬疑或讽刺。"
     },
     {
-      "label": "图文呼应",
-      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
+      "label": "空间分层打光",
+      "content": "前景、中景、后景使用不同色温或明度布光，防止多层要素在画面中粘连。"
     }
   ],
   "keywords": [
     {
-      "name": "平衡",
-      "name_en": "Balance",
-      "icon": "check"
+      "name": "深度调度",
+      "name_en": "Deep Blocking",
+      "icon": "target"
     },
     {
-      "name": "焦点",
-      "name_en": "Focus",
-      "icon": "check"
+      "name": "超焦全景",
+      "name_en": "Deep Focus",
+      "icon": "compass"
     },
     {
-      "name": "节奏",
-      "name_en": "Rhythm",
-      "icon": "check"
+      "name": "横向推移",
+      "name_en": "Lateral Tracking",
+      "icon": "layers"
     },
     {
-      "name": "引导",
-      "name_en": "Guide",
+      "name": "多层遮挡",
+      "name_en": "Multi-Layer Occlusion",
       "icon": "check"
     }
   ],
   "checklist": [
-    "多层前景调度核心主体位置明确无歧义",
-    "引导线与视觉流向顺畅自然",
-    "留白空间充足，无视觉拥挤感",
-    "明暗与色彩反差符合层级逻辑",
-    "信息传达准确，整体秩序严密"
+    "多层前景调度核心主体或骨骼线定位明确严谨",
+    "视觉引导线与视线流向顺畅自然",
+    "留白空间充足，版面呼吸感良好",
+    "色彩与明暗层级完全吻合「obsidian-black」基调",
+    "符合「场面调度与景深」的专业设计规范"
   ]
 }

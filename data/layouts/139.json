@@ -1,73 +1,73 @@
 {
   "id": "139",
   "name": "无出血版式",
-  "name_en": "无出血版式 COMPOSITION",
+  "name_en": "MARGIN-BOUND LAYOUT",
   "category": "平面、出版与广告 / 分栏、跨页与出血",
   "category_slug": "03-editorial-advertising",
   "subcategory": "分栏、跨页与出血",
-  "tagline": "无出血版式设计法则与空间建构",
-  "description": "经典视觉架构第 139 号：无出血版式。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
+  "tagline": "以严谨分栏规整海量信息，用跨页满幅释放无限张力。",
+  "description": "350 视觉排版系列第 139 号：无出血版式（MARGIN-BOUND LAYOUT）。归属于「平面、出版与广告 · 分栏、跨页与出血」体系。以严谨分栏规整海量信息，用跨页满幅释放无限张力。",
   "theme": "forest-green",
-  "columns_ratio": "530px 380px",
-  "visual_height": "660px",
-  "ai_prompt": "Professional editorial illustration demonstrating 无出血版式 (350 Layouts series #139), Swiss modern editorial grid design with multi-column rhythm, balanced gutters, and bold typographic blocks. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching forest-green tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
+  "columns_ratio": "345px 600px",
+  "visual_height": "790px",
+  "ai_prompt": "Professional editorial design illustration demonstrating 无出血版式 (MARGIN-BOUND LAYOUT), 350 Layout series #139. Swiss modern editorial spread with multi-column rhythm, balanced gutters, and bold typographic blocks. Art style: clean Swiss International Typographic poster aesthetic, palette tuned to forest-green theme, vector geometry, sharp visual hierarchy, 3:4 aspect ratio, ultra-high resolution, museum publication quality.",
   "features": [
     {
       "icon": "target",
-      "title": "无出核心锚点",
-      "title_en": "Focal Anchor",
-      "desc": "确立画面第一视觉据点，使主体在无出血版式框架中获得最强烈的视觉重力与识别度。"
+      "title": "栏线律动",
+      "title_en": "Column Rhythm",
+      "desc": "在无出血版式架构中，等宽分栏与栏间距规范行长，维持极度舒适的持续阅读节拍。"
     },
     {
       "icon": "compass",
-      "title": "视线引导流线",
-      "title_en": "Leading Flow",
-      "desc": "依据无出血版式的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
+      "title": "破页贯通",
+      "title_en": "Spread Crossing",
+      "desc": "依据无出血版式的内在几何规律，主体图像横跨中缝跨页展开，打破单页局限，倍增版面气魄。"
     },
     {
       "icon": "layers",
-      "title": "负空间与呼吸感",
-      "title_en": "Negative Space",
-      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
+      "title": "出血张力",
+      "title_en": "Bleed Tension",
+      "desc": "针对无出血版式的空间特性，将色块或图片直接裁切至纸张物理边缘，制造画面向外无限延伸的假象。"
     }
   ],
   "tips": [
     {
-      "label": "构图基准",
-      "content": "在应用无出血版式时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
+      "label": "最佳行长",
+      "content": "单栏文字行长控制在 35-45 个中文字符，避免视线换行疲劳。"
     },
     {
-      "label": "图文呼应",
-      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
+      "label": "中缝规避",
+      "content": "跨页排版时严禁将人物面部或核心文字压在中缝折线处。"
     }
   ],
   "keywords": [
     {
-      "name": "分栏",
-      "name_en": "Columns",
-      "icon": "check"
+      "name": "网格分栏",
+      "name_en": "Column Grid",
+      "icon": "target"
     },
     {
-      "name": "网格",
-      "name_en": "Grid",
-      "icon": "check"
+      "name": "连贯跨页",
+      "name_en": "Spread Continuity",
+      "icon": "compass"
     },
     {
-      "name": "行长",
-      "name_en": "Line Length",
-      "icon": "check"
+      "name": "满版出血",
+      "name_en": "Full Bleed",
+      "icon": "layers"
     },
     {
-      "name": "跨栏",
-      "name_en": "Span",
+      "name": "边距呼吸",
+      "name_en": "Margin Breath",
       "icon": "check"
     }
   ],
   "checklist": [
-    "无出血版式核心主体位置明确无歧义",
-    "引导线与视觉流向顺畅自然",
-    "留白空间充足，无视觉拥挤感",
-    "明暗与色彩反差符合层级逻辑",
-    "信息传达准确，整体秩序严密"
+    "无出血版式核心主体或骨骼线定位明确严谨",
+    "视觉引导线与视线流向顺畅自然",
+    "留白空间充足，版面呼吸感良好",
+    "色彩与明暗层级完全吻合「forest-green」基调",
+    "符合「分栏、跨页与出血」的专业设计规范"
   ]
 }

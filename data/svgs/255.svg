@@ -1,0 +1,37 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#081630" rx="8"/>
+
+  <!-- Full App Shell Wireframe -->
+  <rect x="40" y="50" width="470" height="520" rx="8" fill="#0E2248" stroke="#448AFF" stroke-width="2"/>
+  <!-- Top Navigation Header -->
+  <rect x="40" y="50" width="470" height="50" rx="8" fill="#448AFF"/>
+  <circle cx="70" cy="75" r="12" fill="#FFFFFF"/>
+  <text x="100" y="80" fill="#FFFFFF" font-size="13" font-weight="900" font-family="Montserrat">ENTERPRISE CLOUD</text>
+  <circle cx="470" cy="75" r="14" fill="#FF5252"/>
+  <!-- Left Side Navigation Bar -->
+  <rect x="40" y="100" width="110" height="470" fill="#081630" stroke="#162E58" stroke-width="1"/>
+  <rect x="55" y="125" width="80" height="24" rx="4" fill="#448AFF" opacity="0.3"/>
+  <rect x="55" y="160" width="80" height="20" rx="4" fill="#2A4B82"/>
+  <rect x="55" y="190" width="80" height="20" rx="4" fill="#2A4B82"/>
+  <rect x="55" y="220" width="80" height="20" rx="4" fill="#2A4B82"/>
+  <!-- Main Workspace Area -->
+  <!-- Breadcrumb bar -->
+  <text x="175" y="130" fill="#7C92B5" font-size="11" font-family="Montserrat">Home / Dashboard / Overview</text>
+  <!-- 2x2 Metric KPI Widget Cards -->
+  <rect x="170" y="150" width="150" height="90" rx="6" fill="#081630" stroke="#00E5FF" stroke-width="1.5"/>
+  <text x="185" y="180" fill="#7C92B5" font-size="10" font-family="Montserrat">ACTIVE USERS</text>
+  <text x="185" y="215" fill="#00E5FF" font-size="22" font-weight="900" font-family="Montserrat">24,580</text>
+
+  <rect x="340" y="150" width="150" height="90" rx="6" fill="#081630" stroke="#448AFF" stroke-width="1.5"/>
+  <text x="355" y="180" fill="#7C92B5" font-size="10" font-family="Montserrat">REVENUE</text>
+  <text x="355" y="215" fill="#448AFF" font-size="22" font-weight="900" font-family="Montserrat">$184.2K</text>
+
+  <!-- Big Data Graph Card -->
+  <rect x="170" y="260" width="320" height="200" rx="6" fill="#081630" stroke="#162E58" stroke-width="1"/>
+  <path d="M 190 420 L 240 370 L 290 390 L 350 320 L 410 340 L 460 280" fill="none" stroke="#448AFF" stroke-width="3"/>
+  <circle cx="460" cy="280" r="6" fill="#FF5252"/>
+    <rect x="240" y="500" width="180" height="28" rx="5" fill="#448AFF"/>
+  <text x="330.0" y="517.36" fill="#FFFFFF" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">后台控制台框架</text>
+
+</svg>

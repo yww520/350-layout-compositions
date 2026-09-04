@@ -1,0 +1,22 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#12141A" rx="8"/>
+
+  <!-- Elements flying outward past frame boundaries -->
+  <circle cx="275" cy="310" r="40" fill="#1A1D26" stroke="#333C4E" stroke-width="2"/>
+  <!-- Outward Kinetic Vectors -->
+  <line x1="275" y1="270" x2="275" y2="70" stroke="#FFD700" stroke-width="4"/>
+  <polygon points="275,60 265,80 285,80" fill="#FFD700"/>
+  <line x1="310" y1="310" x2="510" y2="310" stroke="#FFD700" stroke-width="4"/>
+  <polygon points="520,310 500,300 500,320" fill="#FFD700"/>
+  <line x1="275" y1="350" x2="275" y2="550" stroke="#FFD700" stroke-width="4"/>
+  <polygon points="275,560 265,540 285,540" fill="#FFD700"/>
+  <line x1="240" y1="310" x2="40" y2="310" stroke="#FFD700" stroke-width="4"/>
+  <polygon points="30,310 50,300 50,320" fill="#FFD700"/>
+  <!-- Flying Particle Rectangles -->
+  <rect x="360" y="160" width="40" height="40" fill="#00E5FF" transform="rotate(25 380 180)"/>
+  <rect x="140" y="420" width="35" height="35" fill="#00E5FF" transform="rotate(-15 157 437)"/>
+    <rect x="185" y="295" width="180" height="30" rx="5" fill="#FFD700"/>
+  <text x="275.0" y="313.6" fill="#12141A" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">离心向外发散</text>
+
+</svg>

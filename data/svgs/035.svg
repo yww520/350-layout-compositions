@@ -1,0 +1,27 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+  <rect width="550" height="620" fill="#1C1814" rx="8"/>
+  <!-- Golden Z Path -->
+  <path d="M 80 140 L 470 140 L 80 480 L 470 480" stroke="#FFB300" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 80 140 L 470 140 L 80 480 L 470 480" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="8,6" fill="none"/>
+  <!-- Waypoints along Z Track -->
+  <!-- 1. Entry point Top Left -->
+  <circle cx="80" cy="140" r="28" fill="#FFB300"/>
+  <text x="80" y="146" fill="#1C1814" font-size="16" font-weight="900" font-family="Montserrat" text-anchor="middle">1</text>
+  <!-- 2. First Turn Top Right -->
+  <circle cx="470" cy="140" r="24" fill="#FFB300"/>
+  <text x="470" y="146" fill="#1C1814" font-size="16" font-weight="900" font-family="Montserrat" text-anchor="middle">2</text>
+  <!-- 3. Diagonal Traverse Bottom Left -->
+  <circle cx="80" cy="480" r="24" fill="#FFB300"/>
+  <text x="80" y="486" fill="#1C1814" font-size="16" font-weight="900" font-family="Montserrat" text-anchor="middle">3</text>
+  <!-- 4. Terminal Catch Bottom Right -->
+  <circle cx="470" cy="480" r="34" fill="#FF3D00"/>
+  <circle cx="470" cy="480" r="12" fill="#FFFFFF"/>
+  <text x="470" y="486" fill="#1C1814" font-size="16" font-weight="900" font-family="Montserrat" text-anchor="middle">4</text>
+  <!-- Motion Direction Arrows -->
+  <path d="M 260 135 L 280 140 L 260 145" fill="#1C1814" stroke="#1C1814" stroke-width="2"/>
+  <path d="M 285 300 L 265 315 L 285 320" fill="#1C1814" stroke="#1C1814" stroke-width="2"/>
+  <path d="M 260 475 L 280 480 L 260 485" fill="#1C1814" stroke="#1C1814" stroke-width="2"/>
+  <!-- Badge -->
+  <rect x="185" y="300" width="180" height="32" rx="6" fill="#FFB300"/>
+  <text x="275" y="321" fill="#1C1814" font-size="12" font-weight="900" font-family="PingFang SC" text-anchor="middle">Z 型扫读 · 视线循环</text>
+</svg>

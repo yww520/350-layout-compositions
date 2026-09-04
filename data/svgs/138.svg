@@ -1,0 +1,20 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#082018" rx="8"/>
+
+  <!-- Left Page -->
+  <rect x="40" y="80" width="225" height="460" fill="#0E2D23" stroke="#163E32" stroke-width="1.5"/>
+  <!-- Right Page -->
+  <rect x="285" y="80" width="225" height="460" fill="#0E2D23" stroke="#163E32" stroke-width="1.5"/>
+  <!-- Central Book Gutter / Seam -->
+  <line x1="275" y1="50" x2="275" y2="570" stroke="#FF7043" stroke-width="2.5" stroke-dasharray="6,4"/>
+  <text x="275" y="40" fill="#FF7043" font-size="11" font-family="Montserrat" text-anchor="middle">GUTTER SEAM</text>
+  <!-- Spanning Hero Panorama Banner crossing the spine -->
+  <rect x="70" y="180" width="410" height="180" fill="#D4E751" opacity="0.85" rx="4"/>
+  <circle cx="200" cy="270" r="32" fill="#FFFFFF"/>
+  <circle cx="360" cy="270" r="45" fill="#26A69A"/>
+  <text x="275" y="390" fill="#FFFFFF" font-size="14" font-weight="900" font-family="PingFang SC" text-anchor="middle">跨页贯通大图全景</text>
+    <rect x="185" y="480" width="180" height="28" rx="5" fill="#D4E751"/>
+  <text x="275.0" y="497.36" fill="#082018" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">跨页连贯规避中缝</text>
+
+</svg>

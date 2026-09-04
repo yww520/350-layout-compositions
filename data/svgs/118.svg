@@ -1,0 +1,18 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#082018" rx="8"/>
+
+  <!-- Smooth intersecting continuous curves -->
+  <path d="M 60 460 C 180 460 200 160 480 160" fill="none" stroke="#D4E751" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 60 160 C 180 160 200 460 480 460" fill="none" stroke="#26A69A" stroke-width="6" stroke-linecap="round"/>
+  <!-- Intersection Nexus Point -->
+  <circle cx="270" cy="310" r="26" fill="#FF7043"/>
+  <circle cx="270" cy="310" r="8" fill="#FFFFFF"/>
+  <!-- Directional Guiding Arrows -->
+  <polygon points="490,160 470,150 470,170" fill="#D4E751"/>
+  <polygon points="490,460 470,450 470,470" fill="#26A69A"/>
+  <text x="275" y="400" fill="#FFFFFF" font-size="14" font-weight="bold" font-family="PingFang SC" text-anchor="middle">平滑轨迹视线惯性延展</text>
+    <rect x="185" y="80" width="180" height="28" rx="5" fill="#D4E751"/>
+  <text x="275.0" y="97.36" fill="#082018" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">顺滑连续性</text>
+
+</svg>

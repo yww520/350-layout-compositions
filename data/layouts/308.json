@@ -1,73 +1,73 @@
 {
   "id": "308",
   "name": "净单人镜头",
-  "name_en": "净单人镜头 COMPOSITION",
+  "name_en": "CLEAN SINGLE SHOT",
   "category": "影视画面构图 / 视角与镜头覆盖",
   "category_slug": "06-film-frame",
   "subcategory": "视角与镜头覆盖",
-  "tagline": "净单人镜头设计法则与空间建构",
-  "description": "经典视觉架构第 308 号：净单人镜头。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
+  "tagline": "操控镜头视角与景别纵深，带领观者在主客观视界中沉浸共情。",
+  "description": "350 视觉排版系列第 308 号：净单人镜头（CLEAN SINGLE SHOT）。归属于「影视画面构图 · 视角与镜头覆盖」体系。操控镜头视角与景别纵深，带领观者在主客观视界中沉浸共情。",
   "theme": "obsidian-black",
-  "columns_ratio": "530px 380px",
-  "visual_height": "660px",
-  "ai_prompt": "Professional editorial illustration demonstrating 净单人镜头 (350 Layouts series #308), Cinematic widescreen film frame, dramatic chiaroscuro lighting, dynamic camera angle and intense atmosphere. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching obsidian-black tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
+  "columns_ratio": "345px 600px",
+  "visual_height": "790px",
+  "ai_prompt": "Professional editorial design illustration demonstrating 净单人镜头 (CLEAN SINGLE SHOT), 350 Layout series #308. Cinematic widescreen film frame, dramatic chiaroscuro lighting, dynamic camera angle and intense atmosphere. Art style: clean Swiss International Typographic poster aesthetic, palette tuned to obsidian-black theme, vector geometry, sharp visual hierarchy, 3:4 aspect ratio, ultra-high resolution, museum publication quality.",
   "features": [
     {
       "icon": "target",
-      "title": "净单核心锚点",
-      "title_en": "Focal Anchor",
-      "desc": "确立画面第一视觉据点，使主体在净单人镜头框架中获得最强烈的视觉重力与识别度。"
+      "title": "过肩纵深",
+      "title_en": "Over-the-Shoulder Depth",
+      "desc": "在净单人镜头架构中，前景虚化的人物肩膀构筑天然框架，将观者拽入面对面对谈临场感。"
     },
     {
       "icon": "compass",
-      "title": "视线引导流线",
-      "title_en": "Leading Flow",
-      "desc": "依据净单人镜头的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
+      "title": "主观沉浸",
+      "title_en": "POV Immersion",
+      "desc": "依据净单人镜头的内在几何规律，镜头化身为剧中人双眼，所见所感同步传导，触发强烈的心理共振。"
     },
     {
       "icon": "layers",
-      "title": "负空间与呼吸感",
-      "title_en": "Negative Space",
-      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
+      "title": "脏镜头遮蔽",
+      "title_en": "Dirty Frame Intrusion",
+      "desc": "针对净单人镜头的空间特性，刻意在镜头前置入门框、枝叶或虚化路人，营造窥视般的现实质感。"
     }
   ],
   "tips": [
     {
-      "label": "构图基准",
-      "content": "在应用净单人镜头时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
+      "label": "180度轴线",
+      "content": "双人对话机位严禁越过动作假想轴线，防止前后镜头人物朝向产生错乱。"
     },
     {
-      "label": "图文呼应",
-      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
+      "label": "视线空间留置",
+      "content": "人物侧脸镜头面朝的方向必须留出宽裕的视线空间（Look Room），避免视线撞墙。"
     }
   ],
   "keywords": [
     {
-      "name": "景别",
-      "name_en": "Framing",
-      "icon": "check"
+      "name": "过肩纵深",
+      "name_en": "Over-the-Shoulder",
+      "icon": "target"
     },
     {
-      "name": "视点",
-      "name_en": "Angle",
-      "icon": "check"
+      "name": "主观视角",
+      "name_en": "POV Subjective",
+      "icon": "compass"
     },
     {
-      "name": "光比",
-      "name_en": "Chiaroscuro",
-      "icon": "check"
+      "name": "客观冷静",
+      "name_en": "Objective Stance",
+      "icon": "layers"
     },
     {
-      "name": "镜头",
-      "name_en": "Lens",
+      "name": "景别裁切",
+      "name_en": "Shot Coverage",
       "icon": "check"
     }
   ],
   "checklist": [
-    "净单人镜头核心主体位置明确无歧义",
-    "引导线与视觉流向顺畅自然",
-    "留白空间充足，无视觉拥挤感",
-    "明暗与色彩反差符合层级逻辑",
-    "信息传达准确，整体秩序严密"
+    "净单人镜头核心主体或骨骼线定位明确严谨",
+    "视觉引导线与视线流向顺畅自然",
+    "留白空间充足，版面呼吸感良好",
+    "色彩与明暗层级完全吻合「obsidian-black」基调",
+    "符合「视角与镜头覆盖」的专业设计规范"
   ]
 }

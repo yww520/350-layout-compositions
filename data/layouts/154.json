@@ -1,73 +1,73 @@
 {
   "id": "154",
   "name": "区块式版式",
-  "name_en": "区块式版式 COMPOSITION",
+  "name_en": "BLOCK LAYOUT",
   "category": "平面、出版与广告 / 模块、侧栏与图文关系",
   "category_slug": "03-editorial-advertising",
   "subcategory": "模块、侧栏与图文关系",
-  "tagline": "区块式版式设计法则与空间建构",
-  "description": "经典视觉架构第 154 号：区块式版式。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
-  "theme": "cobalt-blue",
-  "columns_ratio": "530px 380px",
-  "visual_height": "660px",
-  "ai_prompt": "Professional editorial illustration demonstrating 区块式版式 (350 Layouts series #154), Masterful visual composition demonstrating 区块式版式 principle. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching cobalt-blue tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
+  "tagline": "用模块规整复杂脉络，借侧栏边注赋予版面从容叙事。",
+  "description": "350 视觉排版系列第 154 号：区块式版式（BLOCK LAYOUT）。归属于「平面、出版与广告 · 模块、侧栏与图文关系」体系。用模块规整复杂脉络，借侧栏边注赋予版面从容叙事。",
+  "theme": "warm-ivory",
+  "columns_ratio": "345px 600px",
+  "visual_height": "790px",
+  "ai_prompt": "Professional editorial design illustration demonstrating 区块式版式 (BLOCK LAYOUT), 350 Layout series #154. Modular architectural blueprint layout with elegant metadata sidebar and precision callout blocks. Art style: clean Swiss International Typographic poster aesthetic, palette tuned to warm-ivory theme, vector geometry, sharp visual hierarchy, 3:4 aspect ratio, ultra-high resolution, museum publication quality.",
   "features": [
     {
       "icon": "target",
-      "title": "区块核心锚点",
-      "title_en": "Focal Anchor",
-      "desc": "确立画面第一视觉据点，使主体在区块式版式框架中获得最强烈的视觉重力与识别度。"
+      "title": "区块解耦",
+      "title_en": "Block Decoupling",
+      "desc": "在区块式版式架构中，不同信息单元装入独立模块盒子中，实现高信噪比的并列陈列。"
     },
     {
       "icon": "compass",
-      "title": "视线引导流线",
-      "title_en": "Leading Flow",
-      "desc": "依据区块式版式的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
+      "title": "双线叙事",
+      "title_en": "Dual-Track Narrative",
+      "desc": "依据区块式版式的内在几何规律，主文走中心大栏，侧栏承载延伸知识与快读摘要，互不干扰。"
     },
     {
       "icon": "layers",
-      "title": "负空间与呼吸感",
-      "title_en": "Negative Space",
-      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
+      "title": "边注呼应",
+      "title_en": "Marginalia Dialogue",
+      "desc": "针对区块式版式的空间特性，注释与微缩图紧贴关联段落，视线水平平移即可完成释义查阅。"
     }
   ],
   "tips": [
     {
-      "label": "构图基准",
-      "content": "在应用区块式版式时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
+      "label": "侧栏比例",
+      "content": "侧栏宽度通常占总版面宽度的 25% - 30%，保持从属地位。"
     },
     {
-      "label": "图文呼应",
-      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
+      "label": "模块对齐",
+      "content": "相邻模块的上下边线必须严格吸附至基准网格，避免参差碎乱。"
     }
   ],
   "keywords": [
     {
-      "name": "平衡",
-      "name_en": "Balance",
-      "icon": "check"
+      "name": "模块分区",
+      "name_en": "Modular Section",
+      "icon": "target"
     },
     {
-      "name": "焦点",
-      "name_en": "Focus",
-      "icon": "check"
+      "name": "侧栏导读",
+      "name_en": "Sidebar Lead",
+      "icon": "compass"
     },
     {
-      "name": "节奏",
-      "name_en": "Rhythm",
-      "icon": "check"
+      "name": "边注伴随",
+      "name_en": "Marginalia",
+      "icon": "layers"
     },
     {
-      "name": "引导",
-      "name_en": "Guide",
+      "name": "图文嵌合",
+      "name_en": "Text-Image Fit",
       "icon": "check"
     }
   ],
   "checklist": [
-    "区块式版式核心主体位置明确无歧义",
-    "引导线与视觉流向顺畅自然",
-    "留白空间充足，无视觉拥挤感",
-    "明暗与色彩反差符合层级逻辑",
-    "信息传达准确，整体秩序严密"
+    "区块式版式核心主体或骨骼线定位明确严谨",
+    "视觉引导线与视线流向顺畅自然",
+    "留白空间充足，版面呼吸感良好",
+    "色彩与明暗层级完全吻合「warm-ivory」基调",
+    "符合「模块、侧栏与图文关系」的专业设计规范"
   ]
 }

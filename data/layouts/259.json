@@ -1,73 +1,73 @@
 {
   "id": "259",
   "name": "分屏布局",
-  "name_en": "分屏布局 COMPOSITION",
+  "name_en": "SPLIT-SCREEN LAYOUT",
   "category": "网页与 UI / 页面框架与导航",
   "category_slug": "05-web-ui",
   "subcategory": "页面框架与导航",
-  "tagline": "分屏布局设计法则与空间建构",
-  "description": "经典视觉架构第 259 号：分屏布局。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
-  "theme": "warm-ivory",
-  "columns_ratio": "530px 380px",
-  "visual_height": "660px",
-  "ai_prompt": "Professional editorial illustration demonstrating 分屏布局 (350 Layouts series #259), Masterful visual composition demonstrating 分屏布局 principle. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching warm-ivory tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
+  "tagline": "奠定稳固的骨架体系，让导航触手可及，让内容高效通达。",
+  "description": "350 视觉排版系列第 259 号：分屏布局（SPLIT-SCREEN LAYOUT）。归属于「网页与 UI · 页面框架与导航」体系。奠定稳固的骨架体系，让导航触手可及，让内容高效通达。",
+  "theme": "cobalt-blue",
+  "columns_ratio": "345px 600px",
+  "visual_height": "790px",
+  "ai_prompt": "Professional editorial design illustration demonstrating 分屏布局 (SPLIT-SCREEN LAYOUT), 350 Layout series #259. Classic web application scaffold with responsive sidebar, top app bar, and holy grail layout frame. Art style: clean Swiss International Typographic poster aesthetic, palette tuned to cobalt-blue theme, vector geometry, sharp visual hierarchy, 3:4 aspect ratio, ultra-high resolution, museum publication quality.",
   "features": [
     {
       "icon": "target",
-      "title": "分屏核心锚点",
-      "title_en": "Focal Anchor",
-      "desc": "确立画面第一视觉据点，使主体在分屏布局框架中获得最强烈的视觉重力与识别度。"
+      "title": "圣杯框架",
+      "title_en": "Holy Grail Architecture",
+      "desc": "在分屏布局架构中，经典左右双侧栏护卫主内容区，自适应缩放且主次分明。"
     },
     {
       "icon": "compass",
-      "title": "视线引导流线",
-      "title_en": "Leading Flow",
-      "desc": "依据分屏布局的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
+      "title": "固定基座",
+      "title_en": "Sticky Grounding",
+      "desc": "依据分屏布局的内在几何规律，顶部导航与底部操作栏牢牢吸附屏幕边缘，提供确定性的控制手柄。"
     },
     {
       "icon": "layers",
-      "title": "负空间与呼吸感",
-      "title_en": "Negative Space",
-      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
+      "title": "分层抽屉",
+      "title_en": "Layered Drawer",
+      "desc": "针对分屏布局的空间特性，非高频功能收纳至抽屉中，点击平滑滑出，最大化保留核心视窗纯净。"
     }
   ],
   "tips": [
     {
-      "label": "构图基准",
-      "content": "在应用分屏布局时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
+      "label": "滚动隔离",
+      "content": "侧栏菜单与主体内容区应各自独立支持内部滚动，避免整页跳动迷失。"
     },
     {
-      "label": "图文呼应",
-      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
+      "label": "触控热区",
+      "content": "移动端导航项有效点击热区不得低于 44×44px，提供扎实的防误触手感。"
     }
   ],
   "keywords": [
     {
-      "name": "平衡",
-      "name_en": "Balance",
-      "icon": "check"
+      "name": "应用脚手架",
+      "name_en": "App Scaffold",
+      "icon": "target"
     },
     {
-      "name": "焦点",
-      "name_en": "Focus",
-      "icon": "check"
+      "name": "圣杯三栏",
+      "name_en": "Holy Grail",
+      "icon": "compass"
     },
     {
-      "name": "节奏",
-      "name_en": "Rhythm",
-      "icon": "check"
+      "name": "抽屉导航",
+      "name_en": "Nav Drawer",
+      "icon": "layers"
     },
     {
-      "name": "引导",
-      "name_en": "Guide",
+      "name": "粘性底栏",
+      "name_en": "Sticky Footer",
       "icon": "check"
     }
   ],
   "checklist": [
-    "分屏布局核心主体位置明确无歧义",
-    "引导线与视觉流向顺畅自然",
-    "留白空间充足，无视觉拥挤感",
-    "明暗与色彩反差符合层级逻辑",
-    "信息传达准确，整体秩序严密"
+    "分屏布局核心主体或骨骼线定位明确严谨",
+    "视觉引导线与视线流向顺畅自然",
+    "留白空间充足，版面呼吸感良好",
+    "色彩与明暗层级完全吻合「cobalt-blue」基调",
+    "符合「页面框架与导航」的专业设计规范"
   ]
 }

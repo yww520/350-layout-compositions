@@ -1,0 +1,18 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#082018" rx="8"/>
+
+  <!-- Rubin Vase Profile Geometry -->
+  <rect x="60" y="80" width="430" height="440" fill="#0E2D23" stroke="#163E32" stroke-width="2" rx="6"/>
+  <!-- Central Goblet Silhouette in Gold -->
+  <path d="M 160 100 Q 275 110 390 100 C 330 160 310 230 350 300 C 370 340 330 420 370 480 L 180 480 C 220 420 180 340 200 300 C 240 230 220 160 160 100 Z" fill="#D4E751"/>
+  <!-- Negative Space Flanking Profile Heads -->
+  <circle cx="120" cy="220" r="8" fill="#26A69A"/>
+  <circle cx="430" cy="220" r="8" fill="#26A69A"/>
+  <text x="275" y="300" fill="#082018" font-size="14" font-weight="900" font-family="Montserrat" text-anchor="middle">VASE</text>
+  <text x="120" y="300" fill="#80988E" font-size="12" font-family="Montserrat" text-anchor="middle">FACE A</text>
+  <text x="430" y="300" fill="#80988E" font-size="12" font-family="Montserrat" text-anchor="middle">FACE B</text>
+    <rect x="185" y="500" width="180" height="30" rx="5" fill="#D4E751"/>
+  <text x="275.0" y="518.6" fill="#082018" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">正负形图底交替反转</text>
+
+</svg>

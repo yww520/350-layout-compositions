@@ -1,0 +1,18 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#082018" rx="8"/>
+
+  <!-- Incomplete Arc Circle (Mental Closure) -->
+  <path d="M 275 130 A 150 150 0 0 1 425 280" fill="none" stroke="#D4E751" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 390 380 A 150 150 0 0 1 200 450" fill="none" stroke="#D4E751" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 130 360 A 150 150 0 0 1 180 180" fill="none" stroke="#D4E751" stroke-width="16" stroke-linecap="round"/>
+  <!-- Virtual Missing Gap Lines (Dashed mental closure) -->
+  <circle cx="275" cy="290" r="150" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="6,6" opacity="0.4"/>
+  <!-- Central Focus Completed by Mind -->
+  <circle cx="275" cy="290" r="28" fill="#26A69A"/>
+  <circle cx="275" cy="290" r="8" fill="#FFFFFF"/>
+  <text x="275" y="490" fill="#D4E751" font-size="15" font-weight="900" font-family="PingFang SC" text-anchor="middle">视觉知觉自动补全闭合</text>
+    <rect x="185" y="70" width="180" height="28" rx="5" fill="#D4E751"/>
+  <text x="275.0" y="87.36" fill="#082018" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">完形闭合认知</text>
+
+</svg>

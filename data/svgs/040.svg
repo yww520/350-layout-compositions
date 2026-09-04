@@ -1,0 +1,14 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#1F1B18" rx="8"/>
+
+  <!-- Archimedean / Inward Vortex Curve -->
+  <path d="M 275 310 A 30 30 0 0 1 295 340 A 60 60 0 0 1 235 370 A 100 100 0 0 1 175 260 A 150 150 0 0 1 355 190 A 210 210 0 0 1 450 420" fill="none" stroke="#E25238" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- Central Inward Epicenter -->
+  <circle cx="275" cy="310" r="40" fill="#E25238" opacity="0.2"/>
+  <circle cx="275" cy="310" r="18" fill="#E25238"/>
+  <circle cx="275" cy="310" r="5" fill="#FFFFFF"/>
+    <rect x="185" y="490" width="180" height="30" rx="5" fill="#E25238"/>
+  <text x="275.0" y="508.6" fill="#1F1B18" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">螺旋向心吸入</text>
+
+</svg>

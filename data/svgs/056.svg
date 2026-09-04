@@ -1,0 +1,31 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#12141A" rx="8"/>
+
+  <!-- Cartesian Coordinate Cross (x=275, y=310) -->
+  <line x1="40" y1="310" x2="510" y2="310" stroke="#FFD700" stroke-width="2.5"/>
+  <line x1="275" y1="50" x2="275" y2="570" stroke="#FFD700" stroke-width="2.5"/>
+  <!-- Axis Arrowheads -->
+  <polygon points="515,310 500,302 500,318" fill="#FFD700"/>
+  <polygon points="275,45 267,60 283,60" fill="#FFD700"/>
+  <!-- Quadrant Panels -->
+  <!-- Q1 Top Right -->
+  <rect x="295" y="80" width="190" height="210" fill="#1A1D26" stroke="#333C4E" stroke-width="1.5" rx="4"/>
+  <circle cx="390" cy="185" r="28" fill="#FFD700"/>
+  <text x="390" y="240" fill="#FFD700" font-size="12" font-weight="900" font-family="Montserrat" text-anchor="middle">QUADRANT I</text>
+  <!-- Q2 Top Left -->
+  <rect x="65" y="80" width="190" height="210" fill="#1A1D26" stroke="#333C4E" stroke-width="1.5" rx="4"/>
+  <rect x="135" y="155" width="50" height="50" fill="#00E5FF" rx="4"/>
+  <text x="160" y="240" fill="#00E5FF" font-size="12" font-weight="900" font-family="Montserrat" text-anchor="middle">QUADRANT II</text>
+  <!-- Q3 Bottom Left -->
+  <rect x="65" y="330" width="190" height="210" fill="#1A1D26" stroke="#333C4E" stroke-width="1.5" rx="4"/>
+  <polygon points="160,390 190,440 130,440" fill="#4A5568"/>
+  <text x="160" y="490" fill="#718096" font-size="12" font-weight="900" font-family="Montserrat" text-anchor="middle">QUADRANT III</text>
+  <!-- Q4 Bottom Right -->
+  <rect x="295" y="330" width="190" height="210" fill="#1A1D26" stroke="#333C4E" stroke-width="1.5" rx="4"/>
+  <circle cx="390" cy="425" r="22" fill="#FF3D00"/>
+  <text x="390" y="490" fill="#FF3D00" font-size="12" font-weight="900" font-family="Montserrat" text-anchor="middle">QUADRANT IV</text>
+  <!-- Center Origin Marker -->
+  <circle cx="275" cy="310" r="10" fill="#FFFFFF"/>
+
+</svg>

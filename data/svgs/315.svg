@@ -1,0 +1,24 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#1F1B18" rx="8"/>
+
+  <rect x="50" y="50" width="450" height="520" fill="#2B2622" stroke="#E25238" stroke-width="1.5" rx="6"/>
+  <!-- Soaring Vertical Monumental Mountain Peak (Guo Xi High Distance) -->
+  <polygon points="275,80 160,420 390,420" fill="#524A44" opacity="0.9"/>
+  <polygon points="275,80 230,260 275,420" fill="#E25238" opacity="0.3"/>
+  <polygon points="275,80 200,190 275,250" fill="#FFFFFF" opacity="0.6"/>
+  <!-- Fore-hill lower layer -->
+  <polygon points="100,520 180,390 260,520" fill="#524A44"/>
+  <polygon points="300,520 410,380 490,520" fill="#524A44"/>
+  <!-- Swirling Cloud & Mist Bands at Mid-Level -->
+  <path d="M 120 370 Q 275 350 430 370" stroke="#FFFFFF" stroke-width="16" fill="none" opacity="0.4" stroke-linecap="round"/>
+  <path d="M 80 410 Q 275 390 470 410" stroke="#FFFFFF" stroke-width="22" fill="none" opacity="0.3" stroke-linecap="round"/>
+  <!-- Vertical Soaring Eye Vector -->
+  <line x1="275" y1="480" x2="275" y2="90" stroke="#E25238" stroke-width="2" stroke-dasharray="6,4"/>
+  <polygon points="275,80 268,98 282,98" fill="#E25238"/>
+  <!-- Callout -->
+  <text x="350" y="140" fill="#E25238" font-size="16" font-family="Kaiti, STKaiti, serif">自山下而仰山巅</text>
+    <rect x="185" y="520" width="180" height="28" rx="5" fill="#E25238"/>
+  <text x="275.0" y="537.36" fill="#1F1B18" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">高远法 · 崔嵬仰止</text>
+
+</svg>

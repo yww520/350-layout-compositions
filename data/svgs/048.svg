@@ -1,0 +1,22 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#12141A" rx="8"/>
+
+  <!-- Tilted Orbital Ellipse (Keplerian Orbit) -->
+  <g transform="rotate(-25 275 310)">
+    <ellipse cx="275" cy="310" rx="220" ry="120" fill="none" stroke="#FFD700" stroke-width="3"/>
+    <!-- Major & Minor Axes -->
+    <line x1="55" y1="310" x2="495" y2="310" stroke="#333C4E" stroke-width="1.2" stroke-dasharray="6,6"/>
+    <line x1="275" y1="190" x2="275" y2="430" stroke="#333C4E" stroke-width="1.2" stroke-dasharray="6,6"/>
+    <!-- Twin Orbital Foci -->
+    <circle cx="160" cy="310" r="14" fill="#FF3D00"/>
+    <circle cx="160" cy="310" r="4" fill="#FFFFFF"/>
+    <circle cx="390" cy="310" r="14" fill="#00E5FF"/>
+    <circle cx="390" cy="310" r="4" fill="#FFFFFF"/>
+    <!-- Satellite Element -->
+    <circle cx="440" cy="230" r="18" fill="#FFD700"/>
+  </g>
+    <rect x="185" y="520" width="180" height="30" rx="5" fill="#FFD700"/>
+  <text x="275.0" y="538.6" fill="#12141A" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">开普勒双焦点轨道</text>
+
+</svg>

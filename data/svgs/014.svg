@@ -1,0 +1,18 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#1F1B18" rx="8"/>
+
+  <!-- Heavy Outer Architectural Wall -->
+  <rect x="40" y="50" width="470" height="520" fill="#524A44" rx="6"/>
+  <!-- Inner Arch Frame Cutout -->
+  <path d="M 120 570 L 120 250 A 155 155 0 0 1 430 250 L 430 570 Z" fill="#1F1B18"/>
+  <!-- Distant Scene Revealed Inside Frame -->
+  <polygon points="150,520 275,340 400,520" fill="#2B2622"/>
+  <circle cx="275" cy="250" r="36" fill="#E25238"/>
+  <circle cx="275" cy="250" r="8" fill="#FFFFFF"/>
+  <!-- Arch Frame Contour Line -->
+  <path d="M 120 570 L 120 250 A 155 155 0 0 1 430 250 L 430 570" fill="none" stroke="#E25238" stroke-width="3.5"/>
+    <rect x="185" y="120" width="180" height="30" rx="5" fill="#E25238"/>
+  <text x="275.0" y="138.6" fill="#1F1B18" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">次级几何边框聚焦</text>
+
+</svg>

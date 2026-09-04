@@ -1,0 +1,45 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <radialGradient id="spiralGlow" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#FFD000" stop-opacity="0.95"/>
+          <stop offset="45%" stop-color="#FFD000" stop-opacity="0.3"/>
+          <stop offset="100%" stop-color="#FFD000" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <rect width="550" height="620" fill="#0A1838" rx="8"/>
+      <!-- Starry sky particles -->
+      <circle cx="80" cy="120" r="1.5" fill="#FFFFFF" opacity="0.7"/>
+      <circle cx="210" cy="95" r="2" fill="#FFFFFF" opacity="0.8"/>
+      <circle cx="480" cy="140" r="1.5" fill="#FFFFFF" opacity="0.6"/>
+      <circle cx="450" cy="380" r="2" fill="#FFFFFF" opacity="0.8"/>
+      <circle cx="120" cy="460" r="1.5" fill="#FFFFFF" opacity="0.7"/>
+
+      <!-- Fibonacci Nested Rectangles -->
+      <g stroke="#FFD000" stroke-width="1.5" fill="none" opacity="0.45">
+        <rect x="40" y="80" width="460" height="460" rx="4"/>
+        <line x1="324.3" y1="80" x2="324.3" y2="540"/>
+        <line x1="324.3" y1="364.3" x2="500" y2="364.3"/>
+        <line x1="391.3" y1="80" x2="391.3" y2="364.3"/>
+        <line x1="324.3" y1="188.3" x2="391.3" y2="188.3"/>
+      </g>
+
+      <!-- Golden Spiral Curve -->
+      <path d="M 40 540 A 460 460 0 0 1 500 80 A 284.3 284.3 0 0 1 324.3 364.3 A 175.7 175.7 0 0 1 391.3 188.3 A 108 108 0 0 1 349 230"
+            stroke="#FFD000" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+
+      <!-- Secondary guide vector -->
+      <line x1="40" y1="540" x2="366" y2="215" stroke="#8BB6F9" stroke-width="1.8" stroke-dasharray="6,6" opacity="0.6"/>
+
+      <!-- Focal Whirl Center (366, 215) -->
+      <circle cx="366" cy="215" r="60" fill="url(#spiralGlow)"/>
+      <circle cx="366" cy="215" r="22" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+      <circle cx="366" cy="215" r="12" fill="#FFD000"/>
+      <circle cx="366" cy="215" r="3.5" fill="#0A1838"/>
+
+      <rect x="250" y="160" width="100" height="28" rx="4" fill="#082154" stroke="#FFD000" stroke-width="1.2"/>
+      <text x="300" y="179" fill="#FFD000" font-size="11" font-weight="900" font-family="PingFang SC" text-anchor="middle">螺旋汇聚极点</text>
+
+      <text x="275" y="575" fill="#FFD000" font-size="14" font-weight="bold" font-family="PingFang SC" text-anchor="middle">
+        斐波那契黄金螺旋 · 引导视觉汇聚核心
+      </text>
+    </svg>

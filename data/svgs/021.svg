@@ -1,0 +1,45 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad021" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F2EDE4"/>
+      <stop offset="100%" stop-color="#D8D0C3"/>
+    </linearGradient>
+    <linearGradient id="seaGrad021" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#24518C"/>
+      <stop offset="100%" stop-color="#0F2445"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky Top Half -->
+  <rect width="550" height="620" fill="url(#skyGrad021)" rx="8"/>
+  
+  <!-- Sea Bottom Half -->
+  <rect y="310" width="550" height="310" fill="url(#seaGrad021)"/>
+
+  <!-- Multiple Parallel Horizon Lines -->
+  <line x1="0" y1="310" x2="550" y2="310" stroke="#0F2445" stroke-width="3"/>
+  <line x1="0" y1="360" x2="550" y2="360" stroke="#3A6FB3" stroke-width="1.5" opacity="0.6"/>
+  <line x1="0" y1="420" x2="550" y2="420" stroke="#3A6FB3" stroke-width="1.5" opacity="0.4"/>
+  <line x1="0" y1="490" x2="550" y2="490" stroke="#3A6FB3" stroke-width="1.5" opacity="0.3"/>
+  <line x1="0" y1="560" x2="550" y2="560" stroke="#3A6FB3" stroke-width="1.2" opacity="0.2"/>
+
+  <!-- Mountain Silhouettes along Horizon -->
+  <path d="M 180 310 Q 240 280 300 310 Q 360 270 440 310 Q 480 290 550 310 L 550 310 Z" fill="#1C3860"/>
+
+  <!-- Minimalist Sailboat on Horizon -->
+  <g transform="translate(390, 275)">
+    <polygon points="12,35 12,0 30,35" fill="#FFFFFF"/>
+    <polygon points="10,35 10,8 0,35" fill="#EAE5DA"/>
+    <polygon points="-5,37 35,37 28,43 2,43" fill="#E05238"/>
+    <!-- Water reflection -->
+    <line x1="0" y1="46" x2="30" y2="46" stroke="#FFFFFF" stroke-width="1" opacity="0.6"/>
+    <line x1="5" y1="50" x2="25" y2="50" stroke="#FFFFFF" stroke-width="0.8" opacity="0.4"/>
+  </g>
+
+  <!-- Big Red Sun resting on Horizon -->
+  <circle cx="160" cy="220" r="58" fill="#E05238"/>
+
+  <!-- Guiding Horizon Callout -->
+  <line x1="40" y1="310" x2="510" y2="310" stroke="#E05238" stroke-width="2" stroke-dasharray="6,6"/>
+  <rect x="50" y="260" width="150" height="30" rx="6" fill="#E05238"/>
+  <text x="125" y="280" fill="#FFFFFF" font-size="12" font-weight="900" font-family="PingFang SC" text-anchor="middle">水天一线 · 辽远开阔</text>
+</svg>

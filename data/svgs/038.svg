@@ -1,0 +1,16 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#1F1B18" rx="8"/>
+
+  <!-- Sinuous Meandering River / Path -->
+  <path d="M 100 560 C 280 500 80 340 275 290 C 450 240 200 120 420 70" fill="none" stroke="#E25238" stroke-width="14" stroke-linecap="round"/>
+  <path d="M 100 560 C 280 500 80 340 275 290 C 450 240 200 120 420 70" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-dasharray="8,6"/>
+  <!-- Stepping Milestone Nodes along curve -->
+  <circle cx="100" cy="560" r="14" fill="#FFB300"/>
+  <circle cx="275" cy="290" r="20" fill="#FFB300"/>
+  <circle cx="420" cy="70" r="26" fill="#E25238"/>
+  <circle cx="420" cy="70" r="8" fill="#FFFFFF"/>
+    <rect x="185" y="450" width="180" height="30" rx="5" fill="#E25238"/>
+  <text x="275.0" y="468.6" fill="#1F1B18" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">蜿蜒纵深游弋</text>
+
+</svg>

@@ -1,0 +1,21 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#12141A" rx="8"/>
+
+  <!-- Diamond Rhombus 4 Vertices -->
+  <polygon points="275,70 480,310 275,550 70,310" fill="#1A1D26" stroke="#FFD700" stroke-width="3"/>
+  <!-- Inner Rhombus Grid -->
+  <line x1="275" y1="70" x2="275" y2="550" stroke="#333C4E" stroke-width="1.5" stroke-dasharray="6,6"/>
+  <line x1="70" y1="310" x2="480" y2="310" stroke="#333C4E" stroke-width="1.5" stroke-dasharray="6,6"/>
+  <!-- 4 Acute Point Nodes -->
+  <circle cx="275" cy="70" r="12" fill="#FFD700"/>
+  <circle cx="480" cy="310" r="12" fill="#FFD700"/>
+  <circle cx="275" cy="550" r="12" fill="#FFD700"/>
+  <circle cx="70" cy="310" r="12" fill="#FFD700"/>
+  <!-- Central Diamond Core -->
+  <polygon points="275,220 355,310 275,400 195,310" fill="#FFD700" opacity="0.3"/>
+  <circle cx="275" cy="310" r="14" fill="#FFFFFF"/>
+    <rect x="185" y="300" width="180" height="28" rx="5" fill="#FFD700"/>
+  <text x="275.0" y="317.36" fill="#12141A" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">菱形聚气</text>
+
+</svg>

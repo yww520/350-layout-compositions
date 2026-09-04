@@ -1,73 +1,73 @@
 {
   "id": "064",
   "name": "网络构图",
-  "name_en": "网络构图 COMPOSITION",
+  "name_en": "NETWORK COMPOSITION",
   "category": "构图逻辑 / 阵列、层叠与组群",
   "category_slug": "01-composition-logic",
   "subcategory": "阵列、层叠与组群",
-  "tagline": "网络构图设计法则与空间建构",
-  "description": "经典视觉架构第 064 号：网络构图。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
+  "tagline": "通过单元复现与层次堆叠，在无限秩序中编织丰富韵律。",
+  "description": "350 视觉排版系列第 064 号：网络构图（NETWORK COMPOSITION）。归属于「构图逻辑 · 阵列、层叠与组群」体系。通过单元复现与层次堆叠，在无限秩序中编织丰富韵律。",
   "theme": "obsidian-black",
-  "columns_ratio": "530px 380px",
-  "visual_height": "660px",
-  "ai_prompt": "Professional editorial illustration demonstrating 网络构图 (350 Layouts series #064), Rhythmic repetition of repeating architectural arches, modular windows or patterned geometric elements. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching obsidian-black tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
+  "columns_ratio": "345px 600px",
+  "visual_height": "790px",
+  "ai_prompt": "Professional editorial design illustration demonstrating 网络构图 (NETWORK COMPOSITION), 350 Layout series #064. Precision repetitive architectural facade modules and rhythmic geometric patterns in high contrast. Art style: clean Swiss International Typographic poster aesthetic, palette tuned to obsidian-black theme, vector geometry, sharp visual hierarchy, 3:4 aspect ratio, ultra-high resolution, museum publication quality.",
   "features": [
     {
       "icon": "target",
-      "title": "网络核心锚点",
-      "title_en": "Focal Anchor",
-      "desc": "确立画面第一视觉据点，使主体在网络构图框架中获得最强烈的视觉重力与识别度。"
+      "title": "模数基底",
+      "title_en": "Modular Base",
+      "desc": "在网络构图架构中，以标准化几何单元为母题重复排布，建立高度工业化的秩序底座。"
     },
     {
       "icon": "compass",
-      "title": "视线引导流线",
-      "title_en": "Leading Flow",
-      "desc": "依据网络构图的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
+      "title": "微变破局",
+      "title_en": "Variation Accent",
+      "desc": "依据网络构图的内在几何规律，在严谨的规律阵列中引入单点破格，瞬间激活全局生机。"
     },
     {
       "icon": "layers",
-      "title": "负空间与呼吸感",
-      "title_en": "Negative Space",
-      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
+      "title": "深度叠压",
+      "title_en": "Depth Stacking",
+      "desc": "针对网络构图的空间特性，图层前后覆映产生丰富的物理阴影与虚实进深感。"
     }
   ],
   "tips": [
     {
-      "label": "构图基准",
-      "content": "在应用网络构图时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
+      "label": "间距均一",
+      "content": "阵列单元的外间距（Gutter）必须保持像素级等距，确保秩序严密。"
     },
     {
-      "label": "图文呼应",
-      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
+      "label": "破格克制",
+      "content": "整版破格点不得超过两处，过多异变会瓦解阵列本身的秩序价值。"
     }
   ],
   "keywords": [
     {
-      "name": "阵列",
-      "name_en": "Array",
-      "icon": "check"
+      "name": "单元阵列",
+      "name_en": "Unit Array",
+      "icon": "target"
     },
     {
-      "name": "层叠",
-      "name_en": "Stacking",
-      "icon": "check"
+      "name": "层叠覆映",
+      "name_en": "Layer Overlap",
+      "icon": "compass"
     },
     {
-      "name": "韵律",
-      "name_en": "Rhythm",
-      "icon": "check"
+      "name": "韵律节拍",
+      "name_en": "Rhythmic Beat",
+      "icon": "layers"
     },
     {
-      "name": "秩序",
-      "name_en": "Order",
+      "name": "模块秩序",
+      "name_en": "Modular Order",
       "icon": "check"
     }
   ],
   "checklist": [
-    "网络构图核心主体位置明确无歧义",
-    "引导线与视觉流向顺畅自然",
-    "留白空间充足，无视觉拥挤感",
-    "明暗与色彩反差符合层级逻辑",
-    "信息传达准确，整体秩序严密"
+    "网络构图核心主体或骨骼线定位明确严谨",
+    "视觉引导线与视线流向顺畅自然",
+    "留白空间充足，版面呼吸感良好",
+    "色彩与明暗层级完全吻合「obsidian-black」基调",
+    "符合「阵列、层叠与组群」的专业设计规范"
   ]
 }

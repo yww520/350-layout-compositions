@@ -1,0 +1,21 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#1F1B18" rx="8"/>
+
+  <!-- Vanishing convergence path from bottom corners to focal sun -->
+  <polygon points="50,570 500,570 275,190" fill="#2B2622"/>
+  <line x1="50" y1="570" x2="275" y2="190" stroke="#E25238" stroke-width="4"/>
+  <line x1="160" y1="570" x2="275" y2="190" stroke="#E25238" stroke-width="2" stroke-dasharray="8,6"/>
+  <line x1="275" y1="570" x2="275" y2="190" stroke="#FFFFFF" stroke-width="2.5" stroke-dasharray="10,6"/>
+  <line x1="390" y1="570" x2="275" y2="190" stroke="#E25238" stroke-width="2" stroke-dasharray="8,6"/>
+  <line x1="500" y1="570" x2="275" y2="190" stroke="#E25238" stroke-width="4"/>
+  <!-- Horizon Line -->
+  <line x1="30" y1="190" x2="520" y2="190" stroke="#3B342F" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <!-- Destination Anchor -->
+  <circle cx="275" cy="190" r="50" fill="#E25238" opacity="0.2"/>
+  <circle cx="275" cy="190" r="22" fill="#E25238"/>
+  <circle cx="275" cy="190" r="6" fill="#FFFFFF"/>
+    <rect x="185" y="110" width="180" height="30" rx="5" fill="#E25238"/>
+  <text x="275.0" y="128.6" fill="#1F1B18" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">线条牵引 · 视线终点</text>
+
+</svg>

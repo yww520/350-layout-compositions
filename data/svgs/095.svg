@@ -1,0 +1,19 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#081630" rx="8"/>
+
+  <!-- Colossal Monolithic Display Number (10:1 ratio) -->
+  <text x="60" y="380" fill="#448AFF" font-size="280" font-weight="900" font-family="Montserrat, sans-serif" opacity="0.95">8</text>
+  <!-- Micro Detail Card in Upper Right -->
+  <rect x="300" y="100" width="200" height="130" fill="#0E2248" stroke="#00E5FF" stroke-width="1.5" rx="6"/>
+  <circle cx="330" cy="130" r="12" fill="#FF5252"/>
+  <line x1="355" y1="130" x2="470" y2="130" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="330" y1="160" x2="470" y2="160" stroke="#7C92B5" stroke-width="1.5"/>
+  <line x1="330" y1="180" x2="440" y2="180" stroke="#7C92B5" stroke-width="1.5"/>
+  <line x1="330" y1="200" x2="460" y2="200" stroke="#7C92B5" stroke-width="1.5"/>
+  <!-- Scale Ratio Callout -->
+  <text x="300" y="270" fill="#00E5FF" font-size="16" font-weight="900" font-family="Montserrat">SCALE RATIO 10:1</text>
+    <rect x="185" y="520" width="180" height="30" rx="5" fill="#448AFF"/>
+  <text x="275.0" y="538.6" fill="#FFFFFF" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">极限体量反差张力</text>
+
+</svg>

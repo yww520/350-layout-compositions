@@ -1,73 +1,73 @@
 {
   "id": "348",
   "name": "矩阵页幻灯片版式",
-  "name_en": "矩阵页幻灯片版式 COMPOSITION",
+  "name_en": "MATRIX QUADRANT SLIDE",
   "category": "演示文稿页面 / 叙事与数据页面",
   "category_slug": "08-presentation",
   "subcategory": "叙事与数据页面",
-  "tagline": "矩阵页幻灯片版式设计法则与空间建构",
-  "description": "经典视觉架构第 348 号：矩阵页幻灯片版式。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
-  "theme": "cobalt-blue",
-  "columns_ratio": "530px 380px",
-  "visual_height": "660px",
-  "ai_prompt": "Professional editorial illustration demonstrating 矩阵页幻灯片版式 (350 Layouts series #348), Masterful visual composition demonstrating 矩阵页幻灯片版式 principle. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching cobalt-blue tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
+  "tagline": "让庞杂数据跃然纸上，用时间线与矩阵引爆说服力巅峰。",
+  "description": "350 视觉排版系列第 348 号：矩阵页幻灯片版式（MATRIX QUADRANT SLIDE）。归属于「演示文稿页面 · 叙事与数据页面」体系。让庞杂数据跃然纸上，用时间线与矩阵引爆说服力巅峰。",
+  "theme": "forest-green",
+  "columns_ratio": "345px 600px",
+  "visual_height": "790px",
+  "ai_prompt": "Professional editorial design illustration demonstrating 矩阵页幻灯片版式 (MATRIX QUADRANT SLIDE), 350 Layout series #348. High-impact presentation slide featuring monumental statistic figure, progress timeline, and analytical matrix. Art style: clean Swiss International Typographic poster aesthetic, palette tuned to forest-green theme, vector geometry, sharp visual hierarchy, 3:4 aspect ratio, ultra-high resolution, museum publication quality.",
   "features": [
     {
       "icon": "target",
-      "title": "矩阵核心锚点",
-      "title_en": "Focal Anchor",
-      "desc": "确立画面第一视觉据点，使主体在矩阵页幻灯片版式框架中获得最强烈的视觉重力与识别度。"
+      "title": "大数字震撼",
+      "title_en": "Monumental Number Impact",
+      "desc": "在矩阵页幻灯片版式架构中，将关键百分比或增长数放大至极值尺寸，形成强悍的视觉锤。"
     },
     {
       "icon": "compass",
-      "title": "视线引导流线",
-      "title_en": "Leading Flow",
-      "desc": "依据矩阵页幻灯片版式的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
+      "title": "时间步进",
+      "title_en": "Timeline Roadmap",
+      "desc": "依据矩阵页幻灯片版式的内在几何规律，节点连线串联起历史里程碑与未来路线，构建坚实可信的演进叙事。"
     },
     {
       "icon": "layers",
-      "title": "负空间与呼吸感",
-      "title_en": "Negative Space",
-      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
+      "title": "四象矩阵",
+      "title_en": "Matrix Categorization",
+      "desc": "针对矩阵页幻灯片版式的空间特性，XY 双轴四象限归类繁复竞品与战略，逻辑剖析一针见血。"
     }
   ],
   "tips": [
     {
-      "label": "构图基准",
-      "content": "在应用矩阵页幻灯片版式时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
+      "label": "单位降阶",
+      "content": "大数字的计量单位（如 亿、%）字号缩减为数字的三分之一，强化数字本体冲击力。"
     },
     {
-      "label": "图文呼应",
-      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
+      "label": "图表极简",
+      "content": "剔除图表所有冗余网格背景线与花哨渐变，只保留关键数据走势折线与高亮极值点。"
     }
   ],
   "keywords": [
     {
-      "name": "平衡",
-      "name_en": "Balance",
-      "icon": "check"
+      "name": "大数冲击",
+      "name_en": "Big Number Impact",
+      "icon": "target"
     },
     {
-      "name": "焦点",
-      "name_en": "Focus",
-      "icon": "check"
+      "name": "时间步进",
+      "name_en": "Timeline Stepper",
+      "icon": "compass"
     },
     {
-      "name": "节奏",
-      "name_en": "Rhythm",
-      "icon": "check"
+      "name": "四象矩阵",
+      "name_en": "Matrix Quadrant",
+      "icon": "layers"
     },
     {
-      "name": "引导",
-      "name_en": "Guide",
+      "name": "数据图表",
+      "name_en": "Data Graphics",
       "icon": "check"
     }
   ],
   "checklist": [
-    "矩阵页幻灯片版式核心主体位置明确无歧义",
-    "引导线与视觉流向顺畅自然",
-    "留白空间充足，无视觉拥挤感",
-    "明暗与色彩反差符合层级逻辑",
-    "信息传达准确，整体秩序严密"
+    "矩阵页幻灯片版式核心主体或骨骼线定位明确严谨",
+    "视觉引导线与视线流向顺畅自然",
+    "留白空间充足，版面呼吸感良好",
+    "色彩与明暗层级完全吻合「forest-green」基调",
+    "符合「叙事与数据页面」的专业设计规范"
   ]
 }

@@ -1,73 +1,73 @@
 {
   "id": "142",
   "name": "大标题版式",
-  "name_en": "大标题版式 COMPOSITION",
+  "name_en": "HEADLINE-DOMINANT LAYOUT",
   "category": "平面、出版与广告 / 图文主导与表现型版式",
   "category_slug": "03-editorial-advertising",
   "subcategory": "图文主导与表现型版式",
-  "tagline": "大标题版式设计法则与空间建构",
-  "description": "经典视觉架构第 142 号：大标题版式。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
-  "theme": "cobalt-blue",
-  "columns_ratio": "530px 380px",
-  "visual_height": "660px",
-  "ai_prompt": "Professional editorial illustration demonstrating 大标题版式 (350 Layouts series #142), Masterful visual composition demonstrating 大标题版式 principle. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching cobalt-blue tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
+  "tagline": "让图像统治视野，使文字化身建筑，碰撞出戏剧性的表现力量。",
+  "description": "350 视觉排版系列第 142 号：大标题版式（HEADLINE-DOMINANT LAYOUT）。归属于「平面、出版与广告 · 图文主导与表现型版式」体系。让图像统治视野，使文字化身建筑，碰撞出戏剧性的表现力量。",
+  "theme": "obsidian-black",
+  "columns_ratio": "345px 600px",
+  "visual_height": "790px",
+  "ai_prompt": "Professional editorial design illustration demonstrating 大标题版式 (HEADLINE-DOMINANT LAYOUT), 350 Layout series #142. High-fashion magazine cover blending bold architectural portraiture with avant-garde layout geometry. Art style: clean Swiss International Typographic poster aesthetic, palette tuned to obsidian-black theme, vector geometry, sharp visual hierarchy, 3:4 aspect ratio, ultra-high resolution, museum publication quality.",
   "features": [
     {
       "icon": "target",
-      "title": "大标核心锚点",
-      "title_en": "Focal Anchor",
-      "desc": "确立画面第一视觉据点，使主体在大标题版式框架中获得最强烈的视觉重力与识别度。"
+      "title": "视觉巨幕",
+      "title_en": "Visual Canvas",
+      "desc": "在大标题版式架构中，高质量大幅画面占据 70% 以上面积，先声夺人确立情感基调。"
     },
     {
       "icon": "compass",
-      "title": "视线引导流线",
-      "title_en": "Leading Flow",
-      "desc": "依据大标题版式的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
+      "title": "字图嵌合",
+      "title_en": "Type-Image Interlock",
+      "desc": "依据大标题版式的内在几何规律，大号标题穿插在人物或构筑物前后，营造前后遮挡的立体纵深。"
     },
     {
       "icon": "layers",
-      "title": "负空间与呼吸感",
-      "title_en": "Negative Space",
-      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
+      "title": "视窗裁切",
+      "title_en": "Window Crop",
+      "desc": "针对大标题版式的空间特性，利用特定几何镂空视窗展示画面局部，制造窥探式的悬念感。"
     }
   ],
   "tips": [
     {
-      "label": "构图基准",
-      "content": "在应用大标题版式时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
+      "label": "文字压图",
+      "content": "在复杂图像上压字时，必须添加纯色垫底、微弱投影或选择图像平坦低频区。"
     },
     {
-      "label": "图文呼应",
-      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
+      "label": "图文调性",
+      "content": "文字字体的性格（刚劲/温润/尖锐）必须与主图情绪形成精准互文。"
     }
   ],
   "keywords": [
     {
-      "name": "平衡",
-      "name_en": "Balance",
-      "icon": "check"
+      "name": "图片主导",
+      "name_en": "Image Dominant",
+      "icon": "target"
     },
     {
-      "name": "焦点",
-      "name_en": "Focus",
-      "icon": "check"
+      "name": "文字建筑",
+      "name_en": "Type Architecture",
+      "icon": "compass"
     },
     {
-      "name": "节奏",
-      "name_en": "Rhythm",
-      "icon": "check"
+      "name": "窗口剪影",
+      "name_en": "Window Silhouette",
+      "icon": "layers"
     },
     {
-      "name": "引导",
-      "name_en": "Guide",
+      "name": "表现张力",
+      "name_en": "Expressive Tension",
       "icon": "check"
     }
   ],
   "checklist": [
-    "大标题版式核心主体位置明确无歧义",
-    "引导线与视觉流向顺畅自然",
-    "留白空间充足，无视觉拥挤感",
-    "明暗与色彩反差符合层级逻辑",
-    "信息传达准确，整体秩序严密"
+    "大标题版式核心主体或骨骼线定位明确严谨",
+    "视觉引导线与视线流向顺畅自然",
+    "留白空间充足，版面呼吸感良好",
+    "色彩与明暗层级完全吻合「obsidian-black」基调",
+    "符合「图文主导与表现型版式」的专业设计规范"
   ]
 }

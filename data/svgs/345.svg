@@ -1,0 +1,36 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#082018" rx="8"/>
+
+  <rect x="40" y="50" width="470" height="520" rx="8" fill="#0E2D23" stroke="#163E32" stroke-width="1.5"/>
+  <!-- Coordinate Axes (x=275, y=310) -->
+  <line x1="70" y1="310" x2="480" y2="310" stroke="#D4E751" stroke-width="2.5"/>
+  <polygon points="485,310 470,302 470,318" fill="#D4E751"/>
+  <line x1="275" y1="540" x2="275" y2="80" stroke="#D4E751" stroke-width="2.5"/>
+  <polygon points="275,75 267,90 283,90" fill="#D4E751"/>
+  <!-- Axis Labels -->
+  <text x="480" y="340" fill="#D4E751" font-size="11" font-weight="bold" font-family="Montserrat" text-anchor="end">FEASIBILITY →</text>
+  <text x="275" y="65" fill="#D4E751" font-size="11" font-weight="bold" font-family="Montserrat" text-anchor="middle">IMPACT ↑</text>
+  <!-- Q1 (Top-Right): QUICK WINS (HERO) -->
+  <rect x="295" y="95" width="190" height="200" rx="8" fill="#D4E751" fill-opacity="0.2" stroke="#D4E751" stroke-width="2"/>
+  <text x="390" y="140" fill="#D4E751" font-size="14" font-weight="900" font-family="Montserrat" text-anchor="middle">QUICK WINS</text>
+  <circle cx="350" cy="180" r="16" fill="#D4E751"/>
+  <circle cx="430" cy="220" r="22" fill="#D4E751"/>
+  <circle cx="390" cy="250" r="14" fill="#D4E751"/>
+
+  <!-- Q2 (Top-Left): STRATEGIC BETS -->
+  <rect x="65" y="95" width="190" height="200" rx="8" fill="#082018" stroke="#163E32" stroke-width="1"/>
+  <text x="160" y="140" fill="#80988E" font-size="12" font-weight="bold" font-family="Montserrat" text-anchor="middle">BIG BETS</text>
+  <circle cx="160" cy="200" r="18" fill="#285848"/>
+
+  <!-- Q3 (Bottom-Left): LOW PRIORITY -->
+  <rect x="65" y="325" width="190" height="190" rx="8" fill="#082018" stroke="#163E32" stroke-width="1"/>
+  <text x="160" y="365" fill="#80988E" font-size="11" font-family="Montserrat" text-anchor="middle">ELIMINATE</text>
+
+  <!-- Q4 (Bottom-Right): FILL-INS -->
+  <rect x="295" y="325" width="190" height="190" rx="8" fill="#082018" stroke="#163E32" stroke-width="1"/>
+  <text x="390" y="365" fill="#80988E" font-size="11" font-family="Montserrat" text-anchor="middle">FILL-INS</text>
+    <rect x="185" y="520" width="180" height="28" rx="5" fill="#D4E751"/>
+  <text x="275.0" y="537.36" fill="#082018" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">2x2 战略优先级象限</text>
+
+</svg>

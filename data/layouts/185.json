@@ -1,73 +1,73 @@
 {
   "id": "185",
   "name": "悬挂缩进",
-  "name_en": "悬挂缩进 COMPOSITION",
+  "name_en": "HANGING INDENT",
   "category": "字体、网格与东亚文字 / 对齐、缩进与文字造型",
   "category_slug": "04-type-grid-cjk",
   "subcategory": "对齐、缩进与文字造型",
-  "tagline": "悬挂缩进设计法则与空间建构",
-  "description": "经典视觉架构第 185 号：悬挂缩进。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
-  "theme": "warm-ivory",
-  "columns_ratio": "530px 380px",
-  "visual_height": "660px",
-  "ai_prompt": "Professional editorial illustration demonstrating 悬挂缩进 (350 Layouts series #185), Masterful visual composition demonstrating 悬挂缩进 principle. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching warm-ivory tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
+  "tagline": "在边缘参差与精准对齐的毫厘之间，打磨文字的诗性肌理。",
+  "description": "350 视觉排版系列第 185 号：悬挂缩进（HANGING INDENT）。归属于「字体、网格与东亚文字 · 对齐、缩进与文字造型」体系。在边缘参差与精准对齐的毫厘之间，打磨文字的诗性肌理。",
+  "theme": "cobalt-blue",
+  "columns_ratio": "345px 600px",
+  "visual_height": "790px",
+  "ai_prompt": "Professional editorial design illustration demonstrating 悬挂缩进 (HANGING INDENT), 350 Layout series #185. Experimental typographic poster demonstrating contour text wraps and architectural ragged edges. Art style: clean Swiss International Typographic poster aesthetic, palette tuned to cobalt-blue theme, vector geometry, sharp visual hierarchy, 3:4 aspect ratio, ultra-high resolution, museum publication quality.",
   "features": [
     {
       "icon": "target",
-      "title": "悬挂核心锚点",
-      "title_en": "Focal Anchor",
-      "desc": "确立画面第一视觉据点，使主体在悬挂缩进框架中获得最强烈的视觉重力与识别度。"
+      "title": "参差飞白",
+      "title_en": "Ragged Edge Rhythm",
+      "desc": "在悬挂缩进架构中，左齐右参差在右侧制造富有活力的自然浪花边缘，消除两端强扭的字间空洞。"
     },
     {
       "icon": "compass",
-      "title": "视线引导流线",
-      "title_en": "Leading Flow",
-      "desc": "依据悬挂缩进的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
+      "title": "悬挂凸排",
+      "title_en": "Hanging Punctuation",
+      "desc": "依据悬挂缩进的内在几何规律，将标点与缩进悬挂至外边距，保持正文阅读垂直线如刀切般绝对平直。"
     },
     {
       "icon": "layers",
-      "title": "负空间与呼吸感",
-      "title_en": "Negative Space",
-      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
+      "title": "轮廓环抱",
+      "title_en": "Contour Wrapping",
+      "desc": "针对悬挂缩进的空间特性，正文依随图形边缘流淌，文字本身化为勾勒主体轮廓的质感笔触。"
     }
   ],
   "tips": [
     {
-      "label": "构图基准",
-      "content": "在应用悬挂缩进时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
+      "label": "避免孤字",
+      "content": "严格消除段落末行的孤字（Widow）与页面首行的孤行（Orphan）。"
     },
     {
-      "label": "图文呼应",
-      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
+      "label": "凸排对齐",
+      "content": "引号、括号必须推出版芯左对齐线外，让视觉文字块边缘形成真正的直线。"
     }
   ],
   "keywords": [
     {
-      "name": "平衡",
-      "name_en": "Balance",
-      "icon": "check"
+      "name": "对齐参差",
+      "name_en": "Ragged Alignment",
+      "icon": "target"
     },
     {
-      "name": "焦点",
-      "name_en": "Focus",
-      "icon": "check"
+      "name": "文字绕排",
+      "name_en": "Contour Wrap",
+      "icon": "compass"
     },
     {
-      "name": "节奏",
-      "name_en": "Rhythm",
-      "icon": "check"
+      "name": "凸排悬挂",
+      "name_en": "Hanging Indent",
+      "icon": "layers"
     },
     {
-      "name": "引导",
-      "name_en": "Guide",
+      "name": "文字造型",
+      "name_en": "Typographic Form",
       "icon": "check"
     }
   ],
   "checklist": [
-    "悬挂缩进核心主体位置明确无歧义",
-    "引导线与视觉流向顺畅自然",
-    "留白空间充足，无视觉拥挤感",
-    "明暗与色彩反差符合层级逻辑",
-    "信息传达准确，整体秩序严密"
+    "悬挂缩进核心主体或骨骼线定位明确严谨",
+    "视觉引导线与视线流向顺畅自然",
+    "留白空间充足，版面呼吸感良好",
+    "色彩与明暗层级完全吻合「cobalt-blue」基调",
+    "符合「对齐、缩进与文字造型」的专业设计规范"
   ]
 }

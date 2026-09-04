@@ -1,0 +1,38 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#081630" rx="8"/>
+
+  <rect x="40" y="60" width="470" height="500" fill="#0E2248" stroke="#162E58" stroke-width="1.5" rx="6"/>
+  <!-- 12 Equal Columns (Col width = 28px, Gutter = 8px) -->
+  <g fill="#448AFF" fill-opacity="0.2" stroke="#448AFF" stroke-width="1">
+    <rect x="60" y="80" width="28" height="420" rx="2"/>
+    <rect x="96" y="80" width="28" height="420" rx="2"/>
+    <rect x="132" y="80" width="28" height="420" rx="2"/>
+    <rect x="168" y="80" width="28" height="420" rx="2"/>
+    <rect x="204" y="80" width="28" height="420" rx="2"/>
+    <rect x="240" y="80" width="28" height="420" rx="2"/>
+    <rect x="276" y="80" width="28" height="420" rx="2"/>
+    <rect x="312" y="80" width="28" height="420" rx="2"/>
+    <rect x="348" y="80" width="28" height="420" rx="2"/>
+    <rect x="384" y="80" width="28" height="420" rx="2"/>
+    <rect x="420" y="80" width="28" height="420" rx="2"/>
+    <rect x="456" y="80" width="28" height="420" rx="2"/>
+  </g>
+  <!-- Responsive Layout Components Spanning Columns -->
+  <!-- Component 1: 12-Col Full Header -->
+  <rect x="60" y="100" width="424" height="60" rx="4" fill="#448AFF"/>
+  <text x="272" y="136" fill="#FFFFFF" font-size="13" font-weight="900" font-family="Montserrat" text-anchor="middle">COL 1–12 (100% FULL SPAN)</text>
+  <!-- Component 2: 8-Col Main Body -->
+  <rect x="60" y="180" width="280" height="180" rx="4" fill="#081630" stroke="#00E5FF" stroke-width="2"/>
+  <text x="200" y="275" fill="#00E5FF" font-size="14" font-weight="bold" font-family="Montserrat" text-anchor="middle">COL 1–8 (MAIN)</text>
+  <!-- Component 3: 4-Col Aside -->
+  <rect x="348" y="180" width="136" height="180" rx="4" fill="#081630" stroke="#FF5252" stroke-width="2"/>
+  <text x="416" y="275" fill="#FF5252" font-size="14" font-weight="bold" font-family="Montserrat" text-anchor="middle">COL 9–12 (SIDEBAR)</text>
+  <!-- Component 4: 3x 4-Col Cards -->
+  <rect x="60" y="380" width="136" height="80" rx="4" fill="#2A4B82"/>
+  <rect x="204" y="380" width="136" height="80" rx="4" fill="#2A4B82"/>
+  <rect x="348" y="380" width="136" height="80" rx="4" fill="#2A4B82"/>
+    <rect x="185" y="520" width="180" height="28" rx="5" fill="#448AFF"/>
+  <text x="275.0" y="537.36" fill="#FFFFFF" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">12 栏响应式流式布局</text>
+
+</svg>

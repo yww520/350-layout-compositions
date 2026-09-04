@@ -1,0 +1,20 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#1F1B18" rx="8"/>
+
+  <!-- Portrait Profile on Left -->
+  <path d="M 120 380 Q 150 260 150 200 Q 150 160 180 150 Q 200 150 190 190 Q 210 195 200 220 Q 185 240 190 260 L 160 380 Z" fill="#524A44"/>
+  <circle cx="170" cy="200" r="6" fill="#E25238"/>
+  <!-- Gaze Trajectory Beam to Right Void -->
+  <line x1="176" y1="200" x2="480" y2="200" stroke="#E25238" stroke-width="3" stroke-linecap="round"/>
+  <line x1="176" y1="180" x2="480" y2="180" stroke="#E25238" stroke-width="1.2" stroke-dasharray="6,4" opacity="0.5"/>
+  <line x1="176" y1="220" x2="480" y2="220" stroke="#E25238" stroke-width="1.2" stroke-dasharray="6,4" opacity="0.5"/>
+  <polygon points="485,200 465,190 465,210" fill="#E25238"/>
+  <!-- Open Field on Right -->
+  <rect x="260" y="120" width="220" height="160" fill="#2B2622" rx="6" stroke="#3B342F" stroke-width="1.5"/>
+  <text x="370" y="195" fill="#E25238" font-size="14" font-weight="bold" font-family="PingFang SC" text-anchor="middle">视线开放空间</text>
+  <text x="370" y="220" fill="#8A827A" font-size="11" font-family="Montserrat" text-anchor="middle">GAZE LEAD SPACE</text>
+    <rect x="100" y="420" width="140" height="28" rx="5" fill="#E25238"/>
+  <text x="170.0" y="437.36" fill="#1F1B18" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">主体前侧留白</text>
+
+</svg>

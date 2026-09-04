@@ -1,0 +1,26 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="triGrad041" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#FF5252"/>
+      <stop offset="100%" stop-color="#B71C1C"/>
+    </linearGradient>
+  </defs>
+  <rect width="550" height="620" fill="#1A1816" rx="8"/>
+  <!-- Inscribed Solid Triangle -->
+  <polygon points="275,100 480,510 70,510" fill="url(#triGrad041)" opacity="0.9"/>
+  <!-- Inner Triangle Frame -->
+  <polygon points="275,180 430,480 120,480" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="6,6"/>
+  <!-- Apex and Base Vertices -->
+  <circle cx="275" cy="100" r="18" fill="#FFD700"/>
+  <circle cx="275" cy="100" r="6" fill="#1A1816"/>
+  <circle cx="70" cy="510" r="14" fill="#FFD700"/>
+  <circle cx="480" cy="510" r="14" fill="#FFD700"/>
+  <!-- Inscribed Center of Gravity -->
+  <circle cx="275" cy="373" r="28" fill="#FFFFFF"/>
+  <circle cx="275" cy="373" r="10" fill="#B71C1C"/>
+  <!-- Altitude Centerline -->
+  <line x1="275" y1="100" x2="275" y2="510" stroke="#FFD700" stroke-width="2" stroke-dasharray="4,4"/>
+  <!-- Badge -->
+  <rect x="185" y="440" width="180" height="32" rx="6" fill="#FFD700"/>
+  <text x="275" y="461" fill="#1A1816" font-size="12" font-weight="900" font-family="PingFang SC" text-anchor="middle">三角定势 · 稳如磐石</text>
+</svg>

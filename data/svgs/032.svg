@@ -1,0 +1,18 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#1F1B18" rx="8"/>
+
+  <!-- Horizontal Lintel Crossbeam -->
+  <rect x="50" y="100" width="450" height="70" fill="#E25238" rx="6"/>
+  <!-- Vertical Supportive Column Pillar -->
+  <rect x="235" y="170" width="80" height="390" fill="#524A44" rx="4"/>
+  <!-- Open Side Bays -->
+  <rect x="50" y="190" width="165" height="370" fill="none" stroke="#3B342F" stroke-width="1.5" stroke-dasharray="6,6" rx="4"/>
+  <rect x="335" y="190" width="165" height="370" fill="none" stroke="#3B342F" stroke-width="1.5" stroke-dasharray="6,6" rx="4"/>
+  <!-- Focal Node at T Junction (275, 170) -->
+  <circle cx="275" cy="170" r="28" fill="#FFB300"/>
+  <circle cx="275" cy="170" r="8" fill="#FFFFFF"/>
+    <rect x="195" y="280" width="160" height="30" rx="5" fill="#E25238"/>
+  <text x="275.0" y="298.6" fill="#1F1B18" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">T 型横梁支柱</text>
+
+</svg>

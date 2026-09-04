@@ -1,0 +1,32 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+  <rect width="550" height="620" fill="#111B2B" rx="8"/>
+  <!-- Flex Container Frame -->
+  <rect x="50" y="80" width="450" height="420" fill="#1A2942" stroke="#2979FF" stroke-width="2.5" rx="10"/>
+  <!-- Main Axis Indicator -->
+  <line x1="70" y1="120" x2="480" y2="120" stroke="#00E5FF" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="480,120 468,114 468,126" fill="#00E5FF"/>
+  <text x="275" y="112" fill="#00E5FF" font-size="11" font-weight="bold" font-family="Montserrat" text-anchor="middle">MAIN AXIS (row)</text>
+  <!-- Cross Axis Indicator -->
+  <line x1="80" y1="140" x2="80" y2="470" stroke="#FF80AB" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="80,470 74,458 86,458" fill="#FF80AB"/>
+  <text x="65" y="310" fill="#FF80AB" font-size="10" font-weight="bold" font-family="Montserrat" transform="rotate(-90 65 310)" text-anchor="middle">CROSS AXIS</text>
+  <!-- Flex Items -->
+  <g transform="translate(110, 160)">
+    <rect x="0" y="0" width="95" height="120" fill="#2979FF" rx="6"/>
+    <text x="47" y="65" fill="#FFFFFF" font-size="12" font-weight="bold" font-family="Montserrat" text-anchor="middle">ITEM 1</text>
+    <rect x="120" y="0" width="140" height="120" fill="#00E5FF" rx="6"/>
+    <text x="190" y="65" fill="#111B2B" font-size="12" font-weight="bold" font-family="Montserrat" text-anchor="middle">flex-grow: 2</text>
+    <rect x="285" y="0" width="75" height="120" fill="#2979FF" rx="6"/>
+    <text x="322" y="65" fill="#FFFFFF" font-size="12" font-weight="bold" font-family="Montserrat" text-anchor="middle">ITEM 3</text>
+  </g>
+  <!-- Secondary Wrapped Row -->
+  <g transform="translate(110, 310)">
+    <rect x="0" y="0" width="170" height="80" fill="#3D5AFE" rx="6"/>
+    <text x="85" y="45" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Montserrat" text-anchor="middle">flex-wrap: wrap</text>
+    <rect x="190" y="0" width="170" height="80" fill="#3D5AFE" rx="6"/>
+    <text x="275" y="45" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="Montserrat" text-anchor="middle">justify: space-between</text>
+  </g>
+  <!-- Callout Badge -->
+  <rect x="175" y="530" width="200" height="34" rx="6" fill="#2979FF"/>
+  <text x="275" y="552" fill="#FFFFFF" font-size="12" font-weight="900" font-family="PingFang SC" text-anchor="middle">双轴对齐 · 流体自适应</text>
+</svg>

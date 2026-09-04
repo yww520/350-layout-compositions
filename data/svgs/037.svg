@@ -1,0 +1,23 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sGrad037" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E676"/>
+      <stop offset="50%" stop-color="#00B0FF"/>
+      <stop offset="100%" stop-color="#651FFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="550" height="620" fill="#12161A" rx="8"/>
+  <!-- Serpentine S Curve -->
+  <path d="M 380 90 C 120 120 100 300 275 330 C 450 360 430 520 170 540" stroke="url(#sGrad037)" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M 380 90 C 120 120 100 300 275 330 C 450 360 430 520 170 540" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="6,6" fill="none"/>
+  <!-- Inflection Point Markers -->
+  <circle cx="380" cy="90" r="16" fill="#00E676"/>
+  <circle cx="170" cy="230" r="14" fill="#00B0FF"/>
+  <circle cx="275" cy="330" r="22" fill="#FFFFFF"/>
+  <circle cx="275" cy="330" r="8" fill="#12161A"/>
+  <circle cx="380" cy="430" r="14" fill="#00B0FF"/>
+  <circle cx="170" cy="540" r="18" fill="#651FFF"/>
+  <!-- Badge -->
+  <rect x="185" y="240" width="180" height="32" rx="6" fill="#00B0FF"/>
+  <text x="275" y="261" fill="#12161A" font-size="12" font-weight="900" font-family="PingFang SC" text-anchor="middle">S 曲线 · 婉转曲折</text>
+</svg>

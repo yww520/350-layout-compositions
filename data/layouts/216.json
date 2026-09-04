@@ -1,73 +1,73 @@
 {
   "id": "216",
   "name": "横直混排",
-  "name_en": "横直混排 COMPOSITION",
+  "name_en": "MIXED VERTICAL-HORIZONTAL",
   "category": "字体、网格与东亚文字 / 东亚文字与混排",
   "category_slug": "04-type-grid-cjk",
   "subcategory": "东亚文字与混排",
-  "tagline": "横直混排设计法则与空间建构",
-  "description": "经典视觉架构第 216 号：横直混排。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
-  "theme": "cobalt-blue",
-  "columns_ratio": "530px 380px",
-  "visual_height": "660px",
-  "ai_prompt": "Professional editorial illustration demonstrating 横直混排 (350 Layouts series #216), Masterful visual composition demonstrating 横直混排 principle. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching cobalt-blue tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
+  "tagline": "融合方块汉字的端庄气度与西文字母的几何流动，成就混排至美。",
+  "description": "350 视觉排版系列第 216 号：横直混排（MIXED VERTICAL-HORIZONTAL）。归属于「字体、网格与东亚文字 · 东亚文字与混排」体系。融合方块汉字的端庄气度与西文字母的几何流动，成就混排至美。",
+  "theme": "warm-ivory",
+  "columns_ratio": "345px 600px",
+  "visual_height": "790px",
+  "ai_prompt": "Professional editorial design illustration demonstrating 横直混排 (MIXED VERTICAL-HORIZONTAL), 350 Layout series #216. Harmonious bilingual Chinese and Latin typography poster with vertical and horizontal mixed alignment. Art style: clean Swiss International Typographic poster aesthetic, palette tuned to warm-ivory theme, vector geometry, sharp visual hierarchy, 3:4 aspect ratio, ultra-high resolution, museum publication quality.",
   "features": [
     {
       "icon": "target",
-      "title": "横直核心锚点",
-      "title_en": "Focal Anchor",
-      "desc": "确立画面第一视觉据点，使主体在横直混排框架中获得最强烈的视觉重力与识别度。"
+      "title": "直排风骨",
+      "title_en": "Vertical Splendor",
+      "desc": "在横直混排架构中，自上而下、自右向左的竖排流向，承续古典东方书籍的宁静与凝炼。"
     },
     {
       "icon": "compass",
-      "title": "视线引导流线",
-      "title_en": "Leading Flow",
-      "desc": "依据横直混排的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
+      "title": "纵中横排",
+      "title_en": "Tate-Chu-Yoko",
+      "desc": "依据横直混排的内在几何规律，在直排纵行中将 2-3 位阿拉伯数字横向嵌入，保持排版流动的现代紧凑。"
     },
     {
       "icon": "layers",
-      "title": "负空间与呼吸感",
-      "title_en": "Negative Space",
-      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
+      "title": "字形平衡",
+      "title_en": "Optical Balancing",
+      "desc": "针对横直混排的空间特性，精准调整中文字与英文字母的基线和字重比差，消除中西文混排的跳动感。"
     }
   ],
   "tips": [
     {
-      "label": "构图基准",
-      "content": "在应用横直混排时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
+      "label": "西文字距",
+      "content": "中西文混排时，汉字与英文单词之间强制插入四分之一汉字宽的盘面间距（U+0020）。"
     },
     {
-      "label": "图文呼应",
-      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
+      "label": "避头尾法则",
+      "content": "标点符号绝对禁止出现在行首（句号逗号等）或行尾（前括号等），必须合规挤压。"
     }
   ],
   "keywords": [
     {
-      "name": "平衡",
-      "name_en": "Balance",
-      "icon": "check"
+      "name": "方块字韵",
+      "name_en": "CJK Character Tone",
+      "icon": "target"
     },
     {
-      "name": "焦点",
-      "name_en": "Focus",
-      "icon": "check"
+      "name": "横直混排",
+      "name_en": "Mixed Direction",
+      "icon": "compass"
     },
     {
-      "name": "节奏",
-      "name_en": "Rhythm",
-      "icon": "check"
+      "name": "纵中横排",
+      "name_en": "Tate-Chu-Yoko",
+      "icon": "layers"
     },
     {
-      "name": "引导",
-      "name_en": "Guide",
+      "name": "中西匹配",
+      "name_en": "CJK-Latin Pairing",
       "icon": "check"
     }
   ],
   "checklist": [
-    "横直混排核心主体位置明确无歧义",
-    "引导线与视觉流向顺畅自然",
-    "留白空间充足，无视觉拥挤感",
-    "明暗与色彩反差符合层级逻辑",
-    "信息传达准确，整体秩序严密"
+    "横直混排核心主体或骨骼线定位明确严谨",
+    "视觉引导线与视线流向顺畅自然",
+    "留白空间充足，版面呼吸感良好",
+    "色彩与明暗层级完全吻合「warm-ivory」基调",
+    "符合「东亚文字与混排」的专业设计规范"
   ]
 }

@@ -1,0 +1,22 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+  <rect width="550" height="620" fill="#181A20" rx="8"/>
+  <g stroke="#3A4050" stroke-width="2" stroke-dasharray="6,6">
+    <line x1="80" y1="40" x2="80" y2="580"/>
+    <line x1="470" y1="40" x2="470" y2="580"/>
+  </g>
+  <!-- Rhythmic Parallel Bands -->
+  <line x1="140" y1="80" x2="140" y2="540" stroke="#3D5AFE" stroke-width="8" stroke-linecap="round"/>
+  <line x1="190" y1="120" x2="190" y2="500" stroke="#3D5AFE" stroke-width="14" stroke-linecap="round"/>
+  <line x1="250" y1="60" x2="250" y2="560" stroke="#FF5252" stroke-width="22" stroke-linecap="round"/>
+  <line x1="315" y1="140" x2="315" y2="480" stroke="#3D5AFE" stroke-width="12" stroke-linecap="round"/>
+  <line x1="365" y1="90" x2="365" y2="530" stroke="#3D5AFE" stroke-width="6" stroke-linecap="round"/>
+  <line x1="410" y1="130" x2="410" y2="490" stroke="#3D5AFE" stroke-width="4" stroke-linecap="round"/>
+  <!-- Transverse Measure Indicators -->
+  <line x1="140" y1="310" x2="410" y2="310" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <circle cx="250" cy="310" r="18" fill="#FF5252"/>
+  <circle cx="250" cy="310" r="6" fill="#FFFFFF"/>
+  <!-- Spacing Dimension Arrows -->
+  <path d="M 190 420 L 250 420 M 195 415 L 190 420 L 195 425 M 245 415 L 250 420 L 245 425" stroke="#FF5252" stroke-width="1.8"/>
+  <rect x="180" y="440" width="140" height="28" rx="5" fill="#252A38"/>
+  <text x="250" y="458" fill="#FF5252" font-size="11" font-weight="bold" font-family="PingFang SC" text-anchor="middle">等距律动 · 平行延伸</text>
+</svg>

@@ -1,73 +1,73 @@
 {
   "id": "322",
   "name": "一河两岸式",
-  "name_en": "一河两岸式 COMPOSITION",
+  "name_en": "ONE RIVER TWO BANKS",
   "category": "中国传统构图 / 取景与景式",
   "category_slug": "07-chinese-composition",
   "subcategory": "取景与景式",
-  "tagline": "一河两岸式设计法则与空间建构",
-  "description": "经典视觉架构第 322 号：一河两岸式。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
-  "theme": "cobalt-blue",
-  "columns_ratio": "530px 380px",
-  "visual_height": "660px",
-  "ai_prompt": "Professional editorial illustration demonstrating 一河两岸式 (350 Layouts series #322), Masterful visual composition demonstrating 一河两岸式 principle. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching cobalt-blue tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
+  "tagline": "由倪瓒之一河两岸，至马夏之边角残山，于方寸截景中见造化。",
+  "description": "350 视觉排版系列第 322 号：一河两岸式（ONE RIVER TWO BANKS）。归属于「中国传统构图 · 取景与景式」体系。由倪瓒之一河两岸，至马夏之边角残山，于方寸截景中见造化。",
+  "theme": "warm-ivory",
+  "columns_ratio": "345px 600px",
+  "visual_height": "790px",
+  "ai_prompt": "Professional editorial design illustration demonstrating 一河两岸式 (ONE RIVER TWO BANKS), 350 Layout series #322. Classical Song dynasty poetic landscape showing corner-bound composition and branch-like flower arrangement. Art style: clean Swiss International Typographic poster aesthetic, palette tuned to warm-ivory theme, vector geometry, sharp visual hierarchy, 3:4 aspect ratio, ultra-high resolution, museum publication quality.",
   "features": [
     {
       "icon": "target",
-      "title": "一河核心锚点",
-      "title_en": "Focal Anchor",
-      "desc": "确立画面第一视觉据点，使主体在一河两岸式框架中获得最强烈的视觉重力与识别度。"
+      "title": "一河两岸",
+      "title_en": "Two Banks River Vista",
+      "desc": "在一河两岸式架构中，近景坡石树木，中景浩渺水泊，远景平远丘陵，勾勒超然出尘的清空意境。"
     },
     {
       "icon": "compass",
-      "title": "视线引导流线",
-      "title_en": "Leading Flow",
-      "desc": "依据一河两岸式的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
+      "title": "边角残山",
+      "title_en": "Corner-Bound Vista",
+      "desc": "依据一河两岸式的内在几何规律，主体偏居画面一角或半壁，大片空旷任由江天远水驰骋，空灵深远。"
     },
     {
       "icon": "layers",
-      "title": "负空间与呼吸感",
-      "title_en": "Negative Space",
-      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
+      "title": "折枝造形",
+      "title_en": "Cut-Branch Essence",
+      "desc": "针对一河两岸式的空间特性，不画全树全株，仅截取灵动一枝斜逸入画，以少胜多，以局部概括全美。"
     }
   ],
   "tips": [
     {
-      "label": "构图基准",
-      "content": "在应用一河两岸式时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
+      "label": "势态连绵",
+      "content": "边角虽偏但气脉不能偏断，折枝入画的起点必须暗含伸向画外的苍劲母干。"
     },
     {
-      "label": "图文呼应",
-      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
+      "label": "印章题跋",
+      "content": "中国画构图中印章与题跋是不可割裂的画面要素，用来在虚白处压住视觉阵脚。"
     }
   ],
   "keywords": [
     {
-      "name": "平衡",
-      "name_en": "Balance",
-      "icon": "check"
+      "name": "一河两岸",
+      "name_en": "One River Two Banks",
+      "icon": "target"
     },
     {
-      "name": "焦点",
-      "name_en": "Focus",
-      "icon": "check"
+      "name": "边角折枝",
+      "name_en": "Corner Branch",
+      "icon": "compass"
     },
     {
-      "name": "节奏",
-      "name_en": "Rhythm",
-      "icon": "check"
+      "name": "全景千里",
+      "name_en": "Panoramic Thousand Li",
+      "icon": "layers"
     },
     {
-      "name": "引导",
-      "name_en": "Guide",
+      "name": "截取幽微",
+      "name_en": "Micro View",
       "icon": "check"
     }
   ],
   "checklist": [
-    "一河两岸式核心主体位置明确无歧义",
-    "引导线与视觉流向顺畅自然",
-    "留白空间充足，无视觉拥挤感",
-    "明暗与色彩反差符合层级逻辑",
-    "信息传达准确，整体秩序严密"
+    "一河两岸式核心主体或骨骼线定位明确严谨",
+    "视觉引导线与视线流向顺畅自然",
+    "留白空间充足，版面呼吸感良好",
+    "色彩与明暗层级完全吻合「warm-ivory」基调",
+    "符合「取景与景式」的专业设计规范"
   ]
 }

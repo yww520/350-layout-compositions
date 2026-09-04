@@ -1,73 +1,73 @@
 {
   "id": "107",
   "name": "重复原则",
-  "name_en": "重复原则 COMPOSITION",
+  "name_en": "REPETITION PRINCIPLE",
   "category": "视觉原则与阅读模式 / 重复、图案与节奏",
   "category_slug": "02-visual-principles",
   "subcategory": "重复、图案与节奏",
-  "tagline": "重复原则设计法则与空间建构",
-  "description": "经典视觉架构第 107 号：重复原则。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
-  "theme": "warm-ivory",
-  "columns_ratio": "530px 380px",
-  "visual_height": "660px",
-  "ai_prompt": "Professional editorial illustration demonstrating 重复原则 (350 Layouts series #107), Masterful visual composition demonstrating 重复原则 principle. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching warm-ivory tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
+  "tagline": "让视觉元素如音符般起伏跳跃，在重复中鸣响共振旋律。",
+  "description": "350 视觉排版系列第 107 号：重复原则（REPETITION PRINCIPLE）。归属于「视觉原则与阅读模式 · 重复、图案与节奏」体系。让视觉元素如音符般起伏跳跃，在重复中鸣响共振旋律。",
+  "theme": "obsidian-black",
+  "columns_ratio": "345px 600px",
+  "visual_height": "790px",
+  "ai_prompt": "Professional editorial design illustration demonstrating 重复原则 (REPETITION PRINCIPLE), 350 Layout series #107. Harmonic optical wave lines and rhythmic dot patterns undulating across an ebony background. Art style: clean Swiss International Typographic poster aesthetic, palette tuned to obsidian-black theme, vector geometry, sharp visual hierarchy, 3:4 aspect ratio, ultra-high resolution, museum publication quality.",
   "features": [
     {
       "icon": "target",
-      "title": "重复核心锚点",
-      "title_en": "Focal Anchor",
-      "desc": "确立画面第一视觉据点，使主体在重复原则框架中获得最强烈的视觉重力与识别度。"
+      "title": "节奏脉冲",
+      "title_en": "Rhythmic Pulse",
+      "desc": "在重复原则架构中，通过形状的间歇性出现与间距变化，为版面赋予音乐节拍般的动感。"
     },
     {
       "icon": "compass",
-      "title": "视线引导流线",
-      "title_en": "Leading Flow",
-      "desc": "依据重复原则的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
+      "title": "渐变过渡",
+      "title_en": "Gradual Transition",
+      "desc": "依据重复原则的内在几何规律，尺度、透明度或色彩由浓至淡连续渐变，牵引视线丝滑推进。"
     },
     {
       "icon": "layers",
-      "title": "负空间与呼吸感",
-      "title_en": "Negative Space",
-      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
+      "title": "肌理织造",
+      "title_en": "Texture Weaving",
+      "desc": "针对重复原则的空间特性，微小符号的周期性排列转化为丰富的底纹肌理，提升细节耐看度。"
     }
   ],
   "tips": [
     {
-      "label": "构图基准",
-      "content": "在应用重复原则时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
+      "label": "节拍定调",
+      "content": "确定好画面的基础节拍（快节奏短步长 vs 慢节奏宽留白），全版统一。"
     },
     {
-      "label": "图文呼应",
-      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
+      "label": "断点设计",
+      "content": "在持续重复的图案中设置一个突变缺口，能形成极强的关注焦点。"
     }
   ],
   "keywords": [
     {
-      "name": "平衡",
-      "name_en": "Balance",
-      "icon": "check"
+      "name": "律动节拍",
+      "name_en": "Rhythmic Beat",
+      "icon": "target"
     },
     {
-      "name": "焦点",
-      "name_en": "Focus",
-      "icon": "check"
+      "name": "渐变波浪",
+      "name_en": "Gradient Undulation",
+      "icon": "compass"
     },
     {
-      "name": "节奏",
-      "name_en": "Rhythm",
-      "icon": "check"
+      "name": "图案织造",
+      "name_en": "Pattern Weave",
+      "icon": "layers"
     },
     {
-      "name": "引导",
-      "name_en": "Guide",
+      "name": "周期共振",
+      "name_en": "Periodic Resonance",
       "icon": "check"
     }
   ],
   "checklist": [
-    "重复原则核心主体位置明确无歧义",
-    "引导线与视觉流向顺畅自然",
-    "留白空间充足，无视觉拥挤感",
-    "明暗与色彩反差符合层级逻辑",
-    "信息传达准确，整体秩序严密"
+    "重复原则核心主体或骨骼线定位明确严谨",
+    "视觉引导线与视线流向顺畅自然",
+    "留白空间充足，版面呼吸感良好",
+    "色彩与明暗层级完全吻合「obsidian-black」基调",
+    "符合「重复、图案与节奏」的专业设计规范"
   ]
 }

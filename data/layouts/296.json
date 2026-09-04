@@ -1,73 +1,73 @@
 {
   "id": "296",
   "name": "堆叠重排",
-  "name_en": "堆叠重排 COMPOSITION",
+  "name_en": "STACK REORDERING",
   "category": "网页与 UI / 响应式重排模式",
   "category_slug": "05-web-ui",
   "subcategory": "响应式重排模式",
-  "tagline": "堆叠重排设计法则与空间建构",
-  "description": "经典视觉架构第 296 号：堆叠重排。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
+  "tagline": "跨越屏幕物理疆界，让界面形态如流水般顺应容器而自由幻化。",
+  "description": "350 视觉排版系列第 296 号：堆叠重排（STACK REORDERING）。归属于「网页与 UI · 响应式重排模式」体系。跨越屏幕物理疆界，让界面形态如流水般顺应容器而自由幻化。",
   "theme": "cobalt-blue",
-  "columns_ratio": "530px 380px",
-  "visual_height": "660px",
-  "ai_prompt": "Professional editorial illustration demonstrating 堆叠重排 (350 Layouts series #296), Modern responsive UI cards, bento box modular layout with rounded corners and high-contrast micro-interactions. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching cobalt-blue tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
+  "columns_ratio": "345px 600px",
+  "visual_height": "790px",
+  "ai_prompt": "Professional editorial design illustration demonstrating 堆叠重排 (STACK REORDERING), 350 Layout series #296. Multi-device layout transformation diagram showing fluid reflow from mobile stack to desktop grid. Art style: clean Swiss International Typographic poster aesthetic, palette tuned to cobalt-blue theme, vector geometry, sharp visual hierarchy, 3:4 aspect ratio, ultra-high resolution, museum publication quality.",
   "features": [
     {
       "icon": "target",
-      "title": "堆叠核心锚点",
-      "title_en": "Focal Anchor",
-      "desc": "确立画面第一视觉据点，使主体在堆叠重排框架中获得最强烈的视觉重力与识别度。"
+      "title": "列下落机制",
+      "title_en": "Column Drop Reflow",
+      "desc": "在堆叠重排架构中，随屏幕宽度收窄，侧边栏优雅落入主内容下方，保持阅读单流向。"
     },
     {
       "icon": "compass",
-      "title": "视线引导流线",
-      "title_en": "Leading Flow",
-      "desc": "依据堆叠重排的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
+      "title": "网格折叠",
+      "title_en": "Grid Collapse",
+      "desc": "依据堆叠重排的内在几何规律，桌面端四列矩阵平滑过渡为平板双列，直至手机端单列紧凑堆叠。"
     },
     {
       "icon": "layers",
-      "title": "负空间与呼吸感",
-      "title_en": "Negative Space",
-      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
+      "title": "显隐精简",
+      "title_en": "Selective Disclosure",
+      "desc": "针对堆叠重排的空间特性，在小屏视口上隐藏高耗能次要图表，聚焦核心高价值操作主干。"
     }
   ],
   "tips": [
     {
-      "label": "构图基准",
-      "content": "在应用堆叠重排时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
+      "label": "移动端先行",
+      "content": "优先规划移动端单列极限信息流，再以渐进增强手法向桌面大屏铺展。"
     },
     {
-      "label": "图文呼应",
-      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
+      "label": "触控优先",
+      "content": "小屏幕下将密集悬停菜单（Hover）主动转换为显式大按钮与触控手势。"
     }
   ],
   "keywords": [
     {
-      "name": "响应式",
-      "name_en": "Responsive",
-      "icon": "check"
+      "name": "响应式重排",
+      "name_en": "Responsive Reflow",
+      "icon": "target"
     },
     {
-      "name": "便当盒",
-      "name_en": "Bento Box",
-      "icon": "check"
+      "name": "列下落",
+      "name_en": "Column Drop",
+      "icon": "compass"
     },
     {
-      "name": "流式",
-      "name_en": "Fluid",
-      "icon": "check"
+      "name": "堆叠重组",
+      "name_en": "Stack Reordering",
+      "icon": "layers"
     },
     {
-      "name": "模块化",
-      "name_en": "Modular",
+      "name": "断点微调",
+      "name_en": "Tiny Tweaks",
       "icon": "check"
     }
   ],
   "checklist": [
-    "堆叠重排核心主体位置明确无歧义",
-    "引导线与视觉流向顺畅自然",
-    "留白空间充足，无视觉拥挤感",
-    "明暗与色彩反差符合层级逻辑",
-    "信息传达准确，整体秩序严密"
+    "堆叠重排核心主体或骨骼线定位明确严谨",
+    "视觉引导线与视线流向顺畅自然",
+    "留白空间充足，版面呼吸感良好",
+    "色彩与明暗层级完全吻合「cobalt-blue」基调",
+    "符合「响应式重排模式」的专业设计规范"
   ]
 }

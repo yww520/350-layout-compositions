@@ -1,0 +1,41 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="symGradLeft" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#36B39C"/>
+      <stop offset="100%" stop-color="#113636"/>
+    </linearGradient>
+    <linearGradient id="symGradRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#36B39C"/>
+      <stop offset="100%" stop-color="#113636"/>
+    </linearGradient>
+  </defs>
+  <rect width="550" height="620" fill="#0C2121" rx="8"/>
+
+  <!-- Central Symmetry Axis -->
+  <line x1="275" y1="40" x2="275" y2="580" stroke="#36B39C" stroke-width="2.5" stroke-dasharray="8,6"/>
+
+  <!-- Left Symmetrical Wing -->
+  <path d="M 265 200 C 130 180 110 320 180 430 C 230 500 265 520 265 520 Z" fill="url(#symGradLeft)" opacity="0.9"/>
+  <path d="M 265 240 C 180 230 160 330 210 410 C 240 450 265 470 265 470 Z" fill="#F4EEDD" opacity="0.95"/>
+  <circle cx="150" cy="160" r="32" fill="#F4EEDD"/>
+  <circle cx="150" cy="160" r="14" fill="#36B39C"/>
+
+  <!-- Right Symmetrical Wing -->
+  <path d="M 285 200 C 420 180 440 320 370 430 C 320 500 285 520 285 520 Z" fill="url(#symGradRight)" opacity="0.9"/>
+  <path d="M 285 240 C 370 230 390 330 340 410 C 310 450 285 470 285 470 Z" fill="#F4EEDD" opacity="0.95"/>
+  <circle cx="400" cy="160" r="32" fill="#F4EEDD"/>
+  <circle cx="400" cy="160" r="14" fill="#36B39C"/>
+
+  <!-- Mirrored Petals at Bottom -->
+  <ellipse cx="220" cy="540" rx="22" ry="12" fill="#F4EEDD" transform="rotate(-30 220 540)"/>
+  <ellipse cx="330" cy="540" rx="22" ry="12" fill="#F4EEDD" transform="rotate(30 330 540)"/>
+
+  <!-- Center Fulcrum Lock -->
+  <circle cx="275" cy="330" r="16" fill="#36B39C"/>
+  <circle cx="275" cy="330" r="6" fill="#F4EEDD"/>
+  <line x1="240" y1="330" x2="310" y2="330" stroke="#F4EEDD" stroke-width="2"/>
+
+  <!-- Callout Axis Badge -->
+  <rect x="205" y="80" width="140" height="30" rx="6" fill="#36B39C"/>
+  <text x="275" y="100" fill="#0C2121" font-size="12" font-weight="900" font-family="PingFang SC" text-anchor="middle">中轴镜像 · 绝对均势</text>
+</svg>

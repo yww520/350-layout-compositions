@@ -1,73 +1,73 @@
 {
   "id": "231",
   "name": "浮动布局",
-  "name_en": "浮动布局 COMPOSITION",
+  "name_en": "FLOAT LAYOUT",
   "category": "网页与 UI / CSS 流、定位与响应",
   "category_slug": "05-web-ui",
   "subcategory": "CSS 流、定位与响应",
-  "tagline": "浮动布局设计法则与空间建构",
-  "description": "经典视觉架构第 231 号：浮动布局。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
-  "theme": "warm-ivory",
-  "columns_ratio": "530px 380px",
-  "visual_height": "660px",
-  "ai_prompt": "Professional editorial illustration demonstrating 浮动布局 (350 Layouts series #231), Masterful visual composition demonstrating 浮动布局 principle. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching warm-ivory tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
+  "tagline": "以现代化 CSS 布局引擎，构筑自适应万千设备的弹性流体系统。",
+  "description": "350 视觉排版系列第 231 号：浮动布局（FLOAT LAYOUT）。归属于「网页与 UI · CSS 流、定位与响应」体系。以现代化 CSS 布局引擎，构筑自适应万千设备的弹性流体系统。",
+  "theme": "cobalt-blue",
+  "columns_ratio": "345px 600px",
+  "visual_height": "790px",
+  "ai_prompt": "Professional editorial design illustration demonstrating 浮动布局 (FLOAT LAYOUT), 350 Layout series #231. Technical wireframe diagram illustrating CSS flexbox, grid, subgrid, and modern box formatting models. Art style: clean Swiss International Typographic poster aesthetic, palette tuned to cobalt-blue theme, vector geometry, sharp visual hierarchy, 3:4 aspect ratio, ultra-high resolution, museum publication quality.",
   "features": [
     {
       "icon": "target",
-      "title": "浮动核心锚点",
-      "title_en": "Focal Anchor",
-      "desc": "确立画面第一视觉据点，使主体在浮动布局框架中获得最强烈的视觉重力与识别度。"
+      "title": "流式天性",
+      "title_en": "Fluid Nature",
+      "desc": "在浮动布局架构中，基于块级与行内流模型，让信息体块随容器视口尺寸自由伸缩流淌。"
     },
     {
       "icon": "compass",
-      "title": "视线引导流线",
-      "title_en": "Leading Flow",
-      "desc": "依据浮动布局的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
+      "title": "轴向分布",
+      "title_en": "Flex Distribution",
+      "desc": "依据浮动布局的内在几何规律，通过主轴与交叉轴的对齐控制，轻松驾驭多元素均分与自适应居中。"
     },
     {
       "icon": "layers",
-      "title": "负空间与呼吸感",
-      "title_en": "Negative Space",
-      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
+      "title": "二维矩阵",
+      "title_en": "2D Grid Mastery",
+      "desc": "针对浮动布局的空间特性，利用 CSS Grid 的行与列命名线，精准锁定任何复杂跨区域 UI 排版。"
     }
   ],
   "tips": [
     {
-      "label": "构图基准",
-      "content": "在应用浮动布局时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
+      "label": "响应式断点",
+      "content": "基于内容本身破损点设定断点（Breakpoints），而非僵化死守特定手机型号尺寸。"
     },
     {
-      "label": "图文呼应",
-      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
+      "label": "相对单位",
+      "content": "优先使用 rem、em、% 与 min(), max(), clamp()，赋予整体布局有机弹性。"
     }
   ],
   "keywords": [
     {
-      "name": "平衡",
-      "name_en": "Balance",
-      "icon": "check"
+      "name": "文档流",
+      "name_en": "Document Flow",
+      "icon": "target"
     },
     {
-      "name": "焦点",
-      "name_en": "Focus",
-      "icon": "check"
+      "name": "弹性盒子",
+      "name_en": "Flexbox",
+      "icon": "compass"
     },
     {
-      "name": "节奏",
-      "name_en": "Rhythm",
-      "icon": "check"
+      "name": "网格自适应",
+      "name_en": "Grid Adaptation",
+      "icon": "layers"
     },
     {
-      "name": "引导",
-      "name_en": "Guide",
+      "name": "容器查询",
+      "name_en": "Container Queries",
       "icon": "check"
     }
   ],
   "checklist": [
-    "浮动布局核心主体位置明确无歧义",
-    "引导线与视觉流向顺畅自然",
-    "留白空间充足，无视觉拥挤感",
-    "明暗与色彩反差符合层级逻辑",
-    "信息传达准确，整体秩序严密"
+    "浮动布局核心主体或骨骼线定位明确严谨",
+    "视觉引导线与视线流向顺畅自然",
+    "留白空间充足，版面呼吸感良好",
+    "色彩与明暗层级完全吻合「cobalt-blue」基调",
+    "符合「CSS 流、定位与响应」的专业设计规范"
   ]
 }

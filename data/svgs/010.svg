@@ -1,0 +1,21 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#1F1B18" rx="8"/>
+
+  <!-- High velocity kinetic wedge moving right -->
+  <polygon points="100,270 180,310 100,350 130,310" fill="#E25238"/>
+  <!-- Motion Trail Speed Lines -->
+  <line x1="40" y1="290" x2="90" y2="290" stroke="#E25238" stroke-width="2"/>
+  <line x1="20" y1="310" x2="110" y2="310" stroke="#E25238" stroke-width="3.5"/>
+  <line x1="50" y1="330" x2="90" y2="330" stroke="#E25238" stroke-width="2"/>
+  <!-- Vast Forward Trajectory Field -->
+  <line x1="190" y1="310" x2="490" y2="310" stroke="#3B342F" stroke-width="2" stroke-dasharray="8,6"/>
+  <polygon points="500,310 480,300 480,320" fill="#3B342F"/>
+  <!-- Safe Runway Box -->
+  <rect x="220" y="190" width="280" height="240" fill="none" stroke="#E25238" stroke-width="1.5" stroke-dasharray="6,4" rx="6"/>
+  <text x="360" y="295" fill="#E25238" font-size="16" font-weight="900" font-family="PingFang SC" text-anchor="middle">运动前方预留空间</text>
+  <text x="360" y="325" fill="#8A827A" font-size="11" font-family="Montserrat" text-anchor="middle">LEAD ROOM / BUFFER</text>
+    <rect x="185" y="480" width="180" height="30" rx="5" fill="#E25238"/>
+  <text x="275.0" y="498.6" fill="#1F1B18" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">消除撞壁感 · 释放动势</text>
+
+</svg>

@@ -1,73 +1,73 @@
 {
   "id": "080",
   "name": "平视构图",
-  "name_en": "平视构图 COMPOSITION",
+  "name_en": "EYE-LEVEL COMPOSITION",
   "category": "构图逻辑 / 视点、景深与空间感",
   "category_slug": "01-composition-logic",
   "subcategory": "视点、景深与空间感",
-  "tagline": "平视构图设计法则与空间建构",
-  "description": "经典视觉架构第 080 号：平视构图。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
+  "tagline": "转换观察视点与景深虚实，重塑日常经验的非常规张力。",
+  "description": "350 视觉排版系列第 080 号：平视构图（EYE-LEVEL COMPOSITION）。归属于「构图逻辑 · 视点、景深与空间感」体系。转换观察视点与景深虚实，重塑日常经验的非常规张力。",
   "theme": "forest-green",
-  "columns_ratio": "530px 380px",
-  "visual_height": "660px",
-  "ai_prompt": "Professional editorial illustration demonstrating 平视构图 (350 Layouts series #080), A multi-layered scenery with rich foreground, detailed architectural midground, and expansive horizon background. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching forest-green tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
+  "columns_ratio": "345px 600px",
+  "visual_height": "790px",
+  "ai_prompt": "Professional editorial design illustration demonstrating 平视构图 (EYE-LEVEL COMPOSITION), 350 Layout series #080. A multi-layered scenery with rich foreground, detailed midground, and expansive horizon background. Art style: clean Swiss International Typographic poster aesthetic, palette tuned to forest-green theme, vector geometry, sharp visual hierarchy, 3:4 aspect ratio, ultra-high resolution, museum publication quality.",
   "features": [
     {
       "icon": "target",
-      "title": "平视核心锚点",
-      "title_en": "Focal Anchor",
-      "desc": "确立画面第一视觉据点，使主体在平视构图框架中获得最强烈的视觉重力与识别度。"
+      "title": "机位转换",
+      "title_en": "Camera Angle",
+      "desc": "在平视构图架构中，脱离普通平视视线，采用俯仰或微距视点唤醒视觉新鲜感。"
     },
     {
       "icon": "compass",
-      "title": "视线引导流线",
-      "title_en": "Leading Flow",
-      "desc": "依据平视构图的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
+      "title": "虚实过滤",
+      "title_en": "Focus Filter",
+      "desc": "依据平视构图的内在几何规律，利用焦内清晰与焦外光斑的落差，极简化剥离杂乱背景干扰。"
     },
     {
       "icon": "layers",
-      "title": "负空间与呼吸感",
-      "title_en": "Negative Space",
-      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
+      "title": "宏微对立",
+      "title_en": "Macro-Micro Contrast",
+      "desc": "针对平视构图的空间特性，通过近大远小的透视夸张，将微小物象放大为震撼画面的视觉霸权。"
     }
   ],
   "tips": [
     {
-      "label": "构图基准",
-      "content": "在应用平视构图时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
+      "label": "焦平面定位",
+      "content": "焦平面必须严谨落在核心传意元件上，禁止模糊不清的游离对焦。"
     },
     {
-      "label": "图文呼应",
-      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
+      "label": "环境留存",
+      "content": "虚化背景仍需保留辨识轮廓的色彩基调，服务于整体情境交代。"
     }
   ],
   "keywords": [
     {
-      "name": "景深",
-      "name_en": "Depth of Field",
-      "icon": "check"
+      "name": "极端视点",
+      "name_en": "Extreme Viewpoint",
+      "icon": "target"
     },
     {
-      "name": "层级",
-      "name_en": "Layers",
-      "icon": "check"
+      "name": "虚实景深",
+      "name_en": "Selective Focus",
+      "icon": "compass"
     },
     {
-      "name": "透视",
-      "name_en": "Perspective",
-      "icon": "check"
+      "name": "超焦全清",
+      "name_en": "Deep Focus",
+      "icon": "layers"
     },
     {
-      "name": "空间感",
-      "name_en": "Spatial Sense",
+      "name": "透视形变",
+      "name_en": "Perspective Warp",
       "icon": "check"
     }
   ],
   "checklist": [
-    "平视构图核心主体位置明确无歧义",
-    "引导线与视觉流向顺畅自然",
-    "留白空间充足，无视觉拥挤感",
-    "明暗与色彩反差符合层级逻辑",
-    "信息传达准确，整体秩序严密"
+    "平视构图核心主体或骨骼线定位明确严谨",
+    "视觉引导线与视线流向顺畅自然",
+    "留白空间充足，版面呼吸感良好",
+    "色彩与明暗层级完全吻合「forest-green」基调",
+    "符合「视点、景深与空间感」的专业设计规范"
   ]
 }

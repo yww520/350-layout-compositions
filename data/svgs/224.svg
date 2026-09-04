@@ -1,0 +1,21 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#081630" rx="8"/>
+
+  <!-- Relative Parent Container -->
+  <rect x="50" y="70" width="450" height="480" fill="#0E2248" stroke="#448AFF" stroke-width="2" stroke-dasharray="6,4" rx="8"/>
+  <text x="80" y="105" fill="#00E5FF" font-size="12" font-family="Montserrat">position: relative;</text>
+  <!-- Absolute Pinned Card (top: 40px, right: 40px) -->
+  <rect x="290" y="130" width="180" height="130" fill="#448AFF" rx="8"/>
+  <circle cx="330" cy="170" r="16" fill="#FFFFFF"/>
+  <text x="360" y="175" fill="#FFFFFF" font-size="14" font-weight="bold" font-family="Montserrat">PINNED</text>
+  <text x="300" y="210" fill="#081630" font-size="11" font-family="Montserrat">top: 60px; right: 30px;</text>
+  <!-- Coordinate Offset Dimension Vectors -->
+  <line x1="290" y1="70" x2="290" y2="130" stroke="#FF5252" stroke-width="2"/>
+  <line x1="470" y1="130" x2="500" y2="130" stroke="#FF5252" stroke-width="2"/>
+  <!-- Target Pin Marker -->
+  <circle cx="470" cy="130" r="8" fill="#FF5252"/>
+    <rect x="185" y="490" width="180" height="28" rx="5" fill="#448AFF"/>
+  <text x="275.0" y="507.36" fill="#FFFFFF" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">脱离普通流 · 精准锚定</text>
+
+</svg>

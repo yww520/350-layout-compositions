@@ -1,0 +1,47 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+  <rect width="550" height="620" fill="#1E1C1A" rx="8"/>
+  <!-- 5x5 Shape Matrix demonstrating Similarity grouping -->
+  <g transform="translate(95, 80)">
+    <!-- Column 0: Circles -->
+    <circle cx="30" cy="40" r="22" fill="#E25238"/>
+    <circle cx="30" cy="110" r="22" fill="#E25238"/>
+    <circle cx="30" cy="180" r="22" fill="#E25238"/>
+    <circle cx="30" cy="250" r="22" fill="#E25238"/>
+    <circle cx="30" cy="320" r="22" fill="#E25238"/>
+
+    <!-- Column 1: Squares -->
+    <rect x="88" y="18" width="44" height="44" fill="#3D82FF" rx="4"/>
+    <rect x="88" y="88" width="44" height="44" fill="#3D82FF" rx="4"/>
+    <rect x="88" y="158" width="44" height="44" fill="#3D82FF" rx="4"/>
+    <rect x="88" y="228" width="44" height="44" fill="#3D82FF" rx="4"/>
+    <rect x="88" y="298" width="44" height="44" fill="#3D82FF" rx="4"/>
+
+    <!-- Column 2: Triangles -->
+    <polygon points="190,18 212,62 168,62" fill="#FFD700"/>
+    <polygon points="190,88 212,132 168,132" fill="#FFD700"/>
+    <polygon points="190,158 212,202 168,202" fill="#FFD700"/>
+    <polygon points="190,228 212,272 168,272" fill="#FFD700"/>
+    <polygon points="190,298 212,342 168,342" fill="#FFD700"/>
+
+    <!-- Column 3: Squares -->
+    <rect x="248" y="18" width="44" height="44" fill="#3D82FF" rx="4"/>
+    <rect x="248" y="88" width="44" height="44" fill="#3D82FF" rx="4"/>
+    <rect x="248" y="158" width="44" height="44" fill="#3D82FF" rx="4"/>
+    <rect x="248" y="228" width="44" height="44" fill="#3D82FF" rx="4"/>
+    <rect x="248" y="298" width="44" height="44" fill="#3D82FF" rx="4"/>
+
+    <!-- Column 4: Circles -->
+    <circle cx="350" cy="40" r="22" fill="#E25238"/>
+    <circle cx="350" cy="110" r="22" fill="#E25238"/>
+    <circle cx="350" cy="180" r="22" fill="#E25238"/>
+    <circle cx="350" cy="250" r="22" fill="#E25238"/>
+    <circle cx="350" cy="320" r="22" fill="#E25238"/>
+  </g>
+  <!-- Vertical Grouping Annotation Indicators -->
+  <line x1="125" y1="460" x2="125" y2="485" stroke="#E25238" stroke-width="2"/>
+  <line x1="205" y1="460" x2="205" y2="485" stroke="#3D82FF" stroke-width="2"/>
+  <line x1="285" y1="460" x2="285" y2="485" stroke="#FFD700" stroke-width="2"/>
+  <!-- Callout Badge -->
+  <rect x="175" y="510" width="200" height="34" rx="6" fill="#3D82FF"/>
+  <text x="275" y="532" fill="#FFFFFF" font-size="12" font-weight="900" font-family="PingFang SC" text-anchor="middle">形状相似 · 自发纵列归组</text>
+</svg>

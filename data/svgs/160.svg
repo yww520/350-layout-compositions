@@ -1,0 +1,22 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#1F1B18" rx="8"/>
+
+  <rect x="60" y="60" width="430" height="500" fill="#2B2622" stroke="#E25238" stroke-width="1.5" rx="4"/>
+  <!-- Elegant Thin Double Border Rule -->
+  <rect x="75" y="75" width="400" height="470" fill="none" stroke="#E25238" stroke-width="0.8" stroke-dasharray="4,2"/>
+  <!-- Subtitle -->
+  <text x="275" y="150" fill="#8A827A" font-size="12" font-family="Montserrat" text-anchor="middle" letter-spacing="4">ESSAYS ON ARCHITECTURE</text>
+  <!-- Monumental Title -->
+  <text x="275" y="230" fill="#E25238" font-size="36" font-weight="900" font-family="Georgia, serif" text-anchor="middle">MODULOR</text>
+  <!-- Author / Signature Rule -->
+  <line x1="210" y1="265" x2="340" y2="265" stroke="#E25238" stroke-width="1.5"/>
+  <text x="275" y="300" fill="#FFFFFF" font-size="14" font-weight="bold" font-family="Georgia, serif" text-anchor="middle">LE CORBUSIER</text>
+  <!-- Printer / Publisher Imprint Mark -->
+  <circle cx="275" cy="420" r="28" fill="none" stroke="#E25238" stroke-width="1.5"/>
+  <polygon points="275,405 285,425 265,425" fill="#E25238"/>
+  <text x="275" y="475" fill="#8A827A" font-size="10" font-family="Montserrat" text-anchor="middle">PARIS · MCML</text>
+    <rect x="185" y="520" width="180" height="28" rx="5" fill="#E25238"/>
+  <text x="275.0" y="537.36" fill="#1F1B18" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">典籍扉页仪式秩序</text>
+
+</svg>

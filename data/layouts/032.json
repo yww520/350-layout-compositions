@@ -1,73 +1,73 @@
 {
   "id": "032",
   "name": "T 形构图",
-  "name_en": "T 形构图 COMPOSITION",
+  "name_en": "T-SHAPED COMPOSITION",
   "category": "构图逻辑 / 字母形与曲线",
   "category_slug": "01-composition-logic",
   "subcategory": "字母形与曲线",
-  "tagline": "T 形构图设计法则与空间建构",
-  "description": "经典视觉架构第 032 号：T 形构图。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
+  "tagline": "依循字母骨架与柔美曲线，牵引视线自然蜿蜒游弋。",
+  "description": "350 视觉排版系列第 032 号：T 形构图（T-SHAPED COMPOSITION）。归属于「构图逻辑 · 字母形与曲线」体系。依循字母骨架与柔美曲线，牵引视线自然蜿蜒游弋。",
   "theme": "warm-ivory",
-  "columns_ratio": "530px 380px",
-  "visual_height": "660px",
-  "ai_prompt": "Professional editorial illustration demonstrating T 形构图 (350 Layouts series #032), A winding scenic road, meandering river valley or dynamic flowing ribbon gracefully curving across space. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching warm-ivory tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
+  "columns_ratio": "345px 600px",
+  "visual_height": "790px",
+  "ai_prompt": "Professional editorial design illustration demonstrating T 形构图 (T-SHAPED COMPOSITION), 350 Layout series #032. A winding alpine roadway gracefully curving through misty valley slopes and forest ridges. Art style: clean Swiss International Typographic poster aesthetic, palette tuned to warm-ivory theme, vector geometry, sharp visual hierarchy, 3:4 aspect ratio, ultra-high resolution, museum publication quality.",
   "features": [
     {
       "icon": "target",
-      "title": "T 核心锚点",
-      "title_en": "Focal Anchor",
-      "desc": "确立画面第一视觉据点，使主体在T 形构图框架中获得最强烈的视觉重力与识别度。"
+      "title": "形态隐喻",
+      "title_en": "Form Metaphor",
+      "desc": "在T 形构图架构中，提取经典字母或弧线轨迹为隐性骨架，赋予构图优雅舒展的辨识度。"
     },
     {
       "icon": "compass",
-      "title": "视线引导流线",
-      "title_en": "Leading Flow",
-      "desc": "依据T 形构图的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
+      "title": "连续巡航",
+      "title_en": "Continuous Cruise",
+      "desc": "依据T 形构图的内在几何规律，顺应人眼追踪曲度流动的本能，引导视线从起始端自然滑向落脚点。"
     },
     {
       "icon": "layers",
-      "title": "负空间与呼吸感",
-      "title_en": "Negative Space",
-      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
+      "title": "空间环抱",
+      "title_en": "Spatial Embrace",
+      "desc": "针对T 形构图的空间特性，弧度内凹区域形成天然的视觉避风港，适合承载核心阐释文本。"
     }
   ],
   "tips": [
     {
-      "label": "构图基准",
-      "content": "在应用T 形构图时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
+      "label": "曲线连贯",
+      "content": "曲线起伏需保持连续的曲率过渡，避免突兀尖角切断视觉流向。"
     },
     {
-      "label": "图文呼应",
-      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
+      "label": "焦点落点",
+      "content": "将关键结论或标志置于曲线终点拐弯处，实现自然的停驻记忆。"
     }
   ],
   "keywords": [
     {
-      "name": "曲线",
-      "name_en": "Curve",
-      "icon": "check"
+      "name": "流动曲线",
+      "name_en": "Flow Curve",
+      "icon": "target"
     },
     {
-      "name": "流线",
-      "name_en": "Flowline",
-      "icon": "check"
+      "name": "字母构架",
+      "name_en": "Letterform Frame",
+      "icon": "compass"
     },
     {
-      "name": "韵律",
-      "name_en": "Rhythm",
-      "icon": "check"
+      "name": "视线巡航",
+      "name_en": "Visual Cruise",
+      "icon": "layers"
     },
     {
-      "name": "引导",
-      "name_en": "Guidance",
+      "name": "柔性韵律",
+      "name_en": "Soft Rhythm",
       "icon": "check"
     }
   ],
   "checklist": [
-    "T 形构图核心主体位置明确无歧义",
-    "引导线与视觉流向顺畅自然",
-    "留白空间充足，无视觉拥挤感",
-    "明暗与色彩反差符合层级逻辑",
-    "信息传达准确，整体秩序严密"
+    "T 形构图核心主体或骨骼线定位明确严谨",
+    "视觉引导线与视线流向顺畅自然",
+    "留白空间充足，版面呼吸感良好",
+    "色彩与明暗层级完全吻合「warm-ivory」基调",
+    "符合「字母形与曲线」的专业设计规范"
   ]
 }

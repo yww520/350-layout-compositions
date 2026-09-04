@@ -1,0 +1,33 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#082018" rx="8"/>
+
+  <rect x="40" y="60" width="470" height="500" rx="8" fill="#0E2D23" stroke="#163E32" stroke-width="1.5"/>
+  <text x="275" y="100" fill="#FFFFFF" font-size="16" font-weight="900" font-family="Montserrat" text-anchor="middle">THREE CORE PILLARS</text>
+  <!-- Pillar 1 -->
+  <rect x="60" y="130" width="120" height="340" rx="8" fill="#082018" stroke="#D4E751" stroke-width="1.5"/>
+  <circle cx="120" cy="180" r="24" fill="#D4E751"/>
+  <text x="120" y="186" fill="#082018" font-size="16" font-weight="900" font-family="Montserrat" text-anchor="middle">01</text>
+  <text x="120" y="240" fill="#FFFFFF" font-size="14" font-weight="bold" font-family="Montserrat" text-anchor="middle">SPEED</text>
+  <line x1="80" y1="270" x2="160" y2="270" stroke="#163E32" stroke-width="1.5"/>
+  <text x="120" y="310" fill="#80988E" font-size="11" font-family="PingFang SC" text-anchor="middle">毫秒级响应</text>
+
+  <!-- Pillar 2 (HERO HIGHLIGHT) -->
+  <rect x="200" y="110" width="150" height="380" rx="10" fill="#D4E751" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="275" cy="170" r="28" fill="#FFFFFF"/>
+  <text x="275" y="177" fill="#082018" font-size="18" font-weight="900" font-family="Montserrat" text-anchor="middle">02</text>
+  <text x="275" y="240" fill="#082018" font-size="18" font-weight="900" font-family="Montserrat" text-anchor="middle">SECURITY</text>
+  <line x1="230" y1="270" x2="320" y2="270" stroke="#082018" stroke-width="2"/>
+  <text x="275" y="310" fill="#082018" font-size="13" font-weight="bold" font-family="PingFang SC" text-anchor="middle">零信任安全闭环</text>
+
+  <!-- Pillar 3 -->
+  <rect x="370" y="130" width="120" height="340" rx="8" fill="#082018" stroke="#D4E751" stroke-width="1.5"/>
+  <circle cx="430" cy="180" r="24" fill="#D4E751"/>
+  <text x="430" y="186" fill="#082018" font-size="16" font-weight="900" font-family="Montserrat" text-anchor="middle">03</text>
+  <text x="430" y="240" fill="#FFFFFF" font-size="14" font-weight="bold" font-family="Montserrat" text-anchor="middle">SCALE</text>
+  <line x1="390" y1="270" x2="470" y2="270" stroke="#163E32" stroke-width="1.5"/>
+  <text x="430" y="310" fill="#80988E" font-size="11" font-family="PingFang SC" text-anchor="middle">弹性分布式</text>
+    <rect x="185" y="520" width="180" height="28" rx="5" fill="#D4E751"/>
+  <text x="275.0" y="537.36" fill="#082018" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">三支柱并列架构</text>
+
+</svg>

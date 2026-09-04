@@ -1,0 +1,15 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#1F1B18" rx="8"/>
+
+  <!-- Sweeping C Crescent Path -->
+  <path d="M 400 110 A 210 210 0 1 0 400 510" fill="none" stroke="#E25238" stroke-width="32" stroke-linecap="round"/>
+  <!-- Focal Harbor Nexus inside C Bay -->
+  <circle cx="260" cy="310" r="50" fill="#FFB300" opacity="0.2"/>
+  <circle cx="260" cy="310" r="26" fill="#FFB300"/>
+  <circle cx="260" cy="310" r="8" fill="#FFFFFF"/>
+  <text x="260" y="380" fill="#FAF7F2" font-size="14" font-weight="bold" font-family="PingFang SC" text-anchor="middle">内弯视觉港湾</text>
+    <rect x="175" y="450" width="170" height="30" rx="5" fill="#E25238"/>
+  <text x="260.0" y="468.6" fill="#1F1B18" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">C 形环抱包围</text>
+
+</svg>

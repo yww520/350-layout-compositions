@@ -1,0 +1,32 @@
+<svg viewBox="0 0 550 620" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="550" height="620" fill="#1F1B18" rx="8"/>
+
+  <rect x="50" y="60" width="450" height="500" fill="#2B2622" stroke="#E25238" stroke-width="2" rx="6"/>
+  <!-- Right-to-Left Vertical Column Guidelines -->
+  <g stroke="#E25238" stroke-width="1" stroke-dasharray="4,4" opacity="0.5">
+    <line x1="410" y1="90" x2="410" y2="480"/>
+    <line x1="340" y1="90" x2="340" y2="480"/>
+    <line x1="270" y1="90" x2="270" y2="480"/>
+    <line x1="200" y1="90" x2="200" y2="480"/>
+    <line x1="130" y1="90" x2="130" y2="480"/>
+  </g>
+  <!-- Vertical Calligraphic Column Text Simulation -->
+  <!-- Col 1 (Rightmost Title) -->
+  <text x="410" y="140" fill="#E25238" font-size="28" font-weight="900" font-family="Kaiti, STKaiti, serif" text-anchor="middle">天</text>
+  <text x="410" y="180" fill="#E25238" font-size="28" font-weight="900" font-family="Kaiti, STKaiti, serif" text-anchor="middle">地</text>
+  <text x="410" y="220" fill="#E25238" font-size="28" font-weight="900" font-family="Kaiti, STKaiti, serif" text-anchor="middle">玄</text>
+  <text x="410" y="260" fill="#E25238" font-size="28" font-weight="900" font-family="Kaiti, STKaiti, serif" text-anchor="middle">黄</text>
+  <!-- Col 2 -->
+  <text x="340" y="140" fill="#FAF7F2" font-size="22" font-family="Kaiti, STKaiti, serif" text-anchor="middle">宇</text>
+  <text x="340" y="175" fill="#FAF7F2" font-size="22" font-family="Kaiti, STKaiti, serif" text-anchor="middle">宙</text>
+  <text x="340" y="210" fill="#FAF7F2" font-size="22" font-family="Kaiti, STKaiti, serif" text-anchor="middle">洪</text>
+  <text x="340" y="245" fill="#FAF7F2" font-size="22" font-family="Kaiti, STKaiti, serif" text-anchor="middle">荒</text>
+  <!-- Traditional Red Cinnabar Seal (Bottom Left) -->
+  <rect x="110" y="400" width="40" height="40" fill="#D32F2F" rx="2"/>
+  <rect x="114" y="404" width="32" height="32" fill="none" stroke="#FFFFFF" stroke-width="1.2"/>
+  <text x="130" y="425" fill="#FFFFFF" font-size="14" font-family="Songti, STSong, serif" text-anchor="middle">文印</text>
+    <rect x="185" y="520" width="180" height="28" rx="5" fill="#E25238"/>
+  <text x="275.0" y="537.36" fill="#1F1B18" font-size="11" font-weight="900" font-family="PingFang SC, -apple-system, sans-serif" text-anchor="middle">右起竖排直行书写</text>
+
+</svg>

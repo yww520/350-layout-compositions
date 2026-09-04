@@ -1,73 +1,73 @@
 {
   "id": "326",
   "name": "留白构图",
-  "name_en": "留白构图 COMPOSITION",
+  "name_en": "NEGATIVE SPACE (LIU BAI)",
   "category": "中国传统构图 / 留白、虚实与章法",
   "category_slug": "07-chinese-composition",
   "subcategory": "留白、虚实与章法",
-  "tagline": "留白构图设计法则与空间建构",
-  "description": "经典视觉架构第 326 号：留白构图。建立画面的几何秩序与视觉张力，平衡主体叙事与空间留白。",
+  "tagline": "以无画处皆成妙境，计白当黑，于虚实相生中悟宇宙呼吸。",
+  "description": "350 视觉排版系列第 326 号：留白构图（NEGATIVE SPACE (LIU BAI)）。归属于「中国传统构图 · 留白、虚实与章法」体系。以无画处皆成妙境，计白当黑，于虚实相生中悟宇宙呼吸。",
   "theme": "warm-ivory",
-  "columns_ratio": "530px 380px",
-  "visual_height": "660px",
-  "ai_prompt": "Professional editorial illustration demonstrating 留白构图 (350 Layouts series #326), Traditional East Asian poetic landscape, misty mountain silhouette with generous breathing negative space. Art style: clean graphic design poster aesthetic, Swiss International Typographic influence, harmonious color palette matching warm-ivory tone, fine vector linework, clear spatial hierarchy, 3:4 aspect ratio, ultra-high resolution, zero chaotic clutter.",
+  "columns_ratio": "345px 600px",
+  "visual_height": "790px",
+  "ai_prompt": "Professional editorial design illustration demonstrating 留白构图 (NEGATIVE SPACE (LIU BAI)), 350 Layout series #326. Traditional East Asian poetic landscape, misty mountain silhouette with generous breathing negative space. Art style: clean Swiss International Typographic poster aesthetic, palette tuned to warm-ivory theme, vector geometry, sharp visual hierarchy, 3:4 aspect ratio, ultra-high resolution, museum publication quality.",
   "features": [
     {
       "icon": "target",
-      "title": "留白核心锚点",
-      "title_en": "Focal Anchor",
-      "desc": "确立画面第一视觉据点，使主体在留白构图框架中获得最强烈的视觉重力与识别度。"
+      "title": "计白当黑",
+      "title_en": "Treat Void as Solid",
+      "desc": "在留白构图架构中，把未着笔墨的宣纸空白视为与实体笔墨同等重要的形体去精心剪裁。"
     },
     {
       "icon": "compass",
-      "title": "视线引导流线",
-      "title_en": "Leading Flow",
-      "desc": "依据留白构图的内在几何规律构建能量流动线，牵引视线从入口自然游弋至核心。"
+      "title": "虚实生发",
+      "title_en": "Void & Solid Harmony",
+      "desc": "依据留白构图的内在几何规律，实处着墨力透纸背，虚处烟云飘渺变幻，二者相互依存，生生不息。"
     },
     {
       "icon": "layers",
-      "title": "负空间与呼吸感",
-      "title_en": "Negative Space",
-      "desc": "精准掌控实形体块与留白比例，消除压抑局促，赋予整体版式通透的呼吸节拍。"
+      "title": "开合呼应",
+      "title_en": "Kai-He Organic Rhythm",
+      "desc": "针对留白构图的空间特性，有开必有合，有起必有承，画中云水峰峦皆成环抱关照之大势。"
     }
   ],
   "tips": [
     {
-      "label": "构图基准",
-      "content": "在应用留白构图时，先确立骨架辅助参考线，避免元素偏离核心几何轴心。"
+      "label": "留白克制",
+      "content": "留白不是简单空置，空白处必须有实体线条的指向或视线投射，方成活白。"
     },
     {
-      "label": "图文呼应",
-      "content": "文字标题与说明应落在视觉留白区或沿构图次导引线排列，实现图文一体化。"
+      "label": "欹正互救",
+      "content": "山石倾侧欲倾时（欹），需在相迎处安设直立树木或坚稳磐石以力挽狂澜（正）。"
     }
   ],
   "keywords": [
     {
-      "name": "留白",
-      "name_en": "Negative Space",
-      "icon": "check"
+      "name": "计白当黑",
+      "name_en": "Value the Void",
+      "icon": "target"
     },
     {
-      "name": "虚实",
+      "name": "虚实相生",
       "name_en": "Void & Solid",
-      "icon": "check"
+      "icon": "compass"
     },
     {
-      "name": "气韵",
+      "name": "气韵生动",
       "name_en": "Vital Energy",
-      "icon": "check"
+      "icon": "layers"
     },
     {
-      "name": "意境",
-      "name_en": "Zen Poetics",
+      "name": "开合起承",
+      "name_en": "Opening & Closing",
       "icon": "check"
     }
   ],
   "checklist": [
-    "留白构图核心主体位置明确无歧义",
-    "引导线与视觉流向顺畅自然",
-    "留白空间充足，无视觉拥挤感",
-    "明暗与色彩反差符合层级逻辑",
-    "信息传达准确，整体秩序严密"
+    "留白构图核心主体或骨骼线定位明确严谨",
+    "视觉引导线与视线流向顺畅自然",
+    "留白空间充足，版面呼吸感良好",
+    "色彩与明暗层级完全吻合「warm-ivory」基调",
+    "符合「留白、虚实与章法」的专业设计规范"
   ]
 }
