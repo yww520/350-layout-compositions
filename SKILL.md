@@ -7,6 +7,8 @@ description: 350 构图与视觉排版全能技能 (Layout Architect)。提供�
 
 `layout-350` 是一套为 AI Agent 设计的**全媒介构图与视觉排版系统**。它将 350 种构图逻辑转化为机器可读的结构化参数，提供**构图分析、智能推荐、提示词编译、代码生成与海报卡片渲染**五合一能力。
 
+> V2 generation note: `data/layouts/` remains the visual-card knowledge layer. For a themed image, UI, or slide request, first look for `data/composition-specs/{id}.json`. A V2 spec contains the executable spatial constraints and must take precedence over the legacy card's `ai_prompt`.
+
 ---
 
 ## 核心执行规范与状态机 (Workflow SOP)
@@ -36,9 +38,9 @@ description: 350 构图与视觉排版全能技能 (Layout Architect)。提供�
 
 ### 步骤 4：精准读取构图原子 (Atomic Layout Ingestion)
 当选定编号后（如 `004`）：
-1. 读取 `data/layouts/{id}.json`（若本地未填充完整 JSON，则从 `data/catalog.json` 索引并按模板补全）；
-2. 提取其专属配色方案（米纸暖红、典雅墨绿、曜石金光、深海群青）；
-3. 提取其几何坐标规则（网格比例、视线向量、焦点坐标、留白边界）。
+1. 先读取 `data/composition-specs/{id}.json`。若存在，按其 `kind` 与 `engine` 执行，不得以旧 `ai_prompt` 覆盖编号级的主体、空间或镜头规则；
+2. 再读取 `data/layouts/{id}.json`，仅用于名称、教学说明、卡片展示和历史图鉴兼容；
+3. V2 条目缺失时，明确告知用户该编号尚未完成生成规格化；不得把子类的通用描述伪装成逐编号的空间规则。
 
 ### 步骤 5：跨媒介编译与渲染交付 (Compilation & Delivery)
 根据用户的目标载体执行对应编译输出：
@@ -70,14 +72,12 @@ python3 scripts/render-card.py --id 084 --image assets/illustrations/084.png
 5. **印刷级纸质肌理滤镜（SVG Paper Grain Texture）**：全局内嵌真实 SVG 湍流噪点滤镜（`<feTurbulence baseFrequency="0.75" numOctaves="3"/>`），彻底消除纯色 CSS 塑料感，带来逼真印刷品颗粒触感。
 
 #### 交付路径 B：编译生图提示词 (AI Image Prompt Directive)
-运行内置编译器生成专属生图 Prompt 与构图几何约束（全量 33 个子类与 350 个英文专业名全面去同质化）：
+针对已规格化的编号，运行 V2 编译器生成主题相关提示词与构图验收条件：
 ```bash
-python3 scripts/compile-prompt.py --id {id}
+python3 engines/prompt-compiler.py --id {id} --subject "{用户主题}" --model generic
+python3 engines/guide-generator.py --id {id} --output /tmp/{id}-guide.svg
 ```
-或批量更新升级全量数据：
-```bash
-python3 scripts/compile-prompt.py --all
-```
+旧的 `scripts/compile-prompt.py` 仅用于维护图鉴卡文本，不能作为 V2 图像生成规范。
 
 #### 交付路径 C：编译前端网格代码 (Web / UI Grid)
 读取 `references/blueprints/web-layout-blueprint.md`，输出响应式 Tailwind CSS 或 CSS Grid 骨架代码。
